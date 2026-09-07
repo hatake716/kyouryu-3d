@@ -1,0 +1,936 @@
+[
+  {
+    "id": "spinosaurus",
+    "name": "スピノサウルス",
+    "latin": "Spinosaurus aegyptiacus",
+    "subtitle": "水辺に生きた、帆をもつ巨体",
+    "category": "獣脚類",
+    "period": "白亜紀後期",
+    "age": "約1億〜9400万年前",
+    "startMa": 100,
+    "endMa": 94,
+    "region": "北アフリカ",
+    "size": "全長 約14〜15 m",
+    "diet": "魚食・肉食",
+    "summary": "細長い顎と、背中から高く伸びる神経棘が特徴の大型獣脚類。水辺への適応を示す一方、どのように泳ぎ、獲物を捕らえたかは研究が続いています。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "スピノサウルス科の獣脚類。属名は「棘のあるトカゲ」を意味します。ここでの骨格は模式種 S. aegyptiacus を想定した概形です。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "白亜紀後期セノマニアン期。北アフリカの河川・氾濫原・三角州など、水の豊富な環境から化石が産出します。現在の砂漠とは景観が異なりました。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "代表的な産地はエジプトのバハリヤ層とモロッコのケムケム層群。断片的な歯や骨の分類には異論があるため、発見地点のすべてを確実な分布とみなすことはできません。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1912年にエジプトで集められた標本を、エルンスト・シュトローマーが1915年に記載しました。元の標本は第二次世界大戦中に失われ、以後の復元は残された記録と追加標本に依存します。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "細長い吻、円錐形の歯、高い胴椎の神経棘、比較的短い後肢が注目されます。尾では上下に伸びる突起が報告され、水中での推進との関係が議論されています。"
+      },
+      {
+        "title": "食性・暮らし",
+        "text": "歯や頭骨の形は魚食と整合的ですが、魚だけを食べたと断定できません。水中追跡・浅瀬での待ち伏せ・岸辺での採食など、複数の生活像が検討されています。"
+      },
+      {
+        "title": "大きさと復元の限界",
+        "text": "全長は大型個体の復元でおよそ14〜15 mとされますが、不完全な標本や別個体を組み合わせる方法に影響されます。体重、帆の軟組織、四肢の比率、泳ぎ方には幅があります。"
+      },
+      {
+        "title": "2026年の報告",
+        "text": "2026年にニジェールから S. mirabilis が記載され、頭頂の湾曲した骨質のとさかなどが報告されました。属全体の多様性を示す新しい材料ですが、本アプリのモデルはこの新種を再現していません。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Spinosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Spinosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1373355079",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1373355079"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Spinosaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html"
+      },
+      {
+        "title": "Sereno ほか（2026）新種の記載・論文情報",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41712711/"
+      },
+      {
+        "title": "Natural History Museum · 2026年の新種報告",
+        "url": "https://www.nhm.ac.uk/discover/news/2026/february/new-sabre-crested-spinosaurus-species-named-from-desert-dinosaur-fossils.html"
+      }
+    ],
+    "modelNote": "高い神経棘と尾、細長い吻を強調。四肢比率・帆の輪郭・尾の復元は研究上の不確実性が大きく、特定標本の計測値ではありません。",
+    "wikiTitle": "スピノサウルス",
+    "videos": [
+      {
+        "title": "National Geographic（2014・英語）スピノサウルスの復元と研究",
+        "url": "https://www.youtube.com/watch?v=S5Pf49nCdio"
+      }
+    ]
+  },
+  {
+    "id": "tyrannosaurus",
+    "name": "ティラノサウルス",
+    "latin": "Tyrannosaurus rex",
+    "subtitle": "巨大な頭骨と、小さな前肢",
+    "category": "獣脚類",
+    "period": "白亜紀後期",
+    "age": "約6800万〜6600万年前",
+    "startMa": 68,
+    "endMa": 66,
+    "region": "北アメリカ西部",
+    "size": "全長 約12〜13 m",
+    "diet": "肉食",
+    "summary": "白亜紀末の北アメリカに暮らした大型捕食者。頑丈な頭骨と太い歯、2本の指を持つ短い前肢、体を釣り合わせる長い尾が特徴です。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "ティラノサウルス科の獣脚類。Tyrannosaurus rex は「暴君トカゲの王」を意味します。近縁属や提唱された別種との境界には議論があり、本項は主に T. rex を扱います。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "主な記録は白亜紀後期マーストリヒチアン期末。北アメリカ西部のララミディアと呼ばれる陸地で、河川沿いの森林や氾濫原などに暮らしていました。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "米国のモンタナ、サウスダコタ、ワイオミングなど、およびカナダ西部。ヘルクリーク層やランス層、フレンチマン層などが知られます。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "バーナム・ブラウンらによる20世紀初頭の発掘を経て、ヘンリー・F・オズボーンが1905年に命名しました。SUEやScottyなどの標本は成長・体格研究の材料です。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "大きな頭骨、骨を砕くのに適した太い歯、強い後肢が特徴です。前肢の機能指は2本。長い尾と体幹で前後の重さを釣り合わせ、尾を地面に引きずらない姿勢が基本です。"
+      },
+      {
+        "title": "食性と証拠",
+        "text": "角竜やハドロサウルス類などの骨に残る噛み痕、治癒した傷、糞化石が手がかりになります。生きた獲物を襲い、死骸も利用したと考えられます。"
+      },
+      {
+        "title": "成長・感覚",
+        "text": "骨の成長線から成長速度や年齢が調べられています。頭蓋内の構造は嗅覚などの研究に使われます。幼体と成体では体の比率や食物資源が異なった可能性があります。"
+      },
+      {
+        "title": "大きさ・未解明の点",
+        "text": "大型標本は全長約12〜13 m。体重は復元方法に依存し、大型個体では8 t以上の推定があります。走行速度、群れでの行動、体表の羽毛の範囲などは断定できません。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Tyrannosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Tyrannosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1373481925",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1373481925"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Tyrannosaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html"
+      }
+    ],
+    "modelNote": "2本指の前肢、大型頭骨、水平に伸びる尾を表現。歯数・頭骨の穴・関節形状は簡略化しています。",
+    "wikiTitle": "ティラノサウルス",
+    "videos": [
+      {
+        "title": "American Museum of Natural History（2019・英語）T. rex の成長と復元",
+        "url": "https://www.youtube.com/watch?v=PpxevS5MSjM"
+      }
+    ]
+  },
+  {
+    "id": "triceratops",
+    "name": "トリケラトプス",
+    "latin": "Triceratops horridus",
+    "subtitle": "3本の角と、大きな襟飾り",
+    "category": "角竜類",
+    "period": "白亜紀後期",
+    "age": "約6900万〜6600万年前",
+    "startMa": 69,
+    "endMa": 66,
+    "region": "北アメリカ西部",
+    "size": "全長 約8〜9 m",
+    "diet": "植物食",
+    "summary": "鼻の上と両眼の上に角を持つ、四足歩行の角竜。大きな頭骨の後方には骨質のフリルが広がり、くちばしと歯の列で植物を処理しました。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "鳥盤類・角竜科・カスモサウルス亜科。属名は「3本の角を持つ顔」。T. horridus と T. prorsus が広く認められ、主に角や吻などの形に違いがあります。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "白亜紀末の北アメリカ西部で、河川平野や森林のある環境に生息しました。約6600万年前の大量絶滅まで存在した非鳥類型恐竜のひとつです。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "米国のヘルクリーク層・ランス層などが主要産地。カナダ西部からも標本が知られます。頭骨は多く見つかりますが、全身が完全にそろう例は限られます。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1887年に報告された角芯は当初ウシの仲間と誤認されました。その後の標本によって恐竜であることが明らかになり、マーシュが1889年に命名しました。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "眼の上の2本の長い角と鼻角、大きなフリル、頑丈な四肢が特徴です。フリルには多くの近縁角竜にある大きな一対の開口部がありません。角の外側の角質は通常保存されません。"
+      },
+      {
+        "title": "食性と顎",
+        "text": "くちばしで植物を切り取り、密に並んだ歯による歯列で処理しました。主に低い植物を利用したと考えられますが、特定の植物だけを食べたと断定できません。"
+      },
+      {
+        "title": "角・フリルの働き",
+        "text": "防御、同種間の争い、視覚的な合図などが検討されています。傷や噛み痕の一部は治癒しており、生きている間の接触を示します。単一の機能だけとは限りません。"
+      },
+      {
+        "title": "成長と分類の議論",
+        "text": "頭骨の形は成長につれて大きく変わります。トロサウルスを成長段階とみなす説には反論もあり、両者を区別する研究が続いています。全長約8〜9 m、体重は数t〜約10 tの推定幅があります。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Triceratops（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Triceratops"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1373478005",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1373478005"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Triceratops&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html"
+      }
+    ],
+    "modelNote": "T. horridus を想定した角芯とフリルの概形です。成長段階・種・個体で変わる角の向きは、実測による再現ではありません。",
+    "wikiTitle": "トリケラトプス",
+    "videos": [
+      {
+        "title": "Museums Victoria（2021・英語）トリケラトプスはどう動いたか",
+        "url": "https://www.youtube.com/watch?v=CMOVzfkQgyM"
+      }
+    ]
+  },
+  {
+    "id": "mosasaurus",
+    "name": "モササウルス",
+    "latin": "Mosasaurus hoffmanni",
+    "subtitle": "白亜紀の海を泳ぐ大型爬虫類",
+    "category": "海生爬虫類",
+    "period": "白亜紀後期",
+    "age": "約8200万〜6600万年前",
+    "startMa": 82,
+    "endMa": 66,
+    "region": "ヨーロッパ・北アメリカなど",
+    "size": "大型種 約12 m（推定幅あり）",
+    "diet": "肉食",
+    "summary": "海に適応した有鱗類の爬虫類で、恐竜とは別の系統です。ひれ状になった四肢、長い尾、歯の並ぶ大きな顎を持ち、白亜紀後期の海の捕食者でした。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "有鱗目・モササウルス科。属名はマース川に由来します。M. hoffmanni、M. missouriensis など複数の種が知られ、属や種の割り当ては再検討が続いています。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "属全体の化石記録はおよそ8200万〜6600万年前。浅海から沖合まで多様な海の堆積物に産出します。肺で呼吸する動物で、呼吸のため水面に戻る必要がありました。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "オランダのマーストリヒト周辺とベルギー、北アメリカ、モロッコなどに産地があります。日本にもモササウルス類は産出しますが、科全体と本属の分布は区別が必要です。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "18世紀のマーストリヒト近郊の採石場から見つかった頭骨が有名です。絶滅動物という考えの成立にも関わり、属名は1822年にコニベアが提唱しました。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "四肢は指の骨が並ぶパドル状のひれに変化。尾の先は下向きに曲がり、軟組織の尾びれを支えたと考えられます。骨格だけでは尾びれの外形は直接見えません。"
+      },
+      {
+        "title": "食性・泳ぎ方",
+        "text": "魚や他の海生動物を食べた肉食動物です。尾による推進と四肢による操舵が考えられます。顎や歯の形は種によって違い、すべてが同じ獲物を食べたとは限りません。"
+      },
+      {
+        "title": "大きさの解釈",
+        "text": "大型種では約12 mに達する推定があり、さらに大きな復元値も提案されてきました。断片からの外挿には大きな誤差があり、映画の巨体を実測サイズと混同できません。"
+      },
+      {
+        "title": "繁殖・未解明の点",
+        "text": "モササウルス類には海で子を産む生活を示唆する化石があります。ただし近縁種での発見を、そのまま本属全種で確認済みの事実とは扱えません。体温調節や生態の細部も研究中です。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Mosasaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Mosasaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1372074090",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1372074090"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Mosasaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · モササウルス類の解説",
+        "url": "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html"
+      }
+    ],
+    "modelNote": "モササウルス属の一般化した骨格です。ひれの指骨と尾を模式化し、軟組織の尾びれは描いていません。",
+    "wikiTitle": "モササウルス",
+    "videos": []
+  },
+  {
+    "id": "velociraptor",
+    "name": "ヴェロキラプトル",
+    "latin": "Velociraptor mongoliensis",
+    "subtitle": "鎌状の爪を持つ、小さな羽毛恐竜",
+    "category": "獣脚類",
+    "period": "白亜紀後期",
+    "age": "約7500万〜7100万年前",
+    "startMa": 75,
+    "endMa": 71,
+    "region": "モンゴル・中国",
+    "size": "全長 約1.5〜2.1 m",
+    "diet": "肉食",
+    "summary": "長い尾と、後足の第2趾にある大きな鎌状の爪が特徴。実際は七面鳥ほどの体格に長い尾を持つ小型獣脚類で、羽毛の存在を示す骨の証拠もあります。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "ドロマエオサウルス科に属します。属名は「すばやい略奪者」。モンゴル産 V. mongoliensis と、中国産の頭骨に基づく V. osmolskae が知られます。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "白亜紀後期。砂丘や乾燥した平野、季節的な水域のあった環境が復元されています。地層の年代や種によって範囲が異なります。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "モンゴルのジャドフタ層、特にゴビ砂漠のバインザクなど。中国内モンゴルのバヤンマンダフ層からも知られます。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1923年のアメリカ自然史博物館の探検で得られた標本をもとに、オズボーンが1924年に命名。プロトケラトプスと絡み合った「闘争化石」は行動の重要な手がかりです。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "低く細長い頭骨、3本指の前肢、長く硬く保たれた尾、後足の鎌状の爪が特徴。尺骨に羽軸が付着する突起が確認され、腕に発達した羽毛があったことを示します。"
+      },
+      {
+        "title": "食性と行動",
+        "text": "小動物の捕食や死骸の利用が考えられます。大きな爪は獲物を押さえる機能が検討されています。映画のような協調的な集団狩猟が本種で実証されているわけではありません。"
+      },
+      {
+        "title": "体格と飛行",
+        "text": "全長約1.5〜2.1 m、体重は十数〜20 kg程度の推定。前肢に羽毛があっても、現在の鳥のように飛べたことを意味しません。"
+      },
+      {
+        "title": "復元で変わる部分",
+        "text": "爪の角質鞘、羽毛の色や配置、姿勢の細部は限られた証拠に基づく推定です。腕の手のひらを常に下向きにする古い復元にも注意が必要です。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Velociraptor（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Velociraptor"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1371049913",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1371049913"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Velociraptor&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+      }
+    ],
+    "modelNote": "細身の体、3本指、後足の鎌状爪を表現。羽毛は骨ではないため表示していません。",
+    "wikiTitle": "ヴェロキラプトル",
+    "videos": []
+  },
+  {
+    "id": "stegosaurus",
+    "name": "ステゴサウルス",
+    "latin": "Stegosaurus stenops",
+    "subtitle": "背中に並ぶ骨板と、尾の4本の棘",
+    "category": "剣竜類",
+    "period": "ジュラ紀後期",
+    "age": "約1億5500万〜1億4500万年前",
+    "startMa": 155,
+    "endMa": 145,
+    "region": "北アメリカ・ポルトガル",
+    "size": "全長 約6〜9 m",
+    "diet": "植物食",
+    "summary": "背中に立つ大きな骨板と尾の棘が特徴の四足歩行の植物食恐竜。前肢は後肢より短く、頭は小さく、背中は高く盛り上がっています。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "鳥盤類・剣竜科。属名の「屋根のトカゲ」は骨板を屋根瓦のように寝かせた初期の解釈に由来します。模式種は S. stenops です。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "ジュラ紀後期のキンメリッジアン〜チトニアン期の地層から知られます。川のある平野で、季節的な乾燥を伴う環境に暮らしていたと考えられます。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "米国西部のモリソン層が主な産地で、コロラド、ワイオミング、ユタなど。ポルトガルにも本属に割り当てられた化石があります。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1877年にマーシュが記載。初期は骨板や尾の棘の配置が誤って復元されました。ロンドン自然史博物館のSophieなど、関節のつながりを保つ標本が復元に貢献しています。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "背中の骨板は皮膚内の骨である皮骨です。S. stenops では左右交互の配列が復元されます。尾先の棘、短い前肢、比較的長い後肢、小さな頭骨が観察点です。"
+      },
+      {
+        "title": "食性と顎",
+        "text": "低い位置の植物を利用したと考えられます。くちばしと小さな歯を備えます。どの植物を好んだか、顎をどう動かしたかには研究上の検討が残ります。"
+      },
+      {
+        "title": "骨板・棘の働き",
+        "text": "尾の棘は防御や相手を傷つける武器として解釈されます。骨板には視覚的な合図や体温調節などの説があります。腰に「第2の脳」があったという通俗説は支持されません。"
+      },
+      {
+        "title": "大きさと個体差",
+        "text": "種や個体で差があり、全長約6〜9 mの復元が見られます。骨板の枚数・形・成長による変化があるため、すべてを一律の輪郭では表せません。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Stegosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Stegosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1373620064",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1373620064"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Stegosaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/Stegosaurus.html"
+      }
+    ],
+    "modelNote": "交互の骨板と尾の4本の棘を表現。骨板の輪郭と並びは独自の模式形状で、Sophie等のスキャンではありません。",
+    "wikiTitle": "ステゴサウルス",
+    "videos": [
+      {
+        "title": "Natural History Museum（英語・動画掲載ページ）骨格を組み上げる",
+        "url": "https://www.nhm.ac.uk/discover/stegosaurus-time-lapse.html"
+      }
+    ]
+  },
+  {
+    "id": "ankylosaurus",
+    "name": "アンキロサウルス",
+    "latin": "Ankylosaurus magniventris",
+    "subtitle": "装甲の背中と、こん棒の尾",
+    "category": "鎧竜類",
+    "period": "白亜紀後期",
+    "age": "約7000万〜6600万年前",
+    "startMa": 70,
+    "endMa": 66,
+    "region": "北アメリカ西部",
+    "size": "全長 約6〜8 m",
+    "diet": "植物食",
+    "summary": "幅広い体を皮骨で覆った鎧竜。尾の先には大きな骨の塊があり、四肢は短く頑丈です。全身の完全な骨格は見つかっておらず、装甲の配置には推定が含まれます。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "鳥盤類・アンキロサウルス科。A. magniventris が知られます。属名は骨の癒合を、種名は大きな腹を指します。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "白亜紀末の北アメリカ西部。河川平野に生息した恐竜たちと同時代ですが、本種が好んだ場所には高地説など議論があります。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "ヘルクリーク層、ランス層、カナダのスコラード層など。主要標本はモンタナやアルバータから知られ、他の恐竜に比べ発見数は少ない属です。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1906年の探検で得られたモンタナの部分骨格をもとに、バーナム・ブラウンが1908年に記載しました。頭骨や尾などの追加標本で姿が改められてきました。"
+      },
+      {
+        "title": "骨格と装甲",
+        "text": "低く幅広い頭骨、頭の後ろの突起、皮骨で覆われた胴、尾端のこん棒が特徴です。こん棒の手前には硬く保たれた尾の構造があり、打撃に関わると考えられます。"
+      },
+      {
+        "title": "食性と体",
+        "text": "幅広いくちばしと小さな葉状の歯を持つ植物食。大きな消化管で植物を処理したと考えられます。鼻腔の複雑な通路は熱・水分の調整などとの関係が研究されています。"
+      },
+      {
+        "title": "尾の機能",
+        "text": "捕食者に対する防御だけでなく、同種間の争いという用途も考えられます。ただし近縁種の証拠と本種で確認できる証拠は区別する必要があります。"
+      },
+      {
+        "title": "大きさ・復元の限界",
+        "text": "全長は約6〜8 m、体重は約5〜8 tなどの推定があります。装甲の正確な配置や個体差は不明な点が多く、展示の全身復元には近縁種からの補完も含まれます。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Ankylosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Ankylosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1369993132",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1369993132"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Ankylosaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html"
+      }
+    ],
+    "modelNote": "装甲の配置と枚数は模式的です。全身骨格が未発見のため、本属で未確認の部分を含む概形として表示しています。",
+    "wikiTitle": "アンキロサウルス",
+    "videos": []
+  },
+  {
+    "id": "brachiosaurus",
+    "name": "ブラキオサウルス",
+    "latin": "Brachiosaurus altithorax",
+    "subtitle": "高い肩と、長く伸びる首",
+    "category": "竜脚類",
+    "period": "ジュラ紀後期",
+    "age": "約1億5500万〜1億4500万年前",
+    "startMa": 155,
+    "endMa": 145,
+    "region": "北アメリカ",
+    "size": "全長 約18〜22 m",
+    "diet": "植物食",
+    "summary": "前肢が後肢より長く、肩が高い大型の竜脚類。小さな頭と長い首で高い位置の植物を利用したと考えられます。アフリカのギラファティタンとは区別されます。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "竜脚類・ブラキオサウルス科。属名は「腕のトカゲ」で、長い前肢に由来します。ここでは北アメリカの B. altithorax を扱います。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "ジュラ紀後期の北アメリカ。モリソン層が堆積した季節的な乾燥を伴う河川平野で、他の竜脚類や剣竜類と生息域を共有していました。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "米国コロラド州西部が模式標本の産地です。モリソン層の他の産地にも本属とされる化石がありますが、確実な標本は多くありません。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1900年にコロラド川流域で発見された部分骨格を、エルマー・リッグスが1903年に記載。頭骨や首を欠くため、全身像は関連する証拠から補われます。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "長い上腕骨、前方に高くなる胴、長い頸椎列、比較的短い尾が特徴です。椎骨の空洞化は体を軽くし、鳥に似た気嚢系との関係が考えられます。"
+      },
+      {
+        "title": "食性と姿勢",
+        "text": "高い位置の植物をくちで摘み取ったと考えられます。首の可動域、普段の角度、届いた高さの推定は関節や軟組織の復元条件に左右されます。"
+      },
+      {
+        "title": "ギラファティタンとの違い",
+        "text": "タンザニアの標本はかつて B. brancai とされましたが、現在は一般に Giraffatitan brancai と区別されます。有名なベルリンの骨格をそのまま本種の姿とは扱えません。"
+      },
+      {
+        "title": "大きさ・生理",
+        "text": "全長約18〜22 m、体重は数十tと推定されます。大きな体を支える骨と呼吸系、成長や代謝が研究されています。水中でしか体を支えられないという古い生活像は支持されません。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Brachiosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Brachiosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1369189728",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1369189728"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Brachiosaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+      }
+    ],
+    "modelNote": "長い前肢と高い肩を重視。頭骨や頸部は模式的補完で、ギラファティタンの展示骨格を複製したものではありません。",
+    "wikiTitle": "ブラキオサウルス",
+    "videos": []
+  },
+  {
+    "id": "parasaurolophus",
+    "name": "パラサウロロフス",
+    "latin": "Parasaurolophus walkeri",
+    "subtitle": "後ろに伸びる、管状のとさか",
+    "category": "鳥脚類",
+    "period": "白亜紀後期",
+    "age": "約7650万〜7300万年前",
+    "startMa": 76.5,
+    "endMa": 73,
+    "region": "北アメリカ西部",
+    "size": "全長 約9〜10 m",
+    "diet": "植物食",
+    "summary": "後頭部から後方へ長く伸びる中空のとさかで知られるハドロサウルス類。内部の鼻の通路は、音の共鳴や仲間への合図との関係が研究されています。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "ハドロサウルス科・ランベオサウルス亜科。P. walkeri、P. tubicen、短いとさかの P. cyrtocristatus が広く認められます。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "白亜紀後期カンパニアン期の北アメリカ西部。河川、氾濫原、森林のある環境に暮らしていたと考えられます。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "カナダ・アルバータのダイナソーパーク層、米国ニューメキシコやユタの地層など。属内でも種ごとに産地と時代が異なります。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1920年にアルバータで発見された頭骨と部分骨格をもとに、ウィリアム・パークスが1922年に P. walkeri を命名しました。標本 ROM 768 が基準です。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "後方に伸びるとさかは鼻骨・前上顎骨などからできています。多数の歯が組み合わさる歯列、長い後肢と尾が特徴。二足・四足の両方で移動できたと考えられます。"
+      },
+      {
+        "title": "食性",
+        "text": "くちばしと密な歯列で植物を取り込み、処理しました。胃の内容物などがない限り、個々の好物を骨格だけから決めることはできません。"
+      },
+      {
+        "title": "とさかと音",
+        "text": "内部の空気の通路はCTなどで研究され、低い共鳴音を生む可能性が提案されています。再現音は物理モデルによる推定で、実際の声の録音や確定復元ではありません。"
+      },
+      {
+        "title": "成長・未解明の点",
+        "text": "幼体のとさかは短く、成長による変化があります。種の識別・求愛・体温調節などの機能も検討されています。性別だけで長短が決まるとは断定できません。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Parasaurolophus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Parasaurolophus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1365892867",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1365892867"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Parasaurolophus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html"
+      }
+    ],
+    "modelNote": "P. walkeri を想定したとさかの外形。鼻腔内部の通路、歯列の細部、軟組織は再現していません。",
+    "wikiTitle": "パラサウロロフス",
+    "videos": []
+  },
+  {
+    "id": "giganotosaurus",
+    "name": "ギガノトサウルス",
+    "latin": "Giganotosaurus carolinii",
+    "subtitle": "南米で見つかった巨大な肉食恐竜",
+    "category": "獣脚類",
+    "period": "白亜紀（年代再検討）",
+    "age": "約1億1100万〜1億600万年前（新推定）",
+    "startMa": 111,
+    "endMa": 106,
+    "region": "アルゼンチン・パタゴニア",
+    "size": "全長 約12〜13 m",
+    "diet": "肉食",
+    "summary": "パタゴニアから知られる巨大なカルカロドントサウルス科の獣脚類。低く長い頭骨と、横に薄く鋸歯を持つ歯が特徴です。体格の順位や産地の年代には推定の更新があります。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "カルカロドントサウルス科に属し、ティラノサウルスとは別の大型獣脚類の系統。属名は「南の巨大なトカゲ」、種名は発見者カロリニへの献名です。"
+      },
+      {
+        "title": "時代・年代の再検討",
+        "text": "従来は白亜紀後期の約1億〜9700万年前とされてきました。2026年の凝灰岩のジルコン年代研究は、カンデレロス層などをより古いアルビアン期へ見直す材料を示しています。ここでは新しい約1億1100万〜1億600万年前の概算を掲載しますが、地層の年代制約と化石個体の直接年代は同じではありません。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "アルゼンチンのネウケン州、パタゴニア北部のカンデレロス層。河川と風で運ばれた砂、土壌などを含む堆積環境が復元されています。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1993年にルベン・カロリニが発見し、ロドルフォ・コリアとレオナルド・サルガドが1995年に記載。基準となる部分骨格は MUCPv-Ch1 として知られます。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "細長い頭骨、目の前の隆起、横に薄い鋸歯状の歯、強い後肢を備えます。下顎の先端に下向きの張り出しがあります。欠けた骨の復元によって頭骨長は変わります。"
+      },
+      {
+        "title": "食性・生態",
+        "text": "大型の肉食動物で、竜脚類の幼体などを利用した可能性があります。具体的な狩り方や群れでの協調行動は、近縁種の発見だけでは本種の事実として確定できません。"
+      },
+      {
+        "title": "体格の比較",
+        "text": "もっともまとまった標本は全長約12〜13 mの推定。部分的な下顎からさらに大きい個体が推定されていますが、比例拡大には不確実性があり、「最大の肉食恐竜」という順位は固定できません。"
+      },
+      {
+        "title": "復元の限界",
+        "text": "すべての骨がそろった標本はなく、体重推定には大きな幅があります。前肢・頭骨の一部や姿勢は近縁種と力学的条件から補完されます。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Giganotosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Giganotosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1372011895",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1372011895"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Giganotosaurus&action=history"
+      },
+      {
+        "title": "Maniel ほか（2026）カンデレロス層などのジルコン年代",
+        "url": "https://doi.org/10.1016/j.gr.2026.06.020"
+      }
+    ],
+    "modelNote": "長い頭骨と獣脚類の体形を模式化。欠損部の寸法・体重・前肢の細部を確定したモデルではありません。",
+    "wikiTitle": "ギガノトサウルス",
+    "videos": []
+  },
+  {
+    "id": "allosaurus",
+    "name": "アロサウルス",
+    "latin": "Allosaurus fragilis",
+    "subtitle": "目の上の隆起と、3本指の前肢",
+    "category": "獣脚類",
+    "period": "ジュラ紀後期",
+    "age": "約1億5500万〜1億4500万年前",
+    "startMa": 155,
+    "endMa": 145,
+    "region": "北アメリカ・ポルトガル",
+    "size": "全長 約8〜10 m",
+    "diet": "肉食",
+    "summary": "ジュラ紀後期の代表的な大型獣脚類。頭骨の目の前にある一対の隆起、鋸歯のある歯、3本の指と爪を持つ前肢が特徴です。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "アロサウルス科の獣脚類。属名は「異なるトカゲ」で、椎骨の形に由来します。A. fragilis、A. jimmadseni などが知られ、分類は長く再検討されてきました。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "ジュラ紀後期のモリソン層に多く産出。河川平野で竜脚類やステゴサウルスなどと暮らしました。ポルトガルにも本属の記録があります。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "米国のユタ、コロラド、ワイオミングなど。クリーブランド・ロイド採石場は多数のアロサウルスの骨で知られます。ヨーロッパではポルトガルの諸層が産地です。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1877年にマーシュが記載。一時は Antrodemus の名称が使われましたが、詳しい研究によって Allosaurus が定着しました。多くの部分骨格と保存の良い標本が研究に使われます。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "眼の前上方の隆起、軽量化された頭骨、3本指の前肢、発達した後肢と長い尾が特徴。ティラノサウルスとは頭骨や手の形を見比べられます。"
+      },
+      {
+        "title": "食性と証拠",
+        "text": "恐竜の骨に残る噛み痕などから肉食がわかります。捕食と死骸利用の両方が考えられます。顎・首を使った具体的な摂食動作は複数の力学モデルで検討されています。"
+      },
+      {
+        "title": "病変・行動",
+        "text": "骨折や治癒の跡を持つ標本があり、生前のけがを調べられます。大量の骨が同じ場所から出ても、すぐに群れで狩った証拠にはなりません。"
+      },
+      {
+        "title": "大きさ・復元の限界",
+        "text": "よく知られる成体は全長約8〜10 m。種や個体によって差があります。より大型とされた断片の分類や、骨の欠損を補う方法で推定値が変わります。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Allosaurus（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Allosaurus"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1371849491",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1371849491"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Allosaurus&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html"
+      }
+    ],
+    "modelNote": "目の上の隆起と3本指を強調。頭骨の縫合線や前肢の詳細は省略しています。",
+    "wikiTitle": "アロサウルス",
+    "videos": []
+  },
+  {
+    "id": "pteranodon",
+    "name": "プテラノドン",
+    "latin": "Pteranodon longiceps",
+    "subtitle": "歯のないくちばしと、大きな翼",
+    "category": "翼竜類",
+    "period": "白亜紀後期",
+    "age": "約8600万〜7800万年前（分類で変動）",
+    "startMa": 86,
+    "endMa": 78.25,
+    "region": "北アメリカの内海",
+    "size": "翼開長 約4〜7 m",
+    "diet": "魚食中心",
+    "summary": "翼竜の仲間で、恐竜や鳥とは区別されます。長い第4指が翼を支え、歯のないくちばしと後頭部のとさかを持ち、北アメリカの内海上を飛んでいました。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "翼竜類・プテラノドン科。属名は「翼があって歯がない」を意味します。ここでは P. longiceps を基準にします。かつて含まれた種を Geosternbergia と分ける分類もあります。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "白亜紀後期、北アメリカを南北に分けていた西部内陸海路周辺。種の区分によって属全体の年代幅は変わります。P. longiceps は約8600万〜8450万年前の記録に加えて、より新しい約8000万〜7825万年前の地層からも報告されています。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "米国カンザス州のニオブララ層が有名。サウスダコタ、ワイオミングなどからも関連標本が知られます。海底にたまった堆積物に骨が保存されました。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1870年代の標本研究で、マーシュが1876年に独立した属として命名。多数の標本が知られ、頭骨、とさか、体格の変異を比較できます。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "中空で軽い骨、長い翼指、胸帯、歯のない顎が特徴。翼竜の翼は伸びた第4指に支えられる翼膜で、羽毛による鳥の翼とは構造が異なります。"
+      },
+      {
+        "title": "食性と飛行",
+        "text": "魚の残骸が標本に伴って見つかることなどから魚食が示されます。長い翼で海上を滑空したと考えられますが、離着水や採食の細かな動作には検討が残ります。"
+      },
+      {
+        "title": "大きさと個体差",
+        "text": "翼開長は小型個体で約4 m、大型では約7 mに及ぶ推定があります。体格ととさかの形には差があり、性差の可能性が論じられていますが、形だけで常に性別を決められるわけではありません。"
+      },
+      {
+        "title": "とさかの役割・復元",
+        "text": "とさかは視覚的な合図などの機能が考えられています。翼膜の厚さ、色、筋肉の細部は骨格ではわかりません。翼の広がり方も復元条件で変わります。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Pteranodon（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Pteranodon"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1373069806",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1373069806"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Pteranodon&action=history"
+      }
+    ],
+    "modelNote": "P. longiceps の翼指ととさかを模式化。翼膜は表示せず、第4指の骨を観察できるようにしています。",
+    "wikiTitle": "プテラノドン",
+    "videos": []
+  },
+  {
+    "id": "archaeopteryx",
+    "name": "アーケオプテリクス",
+    "latin": "Archaeopteryx lithographica",
+    "subtitle": "歯と長い尾を持つ、始祖鳥",
+    "category": "鳥類に近い恐竜",
+    "period": "ジュラ紀後期",
+    "age": "約1億5000万年前",
+    "startMa": 150.8,
+    "endMa": 148.5,
+    "region": "ドイツ南部",
+    "size": "全長 約0.5 m",
+    "diet": "小動物食（推定）",
+    "summary": "「始祖鳥」として知られる羽毛恐竜。羽毛と翼を備えながら、歯のある顎、爪を持つ手、長い骨質の尾を持ち、鳥類の進化を考える重要な化石です。",
+    "sections": [
+      {
+        "title": "分類と名前",
+        "text": "鳥類の起源に近い獣脚類の系統に位置します。属名は「古い翼」。進化は枝分かれするため、現生鳥類の直接の祖先と断定することはできません。"
+      },
+      {
+        "title": "時代・生息環境",
+        "text": "ジュラ紀後期、約1億5000万年前。現在のドイツ南部は暖かい浅い海と島々の地域でした。化石の保存場所と、生前に過ごした場所は同一とは限りません。"
+      },
+      {
+        "title": "化石の発見地",
+        "text": "ドイツ・バイエルンのゾルンホーフェン周辺などの細粒石灰岩。羽毛の印象まで保存される例があり、骨格だけではわからない情報を補います。"
+      },
+      {
+        "title": "発見と研究史",
+        "text": "1861年に羽毛と骨格が報告され、ヘルマン・フォン・マイヤーが命名しました。ロンドン標本やベルリン標本など複数の標本が研究され、種の区分にも議論があります。"
+      },
+      {
+        "title": "骨格の特徴",
+        "text": "歯のある顎、3本の爪付きの指、長い尾椎列、叉骨などを持ちます。現在の多くの鳥のように尾が短く一体化した構造とは異なります。"
+      },
+      {
+        "title": "羽毛と飛行",
+        "text": "翼には非対称の風切羽が保存され、飛行に関わる能力を示します。ただし飛び立ち方、羽ばたきの様式、現生鳥と同じ運動能力があったかは研究課題です。"
+      },
+      {
+        "title": "食性・体格",
+        "text": "全長は最大で約50 cm程度。歯や体格から昆虫など小動物の利用が考えられますが、食物の細かな内訳や採食行動を完全には復元できません。"
+      },
+      {
+        "title": "進化と未解明の点",
+        "text": "「最古の鳥」という位置付けは、新しい化石の発見と系統解析によって変わり得ます。複数標本の種差・成長差、羽毛の色、運動能力の解釈は更新され続けています。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia contributors · Archaeopteryx（英語・解説の翻案元）",
+        "url": "https://en.wikipedia.org/wiki/Archaeopteryx"
+      },
+      {
+        "title": "Wikipedia · 確認した固定版 1369453699",
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1369453699"
+      },
+      {
+        "title": "Wikipedia 編集履歴・執筆者",
+        "url": "https://en.wikipedia.org/w/index.php?title=Archaeopteryx&action=history"
+      },
+      {
+        "title": "Natural History Museum · Dino Directory（事実確認）",
+        "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
+      }
+    ],
+    "modelNote": "羽毛を除いた骨格の概形。圧縮された化石からの厳密な立体復元ではなく、飛行能力を実証するモデルでもありません。",
+    "wikiTitle": "アーケオプテリクス",
+    "videos": []
+  }
+]

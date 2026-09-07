@@ -1,0 +1,13 @@
+// Export only shipped runtime artifact coordinates and local paths for the license audit.
+gradle.projectsEvaluated {
+    def app = gradle.rootProject.project(':app')
+    app.tasks.register('legalExport') {
+        doLast {
+            def output = new File(app.rootProject.projectDir, 'artifacts/legal-artifacts.txt')
+            output.parentFile.mkdirs()
+            output.text = app.configurations.releaseRuntimeClasspath.resolvedConfiguration.resolvedArtifacts.collect { a ->
+                a.moduleVersion.id.toString() + '\t' + a.file.absolutePath
+            }.sort().join('\n') + '\n'
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hatake716.dinobones.ModelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-07T10:57:58.768Z" hostname="nixos" time="1.66">
+  <properties/>
+  <testcase name="catalogCoversAllModelsWithAttributionAndWorkingUriSyntax" classname="io.github.hatake716.dinobones.ModelTest" time="0.096"/>
+  <testcase name="everyRequestedAnimalHasDistinctFiniteBoundedGeometry" classname="io.github.hatake716.dinobones.ModelTest" time="1.562"/>
+  <testcase name="cameraCannotCrossPolesOrZoomThroughModel" classname="io.github.hatake716.dinobones.ModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "spinosaurus",
+    "title": "Spinosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Spinosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Spinosaurus&action=history",
+    "revision_id": "1373355079",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1373355079",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:12.346659+00:00",
+    "status": 200,
+    "sha256_source_html": "1aaa2020df4f2fe4cbfc825acb86cdfc7561a182a4d046ca38f3049fa6711de4",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%94%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%94%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "tyrannosaurus",
+    "title": "Tyrannosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Tyrannosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Tyrannosaurus&action=history",
+    "revision_id": "1373481925",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1373481925",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:12.398423+00:00",
+    "status": 200,
+    "sha256_source_html": "8b538004cae3c2d6528961548746dec61f0b222d66299f806fbd44e4626ec2fb",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "triceratops",
+    "title": "Triceratops",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Triceratops",
+    "history": "https://en.wikipedia.org/w/index.php?title=Triceratops&action=history",
+    "revision_id": "1373478005",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1373478005",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:12.325650+00:00",
+    "status": 200,
+    "sha256_source_html": "43b109d666f7f80cb718db6297c423c0b950377306dcfb83ee133151bc1125a0",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AA%E3%82%B1%E3%83%A9%E3%83%88%E3%83%97%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AA%E3%82%B1%E3%83%A9%E3%83%88%E3%83%97%E3%82%B9"
+    }
+  },
+  {
+    "id": "mosasaurus",
+    "title": "Mosasaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Mosasaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Mosasaurus&action=history",
+    "revision_id": "1372074090",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1372074090",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:13.609686+00:00",
+    "status": 200,
+    "sha256_source_html": "710589b91e19063b81dbac77d3fc27226a57d781fe7515a7ab26be3b4c16b8c7",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%82%B5%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%82%B5%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "velociraptor",
+    "title": "Velociraptor",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Velociraptor",
+    "history": "https://en.wikipedia.org/w/index.php?title=Velociraptor&action=history",
+    "revision_id": "1371049913",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1371049913",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:13.331152+00:00",
+    "status": 200,
+    "sha256_source_html": "425293619b4868102be8940dc3430b21ee60890ca0f748c7b597e9abbbc9c1ad",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A7%E3%83%AD%E3%82%AD%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A7%E3%83%AD%E3%82%AD%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB"
+    }
+  },
+  {
+    "id": "stegosaurus",
+    "title": "Stegosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Stegosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Stegosaurus&action=history",
+    "revision_id": "1373620064",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1373620064",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:13.414116+00:00",
+    "status": 200,
+    "sha256_source_html": "bef0de3961da64f449cbc33496341cc582da7e1af56b32ecf7f7377834d00551",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%86%E3%82%B4%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%86%E3%82%B4%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "ankylosaurus",
+    "title": "Ankylosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Ankylosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Ankylosaurus&action=history",
+    "revision_id": "1369993132",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1369993132",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:14.290248+00:00",
+    "status": 200,
+    "sha256_source_html": "dc3461d23e5e960b3989665c2d25c162c7bd49ad08cfde9a75386c436192bfb4",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%82%AD%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "brachiosaurus",
+    "title": "Brachiosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Brachiosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Brachiosaurus&action=history",
+    "revision_id": "1369189728",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1369189728",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:14.450140+00:00",
+    "status": 200,
+    "sha256_source_html": "27e6cdb9bf06e5ca48bd2a02d4aa45534b8ce4918f2807dd9dd67235fd12c31a",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%AD%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%AD%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "parasaurolophus",
+    "title": "Parasaurolophus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Parasaurolophus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Parasaurolophus&action=history",
+    "revision_id": "1365892867",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1365892867",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:14.586749+00:00",
+    "status": 200,
+    "sha256_source_html": "02893a856227e4cd03a3fa7d182ba32d9216a33127c74d35f3ffe3412d49259e",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%A9%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%AD%E3%83%95%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%A9%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%AD%E3%83%95%E3%82%B9"
+    }
+  },
+  {
+    "id": "giganotosaurus",
+    "title": "Giganotosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Giganotosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Giganotosaurus&action=history",
+    "revision_id": "1372011895",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1372011895",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:15.270516+00:00",
+    "status": 200,
+    "sha256_source_html": "7ed01bf51bde175362c033c0ed926f627fd05050fc86445766a2e4c5d03a7d71",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%AE%E3%82%AC%E3%83%8E%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%82%AE%E3%82%AC%E3%83%8E%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "allosaurus",
+    "title": "Allosaurus",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Allosaurus",
+    "history": "https://en.wikipedia.org/w/index.php?title=Allosaurus&action=history",
+    "revision_id": "1371849491",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1371849491",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:15.481461+00:00",
+    "status": 200,
+    "sha256_source_html": "0987e5afcf590cc2370f05c8ceb054e5ee3fdce2eeb7303a95320fc881cca1ed",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9"
+    }
+  },
+  {
+    "id": "pteranodon",
+    "title": "Pteranodon",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Pteranodon",
+    "history": "https://en.wikipedia.org/w/index.php?title=Pteranodon&action=history",
+    "revision_id": "1373069806",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1373069806",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:15.574845+00:00",
+    "status": 200,
+    "sha256_source_html": "27669338304d5ad27b398b71bee4a7cfb65b724380fa4924e21b2905efe8d3b3",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%86%E3%83%A9%E3%83%8E%E3%83%89%E3%83%B3",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%86%E3%83%A9%E3%83%8E%E3%83%89%E3%83%B3"
+    }
+  },
+  {
+    "id": "archaeopteryx",
+    "title": "Archaeopteryx",
+    "author": "Wikipedia contributors",
+    "url": "https://en.wikipedia.org/wiki/Archaeopteryx",
+    "history": "https://en.wikipedia.org/w/index.php?title=Archaeopteryx&action=history",
+    "revision_id": "1369453699",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1369453699",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modification": "Japanese summary, restructuring and supplemental factual notes",
+    "retrieved_utc": "2026-09-07T10:34:16.555049+00:00",
+    "status": 200,
+    "sha256_source_html": "daa71cc64876435df39b9d5ad15b618a0fc54c495a57a0c329ea3f294a1ed46c",
+    "japanese_link": {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%82%B1%E3%82%AA%E3%83%97%E3%83%86%E3%83%AA%E3%82%AF%E3%82%B9",
+      "status": 200,
+      "resolved_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%82%B1%E3%82%AA%E3%83%97%E3%83%86%E3%83%AA%E3%82%AF%E3%82%B9"
+    }
+  }
+]

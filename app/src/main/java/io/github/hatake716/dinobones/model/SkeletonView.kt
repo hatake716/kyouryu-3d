@@ -1,6 +1,8 @@
 package io.github.hatake716.dinobones.model
 
 import android.content.Context
+import android.graphics.Bitmap
+import android.opengl.GLUtils
 import android.opengl.GLES20.*
 import android.opengl.GLSurfaceView
 import android.opengl.Matrix
@@ -26,6 +28,14 @@ class SkeletonView(context: Context): GLSurfaceView(context) {
         importantForAccessibility=IMPORTANT_FOR_ACCESSIBILITY_YES
     }
     fun setModel(mesh: Skeleton){museumRenderer.pendingMesh=mesh;requestRender()}
+    private var artworkFrame=floatArrayOf(0f,0f,1f,1f)
+    fun background(bitmap:Bitmap?,strength:Float,frame:FloatArray,fill:Boolean){museumRenderer.artwork=bitmap;museumRenderer.artworkStrength=strength;artworkFrame=frame;museumRenderer.backgroundFill=fill;updateBackgroundBounds();requestRender()}
+    private fun updateBackgroundBounds(){
+        val location=IntArray(2);getLocationInWindow(location)
+        val w=artworkFrame[2].coerceAtLeast(1f);val h=artworkFrame[3].coerceAtLeast(1f)
+        museumRenderer.backgroundBounds=floatArrayOf((location[0]-artworkFrame[0])/w,(location[1]-artworkFrame[1])/h,width/w,height/h,w/h)
+    }
+    override fun onLayout(changed:Boolean,left:Int,top:Int,right:Int,bottom:Int){super.onLayout(changed,left,top,right,bottom);updateBackgroundBounds();requestRender()}
     fun camera(pose: CameraPose){museumRenderer.pose=pose;requestRender()}
     fun highlight(part: Int,isolate: Boolean){museumRenderer.selected=part;museumRenderer.isolate=isolate;requestRender()}
     fun rotate(auto: Boolean){museumRenderer.auto=auto;renderMode=if(auto)RENDERMODE_CONTINUOUSLY else RENDERMODE_WHEN_DIRTY;requestRender()}
@@ -52,6 +62,14 @@ class MuseumRenderer:GLSurfaceView.Renderer {
     @Volatile var auto=false
     @Volatile var frameCount=0L
     @Volatile var renderedVertexCount=0
+    @Volatile var artwork:Bitmap?=null
+    @Volatile var artworkStrength=.32f
+    @Volatile var backgroundFill=true
+    @Volatile var backgroundBounds=floatArrayOf(0f,0f,1f,1f,1f)
+    @Volatile var backgroundReady=false
+    private var uploadedArtwork:Bitmap?=null
+    private var backgroundProgram=0;private var texture=0
+    private val quad=ByteBuffer.allocateDirect(8*4).order(ByteOrder.nativeOrder()).asFloatBuffer().apply{put(floatArrayOf(-1f,1f,-1f,-1f,1f,1f,1f,-1f));position(0)}
     private var mesh:Skeleton?=null
     private var program=0;private var buffer=0;private var floor=0;private var floorCount=0;private var width=1;private var height=1;private var lastFrame=0L
     private val projection=FloatArray(16);private val view=FloatArray(16);private val mvp=FloatArray(16)
@@ -84,7 +102,29 @@ class MuseumRenderer:GLSurfaceView.Renderer {
         matrixLoc=glGetUniformLocation(program,"uMatrix");selectLoc=glGetUniformLocation(program,"uSelected");isolateLoc=glGetUniformLocation(program,"uIsolate")
         val buffers=IntArray(2);glGenBuffers(2,buffers,0);buffer=buffers[0];floor=buffers[1]
         glEnable(GL_DEPTH_TEST);glClearColor(16/255f,24/255f,21/255f,1f)
+        val bvs=shader(GL_VERTEX_SHADER,"attribute vec2 aPoint; varying vec2 vUv; void main(){gl_Position=vec4(aPoint,0.0,1.0);vUv=vec2((aPoint.x+1.0)*0.5,(1.0-aPoint.y)*0.5);}")
+        val bfs=shader(GL_FRAGMENT_SHADER,"precision mediump float; varying vec2 vUv; uniform sampler2D uImage; uniform vec4 uBounds; uniform vec4 uCrop; uniform float uStrength; void main(){vec2 uv=uCrop.xy+(uBounds.xy+vUv*uBounds.zw)*uCrop.zw;vec4 art=texture2D(uImage,uv);if(uv.x<0.0||uv.x>1.0||uv.y<0.0||uv.y>1.0)art.a=0.0;gl_FragColor=vec4(mix(vec3(16.0,24.0,21.0)/255.0,art.rgb,uStrength*art.a),1.0);}")
+        backgroundProgram=glCreateProgram();glAttachShader(backgroundProgram,bvs);glAttachShader(backgroundProgram,bfs);glLinkProgram(backgroundProgram)
+        glGetProgramiv(backgroundProgram,GL_LINK_STATUS,linked,0);check(linked[0]!=0){glGetProgramInfoLog(backgroundProgram)};glDeleteShader(bvs);glDeleteShader(bfs)
+        val textures=IntArray(1);glGenTextures(1,textures,0);texture=textures[0];uploadedArtwork=null;backgroundReady=false
         mesh?.let{upload(it)}
+    }
+    private fun drawBackground(){
+        val bitmap=artwork?:run{backgroundReady=false;return}
+        glActiveTexture(GL_TEXTURE0);glBindTexture(GL_TEXTURE_2D,texture)
+        if(uploadedArtwork!==bitmap){
+            glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR)
+            glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_S,GL_CLAMP_TO_EDGE);glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_CLAMP_TO_EDGE)
+            GLUtils.texImage2D(GL_TEXTURE_2D,0,bitmap,0);uploadedArtwork=bitmap;backgroundReady=true
+        }
+        val bounds=backgroundBounds;val imageAspect=bitmap.width.toFloat()/bitmap.height;val windowAspect=bounds[4]
+        val cropW=if(backgroundFill)min(1f,windowAspect/imageAspect) else max(1f,windowAspect/imageAspect);val cropH=if(backgroundFill)min(1f,imageAspect/windowAspect) else max(1f,imageAspect/windowAspect)
+        glDisable(GL_DEPTH_TEST);glUseProgram(backgroundProgram);glBindBuffer(GL_ARRAY_BUFFER,0)
+        val loc=glGetAttribLocation(backgroundProgram,"aPoint");glEnableVertexAttribArray(loc);quad.position(0);glVertexAttribPointer(loc,2,GL_FLOAT,false,0,quad)
+        glUniform1i(glGetUniformLocation(backgroundProgram,"uImage"),0);glUniform1f(glGetUniformLocation(backgroundProgram,"uStrength"),artworkStrength)
+        glUniform4f(glGetUniformLocation(backgroundProgram,"uBounds"),bounds[0],bounds[1],bounds[2],bounds[3])
+        glUniform4f(glGetUniformLocation(backgroundProgram,"uCrop"),(1f-cropW)/2f,(1f-cropH)/2f,cropW,cropH)
+        glDrawArrays(GL_TRIANGLE_STRIP,0,4);glDisableVertexAttribArray(loc);glEnable(GL_DEPTH_TEST)
     }
     private fun upload(mesh:Skeleton){
         glBindBuffer(GL_ARRAY_BUFFER,buffer);val data=ByteBuffer.allocateDirect(mesh.vertices.size*4).order(ByteOrder.nativeOrder()).asFloatBuffer();data.put(mesh.vertices).position(0);glBufferData(GL_ARRAY_BUFFER,mesh.vertices.size*4,data,GL_STATIC_DRAW)
@@ -102,7 +142,7 @@ class MuseumRenderer:GLSurfaceView.Renderer {
         pendingMesh?.let{pendingMesh=null;mesh=it;upload(it)}
         val now=System.nanoTime();val dt=if(lastFrame==0L)0f else ((now-lastFrame)/1e9f).coerceAtMost(.06f);lastFrame=now
         if(auto)pose=pose.orbit(dt*9f,0f)
-        glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT);val mesh=mesh?:return
+        glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT);drawBackground();val mesh=mesh?:return
         val c=pose;val aspect=width.toFloat()/height;val distance=mesh.radius/(sin(Math.toRadians(19.0)).toFloat())*max(1f,1f/aspect)*1.06f/c.zoom
         val yaw=Math.toRadians(c.yaw.toDouble()).toFloat();val pitch=Math.toRadians(c.pitch.toDouble()).toFloat()
         Matrix.perspectiveM(projection,0,38f,aspect,.06f,180f)

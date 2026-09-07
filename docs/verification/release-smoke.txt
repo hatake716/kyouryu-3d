@@ -1,0 +1,10 @@
+UTC: 2026-09-07T12:14:16.812979+00:00
+Target: emulator-5554 (API 35)
+Package: io.github.hatake716.dinobones
+APK SHA-256: 12023201d91c0579065cea54420f05eee68c21db0967219725426d2899fe4618
+PASS: signed 1.0.0 installation and favorite registration
+PASS: signed 1.1.0 update with adb install -r
+PASS: favorite retained after update and cold launch
+PASS: versionName=1.1.0 versionCode=2 targetSdk=36
+PASS: portrait / landscape / Titanosaurus release screenshots captured
+Emulator rotation settings restored. Physical devices untouched.

@@ -2,18 +2,21 @@
 
 独自のプログラム・骨格形状・アイコン
 Copyright 2026 hatake716
-Apache License 2.0。第三者の3Dメッシュ・写真・テクスチャは同梱していません。
+Apache License 2.0。第三者の3Dメッシュは同梱していません。背景画像と図鑑解説は、下記の別ライセンスです。
 
 日本語の図鑑解説
-英語版Wikipediaの各記事を要約・再構成した翻案です。
+日本語版Wikipediaの抄録と英語版Wikipediaの要約・再構成です。画像・表・引用番号・一部の節を省略し、基本カードと更新の注記を加えました。
 帰属：Wikipedia contributors（各記事の編集履歴に執筆者一覧）。原文と履歴へのリンクを各種の詳細図鑑に掲載しています。
-ライセンス：Creative Commons Attribution-ShareAlike 4.0 International（CC BY-SA 4.0）。本アプリ用の日本語翻案に変更しました。翻案部分の再利用時も表示・継承条件に従ってください。
+ライセンス：Creative Commons Attribution-ShareAlike 4.0 International（CC BY-SA 4.0）。本アプリ用に抄録・再構成しました。翻案部分の再利用時も表示・継承条件に従ってください。
 https://creativecommons.org/licenses/by-sa/4.0/
 
-翻案の対象
-Spinosaurus / Tyrannosaurus / Triceratops / Mosasaurus / Velociraptor / Stegosaurus / Ankylosaurus / Brachiosaurus / Parasaurolophus / Giganotosaurus / Allosaurus / Pteranodon / Archaeopteryx
-原文：https://en.wikipedia.org/wiki/各英語名
+収録する100項目の本文が対象です。各項目に記事名、執筆者の履歴、確認した固定版のリンクを掲載しています。
 確認日：2026年9月7日
+
+背景画像
+98点はWikimedia Commonsの個別ファイルで商用再配布できるライセンスを確認した生体復元画です。作者名、原本リンク、CC BY／CC BY-SA等の個別条件を各画面の「背景と出典」に掲載しています。元画像を同梱し、表示時にトリミングと明度調整を行います。CC BY-SAの対象画像を再利用する際は同じ条件を継承してください。
+ティタノサウルスとサウロファガナクスの2点は、本アプリ用にOpenAI image_genで新規生成した仮説的なイメージです。権利を有する範囲でApache 2.0の対象とします。独占権や学術的正確性を保証するものではありません。
+全ファイルの記録：https://github.com/hatake716/kyouryu-3d/blob/main/docs/artwork-provenance.json
 
 Natural History Museum、学術論文等
 科学的な事実確認・補足に使用。写真、復元図、3Dファイル、記事の文章表現を転載していません。個別の参照先は詳細図鑑に掲載しています。

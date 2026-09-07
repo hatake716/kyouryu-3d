@@ -1,0 +1,502 @@
+[
+  {
+    "rank": 1,
+    "title": "Tyrannosaurus",
+    "views": 249988
+  },
+  {
+    "rank": 2,
+    "title": "Spinosaurus",
+    "views": 113996
+  },
+  {
+    "rank": 3,
+    "title": "Velociraptor",
+    "views": 106223
+  },
+  {
+    "rank": 4,
+    "title": "Allosaurus",
+    "views": 102921
+  },
+  {
+    "rank": 5,
+    "title": "Quetzalcoatlus",
+    "views": 101030
+  },
+  {
+    "rank": 6,
+    "title": "Triceratops",
+    "views": 92183
+  },
+  {
+    "rank": 7,
+    "title": "Stegosaurus",
+    "views": 89186
+  },
+  {
+    "rank": 8,
+    "title": "Archaeopteryx",
+    "views": 77790
+  },
+  {
+    "rank": 9,
+    "title": "Mosasaurus",
+    "views": 74126
+  },
+  {
+    "rank": 10,
+    "title": "Giganotosaurus",
+    "views": 69327
+  },
+  {
+    "rank": 11,
+    "title": "Brachiosaurus",
+    "views": 66235
+  },
+  {
+    "rank": 12,
+    "title": "Ankylosaurus",
+    "views": 65038
+  },
+  {
+    "rank": 13,
+    "title": "Dilophosaurus",
+    "views": 64598
+  },
+  {
+    "rank": 14,
+    "title": "Therizinosaurus",
+    "views": 62468
+  },
+  {
+    "rank": 15,
+    "title": "Deinonychus",
+    "views": 58637
+  },
+  {
+    "rank": 16,
+    "title": "Parasaurolophus",
+    "views": 55770
+  },
+  {
+    "rank": 17,
+    "title": "Utahraptor",
+    "views": 53301
+  },
+  {
+    "rank": 18,
+    "title": "Carnotaurus",
+    "views": 53094
+  },
+  {
+    "rank": 19,
+    "title": "Pachycephalosaurus",
+    "views": 52436
+  },
+  {
+    "rank": 20,
+    "title": "Brontosaurus",
+    "views": 52199
+  },
+  {
+    "rank": 21,
+    "title": "Argentinosaurus",
+    "views": 50418
+  },
+  {
+    "rank": 22,
+    "title": "Diplodocus",
+    "views": 46986
+  },
+  {
+    "rank": 23,
+    "title": "Pterodactylus",
+    "views": 46533
+  },
+  {
+    "rank": 24,
+    "title": "Pteranodon",
+    "views": 43076
+  },
+  {
+    "rank": 25,
+    "title": "Iguanodon",
+    "views": 39760
+  },
+  {
+    "rank": 26,
+    "title": "Suchomimus",
+    "views": 39019
+  },
+  {
+    "rank": 27,
+    "title": "Nigersaurus",
+    "views": 36597
+  },
+  {
+    "rank": 28,
+    "title": "Apatosaurus",
+    "views": 34106
+  },
+  {
+    "rank": 29,
+    "title": "Edmontosaurus",
+    "views": 33109
+  },
+  {
+    "rank": 30,
+    "title": "Carcharodontosaurus",
+    "views": 32868
+  },
+  {
+    "rank": 31,
+    "title": "Megalosaurus",
+    "views": 32735
+  },
+  {
+    "rank": 32,
+    "title": "Borealopelta",
+    "views": 31100
+  },
+  {
+    "rank": 33,
+    "title": "Herrerasaurus",
+    "views": 30858
+  },
+  {
+    "rank": 34,
+    "title": "Baryonyx",
+    "views": 30848
+  },
+  {
+    "rank": 35,
+    "title": "Compsognathus",
+    "views": 30680
+  },
+  {
+    "rank": 36,
+    "title": "Ceratosaurus",
+    "views": 28869
+  },
+  {
+    "rank": 37,
+    "title": "Titanosaurus",
+    "views": 28684
+  },
+  {
+    "rank": 38,
+    "title": "Patagotitan",
+    "views": 28510
+  },
+  {
+    "rank": 39,
+    "title": "Yutyrannus",
+    "views": 27059
+  },
+  {
+    "rank": 40,
+    "title": "Hatzegopteryx",
+    "views": 26303
+  },
+  {
+    "rank": 41,
+    "title": "Troodon",
+    "views": 25288
+  },
+  {
+    "rank": 42,
+    "title": "Tylosaurus",
+    "views": 24731
+  },
+  {
+    "rank": 43,
+    "title": "Liopleurodon",
+    "views": 24466
+  },
+  {
+    "rank": 44,
+    "title": "Acrocanthosaurus",
+    "views": 24460
+  },
+  {
+    "rank": 45,
+    "title": "Microraptor",
+    "views": 22555
+  },
+  {
+    "rank": 46,
+    "title": "Nanotyrannus",
+    "views": 22003
+  },
+  {
+    "rank": 47,
+    "title": "Tarbosaurus",
+    "views": 21709
+  },
+  {
+    "rank": 48,
+    "title": "Camarasaurus",
+    "views": 21284
+  },
+  {
+    "rank": 49,
+    "title": "Plesiosaurus",
+    "views": 21011
+  },
+  {
+    "rank": 50,
+    "title": "Styracosaurus",
+    "views": 20420
+  },
+  {
+    "rank": 51,
+    "title": "Australovenator",
+    "views": 20225
+  },
+  {
+    "rank": 52,
+    "title": "Coelophysis",
+    "views": 20134
+  },
+  {
+    "rank": 53,
+    "title": "Albertosaurus",
+    "views": 20115
+  },
+  {
+    "rank": 54,
+    "title": "Bruhathkayosaurus",
+    "views": 20097
+  },
+  {
+    "rank": 55,
+    "title": "Deinocheirus",
+    "views": 19658
+  },
+  {
+    "rank": 56,
+    "title": "Cristatusaurus",
+    "views": 19350
+  },
+  {
+    "rank": 57,
+    "title": "Dreadnoughtus",
+    "views": 19184
+  },
+  {
+    "rank": 58,
+    "title": "Protoceratops",
+    "views": 18673
+  },
+  {
+    "rank": 59,
+    "title": "Psittacosaurus",
+    "views": 18097
+  },
+  {
+    "rank": 60,
+    "title": "Elasmosaurus",
+    "views": 17914
+  },
+  {
+    "rank": 61,
+    "title": "Archelon",
+    "views": 17607
+  },
+  {
+    "rank": 62,
+    "title": "Pliosaurus",
+    "views": 17440
+  },
+  {
+    "rank": 63,
+    "title": "Irritator",
+    "views": 17216
+  },
+  {
+    "rank": 64,
+    "title": "Gorgosaurus",
+    "views": 16866
+  },
+  {
+    "rank": 65,
+    "title": "Gallimimus",
+    "views": 16561
+  },
+  {
+    "rank": 66,
+    "title": "Torvosaurus",
+    "views": 16042
+  },
+  {
+    "rank": 67,
+    "title": "Majungasaurus",
+    "views": 15922
+  },
+  {
+    "rank": 68,
+    "title": "Maip",
+    "views": 15921
+  },
+  {
+    "rank": 69,
+    "title": "Kronosaurus",
+    "views": 15920
+  },
+  {
+    "rank": 70,
+    "title": "Sinosauropteryx",
+    "views": 15170
+  },
+  {
+    "rank": 71,
+    "title": "Tropeognathus",
+    "views": 15118
+  },
+  {
+    "rank": 72,
+    "title": "Maiasaura",
+    "views": 14899
+  },
+  {
+    "rank": 73,
+    "title": "Oviraptor",
+    "views": 14771
+  },
+  {
+    "rank": 74,
+    "title": "Amargasaurus",
+    "views": 14705
+  },
+  {
+    "rank": 75,
+    "title": "Aquilops",
+    "views": 14540
+  },
+  {
+    "rank": 76,
+    "title": "Alamosaurus",
+    "views": 14278
+  },
+  {
+    "rank": 77,
+    "title": "Cryolophosaurus",
+    "views": 14191
+  },
+  {
+    "rank": 78,
+    "title": "Pyroraptor",
+    "views": 14157
+  },
+  {
+    "rank": 79,
+    "title": "Sauroposeidon",
+    "views": 14043
+  },
+  {
+    "rank": 80,
+    "title": "Nanuqsaurus",
+    "views": 13904
+  },
+  {
+    "rank": 81,
+    "title": "Daspletosaurus",
+    "views": 13533
+  },
+  {
+    "rank": 82,
+    "title": "Mamenchisaurus",
+    "views": 13513
+  },
+  {
+    "rank": 83,
+    "title": "Ichthyosaurus",
+    "views": 13504
+  },
+  {
+    "rank": 84,
+    "title": "Saurolophus",
+    "views": 13389
+  },
+  {
+    "rank": 85,
+    "title": "Plateosaurus",
+    "views": 13334
+  },
+  {
+    "rank": 86,
+    "title": "Saurophaganax",
+    "views": 12914
+  },
+  {
+    "rank": 87,
+    "title": "Anchiornis",
+    "views": 12696
+  },
+  {
+    "rank": 88,
+    "title": "Pachyrhinosaurus",
+    "views": 12652
+  },
+  {
+    "rank": 89,
+    "title": "Concavenator",
+    "views": 12528
+  },
+  {
+    "rank": 90,
+    "title": "Rhamphorhynchus",
+    "views": 12360
+  },
+  {
+    "rank": 91,
+    "title": "Tanystropheus",
+    "views": 12212
+  },
+  {
+    "rank": 92,
+    "title": "Mapusaurus",
+    "views": 12192
+  },
+  {
+    "rank": 93,
+    "title": "Rajasaurus",
+    "views": 12075
+  },
+  {
+    "rank": 94,
+    "title": "Kentrosaurus",
+    "views": 11750
+  },
+  {
+    "rank": 95,
+    "title": "Scipionyx",
+    "views": 11727
+  },
+  {
+    "rank": 96,
+    "title": "Torosaurus",
+    "views": 11589
+  },
+  {
+    "rank": 97,
+    "title": "Hadrosaurus",
+    "views": 11530
+  },
+  {
+    "rank": 98,
+    "title": "Dryptosaurus",
+    "views": 11524
+  },
+  {
+    "rank": 99,
+    "title": "Dimorphodon",
+    "views": 11478
+  },
+  {
+    "rank": 100,
+    "title": "Eoraptor",
+    "views": 11294
+  }
+]

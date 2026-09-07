@@ -1,0 +1,10 @@
+{
+  "title": "List of dinosaur genera",
+  "url": "https://en.wikipedia.org/wiki/List_of_dinosaur_genera",
+  "revision": "1371621280",
+  "htmlSha256": "2426a6db66d4537005a340ea05f42930594b90da55ddfff251a02d43eec406ec",
+  "retrieved": "2026-09-07",
+  "extraction": "li containing an italic linked capitalized genus; exclude list items labelled synonym, non-dinosaur, nomen nudum, preoccupied, misspelling or not a dinosaur; editorial scope check after ranking",
+  "extractedNameCount": 1419,
+  "supplement": "tools/catalog/rank.py"
+}

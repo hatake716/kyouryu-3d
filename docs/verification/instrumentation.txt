@@ -1,52 +1,82 @@
-INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.BackgroundTest
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=5
 INSTRUMENTATION_STATUS: stream=
-io.github.hatake716.dinobones.ExhibitTest:
-INSTRUMENTATION_STATUS: test=allThirteenRenderAndGesturesPersistAcrossRecreation
+io.github.hatake716.dinobones.BackgroundTest:
+INSTRUMENTATION_STATUS: test=backgroundControlsKeepCameraAndSurviveRecreation
 INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.BackgroundTest
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=5
 INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: test=allThirteenRenderAndGesturesPersistAcrossRecreation
+INSTRUMENTATION_STATUS: test=backgroundControlsKeepCameraAndSurviveRecreation
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
 INSTRUMENTATION_STATUS: current=2
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=5
 INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: test=exportOriginalStoreArtwork
+io.github.hatake716.dinobones.ExhibitTest:
+INSTRUMENTATION_STATUS: test=allHundredRenderAndGesturesPersistAcrossRecreation
 INSTRUMENTATION_STATUS_CODE: 1
 INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
 INSTRUMENTATION_STATUS: current=2
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=allHundredRenderAndGesturesPersistAcrossRecreation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=exportOriginalStoreArtwork
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: test=exportOriginalStoreArtwork
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ReferenceLinkTest
-INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: current=4
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=5
 INSTRUMENTATION_STATUS: stream=
 io.github.hatake716.dinobones.ReferenceLinkTest:
 INSTRUMENTATION_STATUS: test=wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks
 INSTRUMENTATION_STATUS_CODE: 1
 INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ReferenceLinkTest
-INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: current=4
 INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=5
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: test=wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks
 INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.SearchTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.SearchTest:
+INSTRUMENTATION_STATUS: test=typingRetainsFocusWhenFeaturedExhibitDisappears
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.SearchTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=typingRetainsFocusWhenFeaturedExhibitDisappears
+INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_RESULT: stream=
 
-Time: 60.571
+Time: 358.473
 
-OK (3 tests)
+OK (5 tests)
 
 
 INSTRUMENTATION_CODE: -1

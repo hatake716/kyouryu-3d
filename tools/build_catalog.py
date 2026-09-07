@@ -1,6 +1,6 @@
 """Editorial source of the bundled Japanese catalog. Adaptations: CC BY-SA 4.0.
 Wikipedia contributors are credited per entry; museum references are factual cross-checks.
-No third-party images, meshes, videos, or museum descriptive prose are bundled.
+Third-party artwork is separately licensed and recorded in artwork-provenance.json.
 """
 import json
 from pathlib import Path
@@ -173,6 +173,16 @@ if provenance_path.exists():
 videos=json.loads((ROOT/'docs/video-links.json').read_text())
 for row in rows:
     row['videos']=[{'title':v['title'],'url':v['url']} for v in videos.get(row['id'],[])]
+# Frozen editorial inputs make the 100-entry build reproducible without a network request.
+rows.extend(json.loads((ROOT/'tools/catalog/extra-entries.json').read_text()))
+ranking={r['title'].lower():r for r in json.loads((ROOT/'docs/selected-taxa.json').read_text())}
+artworks={r['id']:r for r in json.loads((ROOT/'docs/artwork-provenance.json').read_text())}
+for row in rows:
+    selected=ranking[row['id']]
+    row.update(rank=selected['rank'],pageviews=selected['views'])
+    if row['id'] in artworks:row['artwork']=artworks[row['id']]
+rows.sort(key=lambda r:r['rank'])
+assert len(rows)==100 and len({r['id'] for r in rows})==100
 # A named work, authors, source, license, and explicit adaptation notice accompany every entry in-app.
 (ROOT/'app/src/main/assets/dinosaurs.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
 print(f'Wrote {len(rows)} entries, {sum(len(r["sections"]) for r in rows)} editorial sections')

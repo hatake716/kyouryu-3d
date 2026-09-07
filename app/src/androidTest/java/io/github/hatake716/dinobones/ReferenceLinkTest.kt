@@ -39,6 +39,11 @@ class ReferenceLinkTest {
                     assertEquals(url,urls.last())
                 }
                 assertEquals(2+expected.videos.size,urls.size)
+                compose.onNodeWithText("3D骨格").performClick()
+                compose.onNodeWithText("背景と出典").performClick()
+                for((label,url) in listOf("画像の原本・権利情報" to expected.artwork!!.source,"画像のライセンス条件" to expected.artwork!!.licenseUrl)){
+                    compose.onNodeWithText(label).performScrollTo().performClick();compose.waitForIdle();assertEquals(url,urls.last())
+                }
             } finally { inst.removeMonitor(monitor) }
         }
     }

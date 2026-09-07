@@ -1,53 +1,38 @@
-# コンテンツと権利の記録
+# 出典・権利の記録（1.1.0）
 
-## 独自制作
+## コードと骨格
 
-`Skeleton.kt` に記述した座標と数学的な立体生成から13種類の骨格を作成。第三者メッシュのダウンロード、スキャンデータの変換、写真・復元図のトレースは行っていません。アプリアイコンも独自のベクター図形です。これらとアプリコードは Apache License 2.0 です。
+独自の座標・立体生成処理・アイコンはApache License 2.0です。第三者のメッシュ、博物館スキャン、復元図のトレースを使っていません。追加87モデルは共通の体型構造と属別の設定による教育用の模式復元です。100個の実物標本を精密に再現した模型ではありません。
 
-模式的な形状であり、実物博物館標本との一致や専門家による解剖学的精度の保証はありません。特定の標本の名称は解説の参照としてのみ使用し、モデルをその標本の複製と表示しません。
+## 図鑑の本文
 
-## 図鑑テキスト：CC BY-SA 4.0
+100項目、注記を含む693節。Wikipedia contributorsに帰属する**CC BY-SA 4.0**の抄録・翻案を含みます。元の13項目は英語版からの日本語翻案、追加87項目は主に日本語版の本文抄録と英語版から整理した基本カードです。画像、表、引用番号、外部リンク節などを省略し、節の整理・基本カード・更新の注記を加えています。参考文献や各説の詳細は原文の固定版へ案内します。
 
-対象：`tools/build_catalog.py` の解説、および生成された `app/src/main/assets/dinosaurs.json` の図鑑テキスト。
+全記事の固定版ID、取得したHTMLのハッシュ、編集履歴への情報は [source-provenance.json](source-provenance.json)。各項目のアプリ画面にも記事名・執筆者の履歴・固定版・変更の説明・[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)へのリンクを表示します。抄録・翻案を再利用する場合は表示・継承条件に従ってください。
 
-原著者：**Wikipedia contributors**。出典は英語版Wikipediaの以下の記事です。各URLの「View history」または `https://en.wikipedia.org/w/index.php?title=記事名&action=history` から編集者を確認できます。
+博物館資料や論文は科学的事実の確認・補足に使います。その本文や図版を、Wikipedia由来の文章や背景画像の条件と混同しません。新しい分類・年代についての注記は、個別に研究へのリンクを持ちます。
 
-変更：日本語への要約・翻案、構成の再編、博物館・論文情報に基づく補足、不確実性とモデルの限界を追記。
+## 背景画像
 
-ライセンス：[Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)。この翻案テキストは同じライセンスで提供し、第三者が再利用する場合も帰属・変更表示・継承条件を適用します。コードのApacheライセンスを図鑑テキストに上書き適用しません。
+[画像100点のクレジット一覧](ARTWORK_CREDITS.md)から、人が読みやすい表でも確認できます。
 
-| 原記事 | URL |
-|---|---|
-| Spinosaurus | https://en.wikipedia.org/wiki/Spinosaurus |
-| Tyrannosaurus | https://en.wikipedia.org/wiki/Tyrannosaurus |
-| Triceratops | https://en.wikipedia.org/wiki/Triceratops |
-| Mosasaurus | https://en.wikipedia.org/wiki/Mosasaurus |
-| Velociraptor | https://en.wikipedia.org/wiki/Velociraptor |
-| Stegosaurus | https://en.wikipedia.org/wiki/Stegosaurus |
-| Ankylosaurus | https://en.wikipedia.org/wiki/Ankylosaurus |
-| Brachiosaurus | https://en.wikipedia.org/wiki/Brachiosaurus |
-| Parasaurolophus | https://en.wikipedia.org/wiki/Parasaurolophus |
-| Giganotosaurus | https://en.wikipedia.org/wiki/Giganotosaurus |
-| Allosaurus | https://en.wikipedia.org/wiki/Allosaurus |
-| Pteranodon | https://en.wikipedia.org/wiki/Pteranodon |
-| Archaeopteryx | https://en.wikipedia.org/wiki/Archaeopteryx |
+- **98点：Wikimedia Commonsの個別ファイルで商用再配布できる条件を確認した復元画。** CC BY、CC BY-SA、Public domain等。ファイルごとの作者、原本、ライセンスURL、取得日、画像ハッシュ、元の説明を [artwork-provenance.json](artwork-provenance.json) に保存しています。
+- **2点：本アプリ用にOpenAI image_genで生成した画像。** ティタノサウルスとサウロファガナクス。仮説的な全身像である旨を常時画面に表示します。生成プロンプト・対象ファイルは [GENERATED_ARTWORK.md](GENERATED_ARTWORK.md)。権利を有する範囲でApache 2.0として提供します。独占権や科学的な正確性を保証する表現はしません。
 
-記事の固定版・取得証跡は `source-provenance.json`。確認日：2026-09-07。Wikipediaの画像・地図・表・動画ファイルを同梱せず、ファイル固有の別ライセンスへ依存しない構成です。
+Commons由来の画像はサーバーが提供するサムネイルをそのまま保存しています。画面表示時に拡大・トリミング・明度調整を行います。画像ごとの「背景と出典」画面で作者と配布条件、原本を確認できます。CC BY-SA画像とその改変物を再配布する場合は、それぞれの継承条件に従ってください。コードのApache 2.0をこれらの第三者画像に適用しません。
 
-## 追加の事実確認
+Commons全体が一律の画像ライセンスなのではありません。[Commonsの再利用案内](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia)に基づき、各ファイルの情報を確認しています。作者はアップロード者とは別に記録します。写真に写った第三者の彫刻・模型の権利が不明なものや、商用利用・再配布を許可しない素材は採用していません。
 
-Natural History Museum の Dino Directory、モササウルス解説、スピノサウルス新種ニュース、Serenoほか（2026）DOI `10.1126/science.adx5486`、Manielほか（2026）DOI `10.1016/j.gr.2026.06.020`。
+## 閲覧数・選定
 
-これらは事実確認・情報補足の参照先です。記事の文章表現・写真・図版・復元作品は転載していません。各解説にリンクを表示しています。ギガノトサウルスの新年代は地層の年代制約と化石個体の直接年代の違いを明示しています。
+[POPULARITY.md](POPULARITY.md) と [popularity-candidates.json](popularity-candidates.json) に対象・期間・取得URL・月別値を記録します。閲覧数は人気の目安で、普遍的な順位ではありません。候補の名前の一覧はWikipediaから抽出し、説明文の無許諾コピーには使っていません。
 
-## 外部サービス
+## 動画・外部リンク
 
-WikipediaとYouTubeはHTTPSの外部リンクのみ。YouTubeの検索語は古生物名・学名と「骨格 博物館 解説」。API、動画プレイヤー、動画のダウンロード、サムネイルの転載はありません。検索結果の特定動画を検証済み・公認とは表示しません。
+全100項目にWikipediaとYouTube検索へのHTTPSリンクがあります。[video-links.json](video-links.json) の選定動画・動画掲載ページも引き続き掲載します。動画・音声・サムネイルを保存・同梱・再配信しません。外部アプリまたはブラウザーの公開ページで視聴します。検索結果や動画の内容・将来の再生可否を保証しません。
 
-選定動画は `video-links.json` に公開元の確認先を記録。スピノサウルス・ティラノサウルス・トリケラトプスはYouTube動画への直接リンク、ステゴサウルスは博物館の動画掲載ページです。全13種類に検索リンクもあります。確認日：2026-09-07。動画のメタデータ・公開元を確認した記録であり、全編の科学的監修や将来の再生可否を保証するものではありません。制作年代を表示し、現在の知見との差があり得ると説明しています。
+## ライブラリと表示
 
-## 公開時の扱い
+既存のAndroidX、Compose、Kotlin等の依存関係は変更していません。[runtime-dependencies.json](runtime-dependencies.json) とアプリ内のライセンスに通知を保持します。画像や解説の追加によるデータ収集、解析SDK、通信権限の追加はありません。
 
-Google Playの知的財産ポリシーに沿って出典と素材の権利を記録していますが、紛争が絶対に起きないと保証するものではありません。新素材、商標、博物館のロゴ、実物スキャンを追加するときは個別の権利確認が必要です。
-
-公式ポリシー：https://support.google.com/googleplay/android-developer/answer/9888072
+本アプリは各博物館、Wikimedia Foundation、YouTube、Googleの公式・提携アプリではありません。確認日：2026-09-07。権利情報は保存した取得時点の証拠であり、法的問題が一切起きないという保証ではありません。権利情報の訂正があった場合は対象素材を再確認してください。

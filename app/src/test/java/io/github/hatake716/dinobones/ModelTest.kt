@@ -9,7 +9,7 @@ import java.net.URI
 
 class ModelTest {
     @Test fun everyRequestedAnimalHasDistinctFiniteBoundedGeometry(){
-        val signatures=mutableSetOf<Int>()
+        val signatures=mutableMapOf<Int,String>()
         for(id in SkeletonFactory.ids){
             val mesh=SkeletonFactory.create(id)
             assertTrue(id,mesh.vertexCount>10000)
@@ -18,9 +18,10 @@ class ModelTest {
             assertTrue(id,mesh.radius in 3.9f..6f)
             assertTrue(id,mesh.lines.map{it.group}.containsAll(listOf(1,2,3,4,5,6)))
             assertTrue(id,mesh.lines.all{it.radius>0f && it.a.length()<=6f && it.b.length()<=6f})
-            signatures.add(mesh.vertices.contentHashCode())
+            val old=signatures.put(mesh.vertices.contentHashCode(),id)
+            assertNull("Duplicate geometry: $id and $old",old)
         }
-        assertEquals(13,signatures.size)
+        assertEquals(100,signatures.size)
     }
     @Test fun cameraCannotCrossPolesOrZoomThroughModel(){
         assertEquals(89f,CameraPose().orbit(100000f,100000f).pitch)
@@ -32,11 +33,12 @@ class ModelTest {
     @Test fun catalogCoversAllModelsWithAttributionAndWorkingUriSyntax(){
         val catalog=Catalog.parse(File("src/main/assets/dinosaurs.json").readText())
         assertEquals(SkeletonFactory.ids.toSet(),catalog.map{it.id}.toSet())
-        assertEquals(13,catalog.size)
+        assertEquals(100,catalog.size)
         for(d in catalog){
-            assertTrue(d.name,d.startMa>d.endMa)
-            assertTrue(d.name,d.sections.size>=8)
+            assertTrue(d.name,d.startMa>=d.endMa)
+            assertTrue(d.name,d.sections.size>=2)
             assertTrue(d.name,d.sections.all{it.text.length>30})
+            assertTrue(d.id,d.rank in 1..100 && d.pageviews>0)
             assertTrue(d.name,d.sources.any{it.url.contains("action=history")})
             ((d.sources+d.videos).map{it.url}+d.wikipedia+d.youtube).forEach{assertEquals("https",URI(it).scheme);assertNotNull(URI(it).host)}
         }

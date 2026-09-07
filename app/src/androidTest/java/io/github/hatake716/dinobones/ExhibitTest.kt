@@ -41,9 +41,10 @@ class ExhibitTest {
     private fun findView(view:View):SkeletonView?{if(view is SkeletonView)return view;if(view is ViewGroup)for(i in 0 until view.childCount)findView(view.getChildAt(i))?.let{return it};return null}
     private fun viewer(s:ActivityScenario<MainActivity>):SkeletonView{var v:SkeletonView?=null;repeat(100){s.onActivity{v=findView(it.window.decorView)};if(v?.museumRenderer?.renderedVertexCount?:0>1000)return v!!;Thread.sleep(100)};error("No rendered mesh")}
     private fun shot(name:String){val path=File(inst.targetContext.getExternalFilesDir(null),"evidence");path.mkdirs();assertTrue(device.takeScreenshot(File(path,"$name.png")))}
-    @Test fun allThirteenRenderAndGesturesPersistAcrossRecreation(){
+    @Test fun allHundredRenderAndGesturesPersistAcrossRecreation(){
         // This suite is run with ANDROID_SERIAL=emulator-5554. No real-device gesture injection.
         inst.targetContext.getSharedPreferences("collection",Context.MODE_PRIVATE).edit().clear().commit()
+        Configurator.getInstance().setWaitForIdleTimeout(500)
         val entries=Catalog.load(inst.targetContext)
         ActivityScenario.launch(MainActivity::class.java).use { scenario ->
             device.wait(Until.hasObject(By.text("恐竜の骨格３D")),10000);Thread.sleep(2500);shot("00-collection")
@@ -51,7 +52,9 @@ class ExhibitTest {
                 var field=device.findObject(By.clazz("android.widget.EditText"))
                 if(field==null){device.swipe(500,1900,500,850,30);field=device.wait(Until.findObject(By.clazz("android.widget.EditText")),5000)}
                 assertNotNull(field);field.click();field.text=d.name;Thread.sleep(400);scenario.onActivity{WindowInsetsControllerCompat(it.window,it.window.decorView).hide(WindowInsetsCompat.Type.ime())};device.waitForIdle();click(d.name)
-                val v=viewer(scenario);assertTrue(d.id,v.museumRenderer.renderedVertexCount>10000);Thread.sleep(350);shot(d.id)
+                val v=viewer(scenario);assertTrue(d.id,v.museumRenderer.renderedVertexCount>10000)
+                repeat(60){if(!v.museumRenderer.backgroundReady)Thread.sleep(100)}
+                assertTrue("Background: ${d.id}",v.museumRenderer.backgroundReady);Thread.sleep(350);shot(d.id)
                 if(d.id=="tyrannosaurus"){
                     val original=v.museumRenderer.pose
                     val bounds=device.findObject(By.descStartsWith("3D骨格。")).visibleBounds
@@ -75,7 +78,7 @@ class ExhibitTest {
                 }
                 clickDescription("一覧に戻る")
             }
-            clickDescription("このアプリについて");assertTrue(device.wait(Until.hasObject(By.textContains("13種類の古生物")),5000));shot("licenses-about");click("閉じる")
+            clickDescription("このアプリについて");assertTrue(device.wait(Until.hasObject(By.textContains("100種類の古生物")),5000));shot("licenses-about");click("閉じる")
         }
         ActivityScenario.launch(MainActivity::class.java).use{
             assertTrue(inst.targetContext.getSharedPreferences("collection",Context.MODE_PRIVATE).getStringSet("favorites",emptySet())!!.contains("tyrannosaurus"))
@@ -92,7 +95,7 @@ class ExhibitTest {
         p.color=0xFFB6D8A5.toInt();p.textSize=18f;canvas.drawText("PALEO COLLECTION",54f,82f,p)
         p.color=0xFFEDE1C8.toInt();p.textSize=49f;p.typeface=Typeface.create("sans-serif",Typeface.BOLD);canvas.drawText("恐竜の骨格３D",54f,182f,p)
         p.textSize=25f;p.typeface=Typeface.create("sans-serif",Typeface.NORMAL);canvas.drawText("太古の姿を、あらゆる角度から。",54f,250f,p)
-        p.color=0xFFB6D8A5.toInt();p.textSize=20f;canvas.drawText("13種類の骨格  /  出典付きの日本語図鑑",54f,331f,p)
+        p.color=0xFFB6D8A5.toInt();p.textSize=20f;canvas.drawText("100種類の骨格  /  出典付きの日本語図鑑",54f,331f,p)
         p.color=0xFFA6B3AA.toInt();p.textSize=16f;canvas.drawText("独自制作の学習用・模式復元モデル",54f,428f,p)
         drawable.setBounds(700,125,950,375);drawable.draw(canvas)
         File(dir,"feature-1024x500.png").outputStream().use{feature.compress(Bitmap.CompressFormat.PNG,100,it)}

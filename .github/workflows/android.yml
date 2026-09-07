@@ -14,6 +14,7 @@ jobs:
           distribution: temurin
           java-version: '17'
       - uses: gradle/actions/setup-gradle@v4
+      - uses: android-actions/setup-android@v3
       - name: Install SDK
         run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
       - name: Verify catalog is reproducible

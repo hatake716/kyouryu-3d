@@ -1,12 +1,12 @@
 [
   {
-    "file": "kyouryu-3d-1.1.0.apk",
-    "bytes": 38238565,
-    "sha256": "12023201d91c0579065cea54420f05eee68c21db0967219725426d2899fe4618"
+    "file": "kyouryu-3d-1.2.0.apk",
+    "bytes": 40098703,
+    "sha256": "ab5eec508892b132915dccc7f9a4b61f5b87faca40cee8d424a206ca9ecc10ee"
   },
   {
-    "file": "kyouryu-3d-1.1.0.aab",
-    "bytes": 39484577,
-    "sha256": "35da9bc7dda9fcdc223b00d476e18ca3f91a0bfcc97824611d703ddff18a4589"
+    "file": "kyouryu-3d-1.2.0.aab",
+    "bytes": 41402960,
+    "sha256": "8fd73098bb101d006de884d52222299ea279a5a7f88964976633eb7fba4d4570"
   }
 ]

@@ -4,14 +4,17 @@
 
 **3Dは学習用の模式復元です。実物標本のスキャン、計測用模型、学術監修済みモデルではありません。** 骨数、関節面、欠損部分、個体差は簡略化し、種類ごとの限界をアプリ内に表示しています。
 
-| 100種類の一覧 | 背景付きの3D展示室 | 背景の調整・出典 |
+| 時代の世界地図 | 背景付きのコレクション | 3Dから詳細図鑑へ |
 |---|---|---|
-| ![一覧](docs/screenshots/00-collection.png) | ![3D展示室](docs/screenshots/release-titanosaurus.png) | ![背景と出典](docs/screenshots/background-attribution.png) |
+| ![地図](docs/screenshots/period-jurassic.png) | ![コレクション](docs/screenshots/collection-artwork.png) | ![3D展示室](docs/screenshots/earth-exhibit.png) |
 
 ## 機能
 
+- 土色の配色。三畳紀・ジュラ紀・白亜紀の世界地図を横にスワイプし、その時代のコレクションへ切り替え。「全時代」で100項目を横断
+- コレクションの各骨格カードにも、その種類の復元イメージを表示
 - 100点の背景画。全画面への拡大／画像全体の表示、濃さ調整、作者・出典・ライセンスの確認
-- 1本指の回転、2本指のピンチ拡大縮小・平行移動
+- 1本指の回転（1.2.0で左右を反転し、指の横移動に沿う操作へ修正）、2本指のピンチ拡大縮小・平行移動
+- 展示室下部の部位カードを上にスワイプして詳細図鑑へ。戻ると視点と選択部位を保持
 - 側面・正面・背面・上面・下面、自動回転、全画面、リセット
 - 頭骨／背骨・尾／肋骨／肩・骨盤／前肢・翼／後肢／装飾・装甲の強調と単独表示
 - 100種類、注記を含む計693節の日本語解説。分類、時代、生息環境、発見地、研究史、特徴、食性、推定値、未解明の点
@@ -51,6 +54,8 @@ ANDROID_SERIAL=emulator-5554 ./gradlew connectedDebugAndroidTest
 
 背景98点はWikimedia CommonsのCC BY／CC BY-SA等の条件に従って同梱し、2点は本アプリ用のAI生成画像です。プログラムのApache 2.0を第三者画像に適用しません。個別の帰属・ライセンス・ファイルハッシュは [artwork-provenance.json](docs/artwork-provenance.json)、生成プロンプトは [GENERATED_ARTWORK.md](docs/GENERATED_ARTWORK.md)。表示時にトリミング・明度調整を行います。
 
+時代の地図3点はScoteseほかのPALEOMAP資料（CC BY 4.0）です。地図は各時代の代表時点を示し、コレクションはその時代全体を対象にします。地図上の黒線は現在の国境です。[地図の出典・分類方法](docs/PALEOMAPS.md)に作者、原本、年代区分と5／25／72項目の内訳を記載しています。
+
 確認日：2026-09-07。自動更新やすべての既知情報の網羅を保証しません。大きさ・年代は推定で、研究・標本・分類により変わります。ギガノトサウルスの産地年代の再検討、スピノサウルスの2026年新種報告などは注記付きで扱います。
 
 本アプリは各博物館、Wikimedia Foundation、YouTube、Googleの公式・提携アプリではありません。第三者の素材を追加するときは、別途ライセンス・帰属・商用再配布条件を確認してください。
@@ -61,7 +66,7 @@ ANDROID_SERIAL=emulator-5554 ./gradlew connectedDebugAndroidTest
 - `app/src/main/java/.../ui/` — Composeの一覧・展示室・図鑑・権利表示
 - `tools/build_catalog.py` — 元の13項目と凍結した追加データからJSONを生成
 - `tools/catalog/` — 候補・閲覧数の収集、本文抽出、図鑑の追加入力、模型の設定
-- `tools/check_catalog.py` — 100画像のハッシュ・帰属と閲覧数／収録項目の整合確認
+- `tools/check_catalog.py` — 100背景画像・3地図のハッシュ・帰属と閲覧数／収録項目の整合確認
 - `app/src/main/assets/` — オフライン図鑑、プライバシー、ライセンス
 - `docs/privacy/index.html` — 公開用プライバシーページ
 - `app/src/androidTest/` — 100種類の描画と実操作、状態保持を検証するエミュレーターE2E

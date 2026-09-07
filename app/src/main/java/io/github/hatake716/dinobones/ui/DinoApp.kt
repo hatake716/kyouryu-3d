@@ -11,6 +11,8 @@ import android.widget.Toast
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.gestures.detectVerticalDragGestures
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.grid.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -24,6 +26,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.saveable.rememberSaveableStateHolder
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -36,6 +39,9 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
@@ -52,19 +58,21 @@ import io.github.hatake716.dinobones.data.*
 import io.github.hatake716.dinobones.model.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.launch
 import kotlin.math.*
 
-private val Ink=Color(0xFF101815)
-private val Panel=Color(0xFF1C2922)
-private val Sand=Color(0xFFEDE1C8)
-private val Sage=Color(0xFFB6D8A5)
-private val Muted=Color(0xFFA6B3AA)
-private val Border=Color(0xFF35453A)
-private val scheme=darkColorScheme(primary=Sage,onPrimary=Ink,background=Ink,onBackground=Sand,surface=Panel,onSurface=Sand,onSurfaceVariant=Muted,outline=Border,secondary=Color(0xFFD6B582),primaryContainer=Border,onPrimaryContainer=Sage,secondaryContainer=Border,onSecondaryContainer=Sage)
+internal val Ink=Color(EarthColors.Background)
+internal val Panel=Color(EarthColors.Panel)
+internal val Sand=Color(EarthColors.Text)
+internal val Ochre=Color(EarthColors.Accent)
+internal val Muted=Color(EarthColors.Muted)
+internal val Border=Color(EarthColors.Border)
+private val scheme=darkColorScheme(primary=Ochre,onPrimary=Ink,background=Ink,onBackground=Sand,surface=Panel,onSurface=Sand,onSurfaceVariant=Muted,outline=Border,surfaceDim=Ink,surfaceBright=Border,surfaceContainerLowest=Ink,surfaceContainerLow=Panel,surfaceContainer=Panel,surfaceContainerHigh=Color(0xFF453125),surfaceContainerHighest=Border,surfaceTint=Ochre,outlineVariant=Border,secondary=Color(0xFFD6B582),primaryContainer=Border,onPrimaryContainer=Ochre,secondaryContainer=Border,onSecondaryContainer=Ochre)
 private val corner=RoundedCornerShape(20.dp)
 
 @Composable fun DinoApp(){
     val context=LocalContext.current
+    val screenState=rememberSaveableStateHolder()
     val catalog=remember {Catalog.load(context)}
     val prefs=remember{context.getSharedPreferences("collection",Context.MODE_PRIVATE)}
     var favorites by remember {mutableStateOf(prefs.getStringSet("favorites",emptySet())!!.toSet())}
@@ -84,7 +92,7 @@ private val corner=RoundedCornerShape(20.dp)
             Box(Modifier.fillMaxSize().safeDrawingPadding(),contentAlignment=Alignment.TopCenter){
                 Box(Modifier.fillMaxSize().widthIn(max=1100.dp)){
                     val d=catalog.firstOrNull{it.id==selected}
-                    if(d==null)Collection(catalog,favorites,{selected=it},{policy="このアプリについて";about=true})
+                    if(d==null)screenState.SaveableStateProvider("collection"){Collection(catalog,favorites,{selected=it},{policy="このアプリについて";about=true})}
                     else key(d.id){Exhibit(d,d.id in favorites,{toggle(d.id)},{selected=null},{policy=it;about=true},artwork,backgroundStrength,backgroundFrame,backgroundFill,{artworkInfo=true})}
                 }
             }
@@ -93,15 +101,23 @@ private val corner=RoundedCornerShape(20.dp)
         }
     }
 }
-@Composable private fun SmallLabel(text:String,modifier:Modifier=Modifier){Text(text,modifier,color=Sage,fontSize=11.sp,fontWeight=FontWeight.SemiBold,letterSpacing=1.3.sp)}
+@Composable private fun SmallLabel(text:String,modifier:Modifier=Modifier){Text(text,modifier,color=Ochre,fontSize=11.sp,fontWeight=FontWeight.SemiBold,letterSpacing=1.3.sp)}
 @Composable private fun GlyphButton(icon:ImageVector,label:String,onClick:()->Unit){IconButton(onClick,Modifier.size(48.dp)){Icon(icon,label,tint=Sand)}}
 @Composable private fun Collection(catalog:List<Dinosaur>,favorites:Set<String>,open:(String)->Unit,about:()->Unit){
     var query by rememberSaveable{mutableStateOf("")};var category by rememberSaveable{mutableStateOf("すべて")};var onlyFavorites by rememberSaveable{mutableStateOf(false)}
-    val visible=catalog.filter{it.matches(query)&&(!onlyFavorites||it.id in favorites)&&when(category){"肉食恐竜"->it.category=="獣脚類"&&it.diet.contains("肉食");"植物食恐竜"->it.diet.contains("植物食");"海と空"->it.category in listOf("海生爬虫類","翼竜類","鳥類に近い恐竜","水辺の爬虫類");else->true}}
+    val context=LocalContext.current;val maps=remember{PaleoMaps.load(context)}
+    val pager=rememberPagerState(initialPage=2,pageCount={GeologicPeriod.entries.size})
+    val scope=rememberCoroutineScope()
+    var allPeriods by rememberSaveable{mutableStateOf(false)}
+    var previousPage by rememberSaveable{mutableIntStateOf(pager.settledPage)}
+    var mapInfo by rememberSaveable{mutableStateOf<Int?>(null)}
+    LaunchedEffect(pager.settledPage){if(previousPage!=pager.settledPage){allPeriods=false;previousPage=pager.settledPage}}
+    val period=GeologicPeriod.entries[pager.settledPage]
+    val visible=catalog.filter{(allPeriods||period.contains(it))&&it.matches(query)&&(!onlyFavorites||it.id in favorites)&&when(category){"肉食恐竜"->it.category=="獣脚類"&&it.diet.contains("肉食");"植物食恐竜"->it.diet.contains("植物食");"海と空"->it.category in listOf("海生爬虫類","翼竜類","鳥類に近い恐竜","水辺の爬虫類");else->true}}
     val grid=rememberLazyGridState()
-    LazyVerticalGrid(columns=GridCells.Adaptive(160.dp),state=grid,modifier=Modifier.fillMaxSize(),contentPadding=PaddingValues(start=20.dp,end=20.dp,bottom=24.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),verticalArrangement=Arrangement.spacedBy(12.dp)){
+    LazyVerticalGrid(columns=GridCells.Adaptive(160.dp),state=grid,modifier=Modifier.fillMaxSize().testTag("collection-grid"),contentPadding=PaddingValues(start=20.dp,end=20.dp,bottom=24.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),verticalArrangement=Arrangement.spacedBy(12.dp)){
         item(key="collection-header",span={GridItemSpan(maxLineSpan)}){Row(Modifier.fillMaxWidth().padding(top=8.dp),verticalAlignment=Alignment.CenterVertically){
-            Icon(Icons.Outlined.ViewInAr,contentDescription=null,tint=Sage,modifier=Modifier.size(28.dp));Spacer(Modifier.width(10.dp))
+            Icon(Icons.Outlined.ViewInAr,contentDescription=null,tint=Ochre,modifier=Modifier.size(28.dp));Spacer(Modifier.width(10.dp))
             Column(Modifier.weight(1f)){Text("恐竜の骨格３D",fontWeight=FontWeight.Bold,fontSize=19.sp);SmallLabel("PALEO COLLECTION",Modifier.padding(top=2.dp))}
             GlyphButton(Icons.Outlined.Info,"このアプリについて",about)
         }}
@@ -110,36 +126,39 @@ private val corner=RoundedCornerShape(20.dp)
             Text("${catalog.size}種類の骨格を、手のひらの展示室へ。",Modifier.padding(top=10.dp),fontSize=13.sp,color=Muted)
             Text("Wikipediaの閲覧数を目安に選んだコレクション",Modifier.padding(top=5.dp),fontSize=11.sp,color=Muted)
         }}
-        if(query.isBlank()&&!onlyFavorites&&category=="すべて")item(key="featured-exhibit",span={GridItemSpan(maxLineSpan)}){
-            val rex=catalog.first{it.id=="tyrannosaurus"}
-            Surface(onClick={open(rex.id)},shape=corner,color=Panel,border=BorderStroke(1.dp,Border)){
-                Column(Modifier.padding(18.dp)){
-                    Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween){SmallLabel("FEATURED EXHIBIT  /  01");Icon(Icons.Outlined.OpenInFull,null,tint=Sage,modifier=Modifier.size(17.dp))}
-                    Thumbnail(rex.id,Modifier.fillMaxWidth().height(172.dp))
-                    Row(verticalAlignment=Alignment.Bottom){Column(Modifier.weight(1f)){Text(rex.name,fontSize=22.sp,fontWeight=FontWeight.Bold);Text("Tyrannosaurus rex",color=Muted,fontSize=12.sp)};Text("骨格を見る  →",fontSize=13.sp,color=Sage)}
-                    Text("独自制作の学習用・模式復元",color=Muted,fontSize=10.sp,modifier=Modifier.padding(top=9.dp))
-                }
-            }
+        item(key="period-maps",span={GridItemSpan(maxLineSpan)}){
+            PeriodCarousel(pager,maps,allPeriods,{page->allPeriods=false;scope.launch{pager.animateScrollToPage(page.coerceIn(0,2))}},{mapInfo=it})
         }
-        // Stable item identity retains input focus when the featured card disappears after typing.
+        // Stable item identity retains focus and scroll position across filter changes.
         item(key="collection-search",span={GridItemSpan(maxLineSpan)}){OutlinedTextField(query,{query=it},Modifier.fillMaxWidth(),placeholder={Text("名前・時代・地域で探す",fontSize=14.sp)},leadingIcon={Icon(Icons.Outlined.Search,null)},trailingIcon={if(query.isNotEmpty())GlyphButton(Icons.Outlined.Close,"検索をクリア"){query=""}},singleLine=true,shape=RoundedCornerShape(16.dp),keyboardOptions=KeyboardOptions(imeAction=ImeAction.Search))}
         item(key="collection-filters",span={GridItemSpan(maxLineSpan)}){Row(Modifier.horizontalScroll(rememberScrollState()),horizontalArrangement=Arrangement.spacedBy(8.dp)){
+            FilterChip(allPeriods,{allPeriods=!allPeriods},label={Text("全時代",fontSize=12.sp)})
             listOf("すべて","肉食恐竜","植物食恐竜","海と空").forEach{FilterChip(category==it,{category=it},label={Text(it,fontSize=12.sp)})}
         }}
         item(key="collection-count",span={GridItemSpan(maxLineSpan)}){Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically){
-            Text("コレクション",fontWeight=FontWeight.Bold,fontSize=18.sp,modifier=Modifier.weight(1f));Text("${visible.size} / ${catalog.size}",color=Muted,fontSize=12.sp)
-            IconToggleButton(onlyFavorites,{onlyFavorites=it}){Icon(if(onlyFavorites)Icons.Outlined.Bookmark else Icons.Outlined.BookmarkBorder,"お気に入りのみ",tint=if(onlyFavorites)Sage else Muted)}
+            Column(Modifier.weight(1f)){Text("コレクション",fontWeight=FontWeight.Bold,fontSize=18.sp);Text(if(allPeriods)"全時代" else period.label,Modifier.semantics{contentDescription="表示中の時代：${if(allPeriods)"全時代" else period.label}"},color=Ochre,fontSize=11.sp)};Text("${visible.size} / ${catalog.size}",color=Muted,fontSize=12.sp)
+            IconToggleButton(onlyFavorites,{onlyFavorites=it}){Icon(if(onlyFavorites)Icons.Outlined.Bookmark else Icons.Outlined.BookmarkBorder,"お気に入りのみ",tint=if(onlyFavorites)Ochre else Muted)}
         }}
-        if(visible.isEmpty())item(key="collection-empty",span={GridItemSpan(maxLineSpan)}){Column(Modifier.fillMaxWidth().padding(vertical=32.dp),horizontalAlignment=Alignment.CenterHorizontally){Icon(Icons.Outlined.SearchOff,null,tint=Muted);Text("該当する骨格がありません",Modifier.padding(top=12.dp));TextButton({query="";category="すべて";onlyFavorites=false}){Text("絞り込みを解除")}}}
+        if(visible.isEmpty())item(key="collection-empty",span={GridItemSpan(maxLineSpan)}){Column(Modifier.fillMaxWidth().padding(vertical=32.dp),horizontalAlignment=Alignment.CenterHorizontally){Icon(Icons.Outlined.SearchOff,null,tint=Muted);Text("該当する骨格がありません",Modifier.padding(top=12.dp));TextButton({query="";category="すべて";onlyFavorites=false;allPeriods=true}){Text("絞り込みを解除")}}}
         items(visible,key={it.id}){d->Surface(onClick={open(d.id)},shape=corner,color=Panel){Column(Modifier.padding(13.dp)){
-            Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween){SmallLabel(String.format(java.util.Locale.ROOT,"%02d",catalog.indexOf(d)+1));if(d.id in favorites)Icon(Icons.Outlined.Bookmark,null,tint=Sage,modifier=Modifier.size(15.dp))}
-            Thumbnail(d.id,Modifier.fillMaxWidth().height(108.dp))
+            Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween){SmallLabel(String.format(java.util.Locale.ROOT,"%02d",catalog.indexOf(d)+1));if(d.id in favorites)Icon(Icons.Outlined.Bookmark,null,tint=Ochre,modifier=Modifier.size(15.dp))}
+            CollectionIllustration(d,Modifier.fillMaxWidth().height(128.dp).clip(RoundedCornerShape(12.dp)))
             Text(d.name,fontSize=14.sp,fontWeight=FontWeight.Bold,maxLines=1,overflow=TextOverflow.Ellipsis)
             Text(d.latin,Modifier.padding(top=3.dp),fontSize=10.sp,color=Muted,maxLines=1,overflow=TextOverflow.Ellipsis)
-            Text(d.category+" · "+d.period.substringBefore("紀")+"紀",Modifier.padding(top=10.dp),fontSize=10.sp,color=Sage)
+            Text(d.category+" · "+d.period.substringBefore("紀")+"紀",Modifier.padding(top=10.dp),fontSize=10.sp,color=Ochre)
         }}}
         item(key="collection-note",span={GridItemSpan(maxLineSpan)}){Text("骨格は独自制作の模式復元です。実物標本のスキャンではありません。翼竜や海生爬虫類など、恐竜とは異なる系統も含みます。",Modifier.padding(top=12.dp),fontSize=11.sp,lineHeight=18.sp,color=Muted)}
         item(key="collection-about",span={GridItemSpan(maxLineSpan)}){TextButton(about,Modifier.fillMaxWidth()){Text("出典・ライセンス・プライバシー",fontSize=12.sp)}}
+    }
+    mapInfo?.let{index->MapSourcesDialog(GeologicPeriod.entries[index],maps.getValue(GeologicPeriod.entries[index]),{mapInfo=null})}
+}
+@Composable private fun CollectionIllustration(d:Dinosaur,modifier:Modifier){
+    val context=LocalContext.current
+    val art by produceState<Bitmap?>(null,d.id){value=d.artwork?.let{withContext(Dispatchers.IO){ArtworkCache.preview(context,it)}}}
+    Box(modifier.background(Ink)){
+        art?.let{Image(it.asImageBitmap(),"${d.name}の復元イメージ",Modifier.fillMaxSize(),contentScale=ContentScale.Crop,alpha=.6f)}
+        Box(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(Ink.copy(alpha=.12f),Ink.copy(alpha=.25f)))))
+        Thumbnail(d.id,Modifier.fillMaxSize().padding(4.dp))
     }
 }
 private val thumbnails=android.util.LruCache<String,Bitmap>(12)
@@ -155,7 +174,7 @@ private fun makeThumbnail(mesh:Skeleton,wide:Boolean):Bitmap {
     fun screen(v:V):Pair<Float,Float>{val p=proj(v);return Pair(390+(p.first-cx)*scale,180-(p.second-cy)*scale)}
     mesh.faces.forEach{f->val a=screen(f.a);val b=screen(f.b);val c=screen(f.c);val path=Path().apply{moveTo(a.first,a.second);lineTo(b.first,b.second);lineTo(c.first,c.second);close()};paint.color=0xFFBBAF93.toInt();paint.style=Paint.Style.FILL;canvas.drawPath(path,paint)}
     mesh.lines.sortedBy{it.a.z+it.b.z}.forEach{line->val a=screen(line.a);val b=screen(line.b);val width=max(1.5f,line.radius*scale*1.7f)
-        paint.style=Paint.Style.STROKE;paint.color=0xFF26372D.toInt();paint.strokeWidth=width+1.3f;canvas.drawLine(a.first,a.second,b.first,b.second,paint)
+        paint.style=Paint.Style.STROKE;paint.color=0xFF4F392B.toInt();paint.strokeWidth=width+1.3f;canvas.drawLine(a.first,a.second,b.first,b.second,paint)
         paint.color=if(line.a.z<-.1f)0xFF9D947F.toInt() else 0xFFE2D5B7.toInt();paint.strokeWidth=width;canvas.drawLine(a.first,a.second,b.first,b.second,paint)
         if(line.group in listOf(4,5,6)){paint.style=Paint.Style.FILL;canvas.drawCircle(a.first,a.second,width*.66f,paint);canvas.drawCircle(b.first,b.second,width*.6f,paint)}
     }
@@ -170,7 +189,7 @@ private val cameraSaver=Saver<CameraMemory,List<Float>>(save={val p=it.view?.mus
     val defaultPose=if((ModelProfiles.extras[d.id]?.base?:d.id) in listOf("pteranodon","archaeopteryx","mosasaurus"))CameraPose(35f,38f) else CameraPose()
     val memory=rememberSaveable(saver=cameraSaver){CameraMemory(defaultPose)}
     var view by remember{mutableStateOf<SkeletonView?>(null)}
-    BackHandler {if(fullscreen)fullscreen=false else back()}
+    BackHandler {when{fullscreen->fullscreen=false;tab==1->tab=0;else->back()}}
     Column(Modifier.fillMaxSize()){
         Row(Modifier.fillMaxWidth().background(Ink.copy(alpha=.65f)).padding(horizontal=8.dp,vertical=2.dp),verticalAlignment=Alignment.CenterVertically){
             GlyphButton(Icons.AutoMirrored.Outlined.ArrowBack,"一覧に戻る",back)
@@ -202,7 +221,16 @@ private val cameraSaver=Saver<CameraMemory,List<Float>>(save={val p=it.view?.mus
             lifecycle.addObserver(observer);if(lifecycle.currentState.isAtLeast(Lifecycle.State.RESUMED))v?.onResume()
             onDispose{memory.pose=v?.museumRenderer?.pose?:memory.pose;if(memory.view===v)memory.view=null;lifecycle.removeObserver(observer);v?.onPause()}
         }
-        Column(Modifier.fillMaxWidth().background(Panel.copy(alpha=.86f)).padding(horizontal=16.dp,vertical=10.dp)){
+        val swipeThreshold=with(LocalDensity.current){48.dp.toPx()}
+        val showDetails={tab=1;fullscreen=false}
+        Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(topStart=22.dp,topEnd=22.dp)).background(Panel.copy(alpha=.94f))
+            .semantics{contentDescription="部位と観察のカード";customActions=listOf(CustomAccessibilityAction("詳細図鑑を開く"){showDetails();true})}
+            .pointerInput(swipeThreshold){var distance=0f;detectVerticalDragGestures(onDragStart={distance=0f},onDragCancel={distance=0f},onDragEnd={if(distance < -swipeThreshold)showDetails();distance=0f}){change,dy->distance+=dy;change.consume()}}
+            .padding(horizontal=16.dp,vertical=6.dp)){
+            Box(Modifier.align(Alignment.CenterHorizontally).padding(top=3.dp).size(32.dp,4.dp).clip(RoundedCornerShape(2.dp)).background(Muted.copy(alpha=.5f)))
+            TextButton(showDetails,Modifier.align(Alignment.CenterHorizontally).height(40.dp),contentPadding=PaddingValues(horizontal=12.dp,vertical=0.dp)){
+                Icon(Icons.Outlined.KeyboardArrowUp,null,Modifier.size(18.dp));Text("上にスワイプして詳細図鑑",fontSize=11.sp)
+            }
             Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),horizontalArrangement=Arrangement.spacedBy(6.dp),verticalAlignment=Alignment.CenterVertically){
                 listOf("側面" to CameraPose(0f,0f),"正面" to CameraPose(90f,0f),"背面" to CameraPose(-90f,0f),"上面" to CameraPose(0f,89f),"下面" to CameraPose(0f,-89f)).forEach{(name,c)->OutlinedButton({view?.camera(c);auto=false},contentPadding=PaddingValues(horizontal=13.dp,vertical=0.dp)){Text(name,fontSize=12.sp)}}
                 FilterChip(auto,{auto=!auto},label={Text("自動回転",fontSize=12.sp)})
@@ -222,7 +250,7 @@ private val cameraSaver=Saver<CameraMemory,List<Float>>(save={val p=it.view?.mus
 }
 @Composable private fun Details(d:Dinosaur,policy:(String)->Unit){
     val context=LocalContext.current
-    LazyColumn(Modifier.fillMaxSize().background(Ink.copy(alpha=.88f)),contentPadding=PaddingValues(20.dp),verticalArrangement=Arrangement.spacedBy(18.dp)){
+    LazyColumn(Modifier.fillMaxSize().background(Ink.copy(alpha=.88f)).testTag("details-list"),contentPadding=PaddingValues(20.dp),verticalArrangement=Arrangement.spacedBy(18.dp)){
         item{SmallLabel("FIELD NOTES  /  ${d.category}");Text(d.subtitle,Modifier.padding(top=10.dp),fontSize=24.sp,fontWeight=FontWeight.Bold,lineHeight=34.sp);Text(d.summary,Modifier.padding(top=12.dp),fontSize=14.sp,lineHeight=25.sp,color=Muted)}
         item{Surface(shape=corner,color=Panel){Column(Modifier.padding(18.dp),verticalArrangement=Arrangement.spacedBy(13.dp)){
             Fact("生きていた時代",d.period+"\n"+d.age);Fact("化石の主な産地",d.region);Fact("大きさの目安",d.size);Fact("食性",d.diet);Fact("閲覧数による選定", "収録候補中 ${d.rank}位 · ${String.format(java.util.Locale.JAPAN,"%,d",d.pageviews)}回\n英語版Wikipedia · 2026年6〜8月")
@@ -254,7 +282,7 @@ private val cameraSaver=Saver<CameraMemory,List<Float>>(save={val p=it.view?.mus
         Slider(strength,change,modifier=Modifier.semantics{contentDescription="背景の濃さ"})
         Row(horizontalArrangement=Arrangement.spacedBy(6.dp)){FilterChip(fill,{changeFill(true)},label={Text("画面に広げる",fontSize=11.sp)});FilterChip(!fill,{changeFill(false)},label={Text("画像全体",fontSize=11.sp)})}
         Text("生体復元画です。色や軟組織、姿勢には推定が含まれ、骨格モデルと細部が異なる場合があります。",fontSize=12.sp)
-        if(art.note.isNotBlank())Text(art.note,fontSize=12.sp,color=Sage)
+        if(art.note.isNotBlank())Text(art.note,fontSize=12.sp,color=Ochre)
         Text(art.title,fontSize=12.sp);Text("作者：${art.artist}",fontSize=12.sp)
         if(art.credit.isNotBlank())Text(art.credit,fontSize=11.sp)
         Text("${art.license} · 画面への配置時にトリミング・明度調整",fontSize=12.sp)

@@ -12,14 +12,14 @@ import org.junit.runner.RunWith
 class SearchTest {
     @get:Rule val compose=createEmptyComposeRule()
 
-    @Test fun typingRetainsFocusWhenFeaturedExhibitDisappears() {
+    @Test fun typingRetainsFocusWhileFilteringTheSelectedPeriod() {
         ActivityScenario.launch(MainActivity::class.java).use {
-            compose.onNode(hasScrollToIndexAction()).performScrollToNode(hasSetTextAction())
+            compose.onNodeWithTag("collection-grid").performScrollToNode(hasSetTextAction())
             compose.onNode(hasSetTextAction()).performClick().performTextInput("t")
             compose.onNode(hasSetTextAction()).assertIsFocused().assertTextContains("t")
             compose.onNode(hasSetTextAction()).performTextInput("itanosaurus")
             compose.onNode(hasSetTextAction()).assertIsFocused().assertTextContains("titanosaurus")
-            compose.onNode(hasScrollToIndexAction()).performScrollToNode(hasText("ティタノサウルス"))
+            compose.onNodeWithTag("collection-grid").performScrollToNode(hasText("ティタノサウルス"))
             compose.onNodeWithText("ティタノサウルス").assertIsDisplayed()
         }
     }

@@ -2,12 +2,23 @@ package io.github.hatake716.dinobones
 
 import io.github.hatake716.dinobones.model.*
 import io.github.hatake716.dinobones.data.Catalog
+import io.github.hatake716.dinobones.data.GeologicPeriod
 import org.junit.Test
 import org.junit.Assert.*
 import java.io.File
 import java.net.URI
 
 class ModelTest {
+    @Test fun erasCoverEveryAnimalAndKeepBoundarySpanningGeneraInBothPeriods(){
+        val catalog=Catalog.parse(File("src/main/assets/dinosaurs.json").readText())
+        val groups=GeologicPeriod.entries.map{era->catalog.filter(era::contains).map{it.id}.toSet()}
+        assertEquals(listOf(5,25,72),groups.map{it.size})
+        assertEquals(catalog.map{it.id}.toSet(),groups.flatten().toSet())
+        assertTrue("tyrannosaurus" in groups[2]);assertFalse("tyrannosaurus" in groups[1])
+        assertTrue("stegosaurus" in groups[1]);assertTrue("herrerasaurus" in groups[0])
+        assertTrue("ichthyosaurus" in groups[1]);assertFalse("ichthyosaurus" in groups[0])
+        assertEquals(setOf("mamenchisaurus","pliosaurus"),groups[1].intersect(groups[2]))
+    }
     @Test fun everyRequestedAnimalHasDistinctFiniteBoundedGeometry(){
         val signatures=mutableMapOf<Int,String>()
         for(id in SkeletonFactory.ids){

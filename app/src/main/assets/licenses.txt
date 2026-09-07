@@ -18,6 +18,16 @@ https://creativecommons.org/licenses/by-sa/4.0/
 ティタノサウルスとサウロファガナクスの2点は、本アプリ用にOpenAI image_genで新規生成した仮説的なイメージです。権利を有する範囲でApache 2.0の対象とします。独占権や学術的正確性を保証するものではありません。
 全ファイルの記録：https://github.com/hatake716/kyouryu-3d/blob/main/docs/artwork-provenance.json
 
+時代の世界地図（全3点）
+作者：Scotese, Christopher R.; Vérard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Ádám T.
+PALEOMAP project（2024）、CC BY 4.0。三畳紀225 Ma、ジュラ紀155 Ma、白亜紀100 Ma。配信用縮小画像を未加工で同梱し、表示時は全体が収まるよう縮小します。
+https://creativecommons.org/licenses/by/4.0/
+https://doi.org/10.5281/zenodo.10659112
+各地図の原本と作者・配布条件はメニューの「地図の出典」から確認できます。黒線は現在の国境です。
+全ファイルの記録：https://github.com/hatake716/kyouryu-3d/blob/main/docs/paleomap-provenance.json
+時代区分の数値はICS国際年代層序表 2026/06を参照。表の画像は同梱していません。
+https://stratigraphy.org/chart/
+
 Natural History Museum、学術論文等
 科学的な事実確認・補足に使用。写真、復元図、3Dファイル、記事の文章表現を転載していません。個別の参照先は詳細図鑑に掲載しています。
 

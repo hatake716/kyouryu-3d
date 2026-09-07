@@ -8,6 +8,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.*
 import io.github.hatake716.dinobones.model.SkeletonView
+import io.github.hatake716.dinobones.data.EarthColors
 import org.junit.Assert.*
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -43,6 +44,8 @@ class BackgroundTest {
     @Test fun backgroundControlsKeepCameraAndSurviveRecreation(){
         Configurator.getInstance().setWaitForIdleTimeout(500)
         ActivityScenario.launch(MainActivity::class.java).use { s ->
+            device.wait(Until.hasObject(By.text("恐竜の骨格３D")),10000)
+            device.swipe(500,1950,500,800,30);device.waitForIdle()
             click("ティラノサウルス")
             val view=viewer(s);val pose=view.museumRenderer.pose
             click("背景と出典");strength(0f);click("閉じる");Thread.sleep(300)
@@ -51,7 +54,8 @@ class BackgroundTest {
             // This viewport pixel is away from the bones, floor and text.
             val point=IntArray(2);s.onActivity{view.getLocationOnScreen(point)}
             val screen=inst.uiAutomation.takeScreenshot();val c=screen.getPixel(point[0]+4,point[1]+view.height/3);screen.recycle()
-            assertTrue("Background off pixel $c",abs(Color.red(c)-16)<5 && abs(Color.green(c)-24)<5 && abs(Color.blue(c)-21)<5)
+            val earth=EarthColors.Background
+            assertTrue("Background off pixel $c",abs(Color.red(c)-Color.red(earth))<5 && abs(Color.green(c)-Color.green(earth))<5 && abs(Color.blue(c)-Color.blue(earth))<5)
             shot("background-off")
             click("背景と出典");strength(.55f);click("画像全体");shot("background-attribution")
             click("閉じる");Thread.sleep(300)

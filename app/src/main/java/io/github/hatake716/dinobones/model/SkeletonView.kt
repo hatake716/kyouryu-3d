@@ -1,6 +1,7 @@
 package io.github.hatake716.dinobones.model
 
 import android.content.Context
+import io.github.hatake716.dinobones.data.EarthColors
 import android.graphics.Bitmap
 import android.opengl.GLUtils
 import android.opengl.GLES20.*
@@ -46,7 +47,7 @@ class SkeletonView(context: Context): GLSurfaceView(context) {
         val span=if(count>=2)hypot(e.getX(1)-e.getX(0),e.getY(1)-e.getY(0)) else 0f
         if(e.actionMasked==MotionEvent.ACTION_MOVE&&count==pointers){
             val dx=x-lastX;val dy=y-lastY
-            museumRenderer.pose=if(count==1)museumRenderer.pose.orbit(dx*.32f,dy*.27f) else museumRenderer.pose.scale(if(lastSpan>1f)span/lastSpan else 1f).pan(dx/width*8f/museumRenderer.pose.zoom,-dy/height*8f/museumRenderer.pose.zoom)
+            museumRenderer.pose=if(count==1)museumRenderer.pose.orbit(-dx*.32f,dy*.27f) else museumRenderer.pose.scale(if(lastSpan>1f)span/lastSpan else 1f).pan(dx/width*8f/museumRenderer.pose.zoom,-dy/height*8f/museumRenderer.pose.zoom)
             requestRender()
         }
         if(e.actionMasked==MotionEvent.ACTION_UP){performClick();parent?.requestDisallowInterceptTouchEvent(false)}
@@ -55,6 +56,9 @@ class SkeletonView(context: Context): GLSurfaceView(context) {
     }
 }
 class MuseumRenderer:GLSurfaceView.Renderer {
+    private val baseRed=((EarthColors.Background shr 16) and 255)/255f
+    private val baseGreen=((EarthColors.Background shr 8) and 255)/255f
+    private val baseBlue=(EarthColors.Background and 255)/255f
     @Volatile var pose=CameraPose()
     @Volatile var pendingMesh:Skeleton?=null
     @Volatile var selected=0
@@ -91,8 +95,8 @@ class MuseumRenderer:GLSurfaceView.Renderer {
                 vec3 n=normalize(vNormal);
                 float light=0.62+0.36*max(dot(n,normalize(vec3(0.1,1.0,0.8))),0.0)+0.16*abs(dot(n,normalize(vec3(-0.8,0.3,-0.5))));
                 vec3 color=vec3(0.83,0.77,0.63);
-                if(uSelected>0.5){if(abs(vGroup-uSelected)<0.2)color=vec3(0.66,0.89,0.55);else color=vec3(0.37,0.40,0.35);}
-                if(vGroup<0.0)color=vec3(0.14,0.20,0.17);
+                if(uSelected>0.5){if(abs(vGroup-uSelected)<0.2)color=vec3(1.0,0.70,0.32);else color=vec3(0.44,0.36,0.29);}
+                if(vGroup<0.0)color=vec3(0.29,0.22,0.16);
                 gl_FragColor=vec4(color*light,1.0);
             }
         """.trimIndent())
@@ -101,9 +105,9 @@ class MuseumRenderer:GLSurfaceView.Renderer {
         posLoc=glGetAttribLocation(program,"aPosition");normalLoc=glGetAttribLocation(program,"aNormal");groupLoc=glGetAttribLocation(program,"aGroup")
         matrixLoc=glGetUniformLocation(program,"uMatrix");selectLoc=glGetUniformLocation(program,"uSelected");isolateLoc=glGetUniformLocation(program,"uIsolate")
         val buffers=IntArray(2);glGenBuffers(2,buffers,0);buffer=buffers[0];floor=buffers[1]
-        glEnable(GL_DEPTH_TEST);glClearColor(16/255f,24/255f,21/255f,1f)
+        glEnable(GL_DEPTH_TEST);glClearColor(baseRed,baseGreen,baseBlue,1f)
         val bvs=shader(GL_VERTEX_SHADER,"attribute vec2 aPoint; varying vec2 vUv; void main(){gl_Position=vec4(aPoint,0.0,1.0);vUv=vec2((aPoint.x+1.0)*0.5,(1.0-aPoint.y)*0.5);}")
-        val bfs=shader(GL_FRAGMENT_SHADER,"precision mediump float; varying vec2 vUv; uniform sampler2D uImage; uniform vec4 uBounds; uniform vec4 uCrop; uniform float uStrength; void main(){vec2 uv=uCrop.xy+(uBounds.xy+vUv*uBounds.zw)*uCrop.zw;vec4 art=texture2D(uImage,uv);if(uv.x<0.0||uv.x>1.0||uv.y<0.0||uv.y>1.0)art.a=0.0;gl_FragColor=vec4(mix(vec3(16.0,24.0,21.0)/255.0,art.rgb,uStrength*art.a),1.0);}")
+        val bfs=shader(GL_FRAGMENT_SHADER,"precision mediump float; varying vec2 vUv; uniform sampler2D uImage; uniform vec4 uBounds; uniform vec4 uCrop; uniform float uStrength; uniform vec3 uBase; void main(){vec2 uv=uCrop.xy+(uBounds.xy+vUv*uBounds.zw)*uCrop.zw;vec4 art=texture2D(uImage,uv);if(uv.x<0.0||uv.x>1.0||uv.y<0.0||uv.y>1.0)art.a=0.0;gl_FragColor=vec4(mix(uBase,art.rgb,uStrength*art.a),1.0);}")
         backgroundProgram=glCreateProgram();glAttachShader(backgroundProgram,bvs);glAttachShader(backgroundProgram,bfs);glLinkProgram(backgroundProgram)
         glGetProgramiv(backgroundProgram,GL_LINK_STATUS,linked,0);check(linked[0]!=0){glGetProgramInfoLog(backgroundProgram)};glDeleteShader(bvs);glDeleteShader(bfs)
         val textures=IntArray(1);glGenTextures(1,textures,0);texture=textures[0];uploadedArtwork=null;backgroundReady=false
@@ -121,6 +125,7 @@ class MuseumRenderer:GLSurfaceView.Renderer {
         val cropW=if(backgroundFill)min(1f,windowAspect/imageAspect) else max(1f,windowAspect/imageAspect);val cropH=if(backgroundFill)min(1f,imageAspect/windowAspect) else max(1f,imageAspect/windowAspect)
         glDisable(GL_DEPTH_TEST);glUseProgram(backgroundProgram);glBindBuffer(GL_ARRAY_BUFFER,0)
         val loc=glGetAttribLocation(backgroundProgram,"aPoint");glEnableVertexAttribArray(loc);quad.position(0);glVertexAttribPointer(loc,2,GL_FLOAT,false,0,quad)
+        glUniform3f(glGetUniformLocation(backgroundProgram,"uBase"),baseRed,baseGreen,baseBlue)
         glUniform1i(glGetUniformLocation(backgroundProgram,"uImage"),0);glUniform1f(glGetUniformLocation(backgroundProgram,"uStrength"),artworkStrength)
         glUniform4f(glGetUniformLocation(backgroundProgram,"uBounds"),bounds[0],bounds[1],bounds[2],bounds[3])
         glUniform4f(glGetUniformLocation(backgroundProgram,"uCrop"),(1f-cropW)/2f,(1f-cropH)/2f,cropW,cropH)

@@ -61,6 +61,11 @@ for selected in json.loads((ROOT/'docs/selected-taxa.json').read_text()):
   title,text,url=UPDATES[name];secs.insert(0,{'title':title,'text':text})
   if url:refs.append({'title':'分類・年代の更新に関する研究','url':url})
   if name in ['Saurophaganax','Nanotyrannus','Titanosaurus','Bruhathkayosaurus','Cristatusaurus']:summary=text
+ if name=='Ichthyosaurus':
+  period='ジュラ紀前期'
+  summary='イクチオサウルスは、ジュラ紀前期のヨーロッパから知られる魚竜の属です。魚竜類全体には三畳紀の種類も含まれますが、本項目ではイクチオサウルス属を扱います。'
+  notice['text']+=' 時代別表示では英語版の基本情報とジュラ紀の産出記録に基づきジュラ紀前期に分類しています。日本語版の抄録には三畳紀にさかのぼる旧来の範囲表記も残っているため、属の範囲と魚竜類全体を区別して読んでください。'
+  refs.append({'title':'Natural History Museum · 魚竜類とジュラ紀のイクチオサウルス','url':'https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html'})
  modelNote=f'{category}の体型構造を共有し、首・頭・尾・四肢や特徴的な突起を模式化した独自モデルです。比率は図示のための設定で、化石の計測値ではありません。属内の全種、全個体の違いは表現していません。'
  if name in ['Saurophaganax','Troodon','Titanosaurus','Bruhathkayosaurus','Cristatusaurus']:modelNote+=' 本属は標本・分類に強い不確実性があり、全身像は近縁群に基づく仮説です。'
  rows.append(dict(id=id,name=ja,latin=name,subtitle=subtitle,category=category,period=period,age=age,startMa=start,endMa=end,region=region,size=size,diet=diet,summary=summary,sections=[notice]+secs,sources=refs,modelNote=modelNote,wikiTitle=ja,videos=[],contentOrigin='ja-excerpt'))

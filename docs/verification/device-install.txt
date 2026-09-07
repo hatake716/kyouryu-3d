@@ -1,0 +1,11 @@
+Device: Pixel 10a / API 37 / page size 4096 bytes
+Package: io.github.hatake716.dinobones
+Update: 1.1.0 (versionCode 2) -> 1.2.0 (versionCode 3), adb install --no-incremental -r
+Installed APK SHA-256: ab5eec508892b132915dccc7f9a4b61f5b87faca40cee8d424a206ca9ecc10ee
+PASS: installed APK matches the release artifact tested on the emulator
+PASS: package versionName 1.2.0, versionCode 3, targetSdk 36
+PASS: app MainActivity is topResumedActivity after the OS package-update transition
+PASS: process remains alive after launch; no fatal exception in that PID's crash log
+No uninstall, input injection, account changes or device-setting changes.
+Gesture verification: emulator only. Existing data retained by package-manager update.
+Verified: 2026-09-07 JST

@@ -1,0 +1,23 @@
+{
+  "asset": "theater/mesozoic-forest.png",
+  "title": "中生代の巨大森林をイメージした壁画",
+  "created": "2026-09-08",
+  "generator": "OpenAI built-in image_gen",
+  "referenceImages": [],
+  "prompt": "Use case: historical-scene. Asset type: panoramic forest mural texture for the inside walls of a first-person 3D paleontology museum Android app, original artwork. Create a highly detailed, naturalistic environmental matte painting evoking a vast Mesozoic forest. Colossal tall araucaria-like conifers rising far above dense tree ferns, cycad-like plants and fern understory; layered forest receding into luminous blue-green atmospheric mist, glimpses of pale blue sky through high canopies. View horizontally from human eye height, inviting daylight, beautifully nuanced bark, feathery green foliage. Bright, airy upper half with sunlit tree crowns and sky; readable medium-light greens and warm earth tones below, no dark vignette, no black canopy ceiling. Broad continuous forest vista, forest covers entire image edge to edge, no large foreground tree blocking the view, no distinct central focal point. Paint as one flat unframed panoramic image, landscape aspect ratio 2:1, ideally 2048 x 1024 or higher at that ratio. The left and right edges should be visually compatible to tile horizontally at equal ground/sky levels, with fine distant foliage near both edges. This is evocative prehistoric concept art rather than an exact scientific reconstruction. No dinosaurs or other animals, no humans, no skeletons, no buildings, no museum interior, no lettering, no logos, no border, no watermarks. Original composition, not a recreation of any existing mural or museum artwork.",
+  "bytes": 3222853,
+  "sha256": "d7e4dd1f258f27187024d7b3ab853b8cb64694fddd10f5f1aef8ac2d569abee5",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "originalBytesPreserved": true,
+  "c2paPreserved": true,
+  "runtimeTransforms": [
+    "2048 x 1024 texture upload; trilinear mipmaps",
+    "Mirrored horizontal repeats on solid gallery walls",
+    "Perspective projection and light atmospheric haze"
+  ],
+  "scope": "AI生成による創作の森林景観。特定の年代・産地の植生を確定した科学的復元ではない。既存の博物館壁画・写真は参照していない。",
+  "rights": "hatake716が権利を有する範囲でApache License 2.0として提供。AI出力の独占的な著作権成立を保証する表示はしない。"
+}

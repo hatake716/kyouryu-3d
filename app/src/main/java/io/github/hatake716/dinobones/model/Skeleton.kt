@@ -2,7 +2,7 @@ package io.github.hatake716.dinobones.model
 
 import kotlin.math.*
 
-// Original educational geometry. Coordinates are authored here, not traced from a specimen.
+// Procedural reconstruction, with measured axial lengths where ModelEvidence supplies them.
 data class V(val x: Float, val y: Float, val z: Float) {
     operator fun plus(b: V) = V(x+b.x,y+b.y,z+b.z)
     operator fun minus(b: V) = V(x-b.x,y-b.y,z-b.z)
@@ -11,15 +11,16 @@ data class V(val x: Float, val y: Float, val z: Float) {
     fun length() = sqrt(x*x+y*y+z*z)
     fun unit() = this * (1f/length().coerceAtLeast(0.00001f))
 }
-data class BoneLine(val a: V, val b: V, val radius: Float, val group: Int)
+data class BoneLine(val a: V, val b: V, val radius: Float, val group: Int, val measurement: String? = null)
 data class BoneFace(val a: V, val b: V, val c: V, val group: Int)
-data class Skeleton(val vertices: FloatArray, val lines: List<BoneLine>, val faces: List<BoneFace>, val radius: Float) {
-    val vertexCount get() = vertices.size / 7
+data class Skeleton(val vertices: FloatArray, val lines: List<BoneLine>, val faces: List<BoneFace>, val radius: Float, val metresPerUnit: Float? = null, val texturePrefix: String? = null, val fossilMaterial:FossilMaterial? = null) {
+    val vertexCount get() = vertices.size / 9
+    val groups: Set<Int> by lazy { buildSet { for(i in 6 until vertices.size step 9)add(vertices[i].toInt()) } }
 }
 object BoneGroups {
     val names = listOf("全身", "頭骨", "背骨・尾", "肋骨", "肩・骨盤", "前肢・翼", "後肢", "装飾・装甲")
     val descriptions = listOf(
-        "骨の配置と体形を観察します。骨数・関節面・細部の形状は簡略化しています。表示サイズは種ごとに調整され、同じ縮尺ではありません。",
+        "骨の配置と体形を観察します。使用した標本・計測の範囲は「モデルと実寸資料」で確認できます。画面では全体を見渡せる大きさに調整します。",
         "頭骨と下顎。歯や角、くちばしの形は食性や分類を考える手がかりになります。穴の位置や歯数は模式的な表現です。",
         "首・胴・尾の椎骨。体を支え、筋肉が付く突起を持ちます。尾は姿勢の安定や推進にも関わります。椎骨数は実測値ではありません。",
         "胸郭を形づくる肋骨。左右から胴を包む立体的な配置を確認できます。腹肋骨や軟骨は省略しています。",
@@ -29,54 +30,158 @@ object BoneGroups {
         "皮骨や角芯、骨質のとさかなど。ステゴサウルスの板やアンキロサウルスの装甲は皮膚内に生じた骨です。角質の覆いは省略しています。"
     )
 }
-private class Builder {
-    val data = ArrayList<Float>(250000)
-    val lines = mutableListOf<BoneLine>()
-    val faces = mutableListOf<BoneFace>()
-    fun vertex(p: V,n: V,g: Int) { data.add(p.x);data.add(p.y);data.add(p.z);data.add(n.x);data.add(n.y);data.add(n.z);data.add(g.toFloat()) }
-    fun tri(a: V,b: V,c: V,g: Int) { val n=(b-a).cross(c-a).unit();vertex(a,n,g);vertex(b,n,g);vertex(c,n,g) }
-    fun ball(c: V, sx: Float,sy: Float,sz: Float,g: Int) {
-        fun p(t: Int,s: Int): V {val a=PI.toFloat()*t/6;val b=2*PI.toFloat()*s/10;return c+V(sin(a)*cos(b)*sx,cos(a)*sy,sin(a)*sin(b)*sz)}
-        for(t in 0 until 6) for(s in 0 until 10) {tri(p(t,s),p(t+1,s),p(t+1,s+1),g);tri(p(t,s),p(t+1,s+1),p(t,s+1),g)}
+internal class Builder(capacity:Int=400000,private val countOnly:Boolean=false,val theater:Boolean=false) {
+    private var data=FloatArray(if(countOnly)0 else capacity)
+    private var used=0
+    val floatCount get()=used
+    val lines=mutableListOf<BoneLine>()
+    val faces=mutableListOf<BoneFace>()
+    fun vertex(p:V,n:V,g:Int) {
+        if(countOnly){used+=9;return}
+        if(used+9>data.size)data=data.copyOf(data.size*2)
+        for(v in floatArrayOf(p.x,p.y,p.z,n.x,n.y,n.z,g.toFloat(),0f,0f))data[used++]=v
     }
-    fun tube(a: V,b: V,r1: Float,r2: Float,g: Int,record: Boolean=true) {
-        val axis=(b-a).unit();if((b-a).length()<0.0001f)return
-        val u=axis.cross(if(abs(axis.y)<0.95f)V(0f,1f,0f) else V(1f,0f,0f)).unit(); val v=axis.cross(u)
-        for(i in 0 until 8) {
-            val t=i*PI.toFloat()/4;val nt=(i+1)*PI.toFloat()/4
-            val n=u*cos(t)+v*sin(t);val m=u*cos(nt)+v*sin(nt)
-            tri(a+n*r1,b+n*r2,b+m*r2,g);tri(a+n*r1,b+m*r2,a+m*r1,g)
-            tri(a,a+m*r1,a+n*r1,g);tri(b,b+n*r2,b+m*r2,g)
+    fun tri(a:V,b:V,c:V,g:Int){val n=(b-a).cross(c-a).unit();vertex(a,n,g);vertex(b,n,g);vertex(c,n,g)}
+    fun smooth(a:V,b:V,c:V,na:V,nb:V,nc:V,g:Int){vertex(a,na,g);vertex(b,nb,g);vertex(c,nc,g)}
+    fun ball(c:V,sx:Float,sy:Float,sz:Float,g:Int) {
+        val latitude=if(theater)4 else 8;val longitude=if(theater)8 else 14
+        fun point(t:Int,s:Int):V {val a=PI.toFloat()*t/latitude;val b=2*PI.toFloat()*s/longitude;return c+V(sin(a)*cos(b)*sx,cos(a)*sy,sin(a)*sin(b)*sz)}
+        fun normal(p:V):V {val q=p-c;return V(q.x/(sx*sx),q.y/(sy*sy),q.z/(sz*sz)).unit()}
+        for(t in 0 until latitude)for(s in 0 until longitude){val a=point(t,s);val b=point(t+1,s);val c1=point(t+1,s+1);val d=point(t,s+1)
+            if(t>0)smooth(a,b,d,normal(a),normal(b),normal(d),g)
+            if(t<latitude-1)smooth(d,b,c1,normal(d),normal(b),normal(c1),g)
         }
-        if(record) lines.add(BoneLine(a,b,max(r1,r2),g))
     }
-    fun bone(a: V,b: V,r: Float,g: Int) {
-        val d=b-a; tube(a,a+d*.2f,r*1.3f,r*.72f,g,false);tube(a+d*.2f,a+d*.8f,r*.72f,r*.7f,g,false);tube(a+d*.8f,b,r*.7f,r*1.3f,g,false)
-        ball(a,r*1.4f,r*1.15f,r*1.3f,g);ball(b,r*1.3f,r*1.1f,r*1.35f,g); lines.add(BoneLine(a,b,r,g))
+    // Smooth elliptic rings with shared normals. No internal caps at curved-segment seams.
+    private fun sweep(input:List<V>,inputRadii:List<Float>,g:Int,ellipticity:Float=1f,sculpt:Boolean=false,frameAxis:V?=null){
+        val samples=if(theater&&input.size>4)input.indices.filter{it%3==0||it==input.lastIndex} else input.indices.toList()
+        val points=samples.map{input[it]};val radii=samples.map{inputRadii[it]}
+        val sides=if(theater)6 else if(sculpt)18 else 12
+        val rings=points.indices.map { i->
+            val tangent=frameAxis?:(points[min(i+1,points.lastIndex)]-points[max(i-1,0)]).unit()
+            val u=tangent.cross(if(abs(tangent.y)<.95f)V(0f,1f,0f) else V(1f,0f,0f)).unit();val v=tangent.cross(u)
+            List(sides){j->val angle=2*PI.toFloat()*j/sides
+                val lobe=if(sculpt)1f+.12f*cos(angle*2f)+.065f*sin(angle*3f+i*.19f)+.018f*sin(angle*7f+i*1.8f) else 1f
+                points[i]+(u*cos(angle)+v*(sin(angle)*ellipticity))*(radii[i]*lobe)
+            }
+        }
+        val normals=rings.indices.map{i->List(sides){j->
+            val around=rings[i][(j+1)%sides]-rings[i][(j+sides-1)%sides]
+            val along=rings[min(i+1,rings.lastIndex)][j]-rings[max(i-1,0)][j]
+            around.cross(along).unit()
+        }}
+        for(i in 0 until rings.lastIndex)for(j in 0 until sides){val k=(j+1)%sides
+            smooth(rings[i][j],rings[i][k],rings[i+1][j],normals[i][j],normals[i][k],normals[i+1][j],g)
+            smooth(rings[i][k],rings[i+1][k],rings[i+1][j],normals[i][k],normals[i+1][k],normals[i+1][j],g)
+        }
+        for(j in 0 until sides){val k=(j+1)%sides;tri(points.first(),rings.first()[k],rings.first()[j],g);tri(points.last(),rings.last()[j],rings.last()[k],g)}
     }
-    fun curve(points: List<V>,r: Float,g: Int) {points.zipWithNext().forEach { (a,b)->tube(a,b,r,r*.96f,g) }}
-    fun plate(center: V,outline: List<V>,thickness: Float,g: Int) {
-        val off=V(0f,0f,thickness)
-        outline.indices.forEach { i->val a=outline[i];val b=outline[(i+1)%outline.size];tri(center+off,a+off,b+off,g);tri(center-off,b-off,a-off,g);tri(a+off,a-off,b-off,g);tri(a+off,b-off,b+off,g);faces.add(BoneFace(center,a,b,g)) }
+    fun tube(a:V,b:V,r1:Float,r2:Float,g:Int,record:Boolean=true){
+        if((b-a).length()<.0001f)return
+        sweep(listOf(a,b),listOf(r1,r2.coerceAtLeast(.0002f)),g)
+        if(record)lines.add(BoneLine(a,b,max(r1,r2),g))
     }
-    fun build(): Skeleton {
-        val xs=data.filterIndexed { i,_->i%7==0 }; val ys=data.filterIndexed{i,_->i%7==1};val zs=data.filterIndexed{i,_->i%7==2}
-        val center=V((xs.min()+xs.max())/2,(ys.min()+ys.max())/2,(zs.min()+zs.max())/2)
-        val scale=8f/max(max(xs.max()-xs.min(),ys.max()-ys.min()),zs.max()-zs.min())
+    fun bone(a:V,b:V,r:Float,g:Int,measurement:String?=null){
+        val d=b-a;val axis=d.unit();val side=axis.cross(if(abs(axis.y)<.9f)V(0f,1f,0f) else V(1f,0f,0f)).unit()
+        val shape=listOf(.04f,.83f,1.17f,1.30f,1.16f,.94f,.77f,.66f,.63f,.65f,.72f,.91f,1.18f,1.34f,1.25f,.86f,.04f)
+        val points=shape.indices.map { i->val t=i.toFloat()/shape.lastIndex;a+d*t+side*(sin(t*PI.toFloat())*r*.34f) }
+        sweep(points,shape.map{it*r},g,.83f,true,axis)
+        if(g in 5..6&&r>.07f){
+            // Two condyles with a groove between them, within the shaft's axial endpoints.
+            val end=b-axis*(r*.64f)
+            for(s in listOf(-1f,1f)){
+                val c=end+side*(s*r*.61f)
+                sweep(listOf(c-axis*(r*.5f),c-axis*(r*.22f),c+axis*(r*.2f),c+axis*(r*.5f)),listOf(r*.30f,r*.66f,r*.66f,r*.30f),g,.85f,true,axis)
+            }
+        }
+        lines.add(BoneLine(a,b,r,g,measurement))
+    }
+    fun claw(points:List<V>,radius:Float,g:Int){
+        val radii=points.indices.map{radius*(1f-it.toFloat()/points.lastIndex).pow(.7f)+.0002f}
+        sweep(points,radii,g,.65f,true)
+        points.zipWithNext().forEach{(a,b)->lines.add(BoneLine(a,b,radius,g))}
+    }
+    fun curve(points:List<V>,r:Float,g:Int){
+        if(points.size<2)return
+        val samples=mutableListOf<V>()
+        // Catmull-Rom interpolation preserves authored control points and opens curved spaces.
+        for(i in 0 until points.lastIndex){val p0=points[max(0,i-1)];val p1=points[i];val p2=points[i+1];val p3=points[min(points.lastIndex,i+2)]
+            for(j in 0..2){val t=j/3f;val t2=t*t;val t3=t2*t
+                samples.add((p1*2f+(p2-p0)*t+(p0*2f-p1*5f+p2*4f-p3)*t2+(p1*3f-p0-p2*3f+p3)*t3)*.5f)
+            }
+        }
+        samples.add(points.last());sweep(samples,samples.indices.map{r*(1f-.17f*it/samples.lastIndex)},g,.83f)
+        points.zipWithNext().forEach{(a,b)->lines.add(BoneLine(a,b,r,g))}
+    }
+    fun plate(center:V,outline:List<V>,thickness:Float,g:Int){
+        val plane=(outline[0]-center).cross(outline[1]-center).unit()
+        val normal=if(plane.length()>.5f)plane else V(0f,0f,1f)
+        val rings=if(theater)2 else 6;val subdivisions=if(theater)2 else 5;val segments=outline.size*subdivisions
+        fun edge(j:Int):V {
+            val sector=(j%segments)/subdivisions;val t=(j%subdivisions).toFloat()/subdivisions
+            return outline[sector]*(1-t)+outline[(sector+1)%outline.size]*t
+        }
+        fun point(i:Int,j:Int,side:Float):V{
+            val t=i.toFloat()/rings;val e=edge(j)
+            val dome=sin(t*PI.toFloat())*.8f+.25f
+            val rough=.08f*sin(j*2.1f+i*1.7f)*sin(t*PI.toFloat())
+            return center+(e-center)*t+normal*(thickness*side*(dome+rough))
+        }
+        fun n(i:Int,j:Int,side:Float):V {
+            if(i==0)return normal*side
+            return (point(i,j+1,side)-point(i,(j+segments-1)%segments,side)).cross(point(min(rings,i+1),j,side)-point(max(0,i-1),j,side)).unit()*-side
+        }
+        for(side in listOf(-1f,1f))for(i in 0 until rings)for(j in 0 until segments){val k=(j+1)%segments
+            val a=point(i,j,side);val b=point(i+1,j,side);val c=point(i+1,k,side);val d=point(i,k,side)
+            smooth(a,b,c,n(i,j,side),n(i+1,j,side),n(i+1,k,side),g)
+            if(i>0)smooth(a,c,d,n(i,j,side),n(i+1,k,side),n(i,k,side),g)
+        }
+        for(j in 0 until segments){val k=(j+1)%segments;tri(point(rings,j,1f),point(rings,k,1f),point(rings,j,-1f),g);tri(point(rings,j,-1f),point(rings,k,1f),point(rings,k,-1f),g)}
+        outline.indices.forEach{i->faces.add(BoneFace(center,outline[i],outline[(i+1)%outline.size],g))}
+    }
+    fun build(metresPerAuthorUnit:Float?=null):Skeleton {
+        if(countOnly)return Skeleton(FloatArray(0),emptyList(),emptyList(),0f)
+        var min=V(Float.MAX_VALUE,Float.MAX_VALUE,Float.MAX_VALUE);var max=V(-Float.MAX_VALUE,-Float.MAX_VALUE,-Float.MAX_VALUE)
+        for(i in 0 until used step 9){min=V(min(min.x,data[i]),min(min.y,data[i+1]),min(min.z,data[i+2]));max=V(max(max.x,data[i]),max(max.y,data[i+1]),max(max.z,data[i+2]))}
+        val center=(min+max)*.5f;val extent=max-min;val scale=8f/max(max(extent.x,extent.y),extent.z)
         var radius=0f
-        for(i in data.indices step 7) {val p=(V(data[i],data[i+1],data[i+2])-center)*scale;data[i]=p.x;data[i+1]=p.y;data[i+2]=p.z;radius=max(radius,p.length())}
-        return Skeleton(data.toFloatArray(),lines.map{it.copy(a=(it.a-center)*scale,b=(it.b-center)*scale,radius=it.radius*scale)},faces.map{it.copy(a=(it.a-center)*scale,b=(it.b-center)*scale,c=(it.c-center)*scale)},radius)
+        for(i in 0 until used step 9){val p=(V(data[i],data[i+1],data[i+2])-center)*scale;data[i]=p.x;data[i+1]=p.y;data[i+2]=p.z;radius=max(radius,p.length())}
+        return Skeleton(if(used==data.size)data else data.copyOf(used),lines.map{it.copy(a=(it.a-center)*scale,b=(it.b-center)*scale,radius=it.radius*scale)},faces.map{it.copy(a=(it.a-center)*scale,b=(it.b-center)*scale,c=(it.c-center)*scale)},radius,metresPerAuthorUnit?.div(scale))
     }
 }
 object SkeletonFactory {
     val ids=listOf("spinosaurus","tyrannosaurus","triceratops","mosasaurus","velociraptor","stegosaurus","ankylosaurus","brachiosaurus","parasaurolophus","giganotosaurus","allosaurus","pteranodon","archaeopteryx")+ModelProfiles.extras.keys
-    private val cache = object : LinkedHashMap<String,Skeleton>(4,.75f,true) {
-        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String,Skeleton>?) = size > 3
+    private val cache=LinkedHashMap<String,Skeleton>(4,.75f,true)
+    private val live=mutableMapOf<String,java.lang.ref.WeakReference<Skeleton>>()
+    private const val CACHE_BYTES=32*1024*1024
+    @Synchronized fun get(id:String,openAsset:((String)->java.io.InputStream)?=null):Skeleton {
+        val key=id+if(openAsset!=null)":assets" else ""
+        cache[key]?.let{return it}
+        // Reuse a large mesh still held by its thumbnail/view even if it exceeds the cache budget.
+        live[key]?.get()?.let{return it}
+        fun trim(limit:Int){while(cache.values.sumOf{it.vertices.size.toLong()*4}>limit&&cache.isNotEmpty())cache.remove(cache.keys.first())}
+        // Leave room for the builder's temporary array / the incoming scan on 192 MB heaps.
+        trim(CACHE_BYTES/2)
+        val mesh=create(id,openAsset)
+        live[key]=java.lang.ref.WeakReference(mesh)
+        if(mesh.vertices.size.toLong()*4<=CACHE_BYTES){cache[key]=mesh;trim(CACHE_BYTES)}
+        return mesh
     }
-    @Synchronized fun get(id: String): Skeleton = cache.getOrPut(id) { create(id) }
-    fun create(id: String): Skeleton {
+    fun create(id:String,openAsset:((String)->java.io.InputStream)?=null):Skeleton {
+        if(id in SpecimenLoader.ids&&openAsset!=null)return SpecimenLoader.load(id,openAsset)
         require(id in ids)
-        val b=Builder()
+        // Count first, then allocate exactly once. Avoid doubling/copying a 48 MB mesh.
+        val counter=Builder(countOnly=true);generate(id,counter)
+        return generate(id,Builder(counter.floatCount)).copy(fossilMaterial=FossilMaterials.forModel(id))
+    }
+    /** Offline gallery export; individual observation retains its original detailed mesh. */
+    fun createTheater(id:String):Skeleton {
+        require(id in ids)
+        val counter=Builder(countOnly=true,theater=true);generate(id,counter)
+        return generate(id,Builder(counter.floatCount,theater=true)).copy(fossilMaterial=FossilMaterials.forModel(id))
+    }
+    private fun generate(id:String,b:Builder):Skeleton {
+        val measured=ModelEvidence.limbs[id]
         val profile=ModelProfiles.extras[id]?:ModelProfile(base=id)
         val kind=profile.base
         val quad=profile.quadruped?:(kind in listOf("triceratops","stegosaurus","ankylosaurus","brachiosaurus"))
@@ -86,19 +191,31 @@ object SkeletonFactory {
         val shoulder=(if(brachio)2.8f else if(stego)1.35f else hip+.12f)+profile.shoulder
         val width=(if(anky)1.05f else if(trike||brachio).85f else if(wings).3f else .58f)*profile.body
         val back=V(-1.25f,hip,0f);val front=V(.9f,shoulder,0f)
+        val authorMetres=measured?.let{it.femur/sqrt(.55f*.55f+((hip-.15f)*.43f).pow(2)+.11f*.11f)}
         val defaultNeckEnd=when {brachio->V(2.3f,6.1f,0f);stego->V(1.8f,1.05f,0f);anky->V(1.55f,1.65f,0f);trike->V(1.45f,1.9f,0f);water->V(1.4f,1.8f,0f);else->V(1.8f,shoulder+.75f,0f)}
         val neckEnd=front+V((defaultNeckEnd.x-front.x)*profile.neck,(defaultNeckEnd.y-front.y)*profile.neckRise,0f)
         // Separate vertebral centra, dorsal processes, and transverse processes.
-        fun vertebra(p: V,r: Float,spine: Float) {
-            b.ball(p,r*1.1f,r,r,2)
-            b.bone(p+V(0f,r*.25f,0f),p+V(-r*.35f,spine,0f),r*.3f,2)
-            for(s in listOf(-1f,1f))b.tube(p,p+V(0f,r*.4f,s*r*2.1f),r*.34f,r*.13f,2)
+        fun vertebra(p: V,r: Float,spine: Float,forward:V=V(1f,0f,0f),axial:Float=r*1.66f) {
+            val along=forward.unit();val side=V(0f,0f,1f);val dorsal=side.cross(along).unit()
+            fun at(x:Float,y:Float,z:Float)=p+along*x+dorsal*y+side*z
+            b.bone(at(-axial*.5f,0f,0f),at(axial*.5f,0f,0f),r*.78f,2)
+            b.curve(listOf(at(0f,r*.32f,-r*.72f),at(0f,r*1.30f,-r*.78f),at(0f,r*1.65f,0f),at(0f,r*1.30f,r*.78f),at(0f,r*.32f,r*.72f)),r*.22f,2)
+            val tip=max(spine,r*1.85f)
+            b.plate(at(-r*.1f,(r*1.55f+tip)*.5f,0f),listOf(at(-r*.40f,r*1.55f,0f),at(-r*.45f,tip*.92f,0f),at(-r*.13f,tip,0f),at(r*.19f,tip*.96f,0f),at(r*.3f,r*1.55f,0f)),r*.18f,2)
+            for(s in listOf(-1f,1f)){
+                b.bone(at(0f,r*.9f,s*r*.5f),at(-r*.25f,r*.85f,s*r*2.1f),r*.25f,2)
+                b.bone(at(-r*.35f,r*1.3f,s*r*.6f),at(-r*1.05f,r*1.4f,s*r*.75f),r*.18f,2)
+            }
         }
         val tailLen=(if(ptero).6f else if(brachio)3.0f else if(water)4.8f else if(raptor||bird)4.0f else 3.7f)*profile.tail
         val tailN=if(ptero&&profile.tail==1f)5 else 27
         for(i in 0..tailN) {val t=i.toFloat()/tailN;val p=back+V(-tailLen*t,-.6f*t-.16f*sin(t*PI.toFloat()),.16f*sin(t*PI.toFloat()));val r=.15f*(1-t)+.024f
             vertebra(p,r,if(water||spino).12f+.55f*sin(t*PI.toFloat()) else r*2)
-            if((water||spino)&&i<tailN-3)b.tube(p,p+V(.03f,-.25f*sin(t*PI.toFloat())-.12f,0f),r*.35f,.016f,2)
+            if(!ptero&&i in 2 until tailN-3){
+                val bottom=p+V(.03f,-(if(water||spino).25f else .16f)*sin(t*PI.toFloat())-.12f,0f)
+                b.curve(listOf(p+V(0f,-r*.2f,-r*.55f),bottom,p+V(0f,-r*.2f,r*.55f)),r*.22f,2)
+                b.tube(bottom,bottom+V(-r*.30f,-r*.55f,0f),r*.20f,.003f,2)
+            }
         }
         for(i in 0..14) {
             val t=i/14f;val p=back+(front-back)*t+V(0f,.16f*sin(t*PI.toFloat()),0f)
@@ -110,9 +227,16 @@ object SkeletonFactory {
             }
         }
         val neckN=if(profile.neck>3f)32 else if(brachio)15 else 9
-        for(i in 1..neckN){val t=i.toFloat()/neckN;val p=front+(neckEnd-front)*t+V(-.20f*sin(t*PI.toFloat()),.13f*sin(t*PI.toFloat()),0f);vertebra(p,if(brachio).16f else .115f,if(profile.crest=="neckspines") .7f else .21f)}
+        for(i in 1..neckN){val t=i.toFloat()/neckN;val delta=neckEnd-front;val p=front+delta*t+V(-.20f*sin(t*PI.toFloat()),.13f*sin(t*PI.toFloat()),0f)
+            val tangent=delta+V(-.20f*PI.toFloat()*cos(t*PI.toFloat()),.13f*PI.toFloat()*cos(t*PI.toFloat()),0f)
+            vertebra(p,if(brachio).16f else .115f,if(profile.crest=="neckspines") .7f else .21f,tangent,delta.length()/neckN*.87f)
+        }
         // Scapulae, coracoids and an open pelvic girdle.
         for(s in listOf(-1f,1f)) {
+            val scap=front+V(-.3f,-.13f,s*width*.9f)
+            b.plate(scap,listOf(scap+V(-.4f,.30f,0f),scap+V(-.27f,.43f,0f),scap+V(.14f,-.36f,0f),scap+V(.03f,-.49f,0f)),.027f,4)
+            val ili=back+V(.02f,.12f,s*width*.63f)
+            b.plate(ili,listOf(ili+V(-.48f,.08f,0f),ili+V(-.31f,.27f,0f),ili+V(.48f,.20f,0f),ili+V(.6f,.05f,0f),ili+V(.2f,-.1f,0f)),.04f,4)
             b.bone(front+V(-.6f,.12f,s*width*.85f),front+V(.05f,-.65f,s*width*.9f),.09f,4)
             b.bone(back+V(-.4f,.1f,s*width*.6f),back+V(.5f,.14f,s*width*.62f),.13f,4)
             b.bone(back+V(.12f,0f,s*width*.62f),back+V(if(quad)-.4f else .35f,-.85f,s*width*.42f),.075f,4)
@@ -134,6 +258,31 @@ object SkeletonFactory {
                 }else {for(d in 0..2){val tip=wrist+V(.15f-d*.15f,0f,s*(.48f+d*.1f));b.bone(wrist,tip,.03f,g);b.tube(tip,tip+V(.08f,-.1f,s*.1f),.036f,0f,g)}}
                 return
             }
+            if(measured!=null&&authorMetres!=null&&(!fore||measured.humerus>0f)){
+                val unit=authorMetres
+                val upper=if(fore)measured.humerus else if(s<0f&&measured.leftFemur>0f)measured.leftFemur else measured.femur
+                val lower=if(fore)measured.radius else if(s<0f&&measured.leftTibia>0f)measured.leftTibia else measured.tibia
+                val k=start+V(if(fore).17f else .43f,-1f,s*.07f).unit()*(upper/unit)
+                val a=k+V(if(fore)-.07f else -.32f,-1f,s*.025f).unit()*(lower/unit)
+                val r=if(fore).09f else .115f
+                b.bone(start,k,r,g,if(fore)"humerus" else if(s<0)"femur-left" else "femur-right")
+                b.bone(k,a,r*.76f,g,if(fore)"radius" else if(s<0)"tibia-left" else "tibia-right")
+                if(fore){
+                    val dir=(a-k).unit();val offset=V(-.08f,0f,s*.08f)
+                    b.bone(a+offset-dir*(measured.ulna/unit),a+offset,r*.58f,g,"ulna")
+                }else b.bone(k+V(-.08f,0f,s*.12f),a+V(-.06f,.08f,s*.1f),r*.34f,g)
+                val toes=if(fore)5 else 3
+                for(d in 0 until toes){
+                    val spread=(d-(toes-1)/2f)
+                    val mt=if(fore).13f else measured.metatarsal/unit*(if(d==1)1f else .90f)
+                    val end=a+V(.12f,-1f,spread*.20f).unit()*mt
+                    b.bone(a,end,r*.38f,g,if(!fore&&d==1)"metatarsal-III" else null)
+                    val toe=end+V(.23f,-.035f,spread*.07f);b.bone(end,toe,r*.3f,g)
+                    if(raptor&&!fore&&d==0)b.curve(listOf(toe,toe+V(.07f,.15f,0f),toe+V(.23f,.13f,0f),toe+V(.27f,-.02f,0f)),.03f,g)
+                    else b.tube(toe,toe+V(.14f,-.055f,spread*.02f),r*.32f,0f,g)
+                }
+                return
+            }
             val smallArm=fore&&!quad&&(!para||profile.quadruped==false)
             val armFactor=(if(kind=="tyrannosaurus").48f else if(raptor||bird)1.2f else .86f)*profile.arm
             val knee=if(smallArm)start+V(.12f,-armFactor*.42f,s*.06f) else if(fore)start+V(.12f,-start.y*.48f,s*.08f) else start+V(.55f,-start.y*.43f,s*.11f)
@@ -153,27 +302,11 @@ object SkeletonFactory {
         val headH=when{spino||water||ptero->.32f;stego||bird->.23f;brachio->.32f;raptor->.4f;else->.62f}*profile.headHeight
         val headW=when{trike->.53f;anky->.48f;ptero||bird||stego->.16f;spino->.22f;else->.36f}*profile.headWidth
         val h=neckEnd+V(.05f,.03f,0f)
-        b.ball(h,headLen*.2f,headH*.49f,headW*.76f,1)
-        for(s in listOf(-1f,1f)) {
-            val rear=h+V(-.15f,-headH*.12f,s*headW*.65f);val eyeTop=h+V(headLen*.22f,headH*.48f,s*headW)
-            val cheek=h+V(headLen*.3f,-headH*.48f,s*headW)
-            val nose=h+V(headLen*.75f,headH*.20f,s*headW*.57f);val tip=h+V(headLen,-headH*.08f,s*headW*.27f)
-            b.curve(listOf(rear,eyeTop,nose,tip),.055f,1);b.curve(listOf(rear,cheek,tip),.045f,1)
-            // Broad nasal and mandibular bone surfaces around open skull windows.
-            val roofRear=h+V(headLen*.27f,headH*.44f,s*headW*.83f)
-            val roofFront=h+V(headLen*.92f,headH*.08f,s*headW*.3f)
-            b.plate((roofRear+roofFront)*.5f,listOf(roofRear,roofFront,roofFront+V(0f,-headH*.18f,0f),roofRear+V(0f,-headH*.16f,0f)),.026f,1)
-            val orbitCenter=h+V(headLen*.14f,0f,s*headW*.96f)
-            b.curve((0..14).map { j->val a=j*2*PI.toFloat()/14;orbitCenter+V(cos(a)*headLen*.14f,sin(a)*headH*.38f,0f) },.046f,1)
-            val jawCenter=h+V(headLen*.49f,-headH*.68f,s*headW*.68f)
-            b.plate(jawCenter,listOf(h+V(.01f,-headH*.43f,s*headW*.72f),h+V(headLen*.94f,-headH*.52f,s*headW*.28f),h+V(headLen*.86f,-headH*.67f,s*headW*.32f),h+V(headLen*.24f,-headH*.91f,s*headW*.78f)),.027f,1)
-            b.bone(eyeTop,cheek,.052f,1);b.bone(nose,h+V(headLen*.64f,-headH*.3f,s*headW*.67f),.041f,1)
-            val jaw=rear+V(.03f,-.12f,0f);val jtip=tip+V(-.05f,-headH*.46f,0f)
-            b.curve(listOf(jaw,h+V(headLen*.4f,-headH*.78f,s*headW*.76f),jtip),.058f,1)
-            if(profile.teeth?:!ptero)for(i in 0 until if(spino||water)16 else 10){val t=.35f+i*.038f;val pos=h+V(headLen*t,-headH*.36f,s*headW*(1-t*.75f));b.tube(pos,pos+V(.028f,-headH*.27f,0f),if(spino).026f else .034f,0f,1)}
-            if(kind=="allosaurus"&&profile.crest=="default")b.plate(eyeTop,listOf(eyeTop+V(-.14f,0f,0f),eyeTop+V(-.02f,.22f,0f),eyeTop+V(.23f,0f,0f)),.045f,7)
+        SkullSculptor.build(b,h,headLen,headH,headW,kind,profile.teeth?:!ptero,quad||para)
+        if(kind=="allosaurus"&&profile.crest=="default")for(s in listOf(-1f,1f)){
+            val eyeTop=h+V(headLen*.22f,headH*.48f,s*headW)
+            b.plate(eyeTop,listOf(eyeTop+V(-.14f,0f,0f),eyeTop+V(-.02f,.22f,0f),eyeTop+V(.23f,0f,0f)),.045f,7)
         }
-        b.bone(h+V(headLen,-headH*.08f,-headW*.27f),h+V(headLen,-headH*.08f,headW*.27f),.06f,1)
         if(trike) {
             val c=h+V(-.25f,.33f,0f)
             val outline=(0..14).map{val a=it*PI.toFloat()*2/15; c+V(-.33f*(1+sin(a)),.75f*cos(a),.92f*sin(a))*profile.frill}
@@ -206,6 +339,9 @@ object SkeletonFactory {
             "fish"->{val c=back+V(-tailLen,-.6f,0f);b.curve(listOf(c+V(.25f,.7f,0f),c,c+V(-.25f,-.65f,0f)),.055f,2)}
             "thumb"->for(s in listOf(-1f,1f))b.tube(V(1.08f,.27f,s*(width+.05f)),V(1.16f,.58f,s*(width+.25f)),.085f,0f,5)
         }
-        return b.build()
+        return b.build(authorMetres)
     }
 }
+
+/** Physical spacing selected for the normalized viewing floor, not a screen-size claim. */
+fun gridMetres(metresPerUnit:Float):Float = when {metresPerUnit<.1f->.1f;metresPerUnit<.5f->.5f;else->1f}

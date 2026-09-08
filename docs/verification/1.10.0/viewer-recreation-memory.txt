@@ -1,0 +1,10 @@
+cycle=1 native=109987408
+cycle=2 native=107636320
+cycle=3 native=108655200
+cycle=4 native=109658000
+cycle=5 native=108713248
+cycle=6 native=108368912
+cycle=7 native=109366128
+cycle=8 native=108386336
+cycle=9 native=109382496
+cycle=10 native=108409744

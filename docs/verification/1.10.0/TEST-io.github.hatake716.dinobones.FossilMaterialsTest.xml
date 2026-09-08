@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hatake716.dinobones.FossilMaterialsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-08T04:13:02.204Z" hostname="nixos" time="0.937">
+  <properties/>
+  <testcase name="everyReconstructionHasItsOwnStableFinishAndSourceMapsArePreserved" classname="io.github.hatake716.dinobones.FossilMaterialsTest" time="0.011"/>
+  <testcase name="previewsAndBothMeshPathsCarryTheSameSpeciesFinish" classname="io.github.hatake716.dinobones.FossilMaterialsTest" time="0.926"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+{
+  "result": "passed",
+  "version": "1.10.1",
+  "api": 35,
+  "installedApkSha256": "49b92c8aa66a7e322c351cded57be703ac5a41f7bc00e87c24f8c0ffdc302f73",
+  "crashBuffer": "empty",
+  "realDeviceInputPerformed": false,
+  "captureCount": 8,
+  "captureDimensions": [
+    "1080x1920",
+    "1920x1080"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hatake716.dinobones.ModelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-07T15:29:59.643Z" hostname="nixos" time="19.382">
+  <properties/>
+  <testcase name="authoredReconstructionsKeepDetailedSurfacesAndNoInventedMetres" classname="io.github.hatake716.dinobones.ModelTest" time="0.362"/>
+  <testcase name="catalogCoversAllModelsWithAttributionAndWorkingUriSyntax" classname="io.github.hatake716.dinobones.ModelTest" time="0.163"/>
+  <testcase name="measuredLongBonesKeepTheirPublishedLengthsAfterDisplayNormalization" classname="io.github.hatake716.dinobones.ModelTest" time="4.601"/>
+  <testcase name="specimenPreservesMetreBoundsAndSurfaceData" classname="io.github.hatake716.dinobones.ModelTest" time="0.254"/>
+  <testcase name="replicaScanKeepsSurfaceAndNeverClaimsAnUnverifiedPhysicalScale" classname="io.github.hatake716.dinobones.ModelTest" time="0.098"/>
+  <testcase name="erasCoverEveryAnimalAndKeepBoundarySpanningGeneraInBothPeriods" classname="io.github.hatake716.dinobones.ModelTest" time="0.04"/>
+  <testcase name="everyRequestedAnimalHasDistinctFiniteBoundedGeometry" classname="io.github.hatake716.dinobones.ModelTest" time="13.863"/>
+  <testcase name="cameraCannotCrossPolesOrZoomThroughModel" classname="io.github.hatake716.dinobones.ModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

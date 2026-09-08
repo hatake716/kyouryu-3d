@@ -1,0 +1,2 @@
+100 gallery mesh hashes match unchanged provenance.
+Original generated forest PNG equals packaged source byte for byte; 1774 x 887; 3,222,853 bytes.

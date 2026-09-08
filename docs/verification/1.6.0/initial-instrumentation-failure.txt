@@ -1,0 +1,62 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.TheaterTest:
+INSTRUMENTATION_STATUS: test=all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: edmontosaurus data opened
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at io.github.hatake716.dinobones.TheaterTest.all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery(TheaterTest.kt:99)
+
+INSTRUMENTATION_STATUS: stream=
+Error in all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery(io.github.hatake716.dinobones.TheaterTest):
+java.lang.AssertionError: edmontosaurus data opened
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at io.github.hatake716.dinobones.TheaterTest.all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery(TheaterTest.kt:99)
+
+INSTRUMENTATION_STATUS: test=all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(TheaterTest.kt:79)
+
+INSTRUMENTATION_STATUS: stream=
+Error in defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(io.github.hatake716.dinobones.TheaterTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(TheaterTest.kt:79)
+
+INSTRUMENTATION_STATUS: test=defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

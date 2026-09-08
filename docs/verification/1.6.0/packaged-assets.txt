@@ -1,0 +1,6 @@
+apk 220 assets byte-identical; 100 gallery meshes; manifest, provenance and third-party notices included
+Unchanged packaged native libraries: 4
+apk 185700047 bytes; SHA256 4d28eebc10e4cdacf0fc4ad7fe2eb4675a15829cb5f15c8f8c7384cc4d877a41
+aab 220 assets byte-identical; 100 gallery meshes; manifest, provenance and third-party notices included
+Unchanged packaged native libraries: 4
+aab 187070460 bytes; SHA256 2d61a7c4f88b2e1726164bf10052a6c897bb16572c906863668f7cc70fda5b98

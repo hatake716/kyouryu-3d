@@ -183,6 +183,20 @@ for row in rows:
     if row['id'] in artworks:row['artwork']=artworks[row['id']]
 rows.sort(key=lambda r:r['rank'])
 assert len(rows)==100 and len({r['id'] for r in rows})==100
+from catalog.enrich import enrich
+enrich(rows, ROOT)
+# Keep stored model descriptions consistent with the measurement-aware viewer.
+measurements={m['id']:m for m in json.loads((ROOT/'docs/bone-measurements.json').read_text())['measurements']}
+for row in rows:
+    if row['id']=='triceratops':
+        row['modelNote']='SmithsonianのCC0公開3D標本。約15万三角形の形状と表面テクスチャを使用し、メートル単位を保持。複合・補作を含む展示復元で、部位分けは簡易的です。'
+    elif row['id']=='tyrannosaurus':
+        row['modelNote']='Rigsters制作の展示レプリカの公開スキャン（CC BY 4.0）。約25万三角形と撮影由来の色テクスチャ。元データの実寸は未確認で、m単位の格子は表示しません。欠損や歪みを含み、部位分けは簡易的です。'
+    elif row['id'] in ['carnotaurus','patagotitan']:
+        row['modelNote']=('Magorius制作の詳細3D復元（CC BY 4.0）、約26万三角形。' if row['id']=='carnotaurus' else 'MebaLab制作の詳細3D復元（CC BY-SA 4.0）、約35万三角形。')+'実物スキャンや実寸換算の裏付けは未確認。座標で簡易的に部位分けしています。'
+    elif row['id'] in measurements:
+        m=measurements[row['id']]
+        row['modelNote']=f"標本 {m['specimen']} の大腿骨 {m['femurMm']:g} mm・脛骨 {m['tibiaMm']:g} mm・第III中足骨 {m['metatarsalMm']:g} mm を反映。断面・姿勢・未計測部分は模式復元です。"
 # A named work, authors, source, license, and explicit adaptation notice accompany every entry in-app.
 (ROOT/'app/src/main/assets/dinosaurs.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
 print(f'Wrote {len(rows)} entries, {sum(len(r["sections"]) for r in rows)} editorial sections')

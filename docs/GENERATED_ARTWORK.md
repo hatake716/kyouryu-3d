@@ -20,3 +20,15 @@ Use case: scientific-educational. Asset type: original portrait background image
 ```
 
 全画像のハッシュと出典は [artwork-provenance.json](artwork-provenance.json)。Commons由来の98画像にこのライセンスを適用しないでください。
+
+## 1.8.0 館内の森林壁画
+
+2026-09-08、組み込みの `image_gen` で新規生成。参照画像は使用せず、CLI・外部のAPIスクリプトも使用していません。巨大な針葉樹や木生シダを思わせる創作の景観です。特定の年代・産地の植生を確定した科学的復元ではありません。
+
+同梱先：`app/src/main/assets/theater/mesozoic-forest.png`（1774 × 887）。生成されたPNGの全バイトとC2PA情報を保持。実行時に2048 × 1024へ補間してGPUへ転送し、左右を交互に反転して壁面を連続表示します。壁の遠近や薄い霞による表示上の変換があります。hatake716が権利を有する範囲でApache 2.0として提供し、AI出力の独占的な著作権成立を保証しません。既存の第三者モデル・図鑑背景画の利用条件をこの壁画へ置き換えません。
+
+[生成履歴・プロンプト・SHA-256](forest-mural-provenance.json)。
+
+```text
+Use case: historical-scene. Asset type: panoramic forest mural texture for the inside walls of a first-person 3D paleontology museum Android app, original artwork. Create a highly detailed, naturalistic environmental matte painting evoking a vast Mesozoic forest. Colossal tall araucaria-like conifers rising far above dense tree ferns, cycad-like plants and fern understory; layered forest receding into luminous blue-green atmospheric mist, glimpses of pale blue sky through high canopies. View horizontally from human eye height, inviting daylight, beautifully nuanced bark, feathery green foliage. Bright, airy upper half with sunlit tree crowns and sky; readable medium-light greens and warm earth tones below, no dark vignette, no black canopy ceiling. Broad continuous forest vista, forest covers entire image edge to edge, no large foreground tree blocking the view, no distinct central focal point. Paint as one flat unframed panoramic image, landscape aspect ratio 2:1, ideally 2048 x 1024 or higher at that ratio. The left and right edges should be visually compatible to tile horizontally at equal ground/sky levels, with fine distant foliage near both edges. This is evocative prehistoric concept art rather than an exact scientific reconstruction. No dinosaurs or other animals, no humans, no skeletons, no buildings, no museum interior, no lettering, no logos, no border, no watermarks. Original composition, not a recreation of any existing mural or museum artwork.
+```

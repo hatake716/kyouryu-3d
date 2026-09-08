@@ -1,0 +1,46 @@
+{
+  "io.github.hatake716.dinobones.TheaterTest#all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery": {
+    "passed": true,
+    "log": "final-theater-all.txt"
+  },
+  "io.github.hatake716.dinobones.TheaterTest#defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn": {
+    "passed": true,
+    "log": "final-theater-all.txt"
+  },
+  "io.github.hatake716.dinobones.TheaterTest#originalMenuShortcutAndSelectedPlaceSurviveRoundTrip": {
+    "passed": true,
+    "log": "final-theater-all.txt"
+  },
+  "io.github.hatake716.dinobones.BackgroundTest#backgroundControlsKeepCameraAndSurviveRecreation": {
+    "passed": true,
+    "log": "final-regressions.txt"
+  },
+  "io.github.hatake716.dinobones.PeriodNavigationTest#mapsFilterCollectionAndBottomCardSwipePreservesView": {
+    "passed": true,
+    "log": "final-models-and-periods.txt"
+  },
+  "io.github.hatake716.dinobones.PeriodNavigationTest#cretaceousCornersAndDownSwipeKeepReadingAndViewpoint": {
+    "passed": true,
+    "log": "final-models-and-periods.txt"
+  },
+  "io.github.hatake716.dinobones.ReferenceLinkTest#wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks": {
+    "passed": true,
+    "log": "final-regressions.txt"
+  },
+  "io.github.hatake716.dinobones.SearchTest#typingRetainsFocusWhileFilteringTheSelectedPeriod": {
+    "passed": true,
+    "log": "final-regressions.txt"
+  },
+  "io.github.hatake716.dinobones.ExhibitTest#specimenFirstFrameIsolationAndMeasuredSource": {
+    "passed": true,
+    "log": "final-models.txt"
+  },
+  "io.github.hatake716.dinobones.ExhibitTest#detailedSkullsAndScanSurfaceRender": {
+    "passed": true,
+    "log": "final-models.txt"
+  },
+  "io.github.hatake716.dinobones.TheaterTest#repeatedRecreationReleasesMuseumResources": {
+    "passed": true,
+    "log": "final-theater-all.txt"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "capturedDate": "2026-09-08",
+  "appVersion": "1.10.1",
+  "versionCode": 12,
+  "apkSha256": "49b92c8aa66a7e322c351cded57be703ac5a41f7bc00e87c24f8c0ffdc302f73",
+  "device": "Android Emulator, API 35, SwiftShader",
+  "densityDpi": 420,
+  "capture": "adb exec-out screencap -p; real signed release APK; UI navigation only",
+  "systemUi": "Android System UI demo mode: 10:00, battery 100%, notifications hidden",
+  "postprocess": "PNG RGBA to RGB only; opaque alpha removed, RGB pixels preserved; no resize, crop, overlays or AI edits",
+  "screenshots": [
+    {
+      "order": 1,
+      "file": "screenshots/portrait/01-portrait-museum.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "altJa": "博物館の入口。森林と天窓に囲まれた展示室で、トリケラトプスなどの骨格を一人称視点で観察。",
+      "rawSha256": "d81e35b4c9157d814371a9c7aa537ed6a6b08ea298b6840ff6a7148d138ac502",
+      "sha256": "a9e8efe8679168b76360e459506a6ccb5afaae8e5e1d6d34da8310e9fc7abbd4",
+      "rgbPixelsSha256": "c564f7845f87615f25c8d9e62dea86a7ecd8994ce0e710a819ae37032e1493f9",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 2,
+      "file": "screenshots/portrait/02-portrait-collection.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "altJa": "白亜紀の世界地図とコレクション。時代を選び、ティラノサウルスやスピノサウルスのカードから探せます。",
+      "rawSha256": "ed231e39ef94ada8065b02fbbe05a0839fafd06a1e32cb247f3fe2cf58892a42",
+      "sha256": "f168b1e0ff78b3844394eee88b9bf50a59b173a55cb32e9b26d7246c1929ebc2",
+      "rgbPixelsSha256": "ea5a01415b7cd4529029ddee2bfab1e090b990e745bfe25254b3ec689eace162",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 3,
+      "file": "screenshots/portrait/03-portrait-skeleton.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "altJa": "ブラキオサウルスの学習用骨格を縦の全画面で表示。首・脚・尾と種類ごとの化石の質感を観察できます。",
+      "rawSha256": "a7fd5b5ebcd18680a9925b3db6d29af4916d101fc82ac6a07e4116d49e9f07ca",
+      "sha256": "fcb520146af0e62c328e21f5831146acc3f4fe7987d76375208198991c2fe268",
+      "rgbPixelsSha256": "37d3b677974f1733d57b3bd11dc43e8ecf2acf5507545ad3c0142dbf13dfc372",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 4,
+      "file": "screenshots/portrait/04-portrait-encyclopedia.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "altJa": "ティラノサウルスの日本語図鑑。年代や産地に加え、名前の由来と命名の歴史を出典付きで紹介。",
+      "rawSha256": "7c434039b9b9af5674a3c9b19c1945938e60b7d21dca778a1bf79b621e65b19f",
+      "sha256": "6e3052d853d05e895212ddf77667edfcda13e9243a44d1baeace1a1d092087f9",
+      "rgbPixelsSha256": "6e6eb81ae316b43ff415584a9472d6a2d24d2865630024ad2a2310a856e59c15",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 5,
+      "file": "screenshots/landscape/05-landscape-museum.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "altJa": "横画面の博物館。トリケラトプスの公開標本を大きく眺め、名前札や復元イラストから詳しく調べられます。",
+      "rawSha256": "b527340749806b4a1c2405e5aba883b4b5f11d9fb6e9a94dcae40f021f1b8eac",
+      "sha256": "3a5077f6374e9f5b397c194fc2ab617f8d2839b230022410e9b108c604ec5213",
+      "rgbPixelsSha256": "b640082fca10fd844b82e2684e1993c5b39e5fdee0854da47704d2998e031bd3",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 6,
+      "file": "screenshots/landscape/06-landscape-skeleton.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "altJa": "ティラノサウルスの展示レプリカの公開スキャン。横画面で全身を観察し、右のカードから視点や部位を選択。",
+      "rawSha256": "70086e2538eddf2f62afd5461a188c114a2ec76844bf8afa7e07c8687b09973f",
+      "sha256": "e2777c42b4233c19bf69d31a09946841124865c391cc610e8f8e0d15b027debe",
+      "rgbPixelsSha256": "53b875a36c55961d09dc35162bf013fe24cb9c3287fcde37f529d2e736a46b77",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 7,
+      "file": "screenshots/landscape/07-landscape-illustration.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "altJa": "トリケラトプスの復元イラストを横画面で表示。2本指で拡大・移動でき、作者と出典も確認できます。",
+      "rawSha256": "b24032c6a701b8e574a4d61fbfdefc31d26eb243d41b2a039758a814c04e5074",
+      "sha256": "b1e788a9b2e332bcce1b6ceb51cb20f4c25f5c28df6c4cfdae38e1280638bf20",
+      "rgbPixelsSha256": "7db5d83da9c6ebd7e78dd20c15a883ac2e5a071b5313f96e3f0fbe2db9d7cd94",
+      "rgbPixelsUnchanged": true
+    },
+    {
+      "order": 8,
+      "file": "screenshots/landscape/08-landscape-spinosaurus.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "altJa": "スピノサウルスの学習用骨格。長い吻と背中の棘を、復元イラストを背景にさまざまな角度から観察。",
+      "rawSha256": "8c19dfda28243b70da8f08a4752891b8f2d95e1c8b854872fdb681302b5f0e52",
+      "sha256": "77c27fcc14cd57f1bfed1a8defee995553451bb5d0a52bb4602b28f8212414c6",
+      "rgbPixelsSha256": "4de6562019e8f1e4a1ef8fa99f58418f9f795877249cb89c4b004206e52a2db6",
+      "rgbPixelsUnchanged": true
+    }
+  ]
+}

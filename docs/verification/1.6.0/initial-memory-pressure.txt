@@ -1,0 +1,200 @@
+09-08 09:59:57.309  4763  4812 D UiDevice: Retrieving node with selector: BySelector [CLASS='\Qandroid.widget.EditText\E'].
+09-08 09:59:57.417  4763  4763 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+09-08 09:59:57.417  4763  4763 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-08 09:59:57.927   173   173 I lowmemorykiller: Kill 'com.google.android.googlequicksearchbox:interactor' (1583), uid 10144, oom_score_adj 100 to free 19624kB rss, 58248kB swap; reason: device is low on swap (28kB < 189896kB) and thrashing (300%)
+09-08 09:59:57.931   173   179 E lowmemorykiller: process_mrelease 1583 failed: No such process
+09-08 09:59:57.971  4763  4816 D EGL_emulation: app_time_stats: avg=509.60ms min=402.92ms max=616.28ms count=2
+09-08 09:59:58.037  4763  4815 I HWUI    : Davey! duration=1021ms; Flags=0, FrameTimelineVsyncId=44940, IntendedVsync=613861675400, Vsync=614245008718, InputEventId=0, HandleInputStart=614270627031, AnimationStart=614270628935, PerformTraversalsStart=614778419842, DrawStart=614778471378, FrameDeadline=614295008716, FrameInterval=614246288929, FrameStartTime=16666666, SyncQueued=614831420496, SyncStart=614841436018, IssueDrawCommandsStart=614844298296, SwapBuffers=614880170518, FrameCompleted=614893639848, DequeueBufferDuration=5480, QueueBufferDuration=10082037, GpuCompleted=614893396351, SwapBuffersCompleted=614893639848, DisplayPresentTime=0, CommandSubmissionCompleted=614880170518, 
+09-08 09:59:58.110  4763  4774 I HWUI    : Davey! duration=1165ms; Flags=1, FrameTimelineVsyncId=44940, IntendedVsync=613861675400, Vsync=614245008718, InputEventId=0, HandleInputStart=614270627031, AnimationStart=614270628935, PerformTraversalsStart=614778419842, DrawStart=615006673313, FrameDeadline=613878342066, FrameInterval=614246288929, FrameStartTime=16666666, SyncQueued=615010907975, SyncStart=615011259925, IssueDrawCommandsStart=615011293688, SwapBuffers=615019600556, FrameCompleted=615027968869, DequeueBufferDuration=1943, QueueBufferDuration=362961, GpuCompleted=615027935216, SwapBuffersCompleted=615027968869, DisplayPresentTime=0, CommandSubmissionCompleted=615019600556, 
+09-08 09:59:58.135  4763  4763 I Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+09-08 09:59:58.163  4763  4774 I HWUI    : Davey! duration=710ms; Flags=0, FrameTimelineVsyncId=44964, IntendedVsync=614361675380, Vsync=615045008686, InputEventId=0, HandleInputStart=615059687122, AnimationStart=615059687873, PerformTraversalsStart=615060647563, DrawStart=615062134161, FrameDeadline=615045008686, FrameInterval=615057625295, FrameStartTime=16666666, SyncQueued=615063147872, SyncStart=615063174001, IssueDrawCommandsStart=615063271183, SwapBuffers=615063952150, FrameCompleted=615072509608, DequeueBufferDuration=2294, QueueBufferDuration=2286558, GpuCompleted=615072480103, SwapBuffersCompleted=615072509608, DisplayPresentTime=0, CommandSubmissionCompleted=615063952150, 
+09-08 09:59:58.163  4763  4774 I HWUI    : Davey! duration=713ms; Flags=0, FrameTimelineVsyncId=44964, IntendedVsync=614361675380, Vsync=615045008686, InputEventId=0, HandleInputStart=615059687122, AnimationStart=615059687873, PerformTraversalsStart=615060647563, DrawStart=615068577715, FrameDeadline=614911675358, FrameInterval=615057625295, FrameStartTime=16666666, SyncQueued=615069923999, SyncStart=615072620887, IssueDrawCommandsStart=615074015312, SwapBuffers=615074406576, FrameCompleted=615077756568, DequeueBufferDuration=1583, QueueBufferDuration=109174, GpuCompleted=615077707546, SwapBuffersCompleted=615077756568, DisplayPresentTime=0, CommandSubmissionCompleted=615074406576, 
+09-08 09:59:58.196  4763  4812 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1084ae; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(42, 162 - 1038, 497); boundsInWindow: Rect(42, 162 - 1038, 497); packageName: io.github.hatake716.dinobones; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+09-08 09:59:58.196  4763  4812 W ByMatcher: Skipping null child (5 of 7)
+09-08 09:59:58.197  4763  4812 W ByMatcher: Skipping null child (6 of 7)
+09-08 09:59:58.197  4763  4812 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@108413; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1080, 2400); boundsInWindow: Rect(0, 0 - 1080, 2400); packageName: io.github.hatake716.dinobones; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+09-08 09:59:58.197  4763  4812 W ByMatcher: Skipping null child (2 of 5)
+09-08 09:59:58.197  4763  4812 W ByMatcher: Skipping null child (3 of 5)
+09-08 09:59:58.198  4763  4812 W ByMatcher: Skipping null child (4 of 5)
+09-08 09:59:58.199  4763  4812 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006d31; boundsInParent: Rect(0, 0 - 1080, 2400); boundsInScreen: Rect(0, 0 - 1080, 2400); boundsInWindow: Rect(0, 0 - 1080, 2400); packageName: io.github.hatake716.dinobones; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+09-08 09:59:58.199  4763  4812 W ByMatcher: Skipping null child (0 of 1)
+09-08 09:59:58.237  4763  4812 D UiDevice: Node not found with selector: BySelector [CLASS='\Qandroid.widget.EditText\E'].
+09-08 09:59:58.337  4763  4812 D UiDevice: Retrieving node with selector: BySelector [CLASS='\Qandroid.widget.EditText\E'].
+09-08 09:59:58.524   173   173 I lowmemorykiller: Kill 'com.google.android.apps.wellbeing' (5780), uid 10142, oom_score_adj 905 to free 61548kB rss, 31656kB swap; reason: device is low on swap (240kB < 189896kB) and thrashing (216%)
+09-08 09:59:58.586   173   178 W lowmemorykiller: Failed to open /proc/5780/task; errno=2: process pid(5780) might have died
+09-08 09:59:58.586   173   178 E lowmemorykiller: process_mrelease 5780 failed: No such process
+09-08 09:59:58.722  4763  4812 W QueryController: Could not detect idle state.
+09-08 09:59:59.377  4763  4812 W QueryController: Could not detect idle state.
+09-08 09:59:59.435  4763  4812 D UiObject2: Setting text to 'ステゴサウルス'.
+09-08 09:59:59.455   173   173 I lowmemorykiller: Kill 'com.google.android.inputmethod.latin' (5722), uid 10153, oom_score_adj 200 to free 80716kB rss, 29456kB swap; reason: device is low on swap (96kB < 189896kB) and thrashing (309%)
+09-08 09:59:59.458   173   179 E lowmemorykiller: process_mrelease 5722 failed: No such process
+09-08 09:59:59.561  4763  4812 D UiDevice: Waiting 15000ms for SearchCondition[findObject=BySelector [DESC='\Qステゴサウルスの展示へ移動\E']].
+09-08 09:59:59.561  4763  4812 D UiDevice: Retrieving node with selector: BySelector [DESC='\Qステゴサウルスの展示へ移動\E'].
+09-08 09:59:59.647  4763  4816 D EGL_emulation: app_time_stats: avg=385.35ms min=44.54ms max=843.50ms count=4
+09-08 09:59:59.682  4763  4812 D UiObject2: Clicking on (540, 1156).
+09-08 09:59:59.682  4763  4812 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@6f8db213; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(79, 1030 - 1001, 1283); boundsInWindow: Rect(79, 1030 - 1001, 1283); packageName: io.github.hatake716.dinobones; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: ステゴサウルスの展示へ移動; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+09-08 09:59:59.770   173   173 I lowmemorykiller: Kill 'com.google.android.settings.intelligence' (5850), uid 10140, oom_score_adj 905 to free 46964kB rss, 31656kB swap; reason: device is low on swap (156kB < 189896kB) and thrashing (101%)
+09-08 09:59:59.790   173   178 W lowmemorykiller: Failed to open /proc/5850/task; errno=2: process pid(5850) might have died
+09-08 09:59:59.790   173   178 E lowmemorykiller: process_mrelease 5850 failed: No such process
+09-08 09:59:59.819  4763  4812 W GestureController: Gestures took longer than expected (137ms >> 16ms), device might be in a busy state.
+09-08 09:59:59.819  4763  4812 D UiDevice: Searching for node with selector: BySelector [DESC='\Q館内マップを閉じる\E'].
+09-08 09:59:59.824  4763  4763 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3015199
+09-08 09:59:59.864  4763  4812 W UiDevice: Active window root not found.
+09-08 09:59:59.870  4763  4812 W UiDevice: Skipping null root node for window: AccessibilityWindowInfo[title=, displayId=0, id=116, taskId=19, type=TYPE_APPLICATION, layer=0, region=SkRegion((0,175,1080,2361)), bounds=Rect(0, 175 - 1080, 2361), focused=true, active=true, pictureInPicture=false, transitionTime=615116, hasParent=false, isAnchored=false, hasChildren=false]
+09-08 09:59:59.872  4763  4816 D EGL_emulation: app_time_stats: avg=950.26ms min=184.11ms max=1716.42ms count=2
+09-08 09:59:59.885  4763  5688 D Theater : surface created 2
+09-08 09:59:59.909  4763  4812 D TheaterTest: frames=50 loaded=0 failed=null
+09-08 09:59:59.990  4763  4812 D TheaterTest: frames=50 loaded=0 failed=null
+09-08 10:00:00.071  4763  4812 D TheaterTest: frames=50 loaded=0 failed=null
+09-08 10:00:00.151  4763  4812 D TheaterTest: frames=50 loaded=0 failed=null
+09-08 10:00:00.159  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 20MB AllocSpace bytes, 1(260KB) LOS objects, 39% free, 36MB/60MB, paused 318us,11.017ms total 111.835ms
+09-08 10:00:00.232  4763  4812 D TheaterTest: frames=50 loaded=0 failed=null
+09-08 10:00:00.312  4763  4812 D TheaterTest: frames=50 loaded=0 failed=null
+09-08 10:00:00.351  4763  5688 D Theater : load triceratops gen=2
+09-08 10:00:00.381  4763  5707 D Theater : decoded triceratops gen=2 current=2
+09-08 10:00:00.404  4763  4812 D TheaterTest: frames=51 loaded=0 failed=null
+09-08 10:00:00.428  4763  5688 D Theater : load tyrannosaurus gen=2
+09-08 10:00:00.473  4763  5707 D Theater : decoded tyrannosaurus gen=2 current=2
+09-08 10:00:00.485  4763  4812 D TheaterTest: frames=53 loaded=1 failed=null
+09-08 10:00:00.502  4763  5688 D Theater : load stegosaurus gen=2
+09-08 10:00:00.511  4763  4812 D UiDevice: Waiting 15000ms for SearchCondition[findObject=BySelector [TEXT='\Q図鑑一覧\E']].
+09-08 10:00:00.511  4763  4812 D UiDevice: Retrieving node with selector: BySelector [TEXT='\Q図鑑一覧\E'].
+09-08 10:00:00.570  4763  5707 D Theater : decoded stegosaurus gen=2 current=2
+09-08 10:00:00.588  4763  5688 D Theater : load brachiosaurus gen=2
+09-08 10:00:00.688  4763  5707 D Theater : decoded brachiosaurus gen=2 current=2
+09-08 10:00:00.719  4763  5688 D Theater : load ankylosaurus gen=2
+09-08 10:00:00.772  4763  5707 D Theater : decoded ankylosaurus gen=2 current=2
+09-08 10:00:00.779  4763  4812 W QueryController: Could not detect idle state.
+09-08 10:00:00.785  4763  5688 D Theater : load parasaurolophus gen=2
+09-08 10:00:00.802   173   173 I lowmemorykiller: Kill 'com.google.android.apps.nexuslauncher' (5720), uid 10178, oom_score_adj 100 to free 52068kB rss, 29456kB swap; reason: device is low on swap (164kB < 189896kB) and thrashing (301%)
+09-08 10:00:00.855  4763  5707 D Theater : decoded parasaurolophus gen=2 current=2
+09-08 10:00:00.866  4763  5688 D Theater : load carnotaurus gen=2
+09-08 10:00:00.910  4763  5707 D Theater : decoded carnotaurus gen=2 current=2
+09-08 10:00:00.947  4763  5688 D Theater : load spinosaurus gen=2
+09-08 10:00:00.996  4763  5707 D Theater : decoded spinosaurus gen=2 current=2
+09-08 10:00:01.032  4763  5688 D Theater : load patagotitan gen=2
+09-08 10:00:01.239  4763  5707 D Theater : decoded patagotitan gen=2 current=2
+09-08 10:00:01.294  4763  5688 D Theater : load mosasaurus gen=2
+09-08 10:00:01.328  4763  5707 D Theater : decoded mosasaurus gen=2 current=2
+09-08 10:00:01.332  4763  5688 D Theater : load velociraptor gen=2
+09-08 10:00:01.401  4763  5707 D Theater : decoded velociraptor gen=2 current=2
+09-08 10:00:01.418  4763  5688 D Theater : load giganotosaurus gen=2
+09-08 10:00:01.455  4763  5688 D EGL_emulation: app_time_stats: avg=36.19ms min=21.98ms max=61.88ms count=25
+09-08 10:00:01.492  4763  5707 D Theater : decoded giganotosaurus gen=2 current=2
+09-08 10:00:01.500  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 64(31MB) LOS objects, 49% free, 21MB/42MB, paused 8.015ms,3.580ms total 398.465ms
+09-08 10:00:01.506  4763  5688 D Theater : load pteranodon gen=2
+09-08 10:00:01.540  4763  5707 D Theater : decoded pteranodon gen=2 current=2
+09-08 10:00:01.576  4763  5688 D Theater : load archaeopteryx gen=2
+09-08 10:00:01.618  4763  5707 D Theater : decoded archaeopteryx gen=2 current=2
+09-08 10:00:01.662  4763  5688 D Theater : load allosaurus gen=2
+09-08 10:00:01.707  4763  4816 D EGL_emulation: app_time_stats: avg=1834.58ms min=1834.58ms max=1834.58ms count=1
+09-08 10:00:01.716  4763  5707 D Theater : decoded allosaurus gen=2 current=2
+09-08 10:00:01.733  4763  5688 D Theater : load quetzalcoatlus gen=2
+09-08 10:00:01.751  4763  5707 D Theater : decoded quetzalcoatlus gen=2 current=2
+09-08 10:00:01.784  4763  5688 D Theater : load pterodactylus gen=2
+09-08 10:00:01.822   173   173 I lowmemorykiller: Kill 'com.google.android.apps.messaging:rcs' (5899), uid 10134, oom_score_adj 200 to free 48468kB rss, 31016kB swap; reason: device is low on swap (148kB < 189896kB) and thrashing (304%)
+09-08 10:00:01.845   173   178 E lowmemorykiller: process_mrelease 5899 failed: No such process
+09-08 10:00:01.857  4763  5707 D Theater : decoded pterodactylus gen=2 current=2
+09-08 10:00:01.916  4763  5688 D Theater : load tropeognathus gen=2
+09-08 10:00:01.942  4763  5707 D Theater : decoded tropeognathus gen=2 current=2
+09-08 10:00:02.479  4763  4812 W QueryController: Could not detect idle state.
+09-08 10:00:02.618  4763  4812 D UiObject2: Clicking on (943, 235).
+09-08 10:00:02.618  4763  4812 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@108603; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(880, 209 - 1006, 262); boundsInWindow: Rect(880, 209 - 1006, 262); packageName: io.github.hatake716.dinobones; className: android.widget.TextView; text: 図鑑一覧; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+09-08 10:00:02.875   173   173 I lowmemorykiller: Kill 'com.android.settings' (5946), uid 1000, oom_score_adj 905 to free 59284kB rss, 30888kB swap; reason: device is low on swap (76kB < 189896kB) and thrashing (256%)
+09-08 10:00:02.894   173   179 W lowmemorykiller: Failed to open /proc/5946/task; errno=2: process pid(5946) might have died
+09-08 10:00:02.894   173   179 E lowmemorykiller: process_mrelease 5946 failed: No such process
+09-08 10:00:02.972  4763  5688 D EGL_emulation: app_time_stats: avg=56.03ms min=51.61ms max=67.60ms count=19
+09-08 10:00:03.104  4763  4812 W GestureController: Gestures took longer than expected (486ms >> 16ms), device might be in a busy state.
+09-08 10:00:03.111  4763  4812 D UiDevice: Waiting 15000ms for SearchCondition[hasObject=BySelector [DESC='^\Q白亜紀の世界地図\E.*$']].
+09-08 10:00:03.111  4763  4812 D UiDevice: Searching for node with selector: BySelector [DESC='^\Q白亜紀の世界地図\E.*$'].
+09-08 10:00:03.203  4763  4816 D EGL_emulation: app_time_stats: avg=372.30ms min=12.37ms max=1205.33ms count=4
+09-08 10:00:03.320  4763  4763 D Theater : release
+09-08 10:00:03.320  4763  4763 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+09-08 10:00:03.320  4763  4763 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-08 10:00:03.766   173   173 I lowmemorykiller: Kill 'com.google.android.gms.persistent' (5644), uid 10143, oom_score_adj 100 to free 82256kB rss, 28408kB swap; reason: device is low on swap (0kB < 189896kB) and thrashing (303%)
+09-08 10:00:03.786   173   178 W lowmemorykiller: Failed to open /proc/5644/task; errno=2: process pid(5644) might have died
+09-08 10:00:03.786   173   178 E lowmemorykiller: process_mrelease 5644 failed: No such process
+09-08 10:00:03.873  4763  4763 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+09-08 10:00:04.015   173   173 I lowmemorykiller: Kill 'com.google.android.gms.unstable' (5860), uid 10143, oom_score_adj 905 to free 56324kB rss, 30504kB swap; reason: device is low on swap (276kB < 189896kB) and thrashing (102%)
+09-08 10:00:04.042   173   179 W lowmemorykiller: Failed to open /proc/5860/task; errno=2: process pid(5860) might have died
+09-08 10:00:04.042   173   179 E lowmemorykiller: process_mrelease 5860 failed: No such process
+09-08 10:00:04.046  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 2972KB AllocSpace bytes, 67(28MB) LOS objects, 41% free, 33MB/57MB, paused 3.855ms,5.582ms total 155.578ms
+09-08 10:00:04.145  4763  4812 D UiDevice: Taking screenshot (scale=1.000000, quality=90) and storing at /storage/emulated/0/Android/data/io.github.hatake716.dinobones/files/theater-evidence/collection-shortcut.png.
+09-08 10:00:04.362   173   173 I lowmemorykiller: Kill 'com.google.android.gms' (5690), uid 10143, oom_score_adj 500 to free 49780kB rss, 30192kB swap; reason: device is low on swap (40kB < 189896kB) and thrashing (106%)
+09-08 10:00:04.378   173   178 E lowmemorykiller: process_mrelease 5690 failed: No such process
+09-08 10:00:04.406  4763  4812 D UiDevice: Waiting 15000ms for SearchCondition[findObject=BySelector [DESC='\Qシアターへ\E']].
+09-08 10:00:04.406  4763  4812 D UiDevice: Retrieving node with selector: BySelector [DESC='\Qシアターへ\E'].
+09-08 10:00:04.490  4763  4812 D UiObject2: Clicking on (838, 227).
+09-08 10:00:04.490  4763  4812 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@109754; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(807, 196 - 870, 259); boundsInWindow: Rect(807, 196 - 870, 259); packageName: io.github.hatake716.dinobones; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: シアターへ; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+09-08 10:00:04.954  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 39MB AllocSpace bytes, 2(136KB) LOS objects, 17% free, 111MB/135MB, paused 836us,8.725ms total 452.906ms
+09-08 10:00:05.118   173   173 I lowmemorykiller: Kill 'com.google.android.as' (5958), uid 10138, oom_score_adj 100 to free 66500kB rss, 29608kB swap; reason: device is low on swap (32kB < 189896kB) and thrashing (302%)
+09-08 10:00:05.142   173   179 W lowmemorykiller: Failed to open /proc/5958/task; errno=2: process pid(5958) might have died
+09-08 10:00:05.142   173   179 E lowmemorykiller: process_mrelease 5958 failed: No such process
+09-08 10:00:05.179  4763  4816 D EGL_emulation: app_time_stats: avg=329.42ms min=11.30ms max=1048.43ms count=6
+09-08 10:00:05.238  4763  4812 W GestureController: Gestures took longer than expected (748ms >> 16ms), device might be in a busy state.
+09-08 10:00:05.321  4763  6088 D Theater : surface created 1
+09-08 10:00:05.457  4763  6034 I ke716.dinobones: Waiting for a blocking GC Alloc
+09-08 10:00:05.457  4763  6088 I ke716.dinobones: Waiting for a blocking GC Alloc
+09-08 10:00:05.668   173   173 I lowmemorykiller: Kill 'com.google.android.ext.services' (2922), uid 10203, oom_score_adj 100 to free 16000kB rss, 38320kB swap; reason: device is low on swap (240kB < 189896kB) and thrashing (306%)
+09-08 10:00:05.682   173   178 E lowmemorykiller: process_mrelease 2922 failed: No such process
+09-08 10:00:05.713  4763  4812 W QueryController: Could not detect idle state.
+09-08 10:00:05.733  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:05.770  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 145MB AllocSpace bytes, 9(31MB) LOS objects, 49% free, 15MB/30MB, paused 28.893ms,27.424ms total 451.878ms
+09-08 10:00:05.770  4763  6034 I ke716.dinobones: WaitForGcToComplete blocked Alloc on Background for 313.117ms
+09-08 10:00:05.770  4763  6034 I ke716.dinobones: Starting a blocking GC Alloc
+09-08 10:00:05.770  4763  6088 I ke716.dinobones: WaitForGcToComplete blocked Alloc on Background for 312.537ms
+09-08 10:00:05.770  4763  6088 I ke716.dinobones: Starting a blocking GC Alloc
+09-08 10:00:05.814  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:05.895  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:05.898   173   173 I lowmemorykiller: Kill 'com.google.android.as.oss' (6042), uid 10132, oom_score_adj 905 to free 51784kB rss, 31784kB swap; reason: device is low on swap (4856kB < 189896kB) and thrashing (184%)
+09-08 10:00:05.914   173   179 E lowmemorykiller: process_mrelease 6042 failed: No such process
+09-08 10:00:05.952  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 62MB AllocSpace bytes, 0(0B) LOS objects, 36% free, 41MB/65MB, paused 2.301ms,4.184ms total 155.263ms
+09-08 10:00:05.981  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:06.061  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:06.147  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:06.200  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 56MB AllocSpace bytes, 17(9832KB) LOS objects, 49% free, 17MB/35MB, paused 11.888ms,13.407ms total 117.853ms
+09-08 10:00:06.228  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:06.322  4763  4812 D TheaterTest: frames=0 loaded=0 failed=null
+09-08 10:00:06.341  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 34MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 11MB/22MB, paused 116us,15.358ms total 85.598ms
+09-08 10:00:06.371  4763  6088 D Theater : load triceratops gen=1
+09-08 10:00:06.391   173   173 I lowmemorykiller: Kill 'android.process.acore' (6089), uid 10091, oom_score_adj 905 to free 76744kB rss, 30376kB swap; reason: device is low on swap (92kB < 189896kB) and thrashing (102%)
+09-08 10:00:06.394   173   178 E lowmemorykiller: process_mrelease 6089 failed: No such process
+09-08 10:00:06.404  4763  4812 D TheaterTest: frames=1 loaded=0 failed=null
+09-08 10:00:06.413  4763  6146 D Theater : decoded triceratops gen=1 current=1
+09-08 10:00:06.484  4763  4812 D TheaterTest: frames=1 loaded=0 failed=null
+09-08 10:00:06.544  4763  6088 D Theater : load tyrannosaurus gen=1
+09-08 10:00:06.620  4763  6146 D Theater : decoded tyrannosaurus gen=1 current=1
+09-08 10:00:06.621  4763  4812 D TheaterTest: frames=4 loaded=1 failed=null
+09-08 10:00:06.645  4763  4816 D EGL_emulation: app_time_stats: avg=488.60ms min=71.36ms max=1317.05ms count=3
+09-08 10:00:06.648  4763  4812 D UiDevice: Waiting 15000ms for SearchCondition[findObject=BySelector [TEXT='\Q館内マップ\E']].
+09-08 10:00:06.648  4763  4812 D UiDevice: Retrieving node with selector: BySelector [TEXT='\Q館内マップ\E'].
+09-08 10:00:06.651  4763  6088 D Theater : load stegosaurus gen=1
+09-08 10:00:06.750  4763  6146 D Theater : decoded stegosaurus gen=1 current=1
+09-08 10:00:06.757  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 8(3372KB) LOS objects, 33% free, 47MB/71MB, paused 564us,11.909ms total 186.493ms
+09-08 10:00:06.777  4763  6088 D Theater : load brachiosaurus gen=1
+09-08 10:00:06.849  4763  6146 D Theater : decoded brachiosaurus gen=1 current=1
+09-08 10:00:06.871  4763  6088 D Theater : load ankylosaurus gen=1
+09-08 10:00:06.930  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 34MB AllocSpace bytes, 16(7880KB) LOS objects, 34% free, 45MB/69MB, paused 95us,6.129ms total 61.354ms
+09-08 10:00:06.955  4763  6146 D Theater : decoded ankylosaurus gen=1 current=1
+09-08 10:00:06.989  4763  4812 D UiObject2: Clicking on (938, 371).
+09-08 10:00:06.989  4763  4812 W UiObject2: Clicking on non-clickable object: android.view.accessibility.AccessibilityNodeInfo@10a80a; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(859, 345 - 1017, 398); boundsInWindow: Rect(859, 345 - 1017, 398); packageName: io.github.hatake716.dinobones; className: android.widget.TextView; text: 館内マップ; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+09-08 10:00:06.996  4763  6088 D Theater : load parasaurolophus gen=1
+09-08 10:00:07.086  4763  6146 D Theater : decoded parasaurolophus gen=1 current=1
+09-08 10:00:07.132  4763  6088 D Theater : load carnotaurus gen=1
+09-08 10:00:07.161  4763  6146 D Theater : decoded carnotaurus gen=1 current=1
+09-08 10:00:07.208  4763  6088 D Theater : load spinosaurus gen=1
+09-08 10:00:07.235  4763  4768 I ke716.dinobones: Background concurrent mark compact GC freed 50MB AllocSpace bytes, 9(3696KB) LOS objects, 29% free, 56MB/80MB, paused 205us,28.229ms total 191.040ms
+09-08 10:00:07.248  4763  4812 W GestureController: Gestures took longer than expected (258ms >> 16ms), device might be in a busy state.
+09-08 10:00:07.258  4763  6146 D Theater : decoded spinosaurus gen=1 current=1
+09-08 10:00:07.289  4763  6088 D Theater : load patagotitan gen=1
+09-08 10:00:07.297  4763  4812 D UiDevice: Taking screenshot (scale=1.000000, quality=90) and storing at /storage/emulated/0/Android/data/io.github.hatake716.dinobones/files/theater-evidence/museum-map.png.
+09-08 10:00:07.468  4763  6146 D Theater : decoded patagotitan gen=1 current=1
+09-08 10:00:07.530  4763  4768 W ke716.dinobones: Suspending all threads took: 15.119ms
+09-08 10:00:07.660   173   173 I lowmemorykiller: Kill 'com.android.carrierconfig' (1701), uid 10179, oom_score_adj 100 to free 15784kB rss, 37648kB swap; reason: device is low on swap (176kB < 189896kB) and thrashing (304%)
+09-08 10:00:07.678   173   179 E lowmemorykiller: process_mrelease 1701 failed: No such process
+09-08 10:00:07.822   173   173 I lowmemorykiller: Kill 'io.github.hatake716.dinobones' (4763), uid 10209, oom_score_adj 0 to free 822748kB rss, 1583716kB swap; reason: device is low on swap (0kB < 189896kB) and thrashing (307%)
+09-08 10:00:07.851   173   178 E lowmemorykiller: process_mrelease 4763 failed: No such process
+09-08 10:00:08.026   389   389 I Zygote  : Process 4763 exited due to signal 9 (Killed)
+09-08 10:00:08.212   584  1852 I ActivityManager: Process io.github.hatake716.dinobones (pid 4763) has died: fg  TOP 
+09-08 10:00:08.212   584   623 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10209/pid_4763
+09-08 10:00:08.270   584   612 W ActivityManager: setHasOverlayUi called on unknown pid: 4763

@@ -1,0 +1,28 @@
+{
+  "uid": "04c8d6e0e1794091aeae0d2f54cca43b",
+  "author": "Magorius",
+  "title": "Carnotaurus sastrei (skeleton)",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "id": "carnotaurus",
+  "sourceUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-057/04c8d6e0e1794091aeae0d2f54cca43b.glb",
+  "objectUrl": "https://sketchfab.com/3d-models/04c8d6e0e1794091aeae0d2f54cca43b",
+  "sourceSha256": "60cef552003deebe6f19e7ecde294564e8549e5be7680b2134a81c27a4dca471",
+  "reviewed": "2026-09-08",
+  "sourceTriangles": 260854,
+  "triangles": 260854,
+  "metresPerDisplayUnit": null,
+  "changes": "Authored reconstruction, not a validated fossil scan. Node transforms applied, centered and normalized for display. Approximate coordinate regions assigned. Source physical units unverified. All archived triangles and original color image retained; material uses app matte lighting.",
+  "outputs": {
+    "carnotaurus.ksmz": {
+      "bytes": 7466855,
+      "sha256": "b7169873c37162268b1a2c2e3d6184b92b884da34fd79769d3c202c71954e7ef",
+      "license": "CC-BY-4.0"
+    },
+    "carnotaurus-color.png": {
+      "bytes": 1386149,
+      "sha256": "8724296b42356102bbc7ba63966a31ab89910cbeb2013aae62905ad6e5b2048f",
+      "license": "CC-BY-4.0"
+    }
+  }
+}

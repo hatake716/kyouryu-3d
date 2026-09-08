@@ -1,0 +1,1 @@
+Emulator SwiftShader only; frames=118; seconds=5.004; last CPU submission ms=3.156019; cached displays=20

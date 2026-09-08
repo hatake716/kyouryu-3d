@@ -24,7 +24,7 @@
 - ジュラ紀：[Mollweide Paleographic Map of Earth, 155 Ma (Oxfordian Age).png](https://commons.wikimedia.org/wiki/File:Mollweide_Paleographic_Map_of_Earth,_155_Ma_%28Oxfordian_Age%29.png)
 - 白亜紀：[100Ma Mollweide Paleographic Map of Earth.jpg](https://commons.wikimedia.org/wiki/File:100Ma_Mollweide_Paleographic_Map_of_Earth.jpg)
 
-Wikimediaの配信用縮小画像を未加工で同梱し、表示領域に収まるよう縮小して表示します。画像内の黒い線は、位置の目安として重ねた**現在の国境**であり、当時の国境ではありません。海岸線や大陸の位置には復元上の不確実性があります。
+Wikimediaの配信用縮小画像を未加工で同梱し、画面では縦横比を保って縮小し、モルワイデ投影の楕円の外側をマスクします。白亜紀JPEGの白い四隅を隠す表示上の変更で、同梱ファイルと地理の色は変更していません。画像内の黒い線は、位置の目安として重ねた**現在の国境**であり、当時の国境ではありません。海岸線や大陸の位置には復元上の不確実性があります。
 
 取得日、Commons固定版、配信用URL、元画像SHA-1、同梱ファイルSHA-256は [paleomap-provenance.json](paleomap-provenance.json)。同じ記録をアプリの `assets/maps.json` に収録し、`tools/check_catalog.py` が画像と帰属の対応を検証します。通常のビルド・アプリ動作に外部取得は不要です。再取得する場合のみ `python3 tools/fetch_paleomaps.py` を使用してください。
 

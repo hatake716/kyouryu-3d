@@ -1,0 +1,54 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ExhibitTest:
+INSTRUMENTATION_STATUS: test=allHundredRenderAndGesturesPersistAcrossRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.io.FileNotFoundException: specimens/triceratops.ksm.gz
+	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+	at android.content.res.AssetManager.open(AssetManager.java:985)
+	at android.content.res.AssetManager.open(AssetManager.java:962)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Thumbnail$bitmap$2$1$1$1.invoke(DinoApp.kt:171)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Thumbnail$bitmap$2$1$1$1.invoke(DinoApp.kt:171)
+	at io.github.hatake716.dinobones.model.SpecimenLoader.load(SpecimenLoader.kt:11)
+	at io.github.hatake716.dinobones.model.SkeletonFactory.create(Skeleton.kt:120)
+	at io.github.hatake716.dinobones.model.SkeletonFactory.get(Skeleton.kt:118)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Thumbnail$bitmap$2$1$1.invokeSuspend(DinoApp.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:811)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:715)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:702)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [androidx.compose.ui.platform.MotionDurationScaleImpl@796d8ff, androidx.compose.runtime.BroadcastFrameClock@59246cc, StandaloneCoroutine{Cancelling}@ea27d15, AndroidUiDispatcher@89d82a]
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing allHundredRenderAndGesturesPersistAcrossRecreation(io.github.hatake716.dinobones.ExhibitTest):
+java.io.FileNotFoundException: specimens/triceratops.ksm.gz
+	at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+	at android.content.res.AssetManager.open(AssetManager.java:985)
+	at android.content.res.AssetManager.open(AssetManager.java:962)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Thumbnail$bitmap$2$1$1$1.invoke(DinoApp.kt:171)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Thumbnail$bitmap$2$1$1$1.invoke(DinoApp.kt:171)
+	at io.github.hatake716.dinobones.model.SpecimenLoader.load(SpecimenLoader.kt:11)
+	at io.github.hatake716.dinobones.model.SkeletonFactory.create(Skeleton.kt:120)
+	at io.github.hatake716.dinobones.model.SkeletonFactory.get(Skeleton.kt:118)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Thumbnail$bitmap$2$1$1.invokeSuspend(DinoApp.kt:171)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:811)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:715)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:702)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [androidx.compose.ui.platform.MotionDurationScaleImpl@796d8ff, androidx.compose.runtime.BroadcastFrameClock@59246cc, StandaloneCoroutine{Cancelling}@ea27d15, AndroidUiDispatcher@89d82a]
+
+INSTRUMENTATION_STATUS: test=allHundredRenderAndGesturesPersistAcrossRecreation
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

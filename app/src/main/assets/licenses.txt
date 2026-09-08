@@ -2,10 +2,48 @@
 
 独自のプログラム・骨格形状・アイコン
 Copyright 2026 hatake716
-Apache License 2.0。第三者の3Dメッシュは同梱していません。背景画像と図鑑解説は、下記の別ライセンスです。
+Apache License 2.0。下記の公開3D標本、実測資料、背景画像、図鑑解説にはそれぞれの配布条件が適用されます。
+
+トリケラトプスの3D標本・色・陰影・法線テクスチャ
+Smithsonian Institution / National Museum of Natural History
+Triceratops horridus Marsh, 1889 — Smithsonian Open Access、CC0 1.0。約15万三角形の形状を座標回転・中心化・可逆的な表示縮尺調整をして同梱し、簡易的な部位領域を追加。テクスチャは原本のバイト列を保存し、端末で縮小して表示します。複合・補作を含む博物館復元骨格です。
+https://3d.si.edu/object/3d/triceratops-horridus-marsh-1889:d8c623be-4ebc-11ea-b77f-2e728ce88125
+https://creativecommons.org/publicdomain/zero/1.0/
+https://www.si.edu/openaccess/faq
+
+ティラノサウルスの公開3Dスキャン
+Rigsters, Tyrannosaurus Rex skeleton (2020), CC BY 4.0.
+https://sketchfab.com/3d-models/tyrannosaurus-rex-skeleton-77e21c4e5d65468bbe11780ae0557b95
+https://creativecommons.org/licenses/by/4.0/
+Objaverse公開アーカイブから取得。デンマークのKnuthenborg Safariparkの展示レプリカを撮影したモデルです。アーカイブの250,240三角形・UV・色テクスチャを保持。座標変換、表示用中心化と縮尺調整、簡易部位を追加。実寸は未確認です。
+
+カルノタウルスの詳細3D復元
+Magorius, Carnotaurus sastrei (skeleton), CC BY 4.0.
+https://sketchfab.com/3d-models/carnotaurus-sastrei-skeleton-04c8d6e0e1794091aeae0d2f54cca43b
+https://creativecommons.org/licenses/by/4.0/
+Objaverse公開アーカイブから取得。260,854三角形の形状、UV、元の色画像を使用し、法線・陰影、表示用の位置と縮尺、簡易部位を調整。計測済みスキャンや実寸モデルとは表示しません。
+
+パタゴティタンの詳細3D復元
+MebaLab / lautaro.cb, Patagotitan mayorum by MebaLab, CC BY-SA 4.0.
+https://sketchfab.com/3d-models/patagotitan-mayorum-by-mebalab-a48cde44e8a045d2968fca28ce62c7ae
+https://creativecommons.org/licenses/by-sa/4.0/
+Objaverse公開アーカイブから取得。元の835,050三角形を部材ごとに整理・軽量化し、350,179三角形に変換しました。法線を再計算し、向き・中心・表示縮尺を調整。元の半透明マテリアルを不透明な独自の骨の質感へ変更し、簡易部位を追加。実寸は未確認です。変換後のpatagotitan.ksmzにもCC BY-SA 4.0を適用します。この素材の翻案を再配布する場合も表示・継承条件に従ってください。
+
+上記3モデルのアーカイブ配布：Allen Institute for AI, Objaverse
+https://objaverse.allenai.org/
+https://huggingface.co/datasets/allenai/objaverse
+各モデルにはそれぞれの作者のライセンスが適用されます。収録は作者や博物館の推薦・提携を示しません。
+
+18種類の表示モデルに用いる骨長の実測資料
+W. Scott Persons IV and Philip J. Currie (2016), An approach to scoring cursorial limb proportions in carnivorous dinosaurs and an attempt to account for allometry. Scientific Reports 6, 19828, Table 1. CC BY 4.0.
+https://doi.org/10.1038/srep19828
+Susannah C. R. Maidment, Charlotte A. Brassey and Paul M. Barrett (2015), The Postcranial Skeleton of an Exceptionally Complete Individual of the Plated Dinosaur Stegosaurus stenops. PLOS ONE 10(10), e0138352, Table 3. CC BY 4.0.
+https://doi.org/10.1371/journal.pone.0138352
+https://creativecommons.org/licenses/by/4.0/
+数値を選択してmmからmへ換算し、骨の長軸を実測長に合わせました。骨断面・未計測部・姿勢は独自の模式復元です。左右値がない部分は反転補作。標本と測定の対応はモデル画面に表示します。保存した計測表にはティラノサウルスを含む19種類がありますが、ティラノサウルスの表示は別の公開スキャンのため、その骨長を適用しません。
 
 日本語の図鑑解説
-日本語版Wikipediaの抄録と英語版Wikipediaの要約・再構成です。画像・表・引用番号・一部の節を省略し、基本カードと更新の注記を加えました。
+日本語版Wikipediaの抄録と英語版Wikipediaの要約・再構成、独自の増補から構成されます。独自増補の帰属：hatake716。今回の追加文を含む解説全体をCC BY-SA 4.0で提供します。画像・表・引用番号・一部の節を省略し、基本カードと更新の注記を加えました。
 帰属：Wikipedia contributors（各記事の編集履歴に執筆者一覧）。原文と履歴へのリンクを各種の詳細図鑑に掲載しています。
 ライセンス：Creative Commons Attribution-ShareAlike 4.0 International（CC BY-SA 4.0）。本アプリ用に抄録・再構成しました。翻案部分の再利用時も表示・継承条件に従ってください。
 https://creativecommons.org/licenses/by-sa/4.0/
@@ -20,7 +58,7 @@ https://creativecommons.org/licenses/by-sa/4.0/
 
 時代の世界地図（全3点）
 作者：Scotese, Christopher R.; Vérard, Christian; Burgener, Landon; Elling, Reece P.; Kocsis, Ádám T.
-PALEOMAP project（2024）、CC BY 4.0。三畳紀225 Ma、ジュラ紀155 Ma、白亜紀100 Ma。配信用縮小画像を未加工で同梱し、表示時は全体が収まるよう縮小します。
+PALEOMAP project（2024）、CC BY 4.0。三畳紀225 Ma、ジュラ紀155 Ma、白亜紀100 Ma。配信用縮小画像を未加工で同梱し、表示時は縦横比を保って縮小し、楕円投影の外側をマスクします。同梱ファイルと地理の色は変更していません。
 https://creativecommons.org/licenses/by/4.0/
 https://doi.org/10.5281/zenodo.10659112
 各地図の原本と作者・配布条件はメニューの「地図の出典」から確認できます。黒線は現在の国境です。
@@ -29,7 +67,7 @@ https://doi.org/10.5281/zenodo.10659112
 https://stratigraphy.org/chart/
 
 Natural History Museum、学術論文等
-科学的な事実確認・補足に使用。写真、復元図、3Dファイル、記事の文章表現を転載していません。個別の参照先は詳細図鑑に掲載しています。
+科学的な事実確認・補足に使用。上記の3D標本・実測資料を除き、写真、復元図、3Dファイル、記事の文章表現を転載していません。個別の参照先は詳細図鑑に掲載しています。
 
 アプリのライブラリ
 AndroidX / Jetpack Compose / Material Components / Material Icons — The Android Open Source Project / Google、Apache License 2.0。
@@ -525,3 +563,24 @@ androidx.savedstate:savedstate-ktx:1.3.3 / META-INF/androidx/savedstate/savedsta
 
    END OF TERMS AND CONDITIONS
 
+
+シアターモードの建物・館内用骨格
+建物・岩盤風の展示台・照明・案内板の描画は独自制作（hatake716、Apache License 2.0）。ロイヤル・ティレル古生物学博物館の写真・ロゴ・建築図面・壁画は同梱していません。公式・提携・監修を示すものではありません。展示体験の参考：
+https://tyrrellmuseum.com/whats_on/exhibits/dinosaur_hall
+
+館内用のTriceratopsはSmithsonian Institution / National Museum of Natural History（CC0 1.0）、TyrannosaurusはRigsters（CC BY 4.0）、CarnotaurusはMagorius（CC BY 4.0）、PatagotitanはMebaLab / lautaro.cb（CC BY-SA 4.0）の上記モデルを翻案しています。骨の部材ごとに三角形を軽量化し、原資料の色を頂点色へ変換、法線の再計算・正規化、描画用インデックス分割と展示縮尺への変更を行いました。館内用patagotitan.tmszにもCC BY-SA 4.0を適用します。原資料のURL・作者・ライセンスURLは上記各項目を参照してください。
+
+独自復元96種類は骨の部材を保持し、表面の分割密度を下げた館内用データです。採用した実測資料の帰属は上記のとおりです。個別の精細な観察用メッシュは館内の軽量化とは別に同梱しています。館内用データは実寸比較のための模型ではありません。全100種類の変換内容・ファイルハッシュと配布条件は、同梱のtheater/manifest.jsonとソースのdocs/theater-mesh-provenance.jsonに記録しています。
+
+1.7.0 館内の寸法と建物の更新
+共通のm単位への換算・推定寸法・未確定の区別は「館内の縮尺」に表示。原メッシュとそのライセンスは保持します。天窓・植栽・アンモナイトをイメージしたレリーフ・家具・採光表現は独自制作（Apache 2.0）。実在する博物館の装飾写真や建築図面の転用ではありません。
+
+1.8.0 森林の壁画
+mesozoic-forest.png は、2026-09-08に本アプリ用としてOpenAI image_genで新規生成したAIイメージです。既存の博物館の壁画・写真を参照していません。巨大な針葉樹や木生シダを思わせる創作の風景で、特定の年代・産地の植生を確定した科学的復元ではありません。生成されたPNGは未加工で同梱し、表示時に補間・左右反転・繰り返し・透視投影と薄い霞を適用します。hatake716が権利を有する範囲でApache License 2.0として提供します。AI出力の独占的な著作権成立を保証しません。プロンプトとハッシュはソースのdocs/forest-mural-provenance.jsonに記録しています。
+
+
+1.9.0 復元イラストの立て札
+館内の復元イラストは、同梱の背景画100点を縮小して配置したものです。原画像の作者・原本URL・ライセンス・クレジットは各画像を開いた「作者・出典」、背景画の出典画面、および上記の権利情報に保持しています。立て札では余白と「復元イラスト」の見出しを付け、描画時に遠近・縮小を適用します。CC BY-SAの画像には引き続き各画像の同じライセンスを適用します。絵の閲覧は画像全体の表示から始まり、利用者の操作で拡大・移動できます。立て札の枠・支柱・配置を行う独自プログラムはApache License 2.0です。
+
+1.10.0の化石表面
+97モデルの色・風化・ひび・付着土は独自の手続き生成です。追加の第三者写真・テクスチャは使用していません。表面生成コードはApache License 2.0。パタゴティタンの基礎モデルと派生メッシュにはCC BY-SA 4.0が引き続き適用されます。

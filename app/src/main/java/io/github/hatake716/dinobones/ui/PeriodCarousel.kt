@@ -8,6 +8,7 @@ import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PagerState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.shape.GenericShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowLeft
@@ -18,6 +19,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.geometry.Rect
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.contentDescription
@@ -28,6 +30,12 @@ import androidx.compose.ui.unit.sp
 import io.github.hatake716.dinobones.data.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+
+// Mollweide's boundary is an ellipse. Keep the source files (and their colors)
+// intact; hide only the rectangular background outside the projection.
+private val mapProjection = GenericShape { size, _ ->
+    addOval(Rect(0f, 0f, size.width, size.height))
+}
 
 @Composable internal fun PeriodCarousel(pager:PagerState,maps:Map<GeologicPeriod,Artwork>,allPeriods:Boolean,choose:(Int)->Unit,info:(Int)->Unit) {
     val context=LocalContext.current
@@ -47,7 +55,7 @@ import kotlinx.coroutines.withContext
                     }
                     Text(period.range,fontSize=11.sp,color=Muted,modifier=Modifier.padding(top=3.dp,bottom=10.dp))
                     Box(Modifier.fillMaxWidth().aspectRatio(2f).clip(RoundedCornerShape(10.dp)).background(Ink),contentAlignment=Alignment.Center){
-                        bitmap?.let{Image(it.asImageBitmap(),"${period.label}の世界地図（${period.mapAge}）",Modifier.fillMaxSize(),contentScale=ContentScale.Fit)}
+                        bitmap?.let{Image(it.asImageBitmap(),"${period.label}の世界地図（${period.mapAge}）",Modifier.fillMaxWidth().aspectRatio(it.width.toFloat()/it.height).clip(mapProjection),contentScale=ContentScale.Fit)}
                             ?:CircularProgressIndicator(Modifier.size(24.dp),strokeWidth=2.dp)
                     }
                 }
@@ -71,12 +79,12 @@ import kotlinx.coroutines.withContext
 
 @Composable internal fun MapSourcesDialog(period:GeologicPeriod,art:Artwork,close:()->Unit){
     val context=LocalContext.current
-    AlertDialog(onDismissRequest=close,title={Text("${period.label}の世界地図")},text={
+    AlertDialog(onDismissRequest=close,title={DialogSystemBars();Text("${period.label}の世界地図")},text={
         Column(Modifier.verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(10.dp)){
             Text("${period.mapAge}の古地理復元図です。コレクションには、この時点に限らず${period.label}全体の生きものを表示します。",fontSize=13.sp)
             Text("大陸・海岸線は研究に基づく推定です。黒い線は位置の目安として重ねた現在の国境で、当時の国境ではありません。",fontSize=13.sp)
             Text("Scotese et al. · PALEOMAP（2024）\n作者：${art.artist}",fontSize=12.sp)
-            Text("${art.license}。配信用の縮小画像を使用し、色の変更やトリミングは行っていません。",fontSize=12.sp)
+            Text("${art.license}。配信用の縮小画像を使用しています。表示時に楕円形の投影図の外側の余白を隠しています。原本ファイルと地図の色は変更していません。",fontSize=12.sp)
             TextButton({openLink(context,art.source)}){Text("地図の原本・権利情報")}
             TextButton({openLink(context,art.licenseUrl)}){Text("地図のライセンス条件")}
             TextButton({openLink(context,"https://doi.org/10.5281/zenodo.10659112")}){Text("PALEOMAPの研究資料")}

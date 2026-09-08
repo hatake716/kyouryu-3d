@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hatake716.dinobones.TheaterWorldTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-08T02:31:07.897Z" hostname="nixos" time="1.377">
+  <properties/>
+  <testcase name="metreCalibrationKeepsSmallSpecimensSmallAndFitsGiants" classname="io.github.hatake716.dinobones.TheaterWorldTest" time="0.011"/>
+  <testcase name="everyExhibitHasOneReachablePositionAndAValidPickingRay" classname="io.github.hatake716.dinobones.TheaterWorldTest" time="0.071"/>
+  <testcase name="movementRespectsCameraDirectionCollisionAndFiniteBounds" classname="io.github.hatake716.dinobones.TheaterWorldTest" time="0.009"/>
+  <testcase name="allGalleryAssetsHaveValidIndicesUniqueGeometryAndVerifiedProvenance" classname="io.github.hatake716.dinobones.TheaterWorldTest" time="1.285"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

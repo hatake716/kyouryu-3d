@@ -1,0 +1,4 @@
+versionCode=5 minSdk=26 targetSdk=36
+versionName=1.4.0
+Installed APK SHA-256: ec4ab25255034bb872370977ba24236501864f5fc0ae4e0793e959e887be1c54
+Read-only baseline. No input injection.

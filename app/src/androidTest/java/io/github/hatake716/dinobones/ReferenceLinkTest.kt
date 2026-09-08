@@ -30,6 +30,7 @@ class ReferenceLinkTest {
             }
         }
         ActivityScenario.launch(MainActivity::class.java).use {
+            compose.onNodeWithText("図鑑一覧").performClick()
             inst.addMonitor(monitor)
             try {
                 val map=PaleoMaps.load(inst.targetContext).getValue(GeologicPeriod.CRETACEOUS)
@@ -50,6 +51,10 @@ class ReferenceLinkTest {
                     assertEquals(url,urls.last())
                 }
                 assertEquals(2+expected.videos.size,urls.size)
+                val study=expected.sections.first{it.title.startsWith("研究ノート：")}.references.single()
+                compose.onNodeWithTag("details-list").performScrollToNode(hasText("出典：${study.title}"))
+                compose.onNodeWithText("出典：${study.title}").performClick()
+                compose.waitForIdle();assertEquals(study.url,urls.last())
                 compose.onNodeWithText("3D骨格").performClick()
                 compose.onNodeWithText("背景と出典").performClick()
                 for((label,url) in listOf("画像の原本・権利情報" to expected.artwork!!.source,"画像のライセンス条件" to expected.artwork!!.licenseUrl)){

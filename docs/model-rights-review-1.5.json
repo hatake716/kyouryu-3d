@@ -1,0 +1,56 @@
+{
+  "reviewed": "2026-09-08",
+  "models": [
+    {
+      "uid": "77e21c4e5d65468bbe11780ae0557b95",
+      "apiUrl": "https://api.sketchfab.com/v3/models/77e21c4e5d65468bbe11780ae0557b95",
+      "apiSha256": "3ef38283d7c0af3ca73bcbfab4fa0524ce8499447d3df3bb035176906f8fc788",
+      "title": "Tyrannosaurus Rex skeleton",
+      "author": "Rigsters",
+      "authorProfile": "https://sketchfab.com/rigsters",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true
+    },
+    {
+      "uid": "04c8d6e0e1794091aeae0d2f54cca43b",
+      "apiUrl": "https://api.sketchfab.com/v3/models/04c8d6e0e1794091aeae0d2f54cca43b",
+      "apiSha256": "47a916ed24b7d79ada42ab8ab0a6b6e49dc5d182ef025f5c6baf555eeb04e02b",
+      "title": "Carnotaurus sastrei (skeleton)",
+      "author": "Magorius",
+      "authorProfile": "https://sketchfab.com/Magorius",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "downloadable": true
+    },
+    {
+      "uid": "a48cde44e8a045d2968fca28ce62c7ae",
+      "apiUrl": "https://api.sketchfab.com/v3/models/a48cde44e8a045d2968fca28ce62c7ae",
+      "apiSha256": "e180a7f8976f51b39cc2f153f809d89e6f487e13a3073b1f1f72ad60b5256b5a",
+      "title": "Patagotitan mayorum by MebaLab",
+      "author": "MebaLab",
+      "authorProfile": "https://sketchfab.com/lautaro.cb",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/b9ddc40b93e34cdca1fc152f39b9f375",
+        "label": "CC Attribution-ShareAlike",
+        "fullName": "Creative Commons Attribution-ShareAlike",
+        "requirements": "Author must be credited. Modified versions must have the same license. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "slug": "by-sa"
+      },
+      "downloadable": true
+    }
+  ]
+}

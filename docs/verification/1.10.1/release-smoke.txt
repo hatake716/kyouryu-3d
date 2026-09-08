@@ -1,0 +1,8 @@
+Signed 1.10.0 -> final 1.10.1 update succeeded on API 35 emulator.
+Portrait and full landscape launch captured.
+Landscape map button (1960,105) opened map; close (2260,150) succeeded.
+Landscape illustration sign (1060,568) opened Triceratops illustration.
+Source dialog (2230,1020), Back to image and Back to museum succeeded.
+Portrait rotation restored and museum title present.
+Installed APK: 49b92c8aa66a7e322c351cded57be703ac5a41f7bc00e87c24f8c0ffdc302f73  /data/app/~~oDsJkdCEGZ1pN0Hj49UrIw==/io.github.hatake716.dinobones-0MJxpYnclXjotPopfw48sQ==/base.apk
+Current process crash buffer: (empty)

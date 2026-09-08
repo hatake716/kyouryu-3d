@@ -1,0 +1,263 @@
+{
+  "growth26": {
+    "title": "Woodwardほか（2026）成長モデル",
+    "articleTitle": "Prolonged growth and extended subadult development in the Tyrannosaurus rex species complex revealed by expanded histological sampling and statistical modeling",
+    "url": "https://doi.org/10.7717/peerj.20469",
+    "evidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12811967/",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "拡大した組織学データとモデル。35〜40年は成長曲線の漸近域で、寿命や全個体の成熟年齢ではない。"
+  },
+  "nano25": {
+    "title": "Zanno・Napoli（2025）ナノティラヌスの分類",
+    "articleTitle": "Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
+    "url": "https://doi.org/10.1038/s41586-025-09801-6",
+    "evidenceUrl": "https://doi.org/10.1038/s41586-025-09801-6",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "新標本と比較形態・成長・系統解析。2026年訂正10.1038/s41586-026-10185-4は著作権表示の訂正で科学的結果の変更なし。"
+  },
+  "nano26": {
+    "title": "Griffinほか（2025公表・2026巻号）舌骨の組織",
+    "articleTitle": "A diminutive tyrannosaur lived alongside Tyrannosaurus rex",
+    "url": "https://doi.org/10.1126/science.adx8706",
+    "evidenceUrl": "https://www.princeton.edu/news/2026/01/09/princeton-paleontologist-yes-tiny-tyrannosaurs-lived-alongside-t-rex",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "著者所属大学の報告と論文情報。基準頭骨に伴う舌骨の成長停止を独立属の根拠とする。"
+  },
+  "spin26": {
+    "title": "Serenoほか（2026）スピノサウルス新種",
+    "articleTitle": "New scimitar-crested Spinosaurus species from the Sahara caps stepwise spinosaurid radiation",
+    "url": "https://doi.org/10.1126/science.adx5486",
+    "evidenceUrl": "https://biologicalsciences.uchicago.edu/news/new-scimitar-crested-spinosaurus-species-discovered-central-sahara",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "著者所属大学の発見・調査・標本の説明。S. mirabilisの冠と内陸河川の産地、浅瀬採食は解釈。"
+  },
+  "dive22": {
+    "title": "Fabbriほか（2022）骨の緻密さと採食",
+    "articleTitle": "Subaqueous foraging among carnivorous dinosaurs",
+    "url": "https://doi.org/10.1038/s41586-022-04528-0",
+    "evidenceUrl": "https://ora.ox.ac.uk/objects/uuid%3A264b7ca2-1190-4b76-ab93-074cedf897e1",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "2024年の批判と対比する元の仮説。"
+  },
+  "dive24": {
+    "title": "Myhrvoldほか（2024）潜水推定の再検討",
+    "articleTitle": "Diving dinosaurs? Caveats on the use of bone compactness and pFDA for inferring lifestyle",
+    "url": "https://doi.org/10.1371/journal.pone.0298957",
+    "evidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10917332/",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "骨密度の測定、標本選択、統計分類の前提への批判。"
+  },
+  "droma24": {
+    "title": "Tseほか（2024）ラプトル類の頭骨力学",
+    "articleTitle": "Morphological disparity and structural performance of the dromaeosaurid skull informs ecology and evolutionary history",
+    "url": "https://doi.org/10.1186/s12862-024-02222-5",
+    "evidenceUrl": "https://doi.org/10.1186/s12862-024-02222-5",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "頭骨形態・機械的有利性・有限要素解析。死肉食への依存は仮説で専食や狩りの不在を示さない。"
+  },
+  "nose26": {
+    "title": "多田ほか（2026）角竜の鼻の復元",
+    "articleTitle": "Nasal soft-tissue anatomy of Triceratops and other horned dinosaurs",
+    "url": "https://doi.org/10.1002/ar.70150",
+    "evidenceUrl": "https://www.um.u-tokyo.ac.jp/research/umutnews/20260216.html",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "原著論文情報と著者所属博物館のCT比較研究解説。軟組織の配置と熱交換は推定。"
+  },
+  "chicago25": {
+    "title": "O’Connorほか（2025）シカゴ始祖鳥",
+    "articleTitle": "Chicago Archaeopteryx informs on the early evolution of the avian bauplan",
+    "url": "https://doi.org/10.1038/s41586-025-08912-4",
+    "evidenceUrl": "https://doi.org/10.1038/s41586-025-08912-4",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "口蓋、足裏、翼と胴の間の羽など。飛行の詳細な能力は未確定。"
+  },
+  "mouth26": {
+    "title": "O’Connorほか（2025公表・2026巻号）口の構造",
+    "articleTitle": "Avian features of Archaeopteryx feeding apparatus reflect elevated demands of flight",
+    "url": "https://doi.org/10.1016/j.xinn.2025.101086",
+    "evidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12881756/",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "2025-08-27オンライン公表、2026-02巻号。口腔乳頭、骨化した舌骨基部、吻端の神経系の証拠。飛行のエネルギー需要との関連は解釈。"
+  },
+  "dating26": {
+    "title": "Manielほか（2026）産出層の年代制約",
+    "articleTitle": "Albian zircon U-Pb crystallization ages from tuff beds in the Candeleros and Huincul formations, Neuquén Basin, Argentina",
+    "url": "https://doi.org/10.1016/j.gr.2026.06.020",
+    "evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S1342937X26002005",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "出版社の索引付き抄録とCrossref書誌を確認（全文は取得できず）。凝灰岩111.4±1.1 Ma／106.8±2.2 Ma。化石個体の直接年代や属の生存期間ではない。巻号は2026-11予定、オンライン公開済み。"
+  },
+  "chimera24": {
+    "title": "Danisonほか（2024）混在標本の再検討",
+    "articleTitle": "Chimerism in specimens referred to Saurophaganax maximus reveals a new species of Allosaurus (Dinosauria, Theropoda)",
+    "url": "https://doi.org/10.18435/vamp29404",
+    "evidenceUrl": "https://journals.library.ualberta.ca/vamp/index.php/VAMP/article/view/29404",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "一部の標本を竜脚類、確実な獣脚類をAllosaurus anaxとする提案。基準の断片の同定の限界を維持。"
+  },
+  "tamery25": {
+    "title": "Kellermannほか（2025）失われた標本の再分類",
+    "articleTitle": "Re-evaluation of the Bahariya Formation carcharodontosaurid (Dinosauria: Theropoda) and its implications for allosauroid phylogeny",
+    "url": "https://doi.org/10.1371/journal.pone.0311096",
+    "evidenceUrl": "https://doi.org/10.1371/journal.pone.0311096",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "原著の抄録をCrossrefで確認。写真を含む旧資料からエジプト標本をTameryraptorと命名。"
+  },
+  "mass24": {
+    "title": "Gayfordほか（2024）巨体の推定と限界",
+    "articleTitle": "Cautionary tales on the use of proxies to estimate body size and form of extinct animals",
+    "url": "https://doi.org/10.1002/ece3.70218",
+    "evidenceUrl": "https://doi.org/10.1002/ece3.70218",
+    "kind": "査読された展望論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "断片から体型を推定する代理種の選択と問題点。特定の最大値を新たに実証する資料ではない。"
+  },
+  "stego25": {
+    "title": "Sánchez-Fenollosa・Cobos（2025）剣竜の系統",
+    "articleTitle": "New insights into the phylogeny and skull evolution of stegosaurian dinosaurs: An extraordinary cranium from the European Late Jurassic (Dinosauria: Stegosauria)",
+    "url": "https://doi.org/10.3897/vz.75.e146618",
+    "evidenceUrl": "https://zenodo.org/records/15533105",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "Dacentrurusの頭骨を追加した系統再解析。Stegosaurusの新しい全身標本という意味ではない。"
+  },
+  "armor25": {
+    "title": "Maidmentほか（2025）初期の装甲恐竜",
+    "articleTitle": "Extreme armour in the world’s oldest ankylosaur",
+    "url": "https://doi.org/10.1038/s41586-025-09453-6",
+    "evidenceUrl": "https://doi.org/10.1038/s41586-025-09453-6",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "ジュラ紀Spicomellusに尾の柄の特徴を認める。本属Ankylosaurusの直接の新標本ではない。"
+  },
+  "para25": {
+    "title": "Guerrero（2025）脳函の成長・修士論文",
+    "articleTitle": "Ontogenetic analysis of Parasaurolophus braincases: comparing juvenile and adult morphology",
+    "url": "https://scholarworks.lib.csusb.edu/etd/2328/",
+    "evidenceUrl": "https://scholarworks.lib.csusb.edu/etd/2328/",
+    "kind": "修士学位論文（査読誌の原著とは区別）",
+    "reviewedOn": "2026-09-07",
+    "scope": "大学公開抄録を確認。幼体・亜成体・成体の3標本の比較で、種差と個体差に注意。"
+  },
+  "walk25": {
+    "title": "Lee・Słowiak（2025）歩行速度のモデル",
+    "articleTitle": "Sauntering Sauropods: The Preferred Walking Speeds of the Largest Land Animals That Ever Lived",
+    "url": "https://doi.org/10.1119/5.0187569",
+    "evidenceUrl": "https://muzeumewolucji.pl/?lang=en&p=7784",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "著者所属研究所の解説・論文情報。歩きやすい速度の物理モデルを最高走行速度と区別。"
+  },
+  "edmoskin26": {
+    "title": "Serenoほか（2025公表・2026巻号）皮膚の保存",
+    "articleTitle": "Duck-billed dinosaur fleshy midline and hooves reveal terrestrial clay-template “mummification”",
+    "url": "https://doi.org/10.1126/science.adw3536",
+    "evidenceUrl": "https://doi.org/10.1126/science.adw3536",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "Crossrefの出版社提供抄録を確認。E. annectensの2標本の皮膚・蹄の形が粘土の型で保存。"
+  },
+  "edmobite26": {
+    "title": "Wyenberg-Henzler・Scannella（2026）刺さった歯",
+    "articleTitle": "Behavioral implications of an embedded tyrannosaurid tooth and associated tooth marks on an articulated skull of Edmontosaurus from the Hell Creek Formation, Montana",
+    "url": "https://doi.org/10.7717/peerj.20796",
+    "evidenceUrl": "https://doi.org/10.7717/peerj.20796",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "Crossrefの出版社提供抄録を確認。治癒がなく死亡時前後の噛み込みと推定、生存を示す別標本と区別。"
+  },
+  "alamo25": {
+    "title": "Paul（2025）北米竜脚類の再分類",
+    "articleTitle": "Stratigraphic and anatomical evidence for multiple titanosaurid dinosaur taxa in the Late Cretaceous (Campanian-Maastrichtian) of southwestern North America",
+    "url": "https://doi.org/10.31711/giw.v12.pp201-220",
+    "evidenceUrl": "https://doi.org/10.31711/giw.v12.pp201-220",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "Crossrefの出版社提供抄録を確認。Utetitanへの再分類提案と断片・時間・成長差。"
+  },
+  "sinos25": {
+    "title": "Qiuほか（2025）小型獣脚類の多様性",
+    "articleTitle": "Two new compsognathid-like theropods show diversified predation strategies in theropod dinosaurs",
+    "url": "https://doi.org/10.1093/nsr/nwaf068",
+    "evidenceUrl": "https://doi.org/10.1093/nsr/nwaf068",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "原著の出版社提供抄録を確認。S. lingyuanensisとHuadanosaurusを新記載。食性と系統の区別。"
+  },
+  "sinoscomment25": {
+    "title": "Hendrickx（2025）分類へのコメント",
+    "articleTitle": "Comment on “Two new compsognathid-like theropods show diversified predation strategies of theropod dinosaurs” by Qiu et al",
+    "url": "https://doi.org/10.1093/nsr/nwaf131",
+    "evidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12057692/",
+    "kind": "査読誌のコメント",
+    "reviewedOn": "2026-09-07",
+    "scope": "新種記載と分類上の批判を併記。"
+  },
+  "anch25": {
+    "title": "Kiatほか（2025）翼と換羽",
+    "articleTitle": "Wing morphology of Anchiornis huxleyi and the evolution of molt strategies in paravian dinosaurs",
+    "url": "https://doi.org/10.1038/s42003-025-09019-2",
+    "evidenceUrl": "https://doi.org/10.1038/s42003-025-09019-2",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "9標本の羽の配置・数・左右差から換羽と飛行能力を推定。"
+  },
+  "amarg25": {
+    "title": "Militelloほか（2025公表）頭を動かす筋肉",
+    "articleTitle": "The occiput of Amargasaurus (Sauropoda, Dicraeosauridae): Reconstruction of the craniocervical muscular insertions with comments on feeding strategy",
+    "url": "https://doi.org/10.1111/joa.70071",
+    "evidenceUrl": "https://doi.org/10.1111/joa.70071",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "出版社提供抄録と引用文献を確認。現生主竜類との比較による筋肉付着の復元。"
+  },
+  "mamen25": {
+    "title": "Daiほか（2025）マメンチサウルス類の新種",
+    "articleTitle": "A new mamenchisaurid sauropod dinosaur from the Upper Jurassic of Southwest China reveals new evolutionary evidence from East Asian eusauropods",
+    "url": "https://doi.org/10.1038/s41598-025-29995-z",
+    "evidenceUrl": "https://doi.org/10.1038/s41598-025-29995-z",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "出版社抄録・原著の新種と系統を確認。首の最長記録の測定とは別。 2026-03-13訂正10.1038/s41598-026-43682-7は系統樹中のRhomaleopakhusの綴りで、新種の結論を変えない。"
+  },
+  "salt26": {
+    "title": "Cauほか（2026）塩類腺の可能性",
+    "articleTitle": "Avian-like salt glands in Spinosauridae",
+    "url": "https://doi.org/10.1080/08912963.2026.2669954",
+    "evidenceUrl": "https://doi.org/10.1080/08912963.2026.2669954",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "出版社の本文で骨の溝・孔、眼窩上塩類腺と排出管の復元、塩分環境の解析を確認。軟組織そのものの保存ではない。"
+  },
+  "maia26": {
+    "title": "Hunter・Janis（2026）幼体の歯と子育て",
+    "articleTitle": "Tooth wear in juvenile and adult hadrosaurs: Implication for parental care in Maiasaura",
+    "url": "https://doi.org/10.1016/j.palaeo.2026.113707",
+    "evidenceUrl": "https://research-information.bris.ac.uk/en/publications/tooth-wear-in-juvenile-and-adult-hadrosaurs-implication-for-paren/",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "著者所属大学の原著抄録。歯の摩耗の差から餌の違いを推定し、給餌行動は間接的な仮説。"
+  },
+  "claw23": {
+    "title": "Qinほか（2023）特殊な手の爪の機能",
+    "articleTitle": "Functional space analyses reveal the function and evolution of the most bizarre theropod manual unguals",
+    "url": "https://doi.org/10.1038/s42003-023-04552-4",
+    "evidenceUrl": "https://doi.org/10.1038/s42003-023-04552-4",
+    "kind": "査読論文",
+    "reviewedOn": "2026-09-07",
+    "scope": "試験した負荷条件下の応力と形の比較。あらゆる機能が無かったとはいえない。"
+  }
+}

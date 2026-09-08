@@ -1,0 +1,45 @@
+Physical update 2026-09-08T12:40:47.028470
+
+Model: Pixel 10a
+
+API: 37
+
+Before:
+versionCode=9 minSdk=26 targetSdk=36
+versionName=1.8.0
+
+Before APK:
+69a3556baaaf1df737755599bb1c250eab75e7fd78b430736feaf86c73cacb2d  /data/app/~~mv1aUKRRJ9AtCQ2sscj_qw==/io.github.hatake716.dinobones-Vhg06PCAv-MEiy5nf-1XVg==/base.apk
+
+APK: kyouryu-3d-1.9.0.apk
+
+Expected SHA256: 37c14535fa28fc64c50a205c1007157f78ad434047cbc346fa9c77ddda54d09d
+
+Update command: adb -s <Pixel 10a> install --no-incremental -r <APK>
+
+Performing Streamed Install
+Success
+
+After:
+versionCode=10 minSdk=26 targetSdk=36
+versionName=1.9.0
+
+Installed APK:
+37c14535fa28fc64c50a205c1007157f78ad434047cbc346fa9c77ddda54d09d  /data/app/~~jjD-qw5ojPqr2t2uE8kvLg==/io.github.hatake716.dinobones-FdCZ-yiz1HrlfSoul7YteQ==/base.apk
+
+Safe launch:
+Starting: Intent { cmp=io.github.hatake716.dinobones/.MainActivity }
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: io.github.hatake716.dinobones/.MainActivity
+WaitTime: 577
+Complete
+
+Running PID: 16061
+
+topResumedActivity=ActivityRecord{233022024 u0 io.github.hatake716.dinobones/.MainActivity t396}
+
+Current process crash buffer:
+(empty)
+
+No uninstall, data clearing, keystrokes, swipes, or input injection on the physical device. Gesture and rendering interaction acceptance used the emulator.

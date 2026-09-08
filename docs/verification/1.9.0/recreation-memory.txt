@@ -1,0 +1,7 @@
+initial=97915776
+recreation=1 native=86070144
+recreation=2 native=86151424
+recreation=3 native=88302368
+recreation=4 native=86373072
+recreation=5 native=88359840
+recreation=6 native=88533216

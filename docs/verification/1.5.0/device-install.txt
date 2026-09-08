@@ -1,0 +1,17 @@
+UTC: 2026-09-07T15:46:39.282539+00:00
+Device: Pixel 10a / API 37 / serial 62251JEA315065
+Package: io.github.hatake716.dinobones
+Update: 1.4.0 (5) -> 1.5.0 (6), adb install --no-incremental -r
+Existing data retained through package-manager update. No uninstall, data clearing, or physical-device input injection.
+Local and installed APK SHA-256: 589cf037349ccb51e6c8eaa04080c7565722c549198c6744fadcb9624d9398f1
+Version: 1.5.0 / versionCode 6 / targetSdk 36
+Starting: Intent { cmp=io.github.hatake716.dinobones/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: io.github.hatake716.dinobones/.MainActivity
+TotalTime: 384
+WaitTime: 385
+Complete
+PID: 29526
+MainActivity is the top resumed activity.
+No fatal exception in current PID crash log. Gestures and model rendering tested on emulator.

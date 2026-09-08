@@ -2,11 +2,26 @@
 import hashlib,json
 from pathlib import Path
 from urllib.parse import urlparse
+from catalog.enrich import TOPICS, blocks
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text())
 rows=read('app/src/main/assets/dinosaurs.json');arts=read('docs/artwork-provenance.json');selection=read('docs/selected-taxa.json');sources=read('docs/source-provenance.json');metrics=read('docs/popularity-candidates.json')['candidates']
 assert len(rows)==len(arts)==len(selection)==len(sources)==100
 assert len({r['id'] for r in rows})==100
+notes=dict(blocks(ROOT/'tools/catalog/enrichment/reading-notes.txt'))
+research_refs=read('tools/catalog/enrichment/references.json')
+review=read('docs/research-review.json')
+assert {e['id'] for e in review['entries']}==set(notes)=={r['id'] for r in rows}
+for r in rows:
+ assert [s['title'] for s in r['sections'][:5]]==list(TOPICS),r['id']
+ assert [s['text'] for s in r['sections'][:5]]==notes[r['id']],r['id']
+ assert all(len(s['text'])>=60 and s['references'] for s in r['sections'][:5]),r['id']
+ for s in r['sections']:
+  assert s['title'] and s['text'].strip(),r['id']
+  for ref in s.get('references',[]):
+   assert ref['title'] and urlparse(ref['url']).scheme=='https' and urlparse(ref['url']).netloc,ref
+  if s['title'].startswith('研究ノート：'):
+   assert s.get('references') and all(ref in [{k:v[k] for k in ('title','url')} for v in research_refs.values()] for ref in s['references']),s['title']
 assert len(metrics)==1468
 assert all(1<=len(m['months'])<=3 and sum(x['views'] for x in m['months'])==m['views'] for m in metrics)
 expected=[m for m in metrics if m['title']!='Postosuchus'][:100]

@@ -1,0 +1,23 @@
+{
+  "uid": "a48cde44e8a045d2968fca28ce62c7ae",
+  "author": "MebaLab / lautaro.cb",
+  "title": "Patagotitan mayorum by MebaLab",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "id": "patagotitan",
+  "sourceUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-118/a48cde44e8a045d2968fca28ce62c7ae.glb",
+  "objectUrl": "https://sketchfab.com/3d-models/a48cde44e8a045d2968fca28ce62c7ae",
+  "sourceSha256": "b762040a14743d4de82a3d10314de036d78480f6aec82d238dea43c979d33c5c",
+  "reviewed": "2026-09-08",
+  "sourceTriangles": 835050,
+  "triangles": 350179,
+  "metresPerDisplayUnit": null,
+  "changes": "Authored reconstruction, not a validated fossil scan. Node transforms applied, centered and normalized for display. Approximate coordinate regions assigned. Source physical units unverified. Vertices welded and duplicate/degenerate faces removed within each node; each bone mesh simplified separately with quadric error decimation; normals recalculated; opaque procedural fossil material replaces original material.",
+  "outputs": {
+    "patagotitan.ksmz": {
+      "bytes": 6424219,
+      "sha256": "493ea3302f974be188e7e6c2e6191a5bd71a4ddfac6d9ada1f21aa5d63d66047",
+      "license": "CC-BY-SA-4.0"
+    }
+  }
+}

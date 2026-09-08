@@ -1,0 +1,206 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.TheaterTest:
+INSTRUMENTATION_STATUS: test=defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Timed out: map dismissed
+	at io.github.hatake716.dinobones.TheaterTest.waitFor(TheaterTest.kt:29)
+	at io.github.hatake716.dinobones.TheaterTest.waitFor$default(TheaterTest.kt:26)
+	at io.github.hatake716.dinobones.TheaterTest.travel(TheaterTest.kt:46)
+	at io.github.hatake716.dinobones.TheaterTest.defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(TheaterTest.kt:77)
+
+INSTRUMENTATION_STATUS: stream=
+Error in defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(io.github.hatake716.dinobones.TheaterTest):
+java.lang.IllegalStateException: Timed out: map dismissed
+	at io.github.hatake716.dinobones.TheaterTest.waitFor(TheaterTest.kt:29)
+	at io.github.hatake716.dinobones.TheaterTest.waitFor$default(TheaterTest.kt:26)
+	at io.github.hatake716.dinobones.TheaterTest.travel(TheaterTest.kt:46)
+	at io.github.hatake716.dinobones.TheaterTest.defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(TheaterTest.kt:77)
+
+INSTRUMENTATION_STATUS: test=defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(TheaterTest.kt:127)
+
+INSTRUMENTATION_STATUS: stream=
+Error in originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(io.github.hatake716.dinobones.TheaterTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(TheaterTest.kt:127)
+
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.BackgroundTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.BackgroundTest:
+INSTRUMENTATION_STATUS: test=backgroundControlsKeepCameraAndSurviveRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.BackgroundTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=backgroundControlsKeepCameraAndSurviveRecreation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.PeriodNavigationTest:
+INSTRUMENTATION_STATUS: test=mapsFilterCollectionAndBottomCardSwipePreservesView
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mapsFilterCollectionAndBottomCardSwipePreservesView
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cretaceousCornersAndDownSwipeKeepReadingAndViewpoint
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cretaceousCornersAndDownSwipeKeepReadingAndViewpoint
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ReferenceLinkTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ReferenceLinkTest:
+INSTRUMENTATION_STATUS: test=wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ReferenceLinkTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.SearchTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.SearchTest:
+INSTRUMENTATION_STATUS: test=typingRetainsFocusWhileFilteringTheSelectedPeriod
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.SearchTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=typingRetainsFocusWhileFilteringTheSelectedPeriod
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ExhibitTest:
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Missing 全時代
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:40)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:156)
+
+INSTRUMENTATION_STATUS: stream=
+Error in specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.IllegalStateException: Missing 全時代
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:40)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:156)
+
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=9
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Missing カマラサウルス
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:40)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:121)
+
+INSTRUMENTATION_STATUS: stream=
+Error in detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.IllegalStateException: Missing カマラサウルス
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:40)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:121)
+
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 213.6
+There were 4 failures:
+1) defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(io.github.hatake716.dinobones.TheaterTest)
+java.lang.IllegalStateException: Timed out: map dismissed
+	at io.github.hatake716.dinobones.TheaterTest.waitFor(TheaterTest.kt:29)
+	at io.github.hatake716.dinobones.TheaterTest.waitFor$default(TheaterTest.kt:26)
+	at io.github.hatake716.dinobones.TheaterTest.travel(TheaterTest.kt:46)
+	at io.github.hatake716.dinobones.TheaterTest.defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn(TheaterTest.kt:77)
+2) originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(io.github.hatake716.dinobones.TheaterTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(TheaterTest.kt:127)
+3) specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.IllegalStateException: Missing 全時代
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:40)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:156)
+4) detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.IllegalStateException: Missing カマラサウルス
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:40)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:121)
+
+FAILURES!!!
+Tests run: 9,  Failures: 4
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,57 @@
+{
+  "id": "tyrannosaurus",
+  "taxon": "Tyrannosaurus rex",
+  "author": "Rigsters",
+  "title": "Tyrannosaurus Rex skeleton",
+  "sourceUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-033/77e21c4e5d65468bbe11780ae0557b95.glb",
+  "objectUrl": "https://sketchfab.com/3d-models/tyrannosaurus-rex-skeleton-77e21c4e5d65468bbe11780ae0557b95",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceSha256": "23d5c3b6d5d5ee2c2287c726165c8b43eb314e210beb628f519865b704aebc30",
+  "reviewed": "2026-09-07",
+  "description": "Photogrammetry of a mounted replica at Knuthenborg Safaripark, Denmark; 133 photographs. Supplied by Rigsters under CC BY 4.0. Source archive may differ from the current Sketchfab version. Surfaces hidden from photographs may be incomplete.",
+  "triangles": 250240,
+  "metresPerDisplayUnit": null,
+  "sourceUnits": "unverified; glTF coordinate units are not evidence of physical scale",
+  "changes": "All archived triangle geometry, UVs and color image retained. Node transforms applied; rigid rotation, centering and display normalization. Approximate spatial region IDs added. No measured lengths from another specimen applied.",
+  "rotationRows": [
+    [
+      0.5299192642332049,
+      0.0,
+      0.848048096156426
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -0.848048096156426,
+      0.0,
+      0.5299192642332049
+    ]
+  ],
+  "displayScale": 0.8215110871939996,
+  "orientedSourceBounds": [
+    [
+      -0.36442755173795444,
+      -4.75465890838423,
+      8.846511877133567
+    ],
+    [
+      9.373724646944183,
+      -1.321358773167101,
+      10.912232403065632
+    ]
+  ],
+  "outputs": {
+    "tyrannosaurus.ksmz": {
+      "bytes": 7458164,
+      "sha256": "8200c19b115e7f49ec8632244cb4851a497b9eb60aa018be3dc49691aa1eb97a"
+    },
+    "tyrannosaurus-color.jpg": {
+      "bytes": 1126699,
+      "sha256": "08dedd34ab645fd74bcf9f3dfcfb0a54098237acaf65b9b243cdbe3b76bed4ff"
+    }
+  }
+}

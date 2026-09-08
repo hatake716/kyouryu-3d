@@ -1,0 +1,10 @@
+Signed 1.8.0 baseline: Tyrannosaurus favorite saved.
+Performing Streamed Install
+Success
+Tapped visible Triceratops illustration stand at 252 1304
+Final signed release: Tyrannosaurus -> 3D portrait/landscape -> museum passed.
+Final signed release: Triceratops -> 3D portrait/landscape -> museum passed.
+Final signed release: Patagotitan -> 3D portrait/landscape -> museum passed.
+Final signed release: Pteranodon -> 3D portrait/landscape -> museum passed.
+Final signed release: Archaeopteryx -> 3D portrait/landscape -> museum passed.
+Signed 1.8.0 -> 1.9.0: favorite preserved, illustration stand and source viewer, landscape model fit, museum return, collection and current crash buffer passed.

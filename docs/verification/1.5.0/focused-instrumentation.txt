@@ -1,0 +1,9 @@
+
+io.github.hatake716.dinobones.BackgroundTest:.
+io.github.hatake716.dinobones.ExhibitTest:..
+
+Time: 128.41
+
+OK (3 tests)
+
+

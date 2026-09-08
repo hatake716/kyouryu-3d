@@ -1,0 +1,1066 @@
+{
+  "reviewedOn": "2026-09-07",
+  "method": "100項目の固定版・文献欄を手掛かりに、分類・生態・復元への影響が大きい研究を選択的に確認。候補DOIは採用・全文確認済みを意味しない。網羅的な文献検索ではない。",
+  "entries": [
+    {
+      "id": "tyrannosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1373481925",
+      "basisRevision": "1373481925",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1098/rsos.252139",
+        "https://doi.org/10.1016/j.cretres.2023.105780",
+        "https://doi.org/10.1098/rsos.242238",
+        "https://doi.org/10.1080/27669645.2025.2539638",
+        "https://doi.org/10.7717/peerj.20469",
+        "https://doi.org/10.1371/journal.pone.0294901"
+      ],
+      "adoptedResearch": [
+        "growth26",
+        "nano25",
+        "nano26"
+      ]
+    },
+    {
+      "id": "spinosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1373355079",
+      "basisRevision": "1373355079",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.5252/geodiversitas2026v48a12",
+        "https://doi.org/10.1111/pala.70014"
+      ],
+      "adoptedResearch": [
+        "dive22",
+        "dive24",
+        "spin26"
+      ]
+    },
+    {
+      "id": "velociraptor",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1371049913",
+      "basisRevision": "1371049913",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1186/s12862-024-02222-5"
+      ],
+      "adoptedResearch": [
+        "droma24"
+      ]
+    },
+    {
+      "id": "allosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1371849491",
+      "basisRevision": "1371849491",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.18435/vamp29404",
+        "https://doi.org/10.1080/02724634.2024.2326027"
+      ],
+      "adoptedResearch": [
+        "chimera24"
+      ]
+    },
+    {
+      "id": "quetzalcoatlus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Quetzalcoatlus&oldid=1372431660",
+      "basisRevision": "1372431660",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/02724634.2024.2442476",
+        "https://doi.org/10.1590/0001-3765202520240478"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "triceratops",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1373478005",
+      "basisRevision": "1373478005",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1126/science.adw3536",
+        "https://doi.org/10.1002/ar.70150",
+        "https://doi.org/10.1038/s41586-025-09801-6"
+      ],
+      "adoptedResearch": [
+        "nose26"
+      ]
+    },
+    {
+      "id": "stegosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1373620064",
+      "basisRevision": "1373620064",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1016/j.cretres.2024.105852",
+        "https://doi.org/10.3897/vz.75.e146618"
+      ],
+      "adoptedResearch": [
+        "stego25"
+      ]
+    },
+    {
+      "id": "archaeopteryx",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1369453699",
+      "basisRevision": "1369453699",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41586-025-08912-4"
+      ],
+      "adoptedResearch": [
+        "chicago25",
+        "mouth26"
+      ]
+    },
+    {
+      "id": "mosasaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1372074090",
+      "basisRevision": "1372074090",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1002/ece3.70218",
+        "https://doi.org/10.3390/d17030205"
+      ],
+      "adoptedResearch": [
+        "mass24"
+      ]
+    },
+    {
+      "id": "giganotosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1372011895",
+      "basisRevision": "1372011895",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1016/j.gr.2026.06.020",
+        "https://doi.org/10.4435/BSPI.2024.08",
+        "https://doi.org/10.1371/journal.pone.0311096"
+      ],
+      "adoptedResearch": [
+        "dating26"
+      ]
+    },
+    {
+      "id": "brachiosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1369189728",
+      "basisRevision": "1369189728",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1119/5.0187569"
+      ],
+      "adoptedResearch": [
+        "walk25"
+      ]
+    },
+    {
+      "id": "ankylosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1369993132",
+      "basisRevision": "1369993132",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": [
+        "armor25"
+      ]
+    },
+    {
+      "id": "dilophosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Dilophosaurus&oldid=1370051939",
+      "basisRevision": "1370051939",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "therizinosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Therizinosaurus&oldid=1368825641",
+      "basisRevision": "1368825641",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": [
+        "claw23"
+      ]
+    },
+    {
+      "id": "deinonychus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Deinonychus&oldid=1373667789",
+      "basisRevision": "1373667789",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1186/s12862-024-02222-5"
+      ],
+      "adoptedResearch": [
+        "droma24"
+      ]
+    },
+    {
+      "id": "parasaurolophus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1365892867",
+      "basisRevision": "1365892867",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": [
+        "para25"
+      ]
+    },
+    {
+      "id": "utahraptor",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Utahraptor&oldid=1369622500",
+      "basisRevision": "1369622500",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1144/SP545-2023-211",
+        "https://doi.org/10.1017/pab.2024.6",
+        "https://doi.org/10.2181/036.050.0204"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "carnotaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Carnotaurus&oldid=1372964101",
+      "basisRevision": "1372964101",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/08912963.2024.2332997"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "pachycephalosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Pachycephalosaurus&oldid=1372076661",
+      "basisRevision": "1372076661",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.18261/let.57.4.7",
+        "https://doi.org/10.1080/02724634.2026.2616325"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "brontosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Brontosaurus&oldid=1372340997",
+      "basisRevision": "1372340997",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "argentinosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Argentinosaurus&oldid=1369635995",
+      "basisRevision": "1369635995",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1119/5.0187569"
+      ],
+      "adoptedResearch": [
+        "dating26"
+      ]
+    },
+    {
+      "id": "diplodocus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Diplodocus&oldid=1372158191",
+      "basisRevision": "1372158191",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/02724634.2024.2326027",
+        "https://doi.org/10.1111/joa.14108",
+        "https://doi.org/10.1098/rsos.251232",
+        "https://doi.org/10.1119/5.0187569"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "pterodactylus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Pterodactylus&oldid=1362501855",
+      "basisRevision": "1362501855",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "pteranodon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?oldid=1373069806",
+      "basisRevision": "1373069806",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1016/j.cretres.2024.105837",
+        "https://doi.org/10.1080/08912963.2024.2355664"
+      ],
+      "adoptedResearch": [
+        "mass24"
+      ]
+    },
+    {
+      "id": "iguanodon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Iguanodon&oldid=1370542384",
+      "basisRevision": "1370542384",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1111/pala.70057",
+        "https://doi.org/10.1016/j.palaeo.2025.113371"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "suchomimus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Suchomimus&oldid=1373688336",
+      "basisRevision": "1373688336",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.5252/geodiversitas2026v48a12",
+        "https://doi.org/10.3301/IJG.2025.10"
+      ],
+      "adoptedResearch": [
+        "dive22",
+        "dive24"
+      ]
+    },
+    {
+      "id": "nigersaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Nigersaurus&oldid=1370055972",
+      "basisRevision": "1370055972",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "apatosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Apatosaurus&oldid=1372004138",
+      "basisRevision": "1372004138",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "edmontosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Edmontosaurus&oldid=1371934142",
+      "basisRevision": "1371934142",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1017/jpa.2025.10191",
+        "https://doi.org/10.5852/cr-palevol2024v23a5",
+        "https://doi.org/10.1002/ar.70098"
+      ],
+      "adoptedResearch": [
+        "edmobite26",
+        "edmoskin26"
+      ]
+    },
+    {
+      "id": "carcharodontosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Carcharodontosaurus&oldid=1370226152",
+      "basisRevision": "1370226152",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/02724634.2024.2441903"
+      ],
+      "adoptedResearch": [
+        "tamery25"
+      ]
+    },
+    {
+      "id": "megalosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Megalosaurus&oldid=1369775859",
+      "basisRevision": "1369775859",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "borealopelta",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Borealopelta&oldid=1365698481",
+      "basisRevision": "1365698481",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "herrerasaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Herrerasaurus&oldid=1371526155",
+      "basisRevision": "1371526155",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "baryonyx",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Baryonyx&oldid=1369485962",
+      "basisRevision": "1369485962",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1093/zoolinnean/zlad193",
+        "https://doi.org/10.5252/geodiversitas2026v48a12"
+      ],
+      "adoptedResearch": [
+        "dive22",
+        "dive24"
+      ]
+    },
+    {
+      "id": "compsognathus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Compsognathus&oldid=1371496229",
+      "basisRevision": "1371496229",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "ceratosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Ceratosaurus&oldid=1372004439",
+      "basisRevision": "1372004439",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "titanosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Titanosaurus&oldid=1363110034",
+      "basisRevision": "1363110034",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "patagotitan",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Patagotitan&oldid=1372519803",
+      "basisRevision": "1372519803",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1111/brv.70026"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "yutyrannus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Yutyrannus&oldid=1373496507",
+      "basisRevision": "1373496507",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "hatzegopteryx",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Hatzegopteryx&oldid=1352273204",
+      "basisRevision": "1352273204",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "troodon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Troodon&oldid=1368892358",
+      "basisRevision": "1368892358",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1017/jpa.2024.67"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "tylosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Tylosaurus&oldid=1373519206",
+      "basisRevision": "1373519206",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.5281/zenodo.20412622",
+        "https://doi.org/10.1016/j.palaeo.2026.113578",
+        "https://doi.org/10.1017/pab.2025.10080",
+        "https://doi.org/10.3390/d17020114",
+        "https://doi.org/10.3390/d17040291"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "liopleurodon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Liopleurodon&oldid=1371149245",
+      "basisRevision": "1371149245",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.26879/1280",
+        "https://doi.org/10.1080/02724634.2026.2691149",
+        "https://doi.org/10.3390/d16050290",
+        "https://doi.org/10.7717/peerj.21146"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "acrocanthosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Acrocanthosaurus&oldid=1372009492",
+      "basisRevision": "1372009492",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1111/brv.70026",
+        "https://doi.org/10.4435/BSPI.2024.08"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "microraptor",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Microraptor&oldid=1370180339",
+      "basisRevision": "1370180339",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/08912963.2024.2385604"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "nanotyrannus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Nanotyrannus&oldid=1371784903",
+      "basisRevision": "1371784903",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41586-025-09801-6",
+        "https://doi.org/10.1371/journal.pone.0328861",
+        "https://doi.org/10.11646/mesozoic.2.2.1",
+        "https://doi.org/10.7717/peerj.20469",
+        "https://doi.org/10.1371/journal.pone.0294901",
+        "https://doi.org/10.1017/jpa.2025.10191"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "tarbosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Tarbosaurus&oldid=1373018088",
+      "basisRevision": "1373018088",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.18261/let.57.2.6"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "camarasaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Camarasaurus&oldid=1370307410",
+      "basisRevision": "1370307410",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1111/joa.14108",
+        "https://doi.org/10.1080/02724634.2024.2326027"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "plesiosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Plesiosaurus&oldid=1372001053",
+      "basisRevision": "1372001053",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "styracosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Styracosaurus&oldid=1372072281",
+      "basisRevision": "1372072281",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "australovenator",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Australovenator&oldid=1373237694",
+      "basisRevision": "1373237694",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/02724634.2024.2441903",
+        "https://doi.org/10.1038/s41467-025-63793-5"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "coelophysis",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Coelophysis&oldid=1371903463",
+      "basisRevision": "1371903463",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.5281/zenodo.14793416",
+        "https://doi.org/10.21805/bzn.v81.a002"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "albertosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Albertosaurus&oldid=1364262358",
+      "basisRevision": "1364262358",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "bruhathkayosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Bruhathkayosaurus&oldid=1348966468",
+      "basisRevision": "1348966468",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "deinocheirus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Deinocheirus&oldid=1371301985",
+      "basisRevision": "1371301985",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "cristatusaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Cristatusaurus&oldid=1370051267",
+      "basisRevision": "1370051267",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.5252/geodiversitas2026v48a12",
+        "https://doi.org/10.3301/IJG.2025.10"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "dreadnoughtus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Dreadnoughtus&oldid=1370808008",
+      "basisRevision": "1370808008",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "protoceratops",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Protoceratops&oldid=1370047003",
+      "basisRevision": "1370047003",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "psittacosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Psittacosaurus&oldid=1372048168",
+      "basisRevision": "1372048168",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1144/SP545-2023-62",
+        "https://doi.org/10.7717/peerj.19547",
+        "https://doi.org/10.1007/s11430-025-1759-4"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "elasmosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Elasmosaurus&oldid=1370052778",
+      "basisRevision": "1370052778",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.3390/d16020106"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "archelon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Archelon&oldid=1366311184",
+      "basisRevision": "1366311184",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "pliosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Pliosaurus&oldid=1368825267",
+      "basisRevision": "1368825267",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.7717/peerj.21146",
+        "https://doi.org/10.1134/S0869593824700187"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "irritator",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Irritator&oldid=1370054138",
+      "basisRevision": "1370054138",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/08912963.2026.2669954",
+        "https://doi.org/10.1016/j.gr.2026.03.016"
+      ],
+      "adoptedResearch": [
+        "salt26"
+      ]
+    },
+    {
+      "id": "gorgosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Gorgosaurus&oldid=1369234062",
+      "basisRevision": "1369234062",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41586-025-09801-6",
+        "https://doi.org/10.3390/biology15131090"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "gallimimus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Gallimimus&oldid=1372068703",
+      "basisRevision": "1372068703",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "torvosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Torvosaurus&oldid=1370710878",
+      "basisRevision": "1370710878",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1002/spp2.70012",
+        "https://doi.org/10.1017/pab.2024.6",
+        "https://doi.org/10.3301/IJG.2026.14"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "majungasaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Majungasaurus&oldid=1370049448",
+      "basisRevision": "1370049448",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "maip",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Maip&oldid=1372686568",
+      "basisRevision": "1372686568",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41467-025-63793-5",
+        "https://doi.org/10.1007/s00114-026-02151-x"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "kronosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Kronosaurus&oldid=1371114296",
+      "basisRevision": "1371114296",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1371/journal.pone.0300289",
+        "https://doi.org/10.7717/peerj.21146",
+        "https://doi.org/10.1038/s41598-024-60889-8"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "sinosauropteryx",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Sinosauropteryx&oldid=1372918082",
+      "basisRevision": "1372918082",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1093/nsr/nwaf068",
+        "https://doi.org/10.4435/BSPI.2024.08",
+        "https://doi.org/10.1093/nsr/nwaf131"
+      ],
+      "adoptedResearch": [
+        "sinos25",
+        "sinoscomment25"
+      ]
+    },
+    {
+      "id": "tropeognathus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Tropeognathus&oldid=1372151028",
+      "basisRevision": "1372151028",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "maiasaura",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Maiasaura&oldid=1373175970",
+      "basisRevision": "1373175970",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41598-025-06282-5"
+      ],
+      "adoptedResearch": [
+        "maia26"
+      ]
+    },
+    {
+      "id": "oviraptor",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Oviraptor&oldid=1357658525",
+      "basisRevision": "1357658525",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "amargasaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Amargasaurus&oldid=1368834096",
+      "basisRevision": "1368834096",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": [
+        "amarg25"
+      ]
+    },
+    {
+      "id": "aquilops",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Aquilops&oldid=1373667006",
+      "basisRevision": "1373667006",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1002/spp2.1587",
+        "https://doi.org/10.3389/feart.2025.1497416",
+        "https://doi.org/10.1016/j.cretres.2023.105814"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "alamosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Alamosaurus&oldid=1371274866",
+      "basisRevision": "1371274866",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1126/science.adw3282",
+        "https://doi.org/10.1016/j.cretres.2024.105856"
+      ],
+      "adoptedResearch": [
+        "alamo25"
+      ]
+    },
+    {
+      "id": "cryolophosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Cryolophosaurus&oldid=1372441610",
+      "basisRevision": "1372441610",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "pyroraptor",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Pyroraptor&oldid=1369872427",
+      "basisRevision": "1369872427",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "sauroposeidon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Sauroposeidon&oldid=1372420013",
+      "basisRevision": "1372420013",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "nanuqsaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Nanuqsaurus&oldid=1369433563",
+      "basisRevision": "1369433563",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1002/spp2.70014",
+        "https://doi.org/10.1038/s41467-024-46843-2",
+        "https://doi.org/10.1038/s41598-024-66278-5"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "daspletosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Daspletosaurus&oldid=1371465885",
+      "basisRevision": "1371465885",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1016/j.cretres.2024.105957",
+        "https://doi.org/10.1080/08912963.2025.2532735",
+        "https://doi.org/10.1016/j.cretres.2023.105780",
+        "https://doi.org/10.4202/app.01143.2024",
+        "https://doi.org/10.1016/j.cretres.2025.106080",
+        "https://doi.org/10.1139/cjes-2024-0083"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "mamenchisaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Mamenchisaurus&oldid=1366749314",
+      "basisRevision": "1366749314",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41598-025-29995-z"
+      ],
+      "adoptedResearch": [
+        "mamen25"
+      ]
+    },
+    {
+      "id": "ichthyosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Ichthyosaurus&oldid=1372973224",
+      "basisRevision": "1372973224",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1186/s13358-024-00327-4"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "saurolophus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Saurolophus&oldid=1371933542",
+      "basisRevision": "1371933542",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "plateosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Plateosaurus&oldid=1371903580",
+      "basisRevision": "1371903580",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "saurophaganax",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Saurophaganax&oldid=1368889502",
+      "basisRevision": "1368889502",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": [
+        "chimera24"
+      ]
+    },
+    {
+      "id": "anchiornis",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Anchiornis&oldid=1369635861",
+      "basisRevision": "1369635861",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s42003-025-09019-2"
+      ],
+      "adoptedResearch": [
+        "anch25"
+      ]
+    },
+    {
+      "id": "pachyrhinosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Pachyrhinosaurus&oldid=1360647794",
+      "basisRevision": "1360647794",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1002/spp2.70014"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "concavenator",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Concavenator&oldid=1365743795",
+      "basisRevision": "1365743795",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "rhamphorhynchus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Rhamphorhynchus&oldid=1366741657",
+      "basisRevision": "1366741657",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.7717/peerj.18587",
+        "https://doi.org/10.7717/peerj.17524"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "tanystropheus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Tanystropheus&oldid=1370047738",
+      "basisRevision": "1370047738",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.18476/pale.v18.a5",
+        "https://doi.org/10.1098/rsos.240233",
+        "https://doi.org/10.1186/s13358-024-00309-6",
+        "https://doi.org/10.64898/2026.06.28.735087"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "mapusaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Mapusaurus&oldid=1371153438",
+      "basisRevision": "1371153438",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1080/02724634.2024.2441903",
+        "https://doi.org/10.4435/BSPI.2024.08"
+      ],
+      "adoptedResearch": [
+        "dating26"
+      ]
+    },
+    {
+      "id": "rajasaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Rajasaurus&oldid=1373395422",
+      "basisRevision": "1373395422",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "kentrosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Kentrosaurus&oldid=1364541269",
+      "basisRevision": "1364541269",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.3897/vz.75.e146618"
+      ],
+      "adoptedResearch": [
+        "stego25"
+      ]
+    },
+    {
+      "id": "scipionyx",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Scipionyx&oldid=1335300381",
+      "basisRevision": "1335300381",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.4435/BSPI.2024.08"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "torosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Torosaurus&oldid=1372077025",
+      "basisRevision": "1372077025",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "hadrosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Hadrosaurus&oldid=1370996383",
+      "basisRevision": "1370996383",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "dryptosaurus",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Dryptosaurus&oldid=1371002421",
+      "basisRevision": "1371002421",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41586-025-08964-6",
+        "https://doi.org/10.1038/s41586-025-09801-6"
+      ],
+      "adoptedResearch": []
+    },
+    {
+      "id": "dimorphodon",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Dimorphodon&oldid=1372000724",
+      "basisRevision": "1372000724",
+      "recentReferenceCandidates": [],
+      "adoptedResearch": []
+    },
+    {
+      "id": "eoraptor",
+      "reviewedOn": "2026-09-07",
+      "basis": "https://en.wikipedia.org/w/index.php?title=Eoraptor&oldid=1355645201",
+      "basisRevision": "1355645201",
+      "recentReferenceCandidates": [
+        "https://doi.org/10.1038/s41586-025-09634-3"
+      ],
+      "adoptedResearch": []
+    }
+  ]
+}

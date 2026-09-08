@@ -1,0 +1,1 @@
+PASS: every APK and AAB asset equals the working tree byte for byte.

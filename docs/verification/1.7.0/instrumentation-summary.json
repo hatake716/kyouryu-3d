@@ -1,0 +1,50 @@
+[
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "repeatedRecreationReleasesMuseumResources",
+    "log": "theater-tests.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "all100DisplaysLoadAndOpenTheirOwnRecordsAcrossEveryGallery",
+    "log": "theater-tests.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "physicalScaleLabelsAndSmallSpecimensHaveAccessibleRecords",
+    "log": "final-placard-test.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn",
+    "log": "theater-tests.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "originalMenuShortcutAndSelectedPlaceSurviveRoundTrip",
+    "log": "theater-tests.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.ExhibitTest",
+    "test": "specimenFirstFrameIsolationAndMeasuredSource",
+    "log": "legacy-tests.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.ExhibitTest",
+    "test": "detailedSkullsAndScanSurfaceRender",
+    "log": "legacy-tests.txt",
+    "result": "passed"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.BackgroundTest",
+    "test": "backgroundControlsKeepCameraAndSurviveRecreation",
+    "log": "legacy-tests.txt",
+    "result": "passed"
+  }
+]

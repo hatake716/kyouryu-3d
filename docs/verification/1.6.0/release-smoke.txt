@@ -1,0 +1,6 @@
+Release: Triceratops gallery -> correct details -> museum passed
+Release: Tyrannosaurus gallery -> correct details -> museum passed
+Release: Spinosaurus gallery -> correct details -> museum passed
+Release: Patagotitan gallery -> correct details -> museum passed
+Release: Eoraptor gallery -> correct details -> museum passed
+Signed update preserved favorite; museum, all five example records, original 3D viewer, source notices, collection shortcut and landscape passed.

@@ -1,0 +1,7 @@
+Tapped visible Triceratops illustration stand at 252 1304
+Final signed release: Spinosaurus -> 3D portrait/landscape -> museum passed.
+Final signed release: Velociraptor -> 3D portrait/landscape -> museum passed.
+Final signed release: Brachiosaurus -> 3D portrait/landscape -> museum passed.
+Final signed release: Patagotitan -> 3D portrait/landscape -> museum passed.
+Final signed release: Tyrannosaurus -> 3D portrait/landscape -> museum passed.
+Signed 1.9.0 -> 1.10.0: favorite preserved, illustration stand and source viewer, landscape model fit, museum return, collection and current crash buffer passed.

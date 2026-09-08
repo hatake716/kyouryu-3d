@@ -16,8 +16,8 @@ android {
         applicationId = "io.github.hatake716.dinobones"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
-        versionName = "1.2.0"
+        versionCode = 12
+        versionName = "1.10.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     if (signingFile.exists()) signingConfigs.create("release") {
@@ -40,6 +40,13 @@ android {
     }
     buildFeatures { compose = true; buildConfig = true }
     testOptions { unitTests.isIncludeAndroidResources = true }
+}
+tasks.register<JavaExec>("exportTheaterSources") {
+    dependsOn("compileDebugUnitTestKotlin")
+    classpath=files("build/tmp/kotlin-classes/debugUnitTest","build/tmp/kotlin-classes/debug")+configurations.getByName("debugUnitTestRuntimeClasspath")
+    mainClass.set("io.github.hatake716.dinobones.tools.ExportTheater")
+    args(rootProject.file("artifacts/theater-1.6/sources").absolutePath)
+    maxHeapSize="2g"
 }
 kotlin { compilerOptions { jvmTarget.set(JvmTarget.JVM_17) } }
 dependencies {

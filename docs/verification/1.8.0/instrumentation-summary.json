@@ -1,0 +1,32 @@
+[
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "repeatedRecreationReleasesMuseumResources",
+    "result": "passed",
+    "log": "emulator-tests.txt"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "forestMuralSurvivesGalleryChangesAndLandscapeRecreation",
+    "result": "passed",
+    "log": "emulator-tests.txt"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn",
+    "result": "passed",
+    "log": "emulator-tests.txt"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.TheaterTest",
+    "test": "originalMenuShortcutAndSelectedPlaceSurviveRoundTrip",
+    "result": "passed",
+    "log": "emulator-tests.txt"
+  },
+  {
+    "class": "io.github.hatake716.dinobones.ExhibitTest",
+    "test": "specimenFirstFrameIsolationAndMeasuredSource",
+    "result": "passed",
+    "log": "emulator-tests.txt"
+  }
+]

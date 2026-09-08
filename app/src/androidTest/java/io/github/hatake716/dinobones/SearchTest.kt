@@ -14,6 +14,7 @@ class SearchTest {
 
     @Test fun typingRetainsFocusWhileFilteringTheSelectedPeriod() {
         ActivityScenario.launch(MainActivity::class.java).use {
+            compose.onNodeWithText("図鑑一覧").performClick()
             compose.onNodeWithTag("collection-grid").performScrollToNode(hasSetTextAction())
             compose.onNode(hasSetTextAction()).performClick().performTextInput("t")
             compose.onNode(hasSetTextAction()).assertIsFocused().assertTextContains("t")

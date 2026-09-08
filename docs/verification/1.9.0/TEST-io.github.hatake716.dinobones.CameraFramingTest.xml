@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hatake716.dinobones.CameraFramingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-08T03:28:31.097Z" hostname="nixos" time="5.554">
+  <properties/>
+  <testcase name="completeSkeletonFitsPortraitAndLandscapeAtResetAndViewPresets" classname="io.github.hatake716.dinobones.CameraFramingTest" time="5.554"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

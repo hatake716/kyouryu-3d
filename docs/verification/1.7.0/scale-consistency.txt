@@ -1,0 +1,5 @@
+100 gallery mesh hashes unchanged from 1.6.0; vertex/color bytes preserved.
+Manifest equals docs/theater-mesh-provenance.json.
+Calibration categories: {'estimated_length': 69, 'measured_bones': 18, 'estimated_span': 7, 'specimen_units': 1, 'unresolved': 5}
+io.github.hatake716.dinobones.ModelTest: 8 tests, 0 failures, 0 errors
+io.github.hatake716.dinobones.TheaterWorldTest: 4 tests, 0 failures, 0 errors

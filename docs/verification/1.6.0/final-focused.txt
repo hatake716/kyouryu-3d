@@ -1,0 +1,259 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.TheaterTest:
+INSTRUMENTATION_STATUS: test=repeatedRecreationReleasesMuseumResources
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=repeatedRecreationReleasesMuseumResources
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=defaultMuseumSupportsTwoFingerWalkingSelectionAndReturn
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(TheaterTest.kt:148)
+
+INSTRUMENTATION_STATUS: stream=
+Error in originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(io.github.hatake716.dinobones.TheaterTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(TheaterTest.kt:148)
+
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ExhibitTest:
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to assert the following: (Selected = 'true')
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + InputText + EditableText contains '全時代' (ignoreCase: false))
+Nodes found:
+1) Node #1513 at (l=53.0, t=2075.0, r=232.0, b=2159.0)px
+Focused = 'false'
+Role = 'Checkbox'
+Selected = 'true'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 4 siblings
+2) Node #1537 at (l=53.0, t=2281.0, r=141.0, b=2344.0)px
+ContentDescription = '[表示中の時代：全時代]'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 13 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:262)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:254)
+	at androidx.compose.ui.test.AssertionsKt.assertIsSelected(Assertions.kt:88)
+	at io.github.hatake716.dinobones.ExhibitTest.allEras(ExhibitTest.kt:39)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:168)
+
+INSTRUMENTATION_STATUS: stream=
+Error in specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.AssertionError: Failed to assert the following: (Selected = 'true')
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + InputText + EditableText contains '全時代' (ignoreCase: false))
+Nodes found:
+1) Node #1513 at (l=53.0, t=2075.0, r=232.0, b=2159.0)px
+Focused = 'false'
+Role = 'Checkbox'
+Selected = 'true'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 4 siblings
+2) Node #1537 at (l=53.0, t=2281.0, r=141.0, b=2344.0)px
+ContentDescription = '[表示中の時代：全時代]'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 13 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:262)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:254)
+	at androidx.compose.ui.test.AssertionsKt.assertIsSelected(Assertions.kt:88)
+	at io.github.hatake716.dinobones.ExhibitTest.allEras(ExhibitTest.kt:39)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:168)
+
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=5
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to assert the following: (Selected = 'true')
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + InputText + EditableText contains '全時代' (ignoreCase: false))
+Nodes found:
+1) Node #1651 at (l=53.0, t=2075.0, r=232.0, b=2159.0)px
+Focused = 'false'
+Role = 'Checkbox'
+Selected = 'true'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 4 siblings
+2) Node #1675 at (l=53.0, t=2281.0, r=141.0, b=2344.0)px
+ContentDescription = '[表示中の時代：全時代]'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 13 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:262)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:254)
+	at androidx.compose.ui.test.AssertionsKt.assertIsSelected(Assertions.kt:88)
+	at io.github.hatake716.dinobones.ExhibitTest.allEras(ExhibitTest.kt:39)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:127)
+
+INSTRUMENTATION_STATUS: stream=
+Error in detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.AssertionError: Failed to assert the following: (Selected = 'true')
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + InputText + EditableText contains '全時代' (ignoreCase: false))
+Nodes found:
+1) Node #1651 at (l=53.0, t=2075.0, r=232.0, b=2159.0)px
+Focused = 'false'
+Role = 'Checkbox'
+Selected = 'true'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 4 siblings
+2) Node #1675 at (l=53.0, t=2281.0, r=141.0, b=2344.0)px
+ContentDescription = '[表示中の時代：全時代]'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 13 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:262)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:254)
+	at androidx.compose.ui.test.AssertionsKt.assertIsSelected(Assertions.kt:88)
+	at io.github.hatake716.dinobones.ExhibitTest.allEras(ExhibitTest.kt:39)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:127)
+
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 84.649
+There were 3 failures:
+1) originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(io.github.hatake716.dinobones.TheaterTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at io.github.hatake716.dinobones.TheaterTest.originalMenuShortcutAndSelectedPlaceSurviveRoundTrip(TheaterTest.kt:148)
+2) specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.AssertionError: Failed to assert the following: (Selected = 'true')
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + InputText + EditableText contains '全時代' (ignoreCase: false))
+Nodes found:
+1) Node #1513 at (l=53.0, t=2075.0, r=232.0, b=2159.0)px
+Focused = 'false'
+Role = 'Checkbox'
+Selected = 'true'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 4 siblings
+2) Node #1537 at (l=53.0, t=2281.0, r=141.0, b=2344.0)px
+ContentDescription = '[表示中の時代：全時代]'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 13 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:262)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:254)
+	at androidx.compose.ui.test.AssertionsKt.assertIsSelected(Assertions.kt:88)
+	at io.github.hatake716.dinobones.ExhibitTest.allEras(ExhibitTest.kt:39)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:168)
+3) detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.AssertionError: Failed to assert the following: (Selected = 'true')
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + InputText + EditableText contains '全時代' (ignoreCase: false))
+Nodes found:
+1) Node #1651 at (l=53.0, t=2075.0, r=232.0, b=2159.0)px
+Focused = 'false'
+Role = 'Checkbox'
+Selected = 'true'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution]
+MergeDescendants = 'true'
+Has 4 siblings
+2) Node #1675 at (l=53.0, t=2281.0, r=141.0, b=2344.0)px
+ContentDescription = '[表示中の時代：全時代]'
+Text = '[全時代]'
+Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+Has 13 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:262)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:254)
+	at androidx.compose.ui.test.AssertionsKt.assertIsSelected(Assertions.kt:88)
+	at io.github.hatake716.dinobones.ExhibitTest.allEras(ExhibitTest.kt:39)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:127)
+
+FAILURES!!!
+Tests run: 5,  Failures: 3
+
+
+INSTRUMENTATION_CODE: -1

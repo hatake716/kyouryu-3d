@@ -1,0 +1,1860 @@
+
+sm        57 Thu Jan 01 01:01:02 JST 1981 BUNDLE-METADATA/com.android.tools.build.gradle/app-metadata.properties
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      8328 Thu Jan 01 01:01:02 JST 1981 BUNDLE-METADATA/com.android.tools.build.libraries/dependencies.pb
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    29389518 Thu Jan 01 01:01:02 JST 1981 BUNDLE-METADATA/com.android.tools.build.obfuscation/proguard.map
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      4099 Thu Jan 01 01:01:02 JST 1981 BUNDLE-METADATA/com.android.tools.build.profiles/baseline.prof
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       503 Thu Jan 01 01:01:02 JST 1981 BUNDLE-METADATA/com.android.tools.build.profiles/baseline.profm
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      1527 Thu Jan 01 01:01:02 JST 1981 BUNDLE-METADATA/com.android.tools/r8.json
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       628 Thu Jan 01 01:01:02 JST 1981 BundleConfig.pb
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm        75 Thu Jan 01 01:01:02 JST 1981 base/assets.pb
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      3429 Thu Jan 01 01:01:02 JST 1981 base/assets/about.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    455065 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/acrocanthosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     47845 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/alamosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    225146 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/albertosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     66354 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/allosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    455418 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/amargasaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    114028 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/anchiornis.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    338940 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/ankylosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     72751 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/apatosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1547369 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/aquilops.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    123249 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/archaeopteryx.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     39905 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/archelon.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    127296 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/argentinosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    140397 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/australovenator.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     87618 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/baryonyx.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    365034 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/borealopelta.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    328747 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/brachiosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    339566 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/brontosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    232661 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/bruhathkayosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    389851 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/camarasaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    338781 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/carcharodontosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1082528 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/carnotaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    236369 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/ceratosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     73460 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/coelophysis.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    154547 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/compsognathus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    151620 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/concavenator.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    308457 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/cristatusaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     57843 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/cryolophosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    148805 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/daspletosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    261862 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/deinocheirus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    288313 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/deinonychus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    208724 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/dilophosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    171755 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/dimorphodon.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     54861 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/diplodocus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     26770 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/dreadnoughtus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     82270 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/dryptosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    513036 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/edmontosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    104282 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/elasmosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    123459 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/eoraptor.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    338983 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/gallimimus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     55282 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/giganotosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    309480 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/gorgosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     74633 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/hadrosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1724050 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/hatzegopteryx.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    149165 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/herrerasaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     21106 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/ichthyosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    531331 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/iguanodon.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    342422 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/irritator.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    347166 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/kentrosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    113443 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/kronosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    137923 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/liopleurodon.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    227830 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/maiasaura.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    220271 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/maip.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    674936 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/majungasaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    163310 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/mamenchisaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    237202 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/mapusaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    688075 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/megalosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    699830 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/microraptor.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     76975 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/mosasaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    225836 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/nanotyrannus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    216642 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/nanuqsaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    231734 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/nigersaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    393773 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/oviraptor.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1353449 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/pachycephalosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    363491 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/pachyrhinosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    317565 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/parasaurolophus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    638833 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/patagotitan.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    202920 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/plateosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     41574 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/plesiosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     47924 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/pliosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1109366 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/protoceratops.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    454044 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/psittacosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     61267 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/pteranodon.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    184714 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/pterodactylus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    318549 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/pyroraptor.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    239001 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/quetzalcoatlus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     80455 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/rajasaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     70999 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/rhamphorhynchus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    265435 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/saurolophus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    2941365 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/saurophaganax.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     86193 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/sauroposeidon.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    203047 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/scipionyx.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    283658 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/sinosauropteryx.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    427789 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/spinosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1404235 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/stegosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    423153 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/styracosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    131656 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/suchomimus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     39091 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/tanystropheus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    344435 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/tarbosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    339465 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/therizinosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    2749709 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/titanosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    100696 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/torosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    293074 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/torvosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    127798 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/triceratops.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    669763 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/troodon.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    566563 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/tropeognathus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     94230 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/tylosaurus.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    173468 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/tyrannosaurus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    771408 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/utahraptor.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     38052 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/velociraptor.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    529932 Thu Jan 01 01:01:02 JST 1981 base/assets/backgrounds/yutyrannus.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1599355 Thu Jan 01 01:01:02 JST 1981 base/assets/dinosaurs.json
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     36030 Thu Jan 01 01:01:02 JST 1981 base/assets/licenses.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      5557 Thu Jan 01 01:01:02 JST 1981 base/assets/maps.json
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    244386 Thu Jan 01 01:01:02 JST 1981 base/assets/maps/cretaceous.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    821252 Thu Jan 01 01:01:02 JST 1981 base/assets/maps/jurassic.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    759054 Thu Jan 01 01:01:02 JST 1981 base/assets/maps/triassic.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      3750 Thu Jan 01 01:01:02 JST 1981 base/assets/models.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      1778 Thu Jan 01 01:01:02 JST 1981 base/assets/popularity.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      1786 Thu Jan 01 01:01:02 JST 1981 base/assets/privacy.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1386149 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/carnotaurus-color.png
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    7466855 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/carnotaurus.ksmz
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    6424219 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/patagotitan.ksmz
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    3375846 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/triceratops-color.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    4248555 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/triceratops-normal.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1697584 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/triceratops-occlusion.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    4676488 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/triceratops.ksmz
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    1126699 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/tyrannosaurus-color.jpg
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    7458164 Thu Jan 01 01:01:02 JST 1981 base/assets/specimens/tyrannosaurus.ksmz
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm    2315052 Thu Jan 01 01:01:02 JST 1981 base/dex/classes.dex
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10096 Thu Jan 01 01:01:02 JST 1981 base/lib/arm64-v8a/libandroidx.graphics.path.so
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      7252 Thu Jan 01 01:01:02 JST 1981 base/lib/armeabi-v7a/libandroidx.graphics.path.so
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      9284 Thu Jan 01 01:01:02 JST 1981 base/lib/x86/libandroidx.graphics.path.so
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10760 Thu Jan 01 01:01:02 JST 1981 base/lib/x86_64/libandroidx.graphics.path.so
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      5492 Thu Jan 01 01:01:02 JST 1981 base/manifest/AndroidManifest.xml
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm        85 Thu Jan 01 01:01:02 JST 1981 base/native.pb
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      1473 Thu Jan 01 01:01:02 JST 1981 base/res/drawable/ic_launcher.xml
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       581 Thu Jan 01 01:01:02 JST 1981 base/res/xml/data_extraction_rules.xml
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     83042 Thu Jan 01 01:01:02 JST 1981 base/resources.pb
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      1738 Thu Jan 01 01:01:02 JST 1981 base/root/DebugProbesKt.bin
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         7 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.activity_activity-compose.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         7 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.activity_activity-ktx.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         7 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.activity_activity.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.annotation_annotation-experimental.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm        67 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.arch.core_core-runtime.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.autofill_autofill.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.animation_animation-core.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.animation_animation.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.foundation_foundation-layout.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.foundation_foundation.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.material3_material3.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.material_material-icons-core.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.material_material-icons-extended.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.material_material-ripple.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.runtime_runtime-annotation.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.runtime_runtime-saveable.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.runtime_runtime.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.ui_ui-geometry.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.ui_ui-graphics.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.ui_ui-text.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.ui_ui-unit.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.ui_ui-util.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.compose.ui_ui.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         7 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.core_core-ktx.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.core_core-viewtree.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         7 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.core_core.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.customview_customview-poolingcontainer.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.emoji2_emoji2.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.graphics_graphics-path.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.interpolator_interpolator.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-process.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-runtime-compose.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-runtime.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.profileinstaller_profileinstaller.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.savedstate_savedstate-compose.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.savedstate_savedstate-ktx.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.savedstate_savedstate.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.startup_startup-runtime.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.tracing_tracing.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         6 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx.versionedparcelable_versionedparcelable.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10175 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx/annotation/annotation/LICENSE.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10175 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx/collection/collection-ktx/LICENSE.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10175 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx/collection/collection/LICENSE.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10175 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx/lifecycle/lifecycle-common-java8/LICENSE.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     10175 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm        57 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/com/android/build/gradle/app-metadata.properties
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         5 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/kotlinx_coroutines_android.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         5 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/kotlinx_coroutines_core.version
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         5 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/services/i5.t
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm         5 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/services/j5.a
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       120 Thu Jan 01 01:01:02 JST 1981 base/root/META-INF/version-control-info.textproto
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       627 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin-tooling-metadata.json
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      1006 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/annotation/annotation.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      8308 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/collections/collections.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      2674 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/concurrent/atomics/atomics.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       137 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/coroutines/coroutines.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm       590 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/internal/internal.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm     29399 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/kotlin.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      4184 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/ranges/ranges.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+sm      4827 Thu Jan 01 01:01:02 JST 1981 base/root/kotlin/reflect/reflect.kotlin_builtins
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+       24028 Thu Jan 01 01:01:02 JST 1981 META-INF/KYOURYU-.SF
+        1656 Thu Jan 01 01:01:02 JST 1981 META-INF/KYOURYU-.RSA
+s      23979 Thu Jan 01 01:01:02 JST 1981 META-INF/MANIFEST.MF
+
+      >>> Signer
+      X.509, CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+      Signature algorithm: SHA256withRSA, 3072-bit key
+      [certificate is valid from 9/7/26, 7:36 PM to 1/23/54, 7:36 PM]
+      [Invalid certificate chain: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target]
+
+
+  s = signature was verified 
+  m = entry is listed in manifest
+  k = at least one certificate was found in keystore
+
+- Signed by "CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP"
+    Digest algorithm: SHA-256
+    Signature algorithm: SHA256withRSA, 3072-bit key
+
+jar verified.
+
+Warning: 
+This jar contains entries whose certificate chain is invalid. Reason: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+This jar contains entries whose signer certificate is self-signed.
+This jar contains signatures that do not include a timestamp. Without a timestamp, users may not be able to validate this jar after any of the signer certificates expire (as early as 2054-01-23).
+POSIX file permission and/or symlink attributes detected. These attributes are ignored when signing and are not protected by the signature.
+
+This JAR file contains internal inconsistencies that may result in different contents when reading via JarFile and JarInputStream:
+- Manifest is missing when reading via JarInputStream
+- Entry BUNDLE-METADATA/com.android.tools.build.gradle/app-metadata.properties is signed in JarFile but is not signed in JarInputStream
+- Entry BUNDLE-METADATA/com.android.tools.build.libraries/dependencies.pb is signed in JarFile but is not signed in JarInputStream
+- Entry BUNDLE-METADATA/com.android.tools.build.obfuscation/proguard.map is signed in JarFile but is not signed in JarInputStream
+- Entry BUNDLE-METADATA/com.android.tools.build.profiles/baseline.prof is signed in JarFile but is not signed in JarInputStream
+- Entry BUNDLE-METADATA/com.android.tools.build.profiles/baseline.profm is signed in JarFile but is not signed in JarInputStream
+- Entry BUNDLE-METADATA/com.android.tools/r8.json is signed in JarFile but is not signed in JarInputStream
+- Entry BundleConfig.pb is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets.pb is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/about.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/acrocanthosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/alamosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/albertosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/allosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/amargasaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/anchiornis.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/ankylosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/apatosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/aquilops.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/archaeopteryx.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/archelon.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/argentinosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/australovenator.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/baryonyx.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/borealopelta.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/brachiosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/brontosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/bruhathkayosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/camarasaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/carcharodontosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/carnotaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/ceratosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/coelophysis.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/compsognathus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/concavenator.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/cristatusaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/cryolophosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/daspletosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/deinocheirus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/deinonychus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/dilophosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/dimorphodon.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/diplodocus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/dreadnoughtus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/dryptosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/edmontosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/elasmosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/eoraptor.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/gallimimus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/giganotosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/gorgosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/hadrosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/hatzegopteryx.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/herrerasaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/ichthyosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/iguanodon.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/irritator.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/kentrosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/kronosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/liopleurodon.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/maiasaura.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/maip.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/majungasaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/mamenchisaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/mapusaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/megalosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/microraptor.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/mosasaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/nanotyrannus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/nanuqsaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/nigersaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/oviraptor.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/pachycephalosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/pachyrhinosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/parasaurolophus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/patagotitan.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/plateosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/plesiosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/pliosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/protoceratops.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/psittacosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/pteranodon.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/pterodactylus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/pyroraptor.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/quetzalcoatlus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/rajasaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/rhamphorhynchus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/saurolophus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/saurophaganax.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/sauroposeidon.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/scipionyx.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/sinosauropteryx.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/spinosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/stegosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/styracosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/suchomimus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/tanystropheus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/tarbosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/therizinosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/titanosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/torosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/torvosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/triceratops.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/troodon.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/tropeognathus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/tylosaurus.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/tyrannosaurus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/utahraptor.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/velociraptor.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/backgrounds/yutyrannus.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/dinosaurs.json is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/licenses.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/maps.json is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/maps/cretaceous.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/maps/jurassic.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/maps/triassic.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/models.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/popularity.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/privacy.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/carnotaurus-color.png is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/carnotaurus.ksmz is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/patagotitan.ksmz is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/triceratops-color.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/triceratops-normal.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/triceratops-occlusion.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/triceratops.ksmz is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/tyrannosaurus-color.jpg is signed in JarFile but is not signed in JarInputStream
+- Entry base/assets/specimens/tyrannosaurus.ksmz is signed in JarFile but is not signed in JarInputStream
+- Entry base/dex/classes.dex is signed in JarFile but is not signed in JarInputStream
+- Entry base/lib/arm64-v8a/libandroidx.graphics.path.so is signed in JarFile but is not signed in JarInputStream
+- Entry base/lib/armeabi-v7a/libandroidx.graphics.path.so is signed in JarFile but is not signed in JarInputStream
+- Entry base/lib/x86/libandroidx.graphics.path.so is signed in JarFile but is not signed in JarInputStream
+- Entry base/lib/x86_64/libandroidx.graphics.path.so is signed in JarFile but is not signed in JarInputStream
+- Entry base/manifest/AndroidManifest.xml is signed in JarFile but is not signed in JarInputStream
+- Entry base/native.pb is signed in JarFile but is not signed in JarInputStream
+- Entry base/res/drawable/ic_launcher.xml is signed in JarFile but is not signed in JarInputStream
+- Entry base/res/xml/data_extraction_rules.xml is signed in JarFile but is not signed in JarInputStream
+- Entry base/resources.pb is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/DebugProbesKt.bin is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.activity_activity-compose.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.activity_activity-ktx.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.activity_activity.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.annotation_annotation-experimental.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.arch.core_core-runtime.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.autofill_autofill.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.animation_animation-core.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.animation_animation.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.foundation_foundation-layout.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.foundation_foundation.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.material3_material3.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.material_material-icons-core.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.material_material-icons-extended.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.material_material-ripple.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.runtime_runtime-annotation.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.runtime_runtime-saveable.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.runtime_runtime.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.ui_ui-geometry.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.ui_ui-graphics.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.ui_ui-text.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.ui_ui-unit.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.ui_ui-util.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.compose.ui_ui.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.core_core-ktx.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.core_core-viewtree.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.core_core.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.customview_customview-poolingcontainer.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.emoji2_emoji2.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.graphics_graphics-path.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.interpolator_interpolator.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-livedata-core.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-process.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-runtime-compose.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-runtime.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.profileinstaller_profileinstaller.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.savedstate_savedstate-compose.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.savedstate_savedstate-ktx.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.savedstate_savedstate.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.startup_startup-runtime.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.tracing_tracing.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx.versionedparcelable_versionedparcelable.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx/annotation/annotation/LICENSE.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx/collection/collection-ktx/LICENSE.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx/collection/collection/LICENSE.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx/lifecycle/lifecycle-common-java8/LICENSE.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/com/android/build/gradle/app-metadata.properties is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/kotlinx_coroutines_android.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/kotlinx_coroutines_core.version is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/services/i5.t is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/services/j5.a is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/META-INF/version-control-info.textproto is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin-tooling-metadata.json is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/annotation/annotation.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/collections/collections.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/concurrent/atomics/atomics.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/coroutines/coroutines.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/internal/internal.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/kotlin.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/ranges/ranges.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry base/root/kotlin/reflect/reflect.kotlin_builtins is signed in JarFile but is not signed in JarInputStream
+- Entry META-INF/MANIFEST.MF is signed in JarFile but is not signed in JarInputStream
+
+The signer certificate will expire on 2054-01-23.

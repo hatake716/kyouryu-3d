@@ -1,0 +1,55 @@
+{
+  "taxon": "Triceratops horridus",
+  "institution": "Smithsonian Institution, National Museum of Natural History",
+  "objectUrl": "https://3d.si.edu/object/3d/triceratops-horridus-marsh-1889:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+  "sourceUrl": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+  "metadataUrl": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125/scene.svx.json",
+  "sourceSha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "rightsEvidence": [
+    "https://www.si.edu/openaccess/faq",
+    "https://commons.wikimedia.org/w/index.php?title=File:Triceratops-full_resolution-obj_(Smithsonian_Institute).stl&oldid=881096487"
+  ],
+  "reviewed": "2026-09-07",
+  "sourceUnits": "m",
+  "unitEvidence": "scene.svx.json: models[0].units and scenes[0].units",
+  "triangles": 149998,
+  "sourceBoundsMetres": {
+    "min": [
+      -2.945904016494751,
+      -1.4025540351867676,
+      -0.8303830027580261
+    ],
+    "max": [
+      2.9455599784851074,
+      1.4009640216827393,
+      0.8313130140304565
+    ]
+  },
+  "axisPermutation": [
+    2,
+    0,
+    1
+  ],
+  "metresPerDisplayUnit": 0.7364330291748047,
+  "changes": "Rigid axis rotation, centering and reversible display normalization; no further decimation. Original triangle positions, UVs and texture bytes retained. Approximate spatial region IDs added; not bone segmentation. Composite/restored museum skeleton, not a complete single individual.",
+  "outputs": {
+    "triceratops.ksmz": {
+      "sha256": "2b36ac594d4a58831fea3190b98d16c25c4f9be44c6eed6682c215810d49108a",
+      "bytes": 4676488
+    },
+    "triceratops-color.jpg": {
+      "sha256": "ed9a87127cd20a4bb1c8d91ec5f7996f8f43d90aa11f14ef1bf838f16c7d3532",
+      "bytes": 3375846
+    },
+    "triceratops-occlusion.jpg": {
+      "sha256": "7169f885695d5bc704a7e91a10f23371f596e53d1e8a796f7a641f4c8e95ef53",
+      "bytes": 1697584
+    },
+    "triceratops-normal.jpg": {
+      "sha256": "f5958a049b5316af9e1925089a4acd920a577228052be808613078956c04ed8b",
+      "bytes": 4248555
+    }
+  }
+}

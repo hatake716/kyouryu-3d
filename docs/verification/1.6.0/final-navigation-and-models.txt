@@ -1,0 +1,83 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.TheaterTest:
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.TheaterTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=originalMenuShortcutAndSelectedPlaceSurviveRoundTrip
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ExhibitTest:
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Missing トリケラトプス
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:52)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:165)
+
+INSTRUMENTATION_STATUS: stream=
+Error in specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.IllegalStateException: Missing トリケラトプス
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:52)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:165)
+
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=androidx.test.uiautomator.StaleObjectException
+	at androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:1018)
+	at androidx.test.uiautomator.UiObject2.setText(UiObject2.java:960)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:128)
+
+INSTRUMENTATION_STATUS: stream=
+Error in detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest):
+androidx.test.uiautomator.StaleObjectException
+	at androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:1018)
+	at androidx.test.uiautomator.UiObject2.setText(UiObject2.java:960)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:128)
+
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 32.725
+There were 2 failures:
+1) specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.IllegalStateException: Missing トリケラトプス
+	at io.github.hatake716.dinobones.ExhibitTest.click(ExhibitTest.kt:52)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:165)
+2) detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest)
+androidx.test.uiautomator.StaleObjectException
+	at androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:1018)
+	at androidx.test.uiautomator.UiObject2.setText(UiObject2.java:960)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:128)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

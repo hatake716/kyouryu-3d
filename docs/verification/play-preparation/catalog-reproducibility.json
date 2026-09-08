@@ -1,0 +1,7 @@
+{
+  "result": "passed",
+  "sha256": {
+    "app/src/main/assets/dinosaurs.json": "cb27a5492c3e5bcf75b38c679050dcd0d4afb956ee8e86c8cf9df09019732ae7",
+    "app/src/main/java/io/github/hatake716/dinobones/model/ModelProfiles.kt": "7b7deba1016799cdc1de666b053c38d8775d001786d93639cc508968a8678c1d"
+  }
+}

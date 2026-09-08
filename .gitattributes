@@ -1,0 +1,2 @@
+# Preserve diagnostic tool output verbatim, including padded adb tables.
+docs/verification/**/*.txt -whitespace

@@ -19,7 +19,7 @@
     "width": 1280,
     "height": 642,
     "retrieved": "2026-09-07",
-    "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit; no recoloring or cropping."
+    "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit with an elliptical mask hiding the background outside the Mollweide projection. Original file and geographic colors unchanged."
   },
   {
     "id": "jurassic",
@@ -41,7 +41,7 @@
     "width": 1280,
     "height": 642,
     "retrieved": "2026-09-07",
-    "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit; no recoloring or cropping."
+    "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit with an elliptical mask hiding the background outside the Mollweide projection. Original file and geographic colors unchanged."
   },
   {
     "id": "cretaceous",
@@ -63,6 +63,6 @@
     "width": 1280,
     "height": 642,
     "retrieved": "2026-09-07",
-    "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit; no recoloring or cropping."
+    "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit with an elliptical mask hiding the background outside the Mollweide projection. Original file and geographic colors unchanged."
   }
 ]

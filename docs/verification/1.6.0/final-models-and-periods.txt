@@ -1,0 +1,94 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ExhibitTest:
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: No rendered mesh
+	at io.github.hatake716.dinobones.ExhibitTest.viewer(ExhibitTest.kt:63)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:170)
+
+INSTRUMENTATION_STATUS: stream=
+Error in specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.IllegalStateException: No rendered mesh
+	at io.github.hatake716.dinobones.ExhibitTest.viewer(ExhibitTest.kt:63)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:170)
+
+INSTRUMENTATION_STATUS: test=specimenFirstFrameIsolationAndMeasuredSource
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ExhibitTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: No rendered mesh
+	at io.github.hatake716.dinobones.ExhibitTest.viewer(ExhibitTest.kt:63)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:135)
+
+INSTRUMENTATION_STATUS: stream=
+Error in detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.IllegalStateException: No rendered mesh
+	at io.github.hatake716.dinobones.ExhibitTest.viewer(ExhibitTest.kt:63)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:135)
+
+INSTRUMENTATION_STATUS: test=detailedSkullsAndScanSurfaceRender
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.PeriodNavigationTest:
+INSTRUMENTATION_STATUS: test=mapsFilterCollectionAndBottomCardSwipePreservesView
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=mapsFilterCollectionAndBottomCardSwipePreservesView
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cretaceousCornersAndDownSwipeKeepReadingAndViewpoint
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cretaceousCornersAndDownSwipeKeepReadingAndViewpoint
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 92.638
+There were 2 failures:
+1) specimenFirstFrameIsolationAndMeasuredSource(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.IllegalStateException: No rendered mesh
+	at io.github.hatake716.dinobones.ExhibitTest.viewer(ExhibitTest.kt:63)
+	at io.github.hatake716.dinobones.ExhibitTest.specimenFirstFrameIsolationAndMeasuredSource(ExhibitTest.kt:170)
+2) detailedSkullsAndScanSurfaceRender(io.github.hatake716.dinobones.ExhibitTest)
+java.lang.IllegalStateException: No rendered mesh
+	at io.github.hatake716.dinobones.ExhibitTest.viewer(ExhibitTest.kt:63)
+	at io.github.hatake716.dinobones.ExhibitTest.detailedSkullsAndScanSurfaceRender(ExhibitTest.kt:135)
+
+FAILURES!!!
+Tests run: 4,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

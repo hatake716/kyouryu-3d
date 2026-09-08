@@ -1,0 +1,128 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        e434b46 io.github.hatake716.dinobones/.MainActivity filter 1ba9107
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        70a1234 io.github.hatake716.dinobones/androidx.profileinstaller.ProfileInstallReceiver filter 9e536a3
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        70a1234 io.github.hatake716.dinobones/androidx.profileinstaller.ProfileInstallReceiver filter 90dc85d
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        70a1234 io.github.hatake716.dinobones/androidx.profileinstaller.ProfileInstallReceiver filter 2d8d5d2
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        70a1234 io.github.hatake716.dinobones/androidx.profileinstaller.ProfileInstallReceiver filter 2501da0
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Domain verification status:
+
+Permissions:
+  Permission [io.github.hatake716.dinobones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (3ebaec7):
+    sourcePackage=io.github.hatake716.dinobones
+    uid=10214 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f843cf4 io.github.hatake716.dinobones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  io.github.hatake716.dinobones/androidx.startup.InitializationProvider:
+    Provider{e987c1d io.github.hatake716.dinobones/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [io.github.hatake716.dinobones.androidx-startup]:
+    Provider{e987c1d io.github.hatake716.dinobones/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{82bde92 io.github.hatake716.dinobones}
+
+Key Set Manager:
+  [io.github.hatake716.dinobones]
+      Signing KeySets: 62
+
+Packages:
+  Package [io.github.hatake716.dinobones] (d67bee2):
+    appId=10214
+    pkg=Package{f6a7063 io.github.hatake716.dinobones}
+    codePath=/data/app/~~Ul70Utg0Wscu_ZieMMGgfg==/io.github.hatake716.dinobones-d7WZyuvp7kuUkZeeaDow0A==
+    resourcePath=/data/app/~~Ul70Utg0Wscu_ZieMMGgfg==/io.github.hatake716.dinobones-d7WZyuvp7kuUkZeeaDow0A==
+    legacyNativeLibraryDir=/data/app/~~Ul70Utg0Wscu_ZieMMGgfg==/io.github.hatake716.dinobones-d7WZyuvp7kuUkZeeaDow0A==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=7 minSdk=26 targetSdk=36
+    minExtensionVersions=[]
+    versionName=1.6.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-09-08 10:44:24
+    lastUpdateTime=2026-09-08 10:44:24
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{e223460 version:2, signatures:[61938251], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      io.github.hatake716.dinobones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      io.github.hatake716.dinobones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      io.github.hatake716.dinobones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=361200 deDataInode=57970 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/io.github.hatake716.dinobones
+      firstInstallTime=2026-09-08 10:44:11
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/EmulationPixel7/EmulationPixel7Overlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/EmulationPixel7/EmulationPixel7Overlay.apk
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.as:
+      io.github.hatake716.dinobones
+    com.google.android.settings.intelligence:
+      io.github.hatake716.dinobones
+  queryable via interaction:
+    User 0:
+      [com.android.location.fused,com.android.keychain,com.android.server.telecom,com.android.settings,android,com.android.dynsystem,com.android.DeviceAsWebcam,com.android.inputdevices,com.android.providers.settings,com.android.localtransport,com.android.emulator.multidisplay]:
+        io.github.hatake716.dinobones
+      [com.google.android.gsf,com.google.android.gms]:
+        io.github.hatake716.dinobones
+      com.google.android.inputmethod.latin:
+        io.github.hatake716.dinobones
+  queryable via uses-library:
+
+Dexopt state:
+  [io.github.hatake716.dinobones]
+    path: /data/app/~~Ul70Utg0Wscu_ZieMMGgfg==/io.github.hatake716.dinobones-d7WZyuvp7kuUkZeeaDow0A==/base.apk
+      x86_64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~Ul70Utg0Wscu_ZieMMGgfg==/io.github.hatake716.dinobones-d7WZyuvp7kuUkZeeaDow0A==/oat/x86_64/base.odex]
+
+Compiler stats:
+  [io.github.hatake716.dinobones]
+     base.apk - 132

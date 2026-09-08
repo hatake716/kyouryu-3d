@@ -1,0 +1,19 @@
+{
+  "htmlPages": 4,
+  "linksChecked": 252,
+  "brokenLocalLinks": 0,
+  "unitTests": 16,
+  "unitFailures": 0,
+  "unitErrors": 0,
+  "browserVisualCheck": "not completed: browser plugin import blocked by node:process restriction",
+  "thirdPartyArtworkLicenses": {
+    "CC BY-SA 4.0": 51,
+    "CC BY 2.5": 7,
+    "Public domain": 4,
+    "CC BY-SA 3.0": 8,
+    "CC BY 4.0": 17,
+    "CC BY 3.0": 10,
+    "CC BY-SA 2.5": 1,
+    "独自生成画像 · Apache 2.0（権利を有する範囲）": 2
+  }
+}

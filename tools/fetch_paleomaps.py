@@ -60,7 +60,7 @@ if __name__ == "__main__":
             "sha256": hashlib.sha256(data).hexdigest(), "apiResponseSha256": hashlib.sha256(response).hexdigest(),
             "width": info["thumbwidth"], "height": info["thumbheight"],
             "retrieved": datetime.date.today().isoformat(),
-            "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit; no recoloring or cropping.",
+            "modifications": "Wikimedia thumbnail downloaded unchanged. Display scaled to fit with an elliptical mask hiding the background outside the Mollweide projection. Original file and geographic colors unchanged.",
         })
         print(identity, len(data), "bytes")
     text = json.dumps(records, ensure_ascii=False, indent=2) + "\n"

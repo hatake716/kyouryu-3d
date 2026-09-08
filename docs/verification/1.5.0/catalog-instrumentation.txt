@@ -1,0 +1,11 @@
+
+io.github.hatake716.dinobones.ExhibitTest:.
+io.github.hatake716.dinobones.PeriodNavigationTest:..
+io.github.hatake716.dinobones.ReferenceLinkTest:.
+io.github.hatake716.dinobones.SearchTest:.
+
+Time: 624.68
+
+OK (5 tests)
+
+

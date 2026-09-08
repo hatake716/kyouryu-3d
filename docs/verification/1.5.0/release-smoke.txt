@@ -1,0 +1,11 @@
+UTC: 2026-09-07T15:46:01.422035+00:00
+Target: emulator-5554 / API 35
+APK SHA-256: 589cf037349ccb51e6c8eaa04080c7565722c549198c6744fadcb9624d9398f1
+PASS: signed 1.4.0 installed and favorite registered
+PASS: signed 1.5.0 update with install -r and favorite retained
+PASS: detailed Tyrannosaurus / Carnotaurus / Patagotitan and source attribution
+PASS: refined Spinosaurus and unchanged Triceratops rendered on optimized release
+PASS: close zoom and return through field-note swipe
+PASS: versionName=1.5.0 / versionCode=6 / targetSdk=36
+PASS: no fatal exception in current process crash log
+Emulator only; no physical-device input injection.

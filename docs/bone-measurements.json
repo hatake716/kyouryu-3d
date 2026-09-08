@@ -1,0 +1,241 @@
+{
+  "reviewed": "2026-09-07",
+  "units": "millimetres",
+  "sources": [
+    {
+      "doi": "10.1038/srep19828",
+      "authors": "W. Scott Persons IV and Philip J. Currie",
+      "year": 2016,
+      "title": "An approach to scoring cursorial limb proportions in carnivorous dinosaurs and an attempt to account for allometry",
+      "license": "CC-BY-4.0",
+      "table": "1",
+      "xmlSha256": "1006331df05c90180af1a6ef62b1c3530f65f8e86eb025705fd8d1053eb2d5fe"
+    },
+    {
+      "doi": "10.1371/journal.pone.0138352",
+      "authors": "Susannah C. R. Maidment, Charlotte A. Brassey and Paul M. Barrett",
+      "year": 2015,
+      "title": "The Postcranial Skeleton of an Exceptionally Complete Individual of the Plated Dinosaur Stegosaurus stenops",
+      "license": "CC-BY-4.0",
+      "table": "3",
+      "xmlSha256": "2282a03dbd9a37bf0e3158839d41ea3e916e1ce0d81a8bb3593d73ca8f93934c"
+    }
+  ],
+  "selectionNotes": "Selected existing genera with a named specimen. Troodon excluded because of later reassignment; Yutyrannus multiple specimen entry excluded. Left/right reflection is inferred except explicitly measured Stegosaurus left femur and tibia. Historical specimen names retained as printed.",
+  "measurements": [
+    {
+      "id": "coelophysis",
+      "taxon": "Coelophysis bauri",
+      "specimen": "CMNH 10971a",
+      "femurMm": 229.0,
+      "tibiaMm": 227.0,
+      "metatarsalMm": 138.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "dilophosaurus",
+      "taxon": "Dilophosaurus wetherilli",
+      "specimen": "UCMP 77270",
+      "femurMm": 600.0,
+      "tibiaMm": 560.0,
+      "metatarsalMm": 298.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "herrerasaurus",
+      "taxon": "Herrerasaurus ischigualestensis",
+      "specimen": "PVL 2566",
+      "femurMm": 473.0,
+      "tibiaMm": 413.0,
+      "metatarsalMm": 223.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "ceratosaurus",
+      "taxon": "Ceratosaurus nasicornis",
+      "specimen": "USNM 4735",
+      "femurMm": 620.0,
+      "tibiaMm": 555.0,
+      "metatarsalMm": 254.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "acrocanthosaurus",
+      "taxon": "Acrocanthosaurus atokensis",
+      "specimen": "NCSM 14345",
+      "femurMm": 1120.0,
+      "tibiaMm": 952.0,
+      "metatarsalMm": 453.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "allosaurus",
+      "taxon": "Allosaurus fragilis",
+      "specimen": "AMNH 290",
+      "femurMm": 985.0,
+      "tibiaMm": 810.0,
+      "metatarsalMm": 423.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "concavenator",
+      "taxon": "Concavenator corcovatus",
+      "specimen": "MCCM-LH 6666",
+      "femurMm": 580.0,
+      "tibiaMm": 580.0,
+      "metatarsalMm": 287.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "compsognathus",
+      "taxon": "Compsognathus longipes",
+      "specimen": "MNHN CNJ 79",
+      "femurMm": 110.0,
+      "tibiaMm": 130.0,
+      "metatarsalMm": 81.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "sinosauropteryx",
+      "taxon": "Sinosauropteryx prima",
+      "specimen": "GMV 2124",
+      "femurMm": 108.0,
+      "tibiaMm": 152.0,
+      "metatarsalMm": 96.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "albertosaurus",
+      "taxon": "Albertosaurus sarcophagus",
+      "specimen": "ROM 807",
+      "femurMm": 1020.0,
+      "tibiaMm": 980.0,
+      "metatarsalMm": 595.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "daspletosaurus",
+      "taxon": "Daspletosaurus torosus",
+      "specimen": "MOR 590",
+      "femurMm": 865.0,
+      "tibiaMm": 815.0,
+      "metatarsalMm": 498.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "dryptosaurus",
+      "taxon": "Dryptosaurus aquilunguis",
+      "specimen": "TMP 84.181.2 (cast of ANSP 9995/10006)",
+      "femurMm": 778.0,
+      "tibiaMm": 796.0,
+      "metatarsalMm": 380.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "gorgosaurus",
+      "taxon": "Gorgosaurus libratus",
+      "specimen": "NMC 2120",
+      "femurMm": 1030.0,
+      "tibiaMm": 980.0,
+      "metatarsalMm": 615.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "tarbosaurus",
+      "taxon": "Tarbosaurus baatar",
+      "specimen": "MPC-D100/63",
+      "femurMm": 1020.0,
+      "tibiaMm": 980.0,
+      "metatarsalMm": 595.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "tyrannosaurus",
+      "taxon": "Tyrannosaurus rex",
+      "specimen": "CM 9380 (cast of AMNH 973)",
+      "femurMm": 1269.0,
+      "tibiaMm": 1166.0,
+      "metatarsalMm": 680.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "deinonychus",
+      "taxon": "Deinonychus antirrhopus",
+      "specimen": "MCZ 4371",
+      "femurMm": 336.0,
+      "tibiaMm": 368.0,
+      "metatarsalMm": 164.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "microraptor",
+      "taxon": "Microraptor gui",
+      "specimen": "QM V1002",
+      "femurMm": 108.0,
+      "tibiaMm": 145.0,
+      "metatarsalMm": 72.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "velociraptor",
+      "taxon": "Velociraptor mongoliensis",
+      "specimen": "IGM 100/986",
+      "femurMm": 238.0,
+      "tibiaMm": 255.0,
+      "metatarsalMm": 99.0,
+      "source": "10.1038/srep19828",
+      "table": "1",
+      "scope": "Hindlimb axial lengths only; outline, widths, articulation and other bones reconstructed."
+    },
+    {
+      "id": "stegosaurus",
+      "taxon": "Stegosaurus stenops",
+      "specimen": "NHMUK PV R36730 (Sophie)",
+      "femurMm": 868,
+      "tibiaMm": 498,
+      "metatarsalMm": 100,
+      "humerusMm": 450,
+      "radiusMm": 312,
+      "ulnaMm": 412,
+      "leftFemurMm": 857,
+      "leftTibiaMm": 495,
+      "source": "10.1371/journal.pone.0138352",
+      "table": "3",
+      "scope": "Right hindlimb and forelimb lengths; left femur/tibia lengths. Other bones reconstructed. Metatarsal III available on right only; mirrored as a reconstruction on left."
+    }
+  ]
+}

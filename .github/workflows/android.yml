@@ -23,6 +23,8 @@ jobs:
           python3 tools/catalog/write_profiles.py
           python3 tools/check_catalog.py
           git diff --exit-code -- app/src/main/assets/dinosaurs.json app/src/main/java/io/github/hatake716/dinobones/model/ModelProfiles.kt
+      - name: Validate Google Play listing assets
+        run: python3 tools/check_store_assets.py
       - name: Test, lint and build
         run: ./gradlew testDebugUnitTest lintDebug assembleDebug bundleRelease --no-daemon
       - uses: actions/upload-artifact@v4

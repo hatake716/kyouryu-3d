@@ -1,0 +1,85 @@
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.PeriodNavigationTest:
+INSTRUMENTATION_STATUS: test=mapsFilterCollectionAndBottomCardSwipePreservesView
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Missing text: 頭骨
+	at io.github.hatake716.dinobones.PeriodNavigationTest.reveal(PeriodNavigationTest.kt:28)
+	at io.github.hatake716.dinobones.PeriodNavigationTest.click(PeriodNavigationTest.kt:30)
+	at io.github.hatake716.dinobones.PeriodNavigationTest.mapsFilterCollectionAndBottomCardSwipePreservesView(PeriodNavigationTest.kt:129)
+
+INSTRUMENTATION_STATUS: stream=
+Error in mapsFilterCollectionAndBottomCardSwipePreservesView(io.github.hatake716.dinobones.PeriodNavigationTest):
+java.lang.IllegalStateException: Missing text: 頭骨
+	at io.github.hatake716.dinobones.PeriodNavigationTest.reveal(PeriodNavigationTest.kt:28)
+	at io.github.hatake716.dinobones.PeriodNavigationTest.click(PeriodNavigationTest.kt:30)
+	at io.github.hatake716.dinobones.PeriodNavigationTest.mapsFilterCollectionAndBottomCardSwipePreservesView(PeriodNavigationTest.kt:129)
+
+INSTRUMENTATION_STATUS: test=mapsFilterCollectionAndBottomCardSwipePreservesView
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cretaceousCornersAndDownSwipeKeepReadingAndViewpoint
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.PeriodNavigationTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cretaceousCornersAndDownSwipeKeepReadingAndViewpoint
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ReferenceLinkTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.ReferenceLinkTest:
+INSTRUMENTATION_STATUS: test=wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.ReferenceLinkTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=wikipediaAndYoutubeButtonsDispatchDocumentedHttpsLinks
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.SearchTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+io.github.hatake716.dinobones.SearchTest:
+INSTRUMENTATION_STATUS: test=typingRetainsFocusWhileFilteringTheSelectedPeriod
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=io.github.hatake716.dinobones.SearchTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=typingRetainsFocusWhileFilteringTheSelectedPeriod
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 72.031
+There was 1 failure:
+1) mapsFilterCollectionAndBottomCardSwipePreservesView(io.github.hatake716.dinobones.PeriodNavigationTest)
+java.lang.IllegalStateException: Missing text: 頭骨
+	at io.github.hatake716.dinobones.PeriodNavigationTest.reveal(PeriodNavigationTest.kt:28)
+	at io.github.hatake716.dinobones.PeriodNavigationTest.click(PeriodNavigationTest.kt:30)
+	at io.github.hatake716.dinobones.PeriodNavigationTest.mapsFilterCollectionAndBottomCardSwipePreservesView(PeriodNavigationTest.kt:129)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,13 @@
+PASS: triceratops.ksmz provenance hash
+PASS: triceratops-color.jpg provenance hash
+PASS: triceratops-occlusion.jpg provenance hash
+PASS: triceratops-normal.jpg provenance hash
+PASS: tyrannosaurus.ksmz provenance hash
+PASS: tyrannosaurus-color.jpg provenance hash
+PASS: carnotaurus.ksmz provenance hash
+PASS: carnotaurus-color.png provenance hash
+PASS: patagotitan.ksmz provenance hash
+triceratops.ksmz: 149998 triangles, metresPerDisplayUnit=0.7364330291748047, radius=4.14711332321167
+patagotitan.ksmz: 350179 triangles, metresPerDisplayUnit=0.0, radius=4.039968013763428
+tyrannosaurus.ksmz: 250240 triangles, metresPerDisplayUnit=0.0, radius=4.272182941436768
+carnotaurus.ksmz: 260854 triangles, metresPerDisplayUnit=0.0, radius=4.203554630279541

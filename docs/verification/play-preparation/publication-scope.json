@@ -1,0 +1,8 @@
+{
+  "repository": "hatake716/kyouryu-3d",
+  "branch": "main",
+  "scope": "Authorized dinosaur app changes through 1.10.1 and Google Play preparation",
+  "secretPatternScan": "no matches",
+  "keystoreFiles": "excluded by gitignore and packaging allowlist",
+  "playConsoleSubmission": "not performed"
+}

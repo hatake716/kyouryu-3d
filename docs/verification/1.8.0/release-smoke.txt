@@ -1,0 +1,8 @@
+Signed 1.7.0 baseline: favorite saved and identical entrance captured in landscape.
+Performing Streamed Install
+Success
+Final release: Tyrannosaurus -> correct details -> museum passed.
+Final release: Archaeopteryx -> correct details -> museum passed.
+Final release: Patagotitan -> correct details -> museum passed.
+Final release: Triceratops -> correct details -> museum passed.
+Signed 1.7.0 -> 1.8.0 passed: forest, bright landscape header, source notices, record selection, favorite preserved, precision viewer and collection.

@@ -1,0 +1,3 @@
+PASS: exact-name card サウロロフス opens Saurolophus on signed 1.4.0, model visibly rendered
+PASS: exact-name card トロサウルス opens Torosaurus on signed 1.4.0, model visibly rendered
+UI traversal helper now uses exact text and checks Latin title. Two substring collisions were Saurolophus/Parasaurolophus and Torosaurus/Kentrosaurus.

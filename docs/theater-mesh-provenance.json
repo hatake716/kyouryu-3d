@@ -1,0 +1,3667 @@
+[
+  {
+    "id": "tyrannosaurus",
+    "source": "https://sketchfab.com/3d-models/tyrannosaurus-rex-skeleton-77e21c4e5d65468bbe11780ae0557b95",
+    "license": "CC-BY-4.0",
+    "sourceSha256": "8200c19b115e7f49ec8632244cb4851a497b9eb60aa018be3dc49691aa1eb97a",
+    "sha256": "ec12af17e1c6a51fa450ad81b6e2af0181e87bf605a6fb04177c058b70e20b9b",
+    "bytes": 1553067,
+    "triangles": 85200,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.410314679145813,
+      -0.848744809627533
+    ],
+    "max": [
+      4.000472545623779,
+      1.409976601600647,
+      0.8487878441810608
+    ],
+    "scale": 1.5374091880020315,
+    "change": "Components simplified separately; source color sampled into vertex colors; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 12.3,
+      "label": "全長の目安 12.3 m",
+      "note": "Field Museum / SUE: 40.5 ft。別標本を参考にした展示用の全長目安。SUEのスキャンではない。",
+      "sources": [
+        "https://www.fieldmuseum.org/blog/how-well-do-you-know-sue"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "spinosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "69a25446c22b670a765bfb8767f5ad399c8fcb426d77fea0aa7a7b2bc6f8c2f8",
+    "sha256": "426a9e67b8f16633217c31ed38b07a7d7f9e5a0cff284f898824ab6183da740c",
+    "bytes": 1088477,
+    "triangles": 49008,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9647786617279053,
+      -0.85340815782547
+    ],
+    "max": [
+      4.0,
+      1.9647786617279053,
+      0.85340815782547
+    ],
+    "scale": 1.8125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 14.5,
+      "label": "全長の目安 14.5 m",
+      "note": "図鑑の「全長 約14〜15 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spinosaurus",
+        "https://en.wikipedia.org/w/index.php?oldid=1373355079",
+        "https://en.wikipedia.org/w/index.php?title=Spinosaurus&action=history",
+        "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+        "https://pubmed.ncbi.nlm.nih.gov/41712711/",
+        "https://www.nhm.ac.uk/discover/news/2026/february/new-sabre-crested-spinosaurus-species-named-from-desert-dinosaur-fossils.html",
+        "https://doi.org/10.1126/science.adx5486",
+        "https://doi.org/10.1038/s41586-022-04528-0",
+        "https://doi.org/10.1371/journal.pone.0298957"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "velociraptor",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "372655d697fb277d54df7cc80512267a0a6a45a738519766bf8c4c80e2898a2e",
+    "sha256": "d0ee6077fa5f0a993a548aebfcda1b090bed54ee13d54a54bb6f9530e0444793",
+    "bytes": 1062050,
+    "triangles": 47984,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.1302781105041504,
+      -0.8924316167831421
+    ],
+    "max": [
+      4.0,
+      2.1302781105041504,
+      0.8924316167831421
+    ],
+    "scale": 0.1937526911497116,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 1.5500215291976929,
+      "label": "骨長資料による復元・前後幅 1.55 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "allosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "cf89601d41f1409ce146861560aeda462c12e98857e75e49c242d974cc88afc0",
+    "sha256": "838cb84f652d6fe7f9ecab5b7943f5a41c91c621afa58e1bad15407d76d7c0e5",
+    "bytes": 1062800,
+    "triangles": 48032,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.1046383380889893,
+      -0.8807572722434998
+    ],
+    "max": [
+      4.0,
+      2.1046383380889893,
+      0.8807572722434998
+    ],
+    "scale": 0.8125043511390686,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 6.500034809112549,
+      "label": "骨長資料による復元・前後幅 6.50 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "quetzalcoatlus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "19c328f0d85b5362f473beff6fa2d31de1b504a52148fe0a1b127d66455edb5e",
+    "sha256": "f9023c35e4b7529cc1ab3e680624ebf81acb88dc742d0835440ea691160aacb0",
+    "bytes": 692843,
+    "triangles": 31480,
+    "parts": 1,
+    "min": [
+      -3.4572792053222656,
+      -1.1206094026565552,
+      -4.0
+    ],
+    "max": [
+      3.4572792053222656,
+      1.1206095218658447,
+      4.0
+    ],
+    "scale": 1.3125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 10.5,
+      "label": "翼開長の目安 10.5 m",
+      "note": "図鑑の「翼開長 約10〜11 m（大型種の推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%84%E3%82%A1%E3%83%AB%E3%82%B3%E3%82%A2%E3%83%88%E3%83%AB%E3%82%B9&oldid=110271408",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%84%E3%82%A1%E3%83%AB%E3%82%B3%E3%82%A2%E3%83%88%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Quetzalcoatlus&oldid=1372431660",
+        "https://en.wikipedia.org/w/index.php?title=Quetzalcoatlus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "triceratops",
+    "source": "https://3d.si.edu/object/3d/triceratops-horridus-marsh-1889:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+    "license": "CC0-1.0",
+    "sourceSha256": "2b36ac594d4a58831fea3190b98d16c25c4f9be44c6eed6682c215810d49108a",
+    "sha256": "1ec79c96cb01200f1549c2e1433bb44b7c0f838f2c4d6b3f8eb2a482768d0a4f",
+    "bytes": 1362426,
+    "triangles": 75213,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.904275894165039,
+      -1.128422737121582
+    ],
+    "max": [
+      3.999999761581421,
+      1.902724266052246,
+      1.1267714500427246
+    ],
+    "scale": 0.7364330291748047,
+    "change": "Components simplified separately; source color sampled into vertex colors; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "specimen_units",
+      "axis": "length_x",
+      "referenceMeters": 5.891463882239805,
+      "label": "標本の前後幅 5.89 m",
+      "note": "元のモデルのm単位を保持。全身には博物館での補作・組み立てを含む。",
+      "sources": [
+        "https://3d.si.edu/object/3d/triceratops-horridus-marsh-1889:d8c623be-4ebc-11ea-b77f-2e728ce88125"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "stegosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "d01b07908581c584115d16ea81bf8e9015f0f65455008f51c3fa7ba23dcd7263",
+    "sha256": "0c74d3b0cc9a17b444996a472231e6f2eca956aab152ec32e99aad719dfb5292",
+    "bytes": 1099424,
+    "triangles": 50424,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.755825161933899,
+      -0.8692595362663269
+    ],
+    "max": [
+      4.0,
+      1.755825161933899,
+      0.8692595362663269
+    ],
+    "scale": 0.8862069249153137,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 7.08965539932251,
+      "label": "骨長資料による復元・前後幅 7.09 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1371/journal.pone.0138352"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "archaeopteryx",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "4602e96bc38966565c834f8c7674730e323d390fa1643963f56df412d98460d3",
+    "sha256": "57ddae631ceb0be2c0225b8eb00d7ba7aabb09f9937466ebfef6f2c34805d56f",
+    "bytes": 1043459,
+    "triangles": 47136,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.4165575504302979,
+      -2.632472515106201
+    ],
+    "max": [
+      4.0,
+      1.4165576696395874,
+      2.632472515106201
+    ],
+    "scale": 0.0625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 0.5,
+      "label": "全長の目安 0.5 m",
+      "note": "図鑑の「全長 約0.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Archaeopteryx",
+        "https://en.wikipedia.org/w/index.php?oldid=1369453699",
+        "https://en.wikipedia.org/w/index.php?title=Archaeopteryx&action=history",
+        "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html",
+        "https://doi.org/10.1038/s41586-025-08912-4",
+        "https://doi.org/10.1016/j.xinn.2025.101086"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "mosasaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "4aee68ac3d8e1617b0cfea5281fc145aad8f067b3ebecc6723c8861970b738df",
+    "sha256": "eae813c81f26be22b75af734a8caa4399ea0d95c927969418682d986458f6386",
+    "bytes": 1194664,
+    "triangles": 54768,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -0.6654647588729858,
+      -2.030571937561035
+    ],
+    "max": [
+      3.999999761581421,
+      0.6654647588729858,
+      2.030571937561035
+    ],
+    "scale": 1.5000000894069725,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 12.0,
+      "label": "全長の目安 12 m",
+      "note": "図鑑の「大型種 約12 m（推定幅あり）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mosasaurus",
+        "https://en.wikipedia.org/w/index.php?oldid=1372074090",
+        "https://en.wikipedia.org/w/index.php?title=Mosasaurus&action=history",
+        "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+        "https://doi.org/10.1002/ece3.70218"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "giganotosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e538558108d6f7320379f6c570b771d9dc96d96991466ef0ceb6d6e8e4299c52",
+    "sha256": "fd68928bbcbbf10967e8613135bdd0d972eee173f7c5c4f95df7489bd46a2682",
+    "bytes": 1059971,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9381873607635498,
+      -0.8807572722434998
+    ],
+    "max": [
+      4.0,
+      1.9381874799728394,
+      0.8807572722434998
+    ],
+    "scale": 1.5625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 12.5,
+      "label": "全長の目安 12.5 m",
+      "note": "図鑑の「全長 約12〜13 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Giganotosaurus",
+        "https://en.wikipedia.org/w/index.php?oldid=1372011895",
+        "https://en.wikipedia.org/w/index.php?title=Giganotosaurus&action=history",
+        "https://doi.org/10.1016/j.gr.2026.06.020"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "brachiosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "291a749ad8c6f1952d16f770ab7263dcaef06bf93102b58fb70eb0fe6a9d4fe7",
+    "sha256": "4cf1e5513358c8079e068e0a54ac0dece3f3922dc058f9287ce8e534d7e29a23",
+    "bytes": 1142816,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -3.501404047012329,
+      -1.3381943702697754
+    ],
+    "max": [
+      4.0,
+      3.501404047012329,
+      1.3381943702697754
+    ],
+    "scale": 2.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 22.0,
+      "label": "全長の目安 22 m",
+      "note": "Natural History Museum / Brachiosaurus: 22 m。頭尾方向をこの全長目安に換算。高さ・姿勢は模式復元に由来。",
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "ankylosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "f389212129e0bdf91a223cb95d4045201dfb1dbd320cffee6b363ccfcbaa2e75",
+    "sha256": "964127c42a4948ccee22f0e27b75a574eed8179928079949250895369fea58e1",
+    "bytes": 1123785,
+    "triangles": 52552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.2062524557113647,
+      -1.4223636388778687
+    ],
+    "max": [
+      4.0,
+      1.2062525749206543,
+      1.4223636388778687
+    ],
+    "scale": 0.875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 7.0,
+      "label": "全長の目安 7 m",
+      "note": "図鑑の「全長 約6〜8 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ankylosaurus",
+        "https://en.wikipedia.org/w/index.php?oldid=1369993132",
+        "https://en.wikipedia.org/w/index.php?title=Ankylosaurus&action=history",
+        "https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html",
+        "https://doi.org/10.1038/s41586-025-09453-6"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "dilophosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "c162a2466b5c5724e62beced629f8373e4fe535d54045195ddf49a6404fea516",
+    "sha256": "a18ce5db83e72ec9cb05643c6f980333469cfbb1eca77d7f5c85c82957e25ec1",
+    "bytes": 1064951,
+    "triangles": 48064,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.355543375015259,
+      -0.9024476408958435
+    ],
+    "max": [
+      4.0,
+      2.355543375015259,
+      0.9024476408958435
+    ],
+    "scale": 0.48303091526031494,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 3.8642473220825195,
+      "label": "骨長資料による復元・前後幅 3.86 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "therizinosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "d6b387b972c04afa80ba6a8f3c08c1eca40c9e4bdca542793233addbedd0b162",
+    "sha256": "3c8b0db4ec926789440745191b65e677cd500730f19108b35ea15115e53984df",
+    "bytes": 1003681,
+    "triangles": 45728,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -2.361600399017334,
+      -1.2775542736053467
+    ],
+    "max": [
+      3.999999761581421,
+      2.361600399017334,
+      1.2775542736053467
+    ],
+    "scale": 1.18750007078052,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%83%AA%E3%82%B8%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401423",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%83%AA%E3%82%B8%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Therizinosaurus&oldid=1368825641",
+        "https://en.wikipedia.org/w/index.php?title=Therizinosaurus&action=history",
+        "https://doi.org/10.1038/s42003-023-04552-4"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "deinonychus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "daf56cbff961f84c10e148a0ed0efef4da7bf830982d379749f3e9a51830dd76",
+    "sha256": "9f986a31a54e550f634e739d9a04727fe8c9d590731a02c76e41014060a4f531",
+    "bytes": 1063482,
+    "triangles": 47984,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.176769495010376,
+      -0.8806273937225342
+    ],
+    "max": [
+      4.0,
+      2.176769733428955,
+      0.8806273937225342
+    ],
+    "scale": 0.27719971537590027,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 2.217597723007202,
+      "label": "骨長資料による復元・前後幅 2.22 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "parasaurolophus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "82f90ce7717a1e447098e3576a9358fdc7658f312eac98a3ce25d2e09f16d032",
+    "sha256": "956d823519843385c964e351445bcc4cfdb0311f1af9391cbffd5c053a4d49ac",
+    "bytes": 1055347,
+    "triangles": 48292,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.2219152450561523,
+      -0.8416424989700317
+    ],
+    "max": [
+      4.0,
+      2.2219152450561523,
+      0.8416424989700317
+    ],
+    "scale": 1.1875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Parasaurolophus",
+        "https://en.wikipedia.org/w/index.php?oldid=1365892867",
+        "https://en.wikipedia.org/w/index.php?title=Parasaurolophus&action=history",
+        "https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html",
+        "https://scholarworks.lib.csusb.edu/etd/2328/"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "utahraptor",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "1d101c85219f037dc5516f94590a64b7114e611e06a05d2de8c9ac573d6ca9ae",
+    "sha256": "5cc22b3e20bad8d1052a4cfb3433cbf8e4c009ea65d3a73036d2e1af3e32b832",
+    "bytes": 1060134,
+    "triangles": 47984,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.8878825902938843,
+      -0.947246253490448
+    ],
+    "max": [
+      4.0,
+      1.8878827095031738,
+      0.947246253490448
+    ],
+    "scale": 0.6875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 5.5,
+      "label": "全長の目安 5.5 m",
+      "note": "図鑑の「全長 約5〜6 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%BF%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=106403358",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%BF%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Utahraptor&oldid=1369622500",
+        "https://en.wikipedia.org/w/index.php?title=Utahraptor&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "carnotaurus",
+    "source": "https://sketchfab.com/3d-models/04c8d6e0e1794091aeae0d2f54cca43b",
+    "license": "CC-BY-4.0",
+    "sourceSha256": "b7169873c37162268b1a2c2e3d6184b92b884da34fd79769d3c202c71954e7ef",
+    "sha256": "3539e3385f7140bc9e3d4212aa13e3f23e5595a276abc8eef5f72685b95661a1",
+    "bytes": 1365133,
+    "triangles": 79774,
+    "parts": 1,
+    "min": [
+      -3.9999961853027344,
+      -1.3324097394943237,
+      -0.6527369022369385
+    ],
+    "max": [
+      4.000068664550781,
+      1.3319299221038818,
+      0.6526975631713867
+    ],
+    "scale": 0.9687421471517078,
+    "change": "Components simplified separately; source color sampled into vertex colors; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 7.75,
+      "label": "全長の目安 7.75 m",
+      "note": "図鑑の「全長 約7.5〜8 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%83%8E%E3%82%BF%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110563801",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%83%8E%E3%82%BF%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Carnotaurus&oldid=1372964101",
+        "https://en.wikipedia.org/w/index.php?title=Carnotaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "pachycephalosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "173db3c4b585a97db35bf8a53767b2dcda575e1f5522f0437c0db731b0868c16",
+    "sha256": "9caab6c6dfd3eca2d3cd33ed6d53563f2c6990dfe7115f8b2528814bb1f094ec",
+    "bytes": 1040224,
+    "triangles": 47896,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.2429239749908447,
+      -0.863813042640686
+    ],
+    "max": [
+      4.0,
+      2.2429239749908447,
+      0.863813042640686
+    ],
+    "scale": 0.5625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 4.5,
+      "label": "全長の目安 4.5 m",
+      "note": "図鑑の「全長 約4〜5 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%82%B1%E3%83%95%E3%82%A1%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106402045",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%82%B1%E3%83%95%E3%82%A1%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Pachycephalosaurus&oldid=1372076661",
+        "https://en.wikipedia.org/w/index.php?title=Pachycephalosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "brontosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "cab34f5e6c9490cb5a322c7dd399a3a7ea19d3878cea5a038b874272781d3411",
+    "sha256": "0c435accf15e9db7455115c1333c9421e7a0c009283b48a4a943eba53a74d612",
+    "bytes": 1141849,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.3194149732589722,
+      -1.0044025182724
+    ],
+    "max": [
+      4.0,
+      1.3194149732589722,
+      1.0044025182724
+    ],
+    "scale": 2.625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 21.0,
+      "label": "全長の目安 21 m",
+      "note": "図鑑の「全長 約20〜22 m（種・推定で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AD%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110262304",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AD%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Brontosaurus&oldid=1372340997",
+        "https://en.wikipedia.org/w/index.php?title=Brontosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "argentinosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "47ab0ac7796aff5b56215a2db1d20d389905997a6a5f3ee093f8ed9bcfb5fe5f",
+    "sha256": "8650c8b4576321da3912d7b0173ee23ef5544175ad5193618aa2d2db256e6ce2",
+    "bytes": 1141799,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9151616096496582,
+      -1.0436233282089233
+    ],
+    "max": [
+      4.0,
+      1.9151616096496582,
+      1.0436233282089233
+    ],
+    "scale": 4.0625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 32.5,
+      "label": "全長の目安 32.5 m",
+      "note": "図鑑の「全長 約30〜35 m（断片からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108627158",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Argentinosaurus&oldid=1369635995",
+        "https://en.wikipedia.org/w/index.php?title=Argentinosaurus&action=history",
+        "https://doi.org/10.1016/j.gr.2026.06.020"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "diplodocus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "c82a3d6668ee868a06357866b1d716ff3032436222408921d889cf69a263f9cc",
+    "sha256": "62ad2b8b96bfa776f48aeac73beac11a82e869d69b17e407ce393389fc033a33",
+    "bytes": 1141597,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -0.9249732494354248,
+      -0.7410147786140442
+    ],
+    "max": [
+      3.999999761581421,
+      0.9249733686447144,
+      0.7410147786140442
+    ],
+    "scale": 3.125000186264526,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 25.0,
+      "label": "全長の目安 25 m",
+      "note": "図鑑の「全長 約24〜26 m（代表的な復元）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%97%E3%83%AD%E3%83%89%E3%82%AF%E3%82%B9&oldid=109986708",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%97%E3%83%AD%E3%83%89%E3%82%AF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Diplodocus&oldid=1372158191",
+        "https://en.wikipedia.org/w/index.php?title=Diplodocus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "pterodactylus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "d42384bda85d134b6d24de4422b4bb7c469dba48dd51032460649bac98c33883",
+    "sha256": "f212b239ad4804511309c497ee189863753ebf4fc9eaa1399b480cc45992b21b",
+    "bytes": 772435,
+    "triangles": 34936,
+    "parts": 1,
+    "min": [
+      -2.7056543827056885,
+      -1.3902922868728638,
+      -4.0
+    ],
+    "max": [
+      2.7056543827056885,
+      1.3902924060821533,
+      4.0
+    ],
+    "scale": 0.125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 1.0,
+      "label": "翼開長の目安 1 m",
+      "note": "図鑑の「翼開長 約1 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%86%E3%83%AD%E3%83%80%E3%82%AF%E3%83%86%E3%82%A3%E3%83%AB%E3%82%B9&oldid=106402534",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%86%E3%83%AD%E3%83%80%E3%82%AF%E3%83%86%E3%82%A3%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Pterodactylus&oldid=1362501855",
+        "https://en.wikipedia.org/w/index.php?title=Pterodactylus&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "pteranodon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "f757f1bb2feeecd3954018898219ffc2eebfd2590abbc5d93301d5412027b341",
+    "sha256": "ebfa87de4630a19443c86965adad08d5d7e6e4458aca6738f26945b858026957",
+    "bytes": 693019,
+    "triangles": 31528,
+    "parts": 1,
+    "min": [
+      -2.7287704944610596,
+      -1.5716524124145508,
+      -4.0
+    ],
+    "max": [
+      2.7287704944610596,
+      1.5716525316238403,
+      4.0
+    ],
+    "scale": 0.6875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 5.5,
+      "label": "翼開長の目安 5.5 m",
+      "note": "図鑑の「翼開長 約4〜7 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pteranodon",
+        "https://en.wikipedia.org/w/index.php?oldid=1373069806",
+        "https://en.wikipedia.org/w/index.php?title=Pteranodon&action=history",
+        "https://doi.org/10.1002/ece3.70218"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "iguanodon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "357121d2fd8b65af3678b53b230d0e9a42c3e468a83d6b8e471837fdf8de8ff9",
+    "sha256": "c2e8d90dfa84c3f62ec331a5ee5059aeb4dec882ebd0297cef99f3b66d4223c6",
+    "bytes": 1054792,
+    "triangles": 48280,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.0133216381073,
+      -0.9304652810096741
+    ],
+    "max": [
+      4.0,
+      2.013321876525879,
+      0.9304652810096741
+    ],
+    "scale": 1.1875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m（種・個体で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%B0%E3%82%A2%E3%83%8E%E3%83%89%E3%83%B3&oldid=110806658",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%B0%E3%82%A2%E3%83%8E%E3%83%89%E3%83%B3&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Iguanodon&oldid=1370542384",
+        "https://en.wikipedia.org/w/index.php?title=Iguanodon&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "suchomimus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "4d3c76243bc7f6b71b15f6717fb2b735cc33e9bddf2b5498b5189b7412aebc57",
+    "sha256": "fe6f67e8b1f9e06e7cfbbface9d61748ecc917ff6baa86f348412920df4810df",
+    "bytes": 1088243,
+    "triangles": 49008,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.5321537256240845,
+      -0.8960304856300354
+    ],
+    "max": [
+      4.0,
+      1.532153844833374,
+      0.8960304856300354
+    ],
+    "scale": 1.25,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 10.0,
+      "label": "全長の目安 10 m",
+      "note": "図鑑の「全長 約9〜11 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%A0%E3%82%B9&oldid=108471434",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%A0%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Suchomimus&oldid=1373688336",
+        "https://en.wikipedia.org/w/index.php?title=Suchomimus&action=history",
+        "https://doi.org/10.1038/s41586-022-04528-0",
+        "https://doi.org/10.1371/journal.pone.0298957"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "nigersaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "36e3cacb45d97a9fd4309e25edbcb3a9d66d19f7322c7e68e5784f1a5c65531c",
+    "sha256": "db6d829252e26f882ef08f730d361520886fe087fbad3c7d1adfcb645b1d6a70",
+    "bytes": 1145701,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.2248029708862305,
+      -1.1724700927734375
+    ],
+    "max": [
+      4.0,
+      1.22480309009552,
+      1.1724700927734375
+    ],
+    "scale": 1.125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.0,
+      "label": "全長の目安 9 m",
+      "note": "図鑑の「全長 約9 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401730",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Nigersaurus&oldid=1370055972",
+        "https://en.wikipedia.org/w/index.php?title=Nigersaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "apatosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "93cf96d0939457db25e3db06d8f7c4ace415e3d2eceaa72a16fe714549d0153b",
+    "sha256": "1c1d6e5760365e2ede39ccf943a4567e12cc05cb70b3f043a087cc13f33b0582",
+    "bytes": 1141553,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.3194149732589722,
+      -0.9557408690452576
+    ],
+    "max": [
+      4.0,
+      1.3194149732589722,
+      0.9557408690452576
+    ],
+    "scale": 2.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 22.0,
+      "label": "全長の目安 22 m",
+      "note": "図鑑の「全長 約21〜23 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%91%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110891023",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%91%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Apatosaurus&oldid=1372004138",
+        "https://en.wikipedia.org/w/index.php?title=Apatosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "edmontosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "70ac492a83d121b6f49c239b13d6ee4fa83836d4659622ba69634b5febc6b0c7",
+    "sha256": "6473f1c1318ad581bef0be8ace728a36b358c7087807dcccd90d8f45c1702c72",
+    "bytes": 1055413,
+    "triangles": 48232,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.8373218774795532,
+      -0.8219264149665833
+    ],
+    "max": [
+      4.0,
+      1.8373219966888428,
+      0.8219264149665833
+    ],
+    "scale": 1.3125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 10.5,
+      "label": "全長の目安 10.5 m",
+      "note": "図鑑の「全長 約9〜12 m（大型個体はさらに大きい）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109783130",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Edmontosaurus&oldid=1371934142",
+        "https://en.wikipedia.org/w/index.php?title=Edmontosaurus&action=history",
+        "https://doi.org/10.1126/science.adw3536",
+        "https://doi.org/10.7717/peerj.20796"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "carcharodontosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "d66f512e1af4b6e7597a4c72853ebc749e2967064c28d5e68858d94f3e2215e4",
+    "sha256": "5c629c8b55e74eb35a95d0b490a66e9f7834171c3a054afecbbc95c19f8a100f",
+    "bytes": 1059255,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.910204291343689,
+      -0.899243175983429
+    ],
+    "max": [
+      4.0,
+      1.9102044105529785,
+      0.899243175983429
+    ],
+    "scale": 1.53125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 12.25,
+      "label": "全長の目安 12.25 m",
+      "note": "図鑑の「全長 約12〜12.5 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%82%AB%E3%83%AD%E3%83%89%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110098731",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%82%AB%E3%83%AD%E3%83%89%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Carcharodontosaurus&oldid=1370226152",
+        "https://en.wikipedia.org/w/index.php?title=Carcharodontosaurus&action=history",
+        "https://doi.org/10.1371/journal.pone.0311096"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "megalosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e5007a1a37ef45e9adaac524392fd4a40a99b5d59ec88ed1f07b16a1ccdacb00",
+    "sha256": "5557fb199652beeaa909e7f5f1ab9e26b4ac5b45e46cb1211d0a723e5fbb4659",
+    "bytes": 1060840,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9076207876205444,
+      -0.9174376726150513
+    ],
+    "max": [
+      4.0,
+      1.907620906829834,
+      0.9174376726150513
+    ],
+    "scale": 0.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.0,
+      "label": "全長の目安 6 m",
+      "note": "図鑑の「全長 約6 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A1%E3%82%AC%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110156196",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A1%E3%82%AC%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Megalosaurus&oldid=1369775859",
+        "https://en.wikipedia.org/w/index.php?title=Megalosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "borealopelta",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "9e8bb9e0ae44847c9ddbd49cf543634fa3af75c62c2627da7ce6fa5cf5bb805b",
+    "sha256": "c9898bbc732d980fd5308853b0235246abb0fbd8b793c508ec52385ee7a8faac",
+    "bytes": 1122274,
+    "triangles": 52552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.3562599420547485,
+      -1.7203075885772705
+    ],
+    "max": [
+      4.0,
+      1.356260061264038,
+      1.7203075885772705
+    ],
+    "scale": 0.6875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 5.5,
+      "label": "全長の目安 5.5 m",
+      "note": "図鑑の「全長 約5.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9C%E3%83%AC%E3%82%A2%E3%83%AD%E3%83%9A%E3%83%AB%E3%82%BF&oldid=107802274",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9C%E3%83%AC%E3%82%A2%E3%83%AD%E3%83%9A%E3%83%AB%E3%82%BF&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Borealopelta&oldid=1365698481",
+        "https://en.wikipedia.org/w/index.php?title=Borealopelta&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "herrerasaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "ea69fb39a733304569fcc4b0689529e4163ce1a4ca7de348bfb17289d1dcae56",
+    "sha256": "941ddaa04e70f418285f62e4bbb06b2f6472de4b3b4e0fc7d21ebaf9799fc626",
+    "bytes": 1062318,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.1053502559661865,
+      -0.8099665641784668
+    ],
+    "max": [
+      4.0,
+      2.1053502559661865,
+      0.8099665641784668
+    ],
+    "scale": 0.37476646900177,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 2.99813175201416,
+      "label": "骨長資料による復元・前後幅 3.00 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "baryonyx",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "23c6545fa448fb2add60103c3419f56e6a105ed021e12869cafb04555d8dc2f1",
+    "sha256": "b60f14feec18a05f1775ae1d2cc646860df2ba7a1cd6eb49d650c21aded6bf70",
+    "bytes": 1088331,
+    "triangles": 49008,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.5321537256240845,
+      -0.8960304856300354
+    ],
+    "max": [
+      4.0,
+      1.532153844833374,
+      0.8960304856300354
+    ],
+    "scale": 1.09375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 8.75,
+      "label": "全長の目安 8.75 m",
+      "note": "図鑑の「全長 約7.5〜10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%90%E3%83%AA%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&oldid=106402003",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%90%E3%83%AA%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Baryonyx&oldid=1369485962",
+        "https://en.wikipedia.org/w/index.php?title=Baryonyx&action=history",
+        "https://doi.org/10.1038/s41586-022-04528-0",
+        "https://doi.org/10.1371/journal.pone.0298957"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "compsognathus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "086a69c4ac0edbd1094f34564c829c92bb8a6b34830939680170005324ba060d",
+    "sha256": "3b537bc0d97a0b85cb540259a1c6bd36c4aaaedc523f05557a40f7a5fec64cd7",
+    "bytes": 1061236,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.4974186420440674,
+      -0.823358416557312
+    ],
+    "max": [
+      4.0,
+      2.4974186420440674,
+      0.823358416557312
+    ],
+    "scale": 0.0857374295592308,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 0.6858994364738464,
+      "label": "骨長資料による復元・前後幅 0.69 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "ceratosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "858a2bafe6d0bdc5852fa327ff5012caf495fbf3392a4af85a6ced195d55ed1b",
+    "sha256": "98939deb47d33ff6d78881a3286b51f86a4df09e3e0dfea67c8d336d23f2a7d1",
+    "bytes": 1062979,
+    "triangles": 47960,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.3032987117767334,
+      -0.8980245590209961
+    ],
+    "max": [
+      4.0,
+      2.3032987117767334,
+      0.8980245590209961
+    ],
+    "scale": 0.501590371131897,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 4.012722969055176,
+      "label": "骨長資料による復元・前後幅 4.01 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "titanosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "84278217e621823a435e1e227acbe5dd475a65cf534b183e3d8c618c1add3808",
+    "sha256": "58d63954acdb14b7705e090638e9234622f10df6dba2c9245437a2b94526ccab",
+    "bytes": 1141226,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.0035414695739746,
+      -1.093248724937439
+    ],
+    "max": [
+      4.0,
+      2.0035414695739746,
+      1.093248724937439
+    ],
+    "scale": 1.0,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "unresolved",
+      "axis": "length_x",
+      "referenceMeters": null,
+      "label": "縮尺未確定・参考展示",
+      "note": "図鑑の記載：全長の信頼できる確定値なし。全身の実寸に換算できないため、従来の参考模型サイズを保持。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%82%BF%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401341",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%82%BF%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Titanosaurus&oldid=1363110034",
+        "https://en.wikipedia.org/w/index.php?title=Titanosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "patagotitan",
+    "source": "https://sketchfab.com/3d-models/a48cde44e8a045d2968fca28ce62c7ae",
+    "license": "CC-BY-SA-4.0",
+    "sourceSha256": "493ea3302f974be188e7e6c2e6191a5bd71a4ddfac6d9ada1f21aa5d63d66047",
+    "sha256": "ff2741459575de9caf4ec545334743c61a17c6d7a7e298ec2168a122d6dda8f7",
+    "bytes": 4673099,
+    "triangles": 223484,
+    "parts": 2,
+    "min": [
+      -4.0000081062316895,
+      -0.7548459768295288,
+      -0.40827450156211853
+    ],
+    "max": [
+      3.9985737800598145,
+      0.7542767524719238,
+      0.40827450156211853
+    ],
+    "scale": 4.68833107332063,
+    "change": "Components simplified separately; source color sampled into vertex colors; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 37.5,
+      "label": "全長の目安 37.5 m",
+      "note": "Natural History Museum / Patagotitan: 37.5 m。推定全長であり個々の標本の測定値ではない。",
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/patagotitan.html"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "yutyrannus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e5167c2be2cb5cf6a54cffbafa8b69a93acdb48bcfe2da44a56bcceab030d503",
+    "sha256": "249df97bf9e7f2b23aec8da5f0b1c4d74ee68f534732c1dc6d466e5d15b7e840",
+    "bytes": 1061871,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9322712421417236,
+      -0.8780688643455505
+    ],
+    "max": [
+      4.0,
+      1.9322713613510132,
+      0.8780688643455505
+    ],
+    "scale": 1.125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.0,
+      "label": "全長の目安 9 m",
+      "note": "図鑑の「全長 約9 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%A6%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&oldid=110691070",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%A6%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Yutyrannus&oldid=1373496507",
+        "https://en.wikipedia.org/w/index.php?title=Yutyrannus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "hatzegopteryx",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "f78420a74b8986479eea154b982ae82957384ec084a21c64320a1bcbc60221c8",
+    "sha256": "618af94009059bacd3dd1edcad9cc9f51548feacd377dd6f6fdcbf96cc737458",
+    "bytes": 689886,
+    "triangles": 31480,
+    "parts": 1,
+    "min": [
+      -2.964351177215576,
+      -1.1055734157562256,
+      -4.0
+    ],
+    "max": [
+      2.964351177215576,
+      1.1055735349655151,
+      4.0
+    ],
+    "scale": 1.375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 11.0,
+      "label": "翼開長の目安 11 m",
+      "note": "図鑑の「翼開長 約10〜12 m（断片からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%84%E3%82%A7%E3%82%B4%E3%83%97%E3%83%86%E3%83%AA%E3%82%AF%E3%82%B9&oldid=106401866",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%84%E3%82%A7%E3%82%B4%E3%83%97%E3%83%86%E3%83%AA%E3%82%AF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Hatzegopteryx&oldid=1352273204",
+        "https://en.wikipedia.org/w/index.php?title=Hatzegopteryx&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "troodon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "83a805a479359ce1fceb4d2e26920aae79ac144780f9c1a4f34583b663aa7f9e",
+    "sha256": "174c9163e324dc8123c70ed55c9f3d8c87935e3a4924b4a2d98821303d96f452",
+    "bytes": 1061454,
+    "triangles": 47984,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9263533353805542,
+      -0.8970125913619995
+    ],
+    "max": [
+      4.0,
+      1.9263534545898438,
+      0.8970125913619995
+    ],
+    "scale": 1.0,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "unresolved",
+      "axis": "length_x",
+      "referenceMeters": null,
+      "label": "縮尺未確定・参考展示",
+      "note": "図鑑の記載：属の範囲が不確かで体長は確定困難。全身の実寸に換算できないため、従来の参考模型サイズを保持。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%AA%E3%83%89%E3%83%B3&oldid=106401621",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%AA%E3%83%89%E3%83%B3&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Troodon&oldid=1368892358",
+        "https://en.wikipedia.org/w/index.php?title=Troodon&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "tylosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e94744fb262160e7d8ff3115672622b06566cd7b08795538d39d52991f9e5451",
+    "sha256": "b4b87a971d2bc4a99a4b5aa955e8c078829f74a0a3ec00629497704a0b83d1a1",
+    "bytes": 1197016,
+    "triangles": 54768,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -0.6069937944412231,
+      -1.8521562814712524
+    ],
+    "max": [
+      4.0,
+      0.6069937944412231,
+      1.8521562814712524
+    ],
+    "scale": 1.5,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 12.0,
+      "label": "全長の目安 12 m",
+      "note": "図鑑の「全長 約10〜14 m（種・推定で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401386",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Tylosaurus&oldid=1373519206",
+        "https://en.wikipedia.org/w/index.php?title=Tylosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "liopleurodon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "8fd179cbeff59bb7c67e0cfafe0ab508088f68c370fa47006d56bbec63e567e3",
+    "sha256": "91f5f4d0fa83abdccd958f3613870b8b16181c0e0eb35fd546a28a8824282927",
+    "bytes": 1196274,
+    "triangles": 54768,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -0.8487679958343506,
+      -3.9742767810821533
+    ],
+    "max": [
+      4.0,
+      0.8487679958343506,
+      3.9742767810821533
+    ],
+    "scale": 0.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.0,
+      "label": "全長の目安 6 m",
+      "note": "図鑑の「全長 約5〜7 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%AA%E3%82%AA%E3%83%97%E3%83%AC%E3%82%A6%E3%83%AD%E3%83%89%E3%83%B3&oldid=107323945",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%AA%E3%82%AA%E3%83%97%E3%83%AC%E3%82%A6%E3%83%AD%E3%83%89%E3%83%B3&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Liopleurodon&oldid=1371149245",
+        "https://en.wikipedia.org/w/index.php?title=Liopleurodon&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "acrocanthosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "668a0ef5d7c3d788807e7434d9448f16ad48fdf8209ce62c1dd123161767fd54",
+    "sha256": "f48bab58c1a192c057e51023258ce2f5d6106e77c904a04c39411a1a56490c30",
+    "bytes": 1062168,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.0319626331329346,
+      -0.90644770860672
+    ],
+    "max": [
+      4.0,
+      2.0319626331329346,
+      0.90644770860672
+    ],
+    "scale": 0.9238628149032593,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 7.390902519226074,
+      "label": "骨長資料による復元・前後幅 7.39 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "microraptor",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "a58a8a43b468ef17815350c4f41f9ea52f2bbfffcfee21245a5a45e0bddd7979",
+    "sha256": "3d89a16e54ca19ae7ffa194bee26b9aad1d297af0ff3e7d04c8142a88b468070",
+    "bytes": 1051791,
+    "triangles": 47520,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.7971795797348022,
+      -2.4100401401519775
+    ],
+    "max": [
+      4.0,
+      1.7971795797348022,
+      2.4100401401519775
+    ],
+    "scale": 0.13118809461593628,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 1.0495047569274902,
+      "label": "骨長資料による復元・前後幅 1.05 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "nanotyrannus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "9d71fd2a02ea1bc9bb4a79ec508bba593f5df859a782c96749eb22f2b20d687a",
+    "sha256": "61c45c80ed0d7608a457d6c76aa44f490de47be618f29d4376a62a4c0ea29a6d",
+    "bytes": 1056628,
+    "triangles": 47552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9584475755691528,
+      -0.7364750504493713
+    ],
+    "max": [
+      4.0,
+      1.9584476947784424,
+      0.7364750504493713
+    ],
+    "scale": 0.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.0,
+      "label": "全長の目安 6 m",
+      "note": "図鑑の「全長 約5〜7 m（標本・復元で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8E%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&oldid=110807261",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8E%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Nanotyrannus&oldid=1371784903",
+        "https://en.wikipedia.org/w/index.php?title=Nanotyrannus&action=history",
+        "https://doi.org/10.1038/s41586-025-09801-6"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "tarbosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "ff81c485738e3335539fea2420fe4e0033ecea30e6951928ddaeecc9a116870d",
+    "sha256": "ea2bf0ad8aaec360f8c56ede377e0b73fb36754d7693148339a8b783db098bfe",
+    "bytes": 1057685,
+    "triangles": 47552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.186037063598633,
+      -0.7860074043273926
+    ],
+    "max": [
+      4.0,
+      2.186037063598633,
+      0.7860074043273926
+    ],
+    "scale": 0.8481159210205078,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 6.7849273681640625,
+      "label": "骨長資料による復元・前後幅 6.78 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "camarasaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "fc5c4b93f97c90e7ddea70cf114b98bcf77b54f35e6ce66a413c0b047dc6bf4f",
+    "sha256": "18117b89cf1a07fb05415781dfa4e347849e7966dd4108f42a311e5be9641212",
+    "bytes": 1143920,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.3249428272247314,
+      -1.1631789207458496
+    ],
+    "max": [
+      4.0,
+      2.3249428272247314,
+      1.1631789207458496
+    ],
+    "scale": 2.375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 19.0,
+      "label": "全長の目安 19 m",
+      "note": "図鑑の「全長 約15〜23 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%9E%E3%83%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106400056",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%9E%E3%83%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Camarasaurus&oldid=1370307410",
+        "https://en.wikipedia.org/w/index.php?title=Camarasaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "plesiosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "ff7e81cd5401ec667fd66bf1481a88c9165f64c6a2ff17f7ba1b7f73da8d7c05",
+    "sha256": "8a47c815e5cf2d022263549f43962090a4c6bcd91772adff92dffc6b445fd968",
+    "bytes": 1481108,
+    "triangles": 67648,
+    "parts": 2,
+    "min": [
+      -4.0,
+      -0.8084877729415894,
+      -3.375889301300049
+    ],
+    "max": [
+      4.0,
+      0.8084877729415894,
+      3.375889301300049
+    ],
+    "scale": 0.40625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 3.25,
+      "label": "全長の目安 3.25 m",
+      "note": "図鑑の「全長 約3〜3.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AC%E3%82%B7%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106402606",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AC%E3%82%B7%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Plesiosaurus&oldid=1372001053",
+        "https://en.wikipedia.org/w/index.php?title=Plesiosaurus&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "styracosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "463406f74c9b12847e975bd40b4f38b849a670ddbad6f581c1e4bde1d9e62e67",
+    "sha256": "b55aa5588ba9be7a9c260e69264db9b294eba8ccb75ddb479aaea0f92af0ed5b",
+    "bytes": 1119692,
+    "triangles": 50848,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.7066353559494019,
+      -1.2595570087432861
+    ],
+    "max": [
+      4.0,
+      1.7066354751586914,
+      1.2595570087432861
+    ],
+    "scale": 0.65625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 5.25,
+      "label": "全長の目安 5.25 m",
+      "note": "図鑑の「全長 約5〜5.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%A9%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106400952",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%A9%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Styracosaurus&oldid=1372072281",
+        "https://en.wikipedia.org/w/index.php?title=Styracosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "australovenator",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "9475e2763d82c7b65c5c4e0d03629a1ce4823fed11ef30066b7b265a95908a40",
+    "sha256": "dae51dcd574e1d79a61c07e55b364a87b8ff736d12cd79cc42f41e85eff7162f",
+    "bytes": 1061247,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.9456068277359009,
+      -0.9009683728218079
+    ],
+    "max": [
+      3.999999761581421,
+      1.9456069469451904,
+      0.9009683728218079
+    ],
+    "scale": 0.6875000409781957,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 5.5,
+      "label": "全長の目安 5.5 m",
+      "note": "図鑑の「全長 約5〜6 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%A6%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AD%E3%83%B4%E3%82%A7%E3%83%8A%E3%83%88%E3%83%AB&oldid=108547510",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%A6%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AD%E3%83%B4%E3%82%A7%E3%83%8A%E3%83%88%E3%83%AB&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Australovenator&oldid=1373237694",
+        "https://en.wikipedia.org/w/index.php?title=Australovenator&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "coelophysis",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "81fc5a6a04ab4b1b82b3d78fae20df8c436293b6e4040764c79028003631ae3b",
+    "sha256": "c7ca8b6d1e961b781555b4d4b48edb3d8514431f41248b3661ae8d5d010fdadb",
+    "bytes": 1060808,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.284688949584961,
+      -0.8193575143814087
+    ],
+    "max": [
+      4.0,
+      2.284688949584961,
+      0.8193575143814087
+    ],
+    "scale": 0.17936131358146667,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 1.4348905086517334,
+      "label": "骨長資料による復元・前後幅 1.43 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "albertosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "bc6ac2c6d1473647b08541064ba3395923369367d54a169189a40853b599dc04",
+    "sha256": "e4cd35c5559039a7011fd6fd12aad80e379939114503166e41522a598c8793f5",
+    "bytes": 1057047,
+    "triangles": 47552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.2157750129699707,
+      -0.7512089014053345
+    ],
+    "max": [
+      4.0,
+      2.2157750129699707,
+      0.7512089014053345
+    ],
+    "scale": 0.8298555612564087,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 6.6388444900512695,
+      "label": "骨長資料による復元・前後幅 6.64 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "bruhathkayosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "2a80a4c657d03170411dc40cec8c01c08d77adedb1e9dde1da2fba56b35677d5",
+    "sha256": "f2e6e4414508dd5e038c2fcc1a3430bb4810c0806c4e563326afaf0b75f3f607",
+    "bytes": 1141972,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.0035414695739746,
+      -1.197616696357727
+    ],
+    "max": [
+      4.0,
+      2.0035414695739746,
+      1.197616696357727
+    ],
+    "scale": 1.0,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "unresolved",
+      "axis": "length_x",
+      "referenceMeters": null,
+      "label": "縮尺未確定・参考展示",
+      "note": "図鑑の記載：全身サイズは非常に不確実。全身の実寸に換算できないため、従来の参考模型サイズを保持。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AB%E3%83%8F%E3%83%88%E3%82%AB%E3%83%A8%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106402453",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AB%E3%83%8F%E3%83%88%E3%82%AB%E3%83%A8%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Bruhathkayosaurus&oldid=1348966468",
+        "https://en.wikipedia.org/w/index.php?title=Bruhathkayosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "deinocheirus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e45930ef7e43aa68fcccacfc367e778f8ef99835be9ed874e4471eefa78400f4",
+    "sha256": "a95fa09f9db16149fca937a10645c9a04713579199959ece8cf6002f7fee4a52",
+    "bytes": 1007773,
+    "triangles": 45728,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9923772811889648,
+      -1.0818568468093872
+    ],
+    "max": [
+      4.0,
+      1.9923774003982544,
+      1.0818568468093872
+    ],
+    "scale": 1.375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 11.0,
+      "label": "全長の目安 11 m",
+      "note": "図鑑の「全長 約11 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A4%E3%83%8E%E3%82%B1%E3%82%A4%E3%83%AB%E3%82%B9&oldid=108771985",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A4%E3%83%8E%E3%82%B1%E3%82%A4%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Deinocheirus&oldid=1371301985",
+        "https://en.wikipedia.org/w/index.php?title=Deinocheirus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "cristatusaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "59f9f7956eb8710a1cef8b1688744512ff71e3bbe08f69d72c763ad625a19e63",
+    "sha256": "7ade36cf573d7d5f7d62cc470197718ca35f623931c58458e009d39a03f386fd",
+    "bytes": 1088435,
+    "triangles": 49008,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.5584893226623535,
+      -0.9114320278167725
+    ],
+    "max": [
+      3.999999761581421,
+      1.558489441871643,
+      0.9114320278167725
+    ],
+    "scale": 1.0,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "unresolved",
+      "axis": "length_x",
+      "referenceMeters": null,
+      "label": "縮尺未確定・参考展示",
+      "note": "図鑑の記載：体長の確定は困難（部分標本）。全身の実寸に換算できないため、従来の参考模型サイズを保持。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%88%E3%82%A5%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110433622",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%88%E3%82%A5%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Cristatusaurus&oldid=1370051267",
+        "https://en.wikipedia.org/w/index.php?title=Cristatusaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "dreadnoughtus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "179340e1ae2daa694ecc3a5109dd6e32ffbc927a6086537e2278fb7619815455",
+    "sha256": "08ed57196ae26bcca792e4384be4503f3d83b98c414a5c57e5ff79ded4b4b544",
+    "bytes": 1142165,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9437671899795532,
+      -1.0597249269485474
+    ],
+    "max": [
+      4.0,
+      1.9437671899795532,
+      1.0597249269485474
+    ],
+    "scale": 3.25,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 26.0,
+      "label": "全長の目安 26 m",
+      "note": "図鑑の「全長 約26 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%89%E3%83%AC%E3%83%83%E3%83%89%E3%83%8E%E3%83%BC%E3%82%BF%E3%82%B9&oldid=110807133",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%89%E3%83%AC%E3%83%83%E3%83%89%E3%83%8E%E3%83%BC%E3%82%BF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Dreadnoughtus&oldid=1370808008",
+        "https://en.wikipedia.org/w/index.php?title=Dreadnoughtus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "protoceratops",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "41fdb2a7bb7fd6f58f0f7eac2c20bc40d2654c8e1771caf5d480cf5f42f4b6c6",
+    "sha256": "0a6ea7f6f09a9055c36256523a6c91855247e5232ffffd45c8229e45e532b673",
+    "bytes": 1114410,
+    "triangles": 50680,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.5581762790679932,
+      -1.299426794052124
+    ],
+    "max": [
+      4.0,
+      1.5581763982772827,
+      1.299426794052124
+    ],
+    "scale": 0.26875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 2.15,
+      "label": "全長の目安 2.15 m",
+      "note": "図鑑の「全長 約1.8〜2.5 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AD%E3%83%88%E3%82%B1%E3%83%A9%E3%83%88%E3%83%97%E3%82%B9&oldid=106402672",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AD%E3%83%88%E3%82%B1%E3%83%A9%E3%83%88%E3%83%97%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Protoceratops&oldid=1370047003",
+        "https://en.wikipedia.org/w/index.php?title=Protoceratops&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "psittacosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "271fac4bb23de9b114725f78f796482996adcdb8b30858af3dac9f82f17ff3b7",
+    "sha256": "7a69fdccb49aeeeb449f708aa57539ab8e8835f3b526fddf553e093597889e34",
+    "bytes": 1088616,
+    "triangles": 49211,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.6725080013275146,
+      -1.180249571800232
+    ],
+    "max": [
+      3.999999761581421,
+      1.6725081205368042,
+      1.180249571800232
+    ],
+    "scale": 0.18750001117587156,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 1.5,
+      "label": "全長の目安 1.5 m",
+      "note": "図鑑の「全長 約1〜2 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%82%B7%E3%83%83%E3%82%BF%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108509705",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%82%B7%E3%83%83%E3%82%BF%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Psittacosaurus&oldid=1372048168",
+        "https://en.wikipedia.org/w/index.php?title=Psittacosaurus&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "elasmosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "2709cf444861042b1800f6421ae607d1e90858d523cd7391ed2c9b526bd2c13a",
+    "sha256": "7b99f66cd71005b85290f066a6ce9cbb89630129e39d501a661c55a6d46bf047",
+    "bytes": 1477187,
+    "triangles": 67648,
+    "parts": 2,
+    "min": [
+      -3.999999523162842,
+      -0.5925284028053284,
+      -2.5282163619995117
+    ],
+    "max": [
+      4.0,
+      0.5925284028053284,
+      2.5282163619995117
+    ],
+    "scale": 1.2500000745058104,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 10.0,
+      "label": "全長の目安 10 m",
+      "note": "図鑑の「全長 約10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%A9%E3%82%B9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108469757",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%A9%E3%82%B9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Elasmosaurus&oldid=1370052778",
+        "https://en.wikipedia.org/w/index.php?title=Elasmosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "archelon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "fbed4499ee848009458697ced9a9d2f0972386cfb74a63f9a3b34103cdc62c33",
+    "sha256": "5ffa6ff49d056bc30d851e2992770994b1f7b7897274132e0d5ba1f7b0d45087",
+    "bytes": 1155249,
+    "triangles": 53964,
+    "parts": 1,
+    "min": [
+      -2.7269580364227295,
+      -0.8055170774459839,
+      -3.999999761581421
+    ],
+    "max": [
+      2.7269580364227295,
+      0.8055170774459839,
+      3.999999761581421
+    ],
+    "scale": 0.843430653966784,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 4.6,
+      "label": "全長の目安 4.6 m",
+      "note": "図鑑の「全長 約4.6 m、ひれの幅 約4 m（大型標本）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%AD%E3%83%B3&oldid=110097694",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%AD%E3%83%B3&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Archelon&oldid=1366311184",
+        "https://en.wikipedia.org/w/index.php?title=Archelon&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "pliosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "ddeb0b7a4f0136bb19cac02e5c6c61ca9c7bc92c8d0dc532529d2944a031a0c7",
+    "sha256": "ce1a86f303d01b0dd98f69d1e911319d63982c6c55765b8f647b14c5b78a49d9",
+    "bytes": 1196002,
+    "triangles": 54768,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -0.8250076174736023,
+      -3.863020896911621
+    ],
+    "max": [
+      3.999999761581421,
+      0.8250076174736023,
+      3.863020896911621
+    ],
+    "scale": 1.2500000745058104,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 10.0,
+      "label": "全長の目安 10 m",
+      "note": "図鑑の「全長 約8〜12 m（種・標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AA%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110535066",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AA%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Pliosaurus&oldid=1368825267",
+        "https://en.wikipedia.org/w/index.php?title=Pliosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "irritator",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "74626df2adff8e5c4c17eca6902203dc7fb148f94698ab94d1c06cca3c4aa290",
+    "sha256": "14748c7faee2d84df56f8ec0d90dd51c3c3131b89b90862842aec0e96cef4740",
+    "bytes": 1089301,
+    "triangles": 49008,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.56272292137146,
+      -0.9139078855514526
+    ],
+    "max": [
+      3.999999761581421,
+      1.5627230405807495,
+      0.9139078855514526
+    ],
+    "scale": 0.8750000521540673,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 7.0,
+      "label": "全長の目安 7 m",
+      "note": "図鑑の「全長 約6〜8 m（頭骨からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%83%AA%E3%82%BF%E3%83%88%E3%83%AB&oldid=107417843",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%83%AA%E3%82%BF%E3%83%88%E3%83%AB&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Irritator&oldid=1370054138",
+        "https://en.wikipedia.org/w/index.php?title=Irritator&action=history",
+        "https://doi.org/10.1080/08912963.2026.2669954"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "gorgosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "42d70108090f58824f6f7d380010aa434a6f7a373824bf44e404e7790f98fbec",
+    "sha256": "ffe03697c60870c7f860872fbf78709f5e1bce1aa6f62c6e6206e666342cb672",
+    "bytes": 1058143,
+    "triangles": 47552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.1937615871429443,
+      -0.7427622675895691
+    ],
+    "max": [
+      4.0,
+      2.1937615871429443,
+      0.7427622675895691
+    ],
+    "scale": 0.8475210070610046,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 6.780168056488037,
+      "label": "骨長資料による復元・前後幅 6.78 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "gallimimus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "2a67bada93a2fedf66594da668d2b4f1ac9a355f7d7c3644013622e5e92e3fb4",
+    "sha256": "3c0744f99c526dea39606ca8cae9fbcd72f2664aa4e5286f3b62e34bf31d6b80",
+    "bytes": 1008651,
+    "triangles": 45728,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9689157009124756,
+      -0.7901760935783386
+    ],
+    "max": [
+      4.0,
+      1.9689158201217651,
+      0.7901760935783386
+    ],
+    "scale": 0.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.0,
+      "label": "全長の目安 6 m",
+      "note": "図鑑の「全長 約6 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AC%E3%83%AA%E3%83%9F%E3%83%A0%E3%82%B9&oldid=110136409",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AC%E3%83%AA%E3%83%9F%E3%83%A0%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Gallimimus&oldid=1372068703",
+        "https://en.wikipedia.org/w/index.php?title=Gallimimus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "torvosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e08e150b71bb6e0bdff73facb60b2ed4b22236e6090d0d4183f2bd4b691a61dc",
+    "sha256": "7957ce8de20b0486c749b57ae67bb84ccc0b0d156b97afd5b6207e53153b76c9",
+    "bytes": 1061731,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.8897393941879272,
+      -0.9088379144668579
+    ],
+    "max": [
+      4.0,
+      1.8897395133972168,
+      0.9088379144668579
+    ],
+    "scale": 1.1875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AB%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=107320266",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AB%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Torvosaurus&oldid=1370710878",
+        "https://en.wikipedia.org/w/index.php?title=Torvosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "majungasaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "00979facfcd4d9b555735de00acd99f3ecd7bddf7a0abade5b1648b6ec4c818c",
+    "sha256": "f64db3194df61e3e559dcc318a46087172df7cf68eded0a489f4533ede837fa7",
+    "bytes": 1062989,
+    "triangles": 47960,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.225170373916626,
+      -0.9175113439559937
+    ],
+    "max": [
+      4.0,
+      2.225170373916626,
+      0.9175113439559937
+    ],
+    "scale": 0.8125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.5,
+      "label": "全長の目安 6.5 m",
+      "note": "図鑑の「全長 約6〜7 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%B3%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110566092",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%B3%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Majungasaurus&oldid=1370049448",
+        "https://en.wikipedia.org/w/index.php?title=Majungasaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "maip",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "44b7216b3366640437e14d04a171202f8248a751d6291b5a02d514d233e6435f",
+    "sha256": "f44b7d2158db28c429ba6bdc4af234107b445c4d39a0aa9684226846de50e3b0",
+    "bytes": 1060369,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.9456068277359009,
+      -1.006088137626648
+    ],
+    "max": [
+      3.999999761581421,
+      1.9456069469451904,
+      1.006088137626648
+    ],
+    "scale": 1.18750007078052,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m（部分骨格からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%83%97&oldid=109913161",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%83%97&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Maip&oldid=1372686568",
+        "https://en.wikipedia.org/w/index.php?title=Maip&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "kronosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "3722e1ed5362e741c71ab8607f3e2b825b7ed98c377cb56d781287eb2bafa8af",
+    "sha256": "07723aa69d004ad3c1811d2c36f8ab6f3a0e73c0464be5d1beae52858c49c7f8",
+    "bytes": 1197911,
+    "triangles": 54768,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -0.8098929524421692,
+      -3.792248010635376
+    ],
+    "max": [
+      3.999999761581421,
+      0.8098929524421692,
+      3.792248010635376
+    ],
+    "scale": 1.18750007078052,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m（復元で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109918667",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Kronosaurus&oldid=1371114296",
+        "https://en.wikipedia.org/w/index.php?title=Kronosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "sinosauropteryx",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "21c46a6f91e010fc710a9f91c7548cf8c4be991f2a9910d2ad90d79afaa34555",
+    "sha256": "a1e5e05d5ed40c1dd9a9cf0736c9034b391fd063aeb1c430b0d2fcc833d6908a",
+    "bytes": 1060710,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.3811042308807373,
+      -0.6962626576423645
+    ],
+    "max": [
+      4.0,
+      2.3811042308807373,
+      0.6962626576423645
+    ],
+    "scale": 0.09625742584466934,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 0.7700594067573547,
+      "label": "骨長資料による復元・前後幅 0.77 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "tropeognathus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "3dee77b6a51eeec58be76f66c110d2596faff779a275090afa6d3cda99ca9721",
+    "sha256": "5ce503e80c32e0a4499a26374b7e35e257db626e21387fa15ea3012a02fa77ab",
+    "bytes": 776175,
+    "triangles": 35000,
+    "parts": 1,
+    "min": [
+      -2.9654831886291504,
+      -1.6069122552871704,
+      -4.0
+    ],
+    "max": [
+      2.9654831886291504,
+      1.60691237449646,
+      4.0
+    ],
+    "scale": 0.875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 7.0,
+      "label": "翼開長の目安 7 m",
+      "note": "図鑑の「翼開長 約6〜8 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%83%9A%E3%82%AA%E3%82%B0%E3%83%8A%E3%83%88%E3%82%A5%E3%82%B9&oldid=109582028",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%83%9A%E3%82%AA%E3%82%B0%E3%83%8A%E3%83%88%E3%82%A5%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Tropeognathus&oldid=1372151028",
+        "https://en.wikipedia.org/w/index.php?title=Tropeognathus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "maiasaura",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "5ec21111749432c0a9888b941b48b4cb693626d23641bb72773ee7856bffe69d",
+    "sha256": "efe2a0e1c9dd36aecda220b63716c3070e7c5c723b28ba7895b3c35a92ec825b",
+    "bytes": 1054224,
+    "triangles": 48232,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.942354440689087,
+      -0.8582064509391785
+    ],
+    "max": [
+      4.0,
+      1.9423545598983765,
+      0.8582064509391785
+    ],
+    "scale": 1.125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.0,
+      "label": "全長の目安 9 m",
+      "note": "図鑑の「全長 約9 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%82%A2%E3%82%B5%E3%82%A6%E3%83%A9&oldid=109729273",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%82%A2%E3%82%B5%E3%82%A6%E3%83%A9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Maiasaura&oldid=1373175970",
+        "https://en.wikipedia.org/w/index.php?title=Maiasaura&action=history",
+        "https://doi.org/10.1016/j.palaeo.2026.113707"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "oviraptor",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "9e118465bb92715e184ce38147b10f04f93ead6a40b28953434e97bf43b24e46",
+    "sha256": "7b24bea7750b8e27e0abfb937bf03ec25909e5e95a3a5f0f7a5015165e6698ae",
+    "bytes": 1006250,
+    "triangles": 45696,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.1095128059387207,
+      -0.8221272230148315
+    ],
+    "max": [
+      4.0,
+      2.1095128059387207,
+      0.8221272230148315
+    ],
+    "scale": 0.21875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 1.75,
+      "label": "全長の目安 1.75 m",
+      "note": "図鑑の「全長 約1.5〜2 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AA%E3%83%B4%E3%82%A3%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=107245000",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AA%E3%83%B4%E3%82%A3%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Oviraptor&oldid=1357658525",
+        "https://en.wikipedia.org/w/index.php?title=Oviraptor&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "amargasaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "401064b24b32d3d86ebac0cd45be01e7d54ccb5bd23e9888fa3a1e36926db3c0",
+    "sha256": "9ac1be644efb21e2b9ab299662725077dc809ef9a3676e265bdadb44d051f6b6",
+    "bytes": 1142056,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9044519662857056,
+      -1.1122161149978638
+    ],
+    "max": [
+      4.0,
+      1.9044519662857056,
+      1.1122161149978638
+    ],
+    "scale": 1.1875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 9.5,
+      "label": "全長の目安 9.5 m",
+      "note": "図鑑の「全長 約9〜10 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%9E%E3%83%AB%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109147040",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%9E%E3%83%AB%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Amargasaurus&oldid=1368834096",
+        "https://en.wikipedia.org/w/index.php?title=Amargasaurus&action=history",
+        "https://doi.org/10.1111/joa.70071"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "aquilops",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "848151e5f9f69db136a41b9b8bd46d6ebf8833259918c62a66d6bc24d7a9df74",
+    "sha256": "92a0bad771da49c6323ea7d581bd7c96ffbed74b82a918fdf596a0c6ca2fa938",
+    "bytes": 1087232,
+    "triangles": 49211,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.687827467918396,
+      -1.191060185432434
+    ],
+    "max": [
+      4.0,
+      1.6878275871276855,
+      1.191060185432434
+    ],
+    "scale": 0.075,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 0.6,
+      "label": "全長の目安 0.6 m",
+      "note": "図鑑の「全長 約0.6 m（頭骨からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%A4%E3%83%AD%E3%83%97%E3%82%B9&oldid=106399173",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%A4%E3%83%AD%E3%83%97%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Aquilops&oldid=1373667006",
+        "https://en.wikipedia.org/w/index.php?title=Aquilops&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "alamosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "5ced43e71d5351687beb6b69ec8fc5d32edd1168c89b8682e19d803295133b92",
+    "sha256": "ccfabb77f41ebfb5b2aef3dc846e8ab6257c73ec32d2ddfd56880d349ff6dc49",
+    "bytes": 1141373,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9731378555297852,
+      -1.0763312578201294
+    ],
+    "max": [
+      4.0,
+      1.9731378555297852,
+      1.0763312578201294
+    ],
+    "scale": 3.25,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 26.0,
+      "label": "全長の目安 26 m",
+      "note": "図鑑の「全長 約26 m以上（標本・推定で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%A9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106399336",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%A9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Alamosaurus&oldid=1371274866",
+        "https://en.wikipedia.org/w/index.php?title=Alamosaurus&action=history",
+        "https://doi.org/10.31711/giw.v12.pp201-220"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "cryolophosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "09685310abe5ce0357a569c67b43c34873630b7fb6d1991817ea45f203194930",
+    "sha256": "f378e4f325f5c318fb3667d9eb1e4ce94b6f4fdac7d87372ceb6c14b2005c724",
+    "bytes": 1062918,
+    "triangles": 48000,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -2.164895534515381,
+      -0.9009683728218079
+    ],
+    "max": [
+      3.999999761581421,
+      2.164895534515381,
+      0.9009683728218079
+    ],
+    "scale": 0.8125000484287768,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.5,
+      "label": "全長の目安 6.5 m",
+      "note": "図鑑の「全長 約6〜7 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%83%A7%E3%83%AD%E3%83%95%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109774616",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%83%A7%E3%83%AD%E3%83%95%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Cryolophosaurus&oldid=1372441610",
+        "https://en.wikipedia.org/w/index.php?title=Cryolophosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "pyroraptor",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "107f4057441cc6a44db2f252ffe0fc4e88e5ef6d24709c24120c1cd3a6f1c63e",
+    "sha256": "80c53037790e0c542e4fbdd89df64a8742c37cc3c5c985b431b7a5757c2464f7",
+    "bytes": 1061190,
+    "triangles": 47984,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9422423839569092,
+      -0.9128711819648743
+    ],
+    "max": [
+      4.0,
+      1.9422425031661987,
+      0.9128711819648743
+    ],
+    "scale": 0.21875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 1.75,
+      "label": "全長の目安 1.75 m",
+      "note": "図鑑の「全長 約1.5〜2 m（部分標本からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%94%E3%83%AD%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=108844504",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%94%E3%83%AD%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Pyroraptor&oldid=1369872427",
+        "https://en.wikipedia.org/w/index.php?title=Pyroraptor&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "sauroposeidon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "e414753ae7dc0f309ecb2dfec68e1957fbe04135d10cecf15a4f10d557b9a34e",
+    "sha256": "a6d579974ab1b620107d1ae3bced8e80617dbf935a7bc29a5ee8024d5b4da820",
+    "bytes": 1142369,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -3.140824556350708,
+      -1.0863933563232422
+    ],
+    "max": [
+      4.0,
+      3.140824556350708,
+      1.0863933563232422
+    ],
+    "scale": 3.8125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 30.5,
+      "label": "全長の目安 30.5 m",
+      "note": "図鑑の「全長 約27〜34 m（推定に幅）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%9D%E3%82%BB%E3%82%A4%E3%83%89%E3%83%B3&oldid=109177270",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%9D%E3%82%BB%E3%82%A4%E3%83%89%E3%83%B3&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Sauroposeidon&oldid=1372420013",
+        "https://en.wikipedia.org/w/index.php?title=Sauroposeidon&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "nanuqsaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "9e06da0abba153f049778d60f4bb2f813643e4c0dec6d5b6952c6172cc242269",
+    "sha256": "fcb61905c8acb06f041dbc37f8e25f34d761215eaeb1ebd17ce80a5695891518",
+    "bytes": 1057303,
+    "triangles": 47552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9789533615112305,
+      -0.7790981531143188
+    ],
+    "max": [
+      4.0,
+      1.97895348072052,
+      0.7790981531143188
+    ],
+    "scale": 0.6875,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 5.5,
+      "label": "全長の目安 5.5 m",
+      "note": "図鑑の「体長は議論中（従来約5〜6 m、より大型の説も）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8C%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401696",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8C%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Nanuqsaurus&oldid=1369433563",
+        "https://en.wikipedia.org/w/index.php?title=Nanuqsaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "daspletosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "29ead0b3ecf59260bbeb56734552c80678e352760c01c7cd4f236a2e0f50cfd7",
+    "sha256": "103063a988f8be9149aa2b2c3b7d1d44e6df9a26f5d7ba399cc80d9dc5dd6b8b",
+    "bytes": 1059394,
+    "triangles": 47552,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.2150449752807617,
+      -0.7728057503700256
+    ],
+    "max": [
+      4.0,
+      2.215045213699341,
+      0.7728057503700256
+    ],
+    "scale": 0.7078026533126831,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 5.662421226501465,
+      "label": "骨長資料による復元・前後幅 5.66 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "mamenchisaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "33d522efad22b0d197fb3cc02c61a73bd45512e21eff24c6f210733bbba20312",
+    "sha256": "32af9f9bbc42baf6b1005a60183bc802fcfc85351bbee2b11ae74ae98b0fb768",
+    "bytes": 1140484,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.2587043046951294,
+      -0.8056433796882629
+    ],
+    "max": [
+      4.0,
+      1.258704423904419,
+      0.8056433796882629
+    ],
+    "scale": 3.125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 25.0,
+      "label": "全長の目安 25 m",
+      "note": "図鑑の「全長 約15〜35 m（種の区分・推定で大きく変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%A1%E3%83%B3%E3%83%81%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109923052",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%A1%E3%83%B3%E3%83%81%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Mamenchisaurus&oldid=1366749314",
+        "https://en.wikipedia.org/w/index.php?title=Mamenchisaurus&action=history",
+        "https://doi.org/10.1038/s41598-025-29995-z"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "ichthyosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "250752409bc926f4ae916bd32285999dfe4d186418b98817de7a696a5a845c97",
+    "sha256": "bf68db3fd8d6232682d874fd5a4fde9f4e2b5ef2493f036d831aa8a313d7310c",
+    "bytes": 1195948,
+    "triangles": 54804,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -0.9726963043212891,
+      -2.176731824874878
+    ],
+    "max": [
+      3.999999761581421,
+      0.9726963043212891,
+      2.176731824874878
+    ],
+    "scale": 0.3125000186264526,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 2.5,
+      "label": "全長の目安 2.5 m",
+      "note": "図鑑の「全長 約2〜3 m（種・標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%AF%E3%83%81%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106399551",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%AF%E3%83%81%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Ichthyosaurus&oldid=1372973224",
+        "https://en.wikipedia.org/w/index.php?title=Ichthyosaurus&action=history",
+        "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "saurolophus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "23a01cef3c34a2b4ed503896856d7821f7bf9706787c8b44018a78abb2e14304",
+    "sha256": "9c932848ef6172dcb052cf20826d5b9a896e1fe053d747b680beacbcbd2f0749",
+    "bytes": 1055828,
+    "triangles": 48256,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.1463918685913086,
+      -0.8484554290771484
+    ],
+    "max": [
+      4.0,
+      2.1463918685913086,
+      0.8484554290771484
+    ],
+    "scale": 1.3125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 10.5,
+      "label": "全長の目安 10.5 m",
+      "note": "図鑑の「全長 約9〜12 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%AD%E3%83%95%E3%82%B9&oldid=109013820",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%AD%E3%83%95%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Saurolophus&oldid=1371933542",
+        "https://en.wikipedia.org/w/index.php?title=Saurolophus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "plateosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "78e313b5df04e3da28375ed2e342f632a4c3ff5d105ca9ed5b37b2bd91fc94a5",
+    "sha256": "f14a0da381fc9cf8ad2f5d8637c9c18fdb3f25820d9725b796f02c62e72a888b",
+    "bytes": 1129525,
+    "triangles": 51224,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.02313494682312,
+      -0.9740117192268372
+    ],
+    "max": [
+      4.0,
+      2.02313494682312,
+      0.9740117192268372
+    ],
+    "scale": 0.9375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 7.5,
+      "label": "全長の目安 7.5 m",
+      "note": "図鑑の「全長 約5〜10 m（個体で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%A9%E3%83%86%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110752398",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%A9%E3%83%86%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Plateosaurus&oldid=1371903580",
+        "https://en.wikipedia.org/w/index.php?title=Plateosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "saurophaganax",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "24af1aaa47b8659c9a1dc459cab8598c4329eee5cd5c94d96bc46317e092f508",
+    "sha256": "5a813fae1019cdcd1d6471fe7a27ea34fd003b7677f78d673aec63eb5ebe0de0",
+    "bytes": 1140748,
+    "triangles": 52344,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.0798399448394775,
+      -0.842673122882843
+    ],
+    "max": [
+      4.0,
+      1.079840064048767,
+      0.842673122882843
+    ],
+    "scale": 1.0,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "unresolved",
+      "axis": "length_x",
+      "referenceMeters": null,
+      "label": "縮尺未確定・参考展示",
+      "note": "図鑑の記載：属の全身サイズは確定困難。全身の実寸に換算できないため、従来の参考模型サイズを保持。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%95%E3%82%A1%E3%82%AC%E3%83%8A%E3%82%AF%E3%82%B9&oldid=110897998",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%95%E3%82%A1%E3%82%AC%E3%83%8A%E3%82%AF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Saurophaganax&oldid=1368889502",
+        "https://en.wikipedia.org/w/index.php?title=Saurophaganax&action=history",
+        "https://scholars.okstate.edu/en/publications/chimerism-of-specimens-referred-to-isaurophaganax-maximusi-reveal/",
+        "https://doi.org/10.18435/vamp29404"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "anchiornis",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "30749e518442c855cfdaf06be148f7547a6e467eb2e3b8e6178ceb9b4ab88fc5",
+    "sha256": "500bf77f46f599cb340b88ffdcc391eff13aad63c3b794072badc490a5053f41",
+    "bytes": 1043065,
+    "triangles": 47136,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.6005281209945679,
+      -2.974355697631836
+    ],
+    "max": [
+      3.999999761581421,
+      1.6005282402038574,
+      2.974355697631836
+    ],
+    "scale": 0.056250003352761466,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 0.44999999999999996,
+      "label": "全長の目安 0.45 m",
+      "note": "図鑑の「全長 約0.3〜0.6 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%B3%E3%82%AD%E3%82%AA%E3%83%AB%E3%83%8B%E3%82%B9&oldid=106399441",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%B3%E3%82%AD%E3%82%AA%E3%83%AB%E3%83%8B%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Anchiornis&oldid=1369635861",
+        "https://en.wikipedia.org/w/index.php?title=Anchiornis&action=history",
+        "https://doi.org/10.1038/s42003-025-09019-2"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "pachyrhinosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "c95a126320474e4af5247d47859065045705069b582c953c8840e40eb4fe964d",
+    "sha256": "899d85189ab90ea436c272a94dab0203b07e86018c2f9e4ce5c79971a4fa0862",
+    "bytes": 1116832,
+    "triangles": 50776,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.6567949056625366,
+      -1.2632683515548706
+    ],
+    "max": [
+      3.999999761581421,
+      1.6567951440811157,
+      1.2632683515548706
+    ],
+    "scale": 0.8125000484287768,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.5,
+      "label": "全長の目安 6.5 m",
+      "note": "図鑑の「全長 約5〜8 m（種・個体で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%83%AA%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110214544",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%83%AA%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Pachyrhinosaurus&oldid=1360647794",
+        "https://en.wikipedia.org/w/index.php?title=Pachyrhinosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "concavenator",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "eb2ec839784b0a28ac8368ea7ec073459927dde48419336b56ece032164b5cbc",
+    "sha256": "d4c2fde741f7c1c9edd4412ebe227c1f1dc48b85ee532a9c3314c54e3650803c",
+    "bytes": 1062479,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.3430683612823486,
+      -0.8568353652954102
+    ],
+    "max": [
+      4.0,
+      2.3430685997009277,
+      0.8568353652954102
+    ],
+    "scale": 0.46309682726860046,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 3.7047746181488037,
+      "label": "骨長資料による復元・前後幅 3.70 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "rhamphorhynchus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "66a3f388de68607a308ccc560d3980deaf06e212eb5852ba85e0035ec6711b84",
+    "sha256": "afb45c84826e89cdb2cc8b33d8458eafcb37d14b6405be084ca1c13e038644ed",
+    "bytes": 1044243,
+    "triangles": 47256,
+    "parts": 1,
+    "min": [
+      -3.618706226348877,
+      -1.3902922868728638,
+      -4.0
+    ],
+    "max": [
+      3.618706226348877,
+      1.3902924060821533,
+      4.0
+    ],
+    "scale": 0.175,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 1.4,
+      "label": "翼開長の目安 1.4 m",
+      "note": "図鑑の「翼開長 約1〜1.8 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A9%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9&oldid=106403473",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A9%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Rhamphorhynchus&oldid=1366741657",
+        "https://en.wikipedia.org/w/index.php?title=Rhamphorhynchus&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "tanystropheus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "c4ed15a43bb21b18a336f10dec0a5b4e1346feaff8369733eb86e7a8ac60339c",
+    "sha256": "7b674fd90d067978a5b482be628e8fe07adb07050e6c9253840fb317dc0683ba",
+    "bytes": 1378011,
+    "triangles": 61888,
+    "parts": 2,
+    "min": [
+      -4.0,
+      -0.8409985303878784,
+      -0.5581184029579163
+    ],
+    "max": [
+      4.0,
+      0.8409985899925232,
+      0.5581184029579163
+    ],
+    "scale": 0.75,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.0,
+      "label": "全長の目安 6 m",
+      "note": "図鑑の「全長 最大約6 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A7%E3%82%A6%E3%82%B9&oldid=110002847",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A7%E3%82%A6%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Tanystropheus&oldid=1370047738",
+        "https://en.wikipedia.org/w/index.php?title=Tanystropheus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "mapusaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "dc899932944fbf971300fde3e3e33f8bd9bf578151d8a74004a1fb216b15373c",
+    "sha256": "b227b379c65c5d284a98cdd97dad1a827726c876b95d5855f76bd10e41cfca11",
+    "bytes": 1060696,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9316987991333008,
+      -0.9093618392944336
+    ],
+    "max": [
+      4.0,
+      1.9316989183425903,
+      0.9093618392944336
+    ],
+    "scale": 1.375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 11.0,
+      "label": "全長の目安 11 m",
+      "note": "図鑑の「全長 約10〜12 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%97%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108559543",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%97%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Mapusaurus&oldid=1371153438",
+        "https://en.wikipedia.org/w/index.php?title=Mapusaurus&action=history",
+        "https://doi.org/10.1016/j.gr.2026.06.020"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "rajasaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "0c250b2b00d83b209ed6b98e3bef5c7bf32d4830324cec01a8ab5034d03bf3fe",
+    "sha256": "b7ac28bfb1c3710d5431e9402e037a638c16a48a35a11647fa4ecc8c5916a623",
+    "bytes": 1061550,
+    "triangles": 47960,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.2067530155181885,
+      -0.9099172353744507
+    ],
+    "max": [
+      4.0,
+      2.2067530155181885,
+      0.9099172353744507
+    ],
+    "scale": 0.8125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 6.5,
+      "label": "全長の目安 6.5 m",
+      "note": "図鑑の「全長 約6〜7 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%82%B8%E3%83%A3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106403422",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%82%B8%E3%83%A3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Rajasaurus&oldid=1373395422",
+        "https://en.wikipedia.org/w/index.php?title=Rajasaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "kentrosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "036d8468e695d74883d010a73f61b5ed911bb8e1d62bb97bdbc6cd2e68441d4e",
+    "sha256": "dc34b5ce0b375db83be505edb16b142c9ec84428dda18c030266d23411adcbca",
+    "bytes": 1093264,
+    "triangles": 50000,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.5409003496170044,
+      -1.027496099472046
+    ],
+    "max": [
+      4.0,
+      1.540900468826294,
+      1.027496099472046
+    ],
+    "scale": 0.5625,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 4.5,
+      "label": "全長の目安 4.5 m",
+      "note": "図鑑の「全長 約4〜5 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106400427",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Kentrosaurus&oldid=1364541269",
+        "https://en.wikipedia.org/w/index.php?title=Kentrosaurus&action=history",
+        "https://doi.org/10.3897/vz.75.e146618"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "scipionyx",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "ee725d959b07f05b260e28a09d0fed12754602dcebfd5c71f79d31ceb7fc90b1",
+    "sha256": "d58dd2a1d4bbc6c713d1f314a5661867b4c68c81ef5cf8f3410f93809bb4641f",
+    "bytes": 1061155,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.9616519212722778,
+      -0.8140404224395752
+    ],
+    "max": [
+      3.999999761581421,
+      1.9616520404815674,
+      0.8140404224395752
+    ],
+    "scale": 0.06250000372529052,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 0.5,
+      "label": "全長の目安 0.5 m",
+      "note": "図鑑の「化石の幼体は全長 約0.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%AD%E3%83%94%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&oldid=110813608",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%AD%E3%83%94%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Scipionyx&oldid=1335300381",
+        "https://en.wikipedia.org/w/index.php?title=Scipionyx&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "torosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "4a362e056a3214ac851bc70482c6ae698ec9f836eee04002badc72fdb2a4a5fd",
+    "sha256": "6a79d10dc75379ed2f47296b755ea3ec3673b1a477e252b333e2ccdb824c088c",
+    "bytes": 1123764,
+    "triangles": 50752,
+    "parts": 1,
+    "min": [
+      -3.999999761581421,
+      -1.7057452201843262,
+      -1.3160252571105957
+    ],
+    "max": [
+      3.999999761581421,
+      1.7057454586029053,
+      1.3160252571105957
+    ],
+    "scale": 1.0000000596046483,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 8.0,
+      "label": "全長の目安 8 m",
+      "note": "図鑑の「全長 約7〜9 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110504912",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Torosaurus&oldid=1372077025",
+        "https://en.wikipedia.org/w/index.php?title=Torosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "hadrosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "d27c69587ab980584befbfd26d7e884f02a9c743e860360caa457ec7915191fc",
+    "sha256": "344bbd70aa02ed2bfb3a0bfbe1f21b70fcaab96246df75aca023b78f9b9f8f9f",
+    "bytes": 1054228,
+    "triangles": 48232,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -1.9297194480895996,
+      -0.8526238203048706
+    ],
+    "max": [
+      4.0,
+      1.9297195672988892,
+      0.8526238203048706
+    ],
+    "scale": 0.9375,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 7.5,
+      "label": "全長の目安 7.5 m",
+      "note": "図鑑の「全長 約7〜8 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%89%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401876",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%89%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Hadrosaurus&oldid=1370996383",
+        "https://en.wikipedia.org/w/index.php?title=Hadrosaurus&action=history"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "dryptosaurus",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "0202f753eaf121fa9afe031d48b8ee75d1ea1354f0b8f040547f079ba5611633",
+    "sha256": "9da0f6b6b097ccf342ac2ad7fce81808c308af7567c30ab32fe3aa906f3fb9ce",
+    "bytes": 1062688,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.2083303928375244,
+      -0.9024476408958435
+    ],
+    "max": [
+      4.0,
+      2.2083303928375244,
+      0.9024476408958435
+    ],
+    "scale": 0.6263300776481628,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "measured_bones",
+      "axis": "length_x",
+      "referenceMeters": 5.010640621185303,
+      "label": "骨長資料による復元・前後幅 5.01 m",
+      "note": "選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。",
+      "sources": [
+        "https://doi.org/10.1038/srep19828"
+      ],
+      "baseMeters": 0.18,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "dimorphodon",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "c6a2d53932dcfee384fa36f0396719ccefbb09218d9f8eab906fbe2796d9ef0a",
+    "sha256": "636fc65e4f6e48f63029adf8c415b45d7c780c9e553892d36041bc3ac8728af1",
+    "bytes": 1046725,
+    "triangles": 47256,
+    "parts": 1,
+    "min": [
+      -3.408360242843628,
+      -1.5051093101501465,
+      -4.0
+    ],
+    "max": [
+      3.408360242843628,
+      1.505109429359436,
+      4.0
+    ],
+    "scale": 0.175,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_span",
+      "axis": "wing_span_z",
+      "referenceMeters": 1.4,
+      "label": "翼開長の目安 1.4 m",
+      "note": "図鑑の「翼開長 約1.4 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%89%E3%83%B3&oldid=109581845",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%89%E3%83%B3&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Dimorphodon&oldid=1372000724",
+        "https://en.wikipedia.org/w/index.php?title=Dimorphodon&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  },
+  {
+    "id": "eoraptor",
+    "source": "Original app reconstruction",
+    "license": "Apache-2.0",
+    "sourceSha256": "ad802f0ffee46a52af530c3c2302db526c62134d5d33d7113dec67cba8907a96",
+    "sha256": "a6786b38435449c0bda662cfe8a8fedb144498a134efe46600a44252eb56dd04",
+    "bytes": 1060106,
+    "triangles": 47936,
+    "parts": 1,
+    "min": [
+      -4.0,
+      -2.0003859996795654,
+      -0.8301140666007996
+    ],
+    "max": [
+      4.0,
+      2.0003859996795654,
+      0.8301140666007996
+    ],
+    "scale": 0.125,
+    "change": "Original generator with lower radial/longitudinal sampling; all anatomical components retained; indexed and split for GLES2; shared metre scene; scale basis and uncertainty recorded in calibration",
+    "calibration": {
+      "basis": "estimated_length",
+      "axis": "length_x",
+      "referenceMeters": 1.0,
+      "label": "全長の目安 1 m",
+      "note": "図鑑の「全長 約1 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。",
+      "sources": [
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%82%AA%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=106399756",
+        "https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%82%AA%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history",
+        "https://en.wikipedia.org/w/index.php?title=Eoraptor&oldid=1355645201",
+        "https://en.wikipedia.org/w/index.php?title=Eoraptor&action=history"
+      ],
+      "baseMeters": 0.95,
+      "reviewed": "2026-09-08"
+    }
+  }
+]

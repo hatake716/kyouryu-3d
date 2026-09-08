@@ -6,7 +6,7 @@ import java.net.URLEncoder
 import java.text.Normalizer
 
 data class Source(val title: String, val url: String)
-data class FactSection(val title: String, val text: String)
+data class FactSection(val title: String, val text: String, val references: List<Source> = emptyList())
 data class Dinosaur(
     val id: String, val name: String, val latin: String, val subtitle: String,
     val category: String, val period: String, val age: String, val startMa: Double,
@@ -39,7 +39,8 @@ object Catalog {
             Dinosaur(r.getString("id"), r.getString("name"), r.getString("latin"), r.getString("subtitle"),
                 r.getString("category"), r.getString("period"), r.getString("age"), r.getDouble("startMa"), r.getDouble("endMa"),
                 r.getString("region"), r.getString("size"), r.getString("diet"), r.getString("summary"),
-                List(sections.length()) { val s = sections.getJSONObject(it); FactSection(s.getString("title"), s.getString("text")) },
+                List(sections.length()) { val s = sections.getJSONObject(it); val refs=s.optJSONArray("references")?:JSONArray()
+                    FactSection(s.getString("title"), s.getString("text"), List(refs.length()){val ref=refs.getJSONObject(it);Source(ref.getString("title"),ref.getString("url"))}) },
                 List(sources.length()) { val s = sources.getJSONObject(it); Source(s.getString("title"), s.getString("url")) },
                 r.getString("modelNote"), r.getString("wikiTitle"),
                 List(videos.length()) { val s=videos.getJSONObject(it); Source(s.getString("title"),s.getString("url")) },

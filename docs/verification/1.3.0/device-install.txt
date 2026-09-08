@@ -1,0 +1,28 @@
+UTC: 2026-09-07T13:54:37.212417+00:00
+Device: Pixel 10a / API 37 / serial 62251JEA315065
+Package: io.github.hatake716.dinobones
+Update: 1.2.0 (3) -> 1.3.0 (4), adb install --no-incremental -r
+Existing application data retained by package-manager update. No uninstall or input injection.
+Local and installed APK SHA-256: f2ade4c8d5bf7050d446a36ae91c54f179cb884bb272266564c2647eb7c218bc
+Version: 1.3.0 / versionCode 4 / targetSdk 36
+Starting: Intent { cmp=io.github.hatake716.dinobones/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.android.systemui/com.android.wm.shell.packageupdate.PackageUpdateActivity
+TotalTime: 0
+WaitTime: 5
+Complete
+PID after launch: 12546
+MainActivity is the top resumed activity.
+No fatal exception in current PID crash log. Gestures tested on emulator only.
+
+Final foreground launch after OS package-update transition:
+Starting: Intent { cmp=io.github.hatake716.dinobones/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: io.github.hatake716.dinobones/.MainActivity
+TotalTime: 0
+WaitTime: 13
+Complete

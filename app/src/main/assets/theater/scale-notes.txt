@@ -1,0 +1,770 @@
+館内の縮尺と資料（確認日：2026-09-08）
+
+館内の1単位は1 m。視点の高さは1.7 m、床の小目地は1 mです。実寸単位がある19モデルはその単位を保持します。他のモデルは図鑑に記載した推定全長・翼開長の代表値へ一様に換算します。全長は頭尾方向の幅、翼開長は左右の翼の幅に対応させた近似です。体の曲がり方、形状、姿勢によって実際の全長・高さとは差があり、全骨の正確さや同じ成長段階を保証しません。
+
+「縮尺未確定」の5種は信頼できる全身寸法がないため、実物サイズとして扱わない参考展示です。小型の標本は模型を拡大せず、観察しやすい高さの台に載せています。個別の「3D骨格」と採用した骨長の資料は従来どおりです。
+
+ティラノサウルス / Tyrannosaurus rex
+全長の目安 12.3 m
+Field Museum / SUE: 40.5 ft。別標本を参考にした展示用の全長目安。SUEのスキャンではない。
+https://www.fieldmuseum.org/blog/how-well-do-you-know-sue
+
+スピノサウルス / Spinosaurus aegyptiacus
+全長の目安 14.5 m
+図鑑の「全長 約14〜15 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Spinosaurus
+https://en.wikipedia.org/w/index.php?oldid=1373355079
+https://en.wikipedia.org/w/index.php?title=Spinosaurus&action=history
+https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html
+https://pubmed.ncbi.nlm.nih.gov/41712711/
+https://www.nhm.ac.uk/discover/news/2026/february/new-sabre-crested-spinosaurus-species-named-from-desert-dinosaur-fossils.html
+https://doi.org/10.1126/science.adx5486
+https://doi.org/10.1038/s41586-022-04528-0
+https://doi.org/10.1371/journal.pone.0298957
+
+ヴェロキラプトル / Velociraptor mongoliensis
+骨長資料による復元・前後幅 1.55 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+アロサウルス / Allosaurus fragilis
+骨長資料による復元・前後幅 6.50 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ケツァルコアトルス / Quetzalcoatlus
+翼開長の目安 10.5 m
+図鑑の「翼開長 約10〜11 m（大型種の推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%84%E3%82%A1%E3%83%AB%E3%82%B3%E3%82%A2%E3%83%88%E3%83%AB%E3%82%B9&oldid=110271408
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%84%E3%82%A1%E3%83%AB%E3%82%B3%E3%82%A2%E3%83%88%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Quetzalcoatlus&oldid=1372431660
+https://en.wikipedia.org/w/index.php?title=Quetzalcoatlus&action=history
+
+トリケラトプス / Triceratops horridus
+標本の前後幅 5.89 m
+元のモデルのm単位を保持。全身には博物館での補作・組み立てを含む。
+https://3d.si.edu/object/3d/triceratops-horridus-marsh-1889:d8c623be-4ebc-11ea-b77f-2e728ce88125
+
+ステゴサウルス / Stegosaurus stenops
+骨長資料による復元・前後幅 7.09 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1371/journal.pone.0138352
+
+アーケオプテリクス / Archaeopteryx lithographica
+全長の目安 0.5 m
+図鑑の「全長 約0.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Archaeopteryx
+https://en.wikipedia.org/w/index.php?oldid=1369453699
+https://en.wikipedia.org/w/index.php?title=Archaeopteryx&action=history
+https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html
+https://doi.org/10.1038/s41586-025-08912-4
+https://doi.org/10.1016/j.xinn.2025.101086
+
+モササウルス / Mosasaurus hoffmanni
+全長の目安 12 m
+図鑑の「大型種 約12 m（推定幅あり）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Mosasaurus
+https://en.wikipedia.org/w/index.php?oldid=1372074090
+https://en.wikipedia.org/w/index.php?title=Mosasaurus&action=history
+https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html
+https://doi.org/10.1002/ece3.70218
+
+ギガノトサウルス / Giganotosaurus carolinii
+全長の目安 12.5 m
+図鑑の「全長 約12〜13 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Giganotosaurus
+https://en.wikipedia.org/w/index.php?oldid=1372011895
+https://en.wikipedia.org/w/index.php?title=Giganotosaurus&action=history
+https://doi.org/10.1016/j.gr.2026.06.020
+
+ブラキオサウルス / Brachiosaurus altithorax
+全長の目安 22 m
+Natural History Museum / Brachiosaurus: 22 m。頭尾方向をこの全長目安に換算。高さ・姿勢は模式復元に由来。
+https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html
+
+アンキロサウルス / Ankylosaurus magniventris
+全長の目安 7 m
+図鑑の「全長 約6〜8 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Ankylosaurus
+https://en.wikipedia.org/w/index.php?oldid=1369993132
+https://en.wikipedia.org/w/index.php?title=Ankylosaurus&action=history
+https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html
+https://doi.org/10.1038/s41586-025-09453-6
+
+ディロフォサウルス / Dilophosaurus
+骨長資料による復元・前後幅 3.86 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+テリジノサウルス / Therizinosaurus
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%83%AA%E3%82%B8%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401423
+https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%83%AA%E3%82%B8%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Therizinosaurus&oldid=1368825641
+https://en.wikipedia.org/w/index.php?title=Therizinosaurus&action=history
+https://doi.org/10.1038/s42003-023-04552-4
+
+デイノニクス / Deinonychus
+骨長資料による復元・前後幅 2.22 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+パラサウロロフス / Parasaurolophus walkeri
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Parasaurolophus
+https://en.wikipedia.org/w/index.php?oldid=1365892867
+https://en.wikipedia.org/w/index.php?title=Parasaurolophus&action=history
+https://www.nhm.ac.uk/discover/dino-directory/parasaurolophus.html
+https://scholarworks.lib.csusb.edu/etd/2328/
+
+ユタラプトル / Utahraptor
+全長の目安 5.5 m
+図鑑の「全長 約5〜6 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%BF%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=106403358
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%BF%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history
+https://en.wikipedia.org/w/index.php?title=Utahraptor&oldid=1369622500
+https://en.wikipedia.org/w/index.php?title=Utahraptor&action=history
+
+カルノタウルス / Carnotaurus
+全長の目安 7.75 m
+図鑑の「全長 約7.5〜8 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%83%8E%E3%82%BF%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110563801
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%83%8E%E3%82%BF%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Carnotaurus&oldid=1372964101
+https://en.wikipedia.org/w/index.php?title=Carnotaurus&action=history
+
+パキケファロサウルス / Pachycephalosaurus
+全長の目安 4.5 m
+図鑑の「全長 約4〜5 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%82%B1%E3%83%95%E3%82%A1%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106402045
+https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%82%B1%E3%83%95%E3%82%A1%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Pachycephalosaurus&oldid=1372076661
+https://en.wikipedia.org/w/index.php?title=Pachycephalosaurus&action=history
+
+ブロントサウルス / Brontosaurus
+全長の目安 21 m
+図鑑の「全長 約20〜22 m（種・推定で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AD%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110262304
+https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AD%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Brontosaurus&oldid=1372340997
+https://en.wikipedia.org/w/index.php?title=Brontosaurus&action=history
+
+アルゼンチノサウルス / Argentinosaurus
+全長の目安 32.5 m
+図鑑の「全長 約30〜35 m（断片からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108627158
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Argentinosaurus&oldid=1369635995
+https://en.wikipedia.org/w/index.php?title=Argentinosaurus&action=history
+https://doi.org/10.1016/j.gr.2026.06.020
+
+ディプロドクス / Diplodocus
+全長の目安 25 m
+図鑑の「全長 約24〜26 m（代表的な復元）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%97%E3%83%AD%E3%83%89%E3%82%AF%E3%82%B9&oldid=109986708
+https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%97%E3%83%AD%E3%83%89%E3%82%AF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Diplodocus&oldid=1372158191
+https://en.wikipedia.org/w/index.php?title=Diplodocus&action=history
+
+プテロダクティルス / Pterodactylus
+翼開長の目安 1 m
+図鑑の「翼開長 約1 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%86%E3%83%AD%E3%83%80%E3%82%AF%E3%83%86%E3%82%A3%E3%83%AB%E3%82%B9&oldid=106402534
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%86%E3%83%AD%E3%83%80%E3%82%AF%E3%83%86%E3%82%A3%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Pterodactylus&oldid=1362501855
+https://en.wikipedia.org/w/index.php?title=Pterodactylus&action=history
+
+プテラノドン / Pteranodon longiceps
+翼開長の目安 5.5 m
+図鑑の「翼開長 約4〜7 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://en.wikipedia.org/wiki/Pteranodon
+https://en.wikipedia.org/w/index.php?oldid=1373069806
+https://en.wikipedia.org/w/index.php?title=Pteranodon&action=history
+https://doi.org/10.1002/ece3.70218
+
+イグアノドン / Iguanodon
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m（種・個体で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%B0%E3%82%A2%E3%83%8E%E3%83%89%E3%83%B3&oldid=110806658
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%B0%E3%82%A2%E3%83%8E%E3%83%89%E3%83%B3&action=history
+https://en.wikipedia.org/w/index.php?title=Iguanodon&oldid=1370542384
+https://en.wikipedia.org/w/index.php?title=Iguanodon&action=history
+
+スコミムス / Suchomimus
+全長の目安 10 m
+図鑑の「全長 約9〜11 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%A0%E3%82%B9&oldid=108471434
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%B3%E3%83%9F%E3%83%A0%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Suchomimus&oldid=1373688336
+https://en.wikipedia.org/w/index.php?title=Suchomimus&action=history
+https://doi.org/10.1038/s41586-022-04528-0
+https://doi.org/10.1371/journal.pone.0298957
+
+ニジェールサウルス / Nigersaurus
+全長の目安 9 m
+図鑑の「全長 約9 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401730
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Nigersaurus&oldid=1370055972
+https://en.wikipedia.org/w/index.php?title=Nigersaurus&action=history
+
+アパトサウルス / Apatosaurus
+全長の目安 22 m
+図鑑の「全長 約21〜23 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%91%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110891023
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%91%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Apatosaurus&oldid=1372004138
+https://en.wikipedia.org/w/index.php?title=Apatosaurus&action=history
+
+エドモントサウルス / Edmontosaurus
+全長の目安 10.5 m
+図鑑の「全長 約9〜12 m（大型個体はさらに大きい）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109783130
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Edmontosaurus&oldid=1371934142
+https://en.wikipedia.org/w/index.php?title=Edmontosaurus&action=history
+https://doi.org/10.1126/science.adw3536
+https://doi.org/10.7717/peerj.20796
+
+カルカロドントサウルス / Carcharodontosaurus
+全長の目安 12.25 m
+図鑑の「全長 約12〜12.5 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%82%AB%E3%83%AD%E3%83%89%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110098731
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%AB%E3%82%AB%E3%83%AD%E3%83%89%E3%83%B3%E3%83%88%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Carcharodontosaurus&oldid=1370226152
+https://en.wikipedia.org/w/index.php?title=Carcharodontosaurus&action=history
+https://doi.org/10.1371/journal.pone.0311096
+
+メガロサウルス / Megalosaurus
+全長の目安 6 m
+図鑑の「全長 約6 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A1%E3%82%AC%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110156196
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A1%E3%82%AC%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Megalosaurus&oldid=1369775859
+https://en.wikipedia.org/w/index.php?title=Megalosaurus&action=history
+
+ボレアロペルタ / Borealopelta
+全長の目安 5.5 m
+図鑑の「全長 約5.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9C%E3%83%AC%E3%82%A2%E3%83%AD%E3%83%9A%E3%83%AB%E3%82%BF&oldid=107802274
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9C%E3%83%AC%E3%82%A2%E3%83%AD%E3%83%9A%E3%83%AB%E3%82%BF&action=history
+https://en.wikipedia.org/w/index.php?title=Borealopelta&oldid=1365698481
+https://en.wikipedia.org/w/index.php?title=Borealopelta&action=history
+
+ヘレラサウルス / Herrerasaurus
+骨長資料による復元・前後幅 3.00 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+バリオニクス / Baryonyx
+全長の目安 8.75 m
+図鑑の「全長 約7.5〜10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%90%E3%83%AA%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&oldid=106402003
+https://ja.wikipedia.org/w/index.php?title=%E3%83%90%E3%83%AA%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Baryonyx&oldid=1369485962
+https://en.wikipedia.org/w/index.php?title=Baryonyx&action=history
+https://doi.org/10.1038/s41586-022-04528-0
+https://doi.org/10.1371/journal.pone.0298957
+
+コンプソグナトゥス / Compsognathus
+骨長資料による復元・前後幅 0.69 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ケラトサウルス / Ceratosaurus
+骨長資料による復元・前後幅 4.01 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ティタノサウルス / Titanosaurus
+縮尺未確定・参考展示
+図鑑の記載：全長の信頼できる確定値なし。全身の実寸に換算できないため、従来の参考模型サイズを保持。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%82%BF%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401341
+https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%82%BF%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Titanosaurus&oldid=1363110034
+https://en.wikipedia.org/w/index.php?title=Titanosaurus&action=history
+
+パタゴティタン / Patagotitan
+全長の目安 37.5 m
+Natural History Museum / Patagotitan: 37.5 m。推定全長であり個々の標本の測定値ではない。
+https://www.nhm.ac.uk/discover/dino-directory/patagotitan.html
+
+ユウティラヌス / Yutyrannus
+全長の目安 9 m
+図鑑の「全長 約9 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%A6%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&oldid=110691070
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A6%E3%82%A6%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Yutyrannus&oldid=1373496507
+https://en.wikipedia.org/w/index.php?title=Yutyrannus&action=history
+
+ハツェゴプテリクス / Hatzegopteryx
+翼開長の目安 11 m
+図鑑の「翼開長 約10〜12 m（断片からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%84%E3%82%A7%E3%82%B4%E3%83%97%E3%83%86%E3%83%AA%E3%82%AF%E3%82%B9&oldid=106401866
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%84%E3%82%A7%E3%82%B4%E3%83%97%E3%83%86%E3%83%AA%E3%82%AF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Hatzegopteryx&oldid=1352273204
+https://en.wikipedia.org/w/index.php?title=Hatzegopteryx&action=history
+
+トロオドン / Troodon
+縮尺未確定・参考展示
+図鑑の記載：属の範囲が不確かで体長は確定困難。全身の実寸に換算できないため、従来の参考模型サイズを保持。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%AA%E3%83%89%E3%83%B3&oldid=106401621
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%AA%E3%83%89%E3%83%B3&action=history
+https://en.wikipedia.org/w/index.php?title=Troodon&oldid=1368892358
+https://en.wikipedia.org/w/index.php?title=Troodon&action=history
+
+ティロサウルス / Tylosaurus
+全長の目安 12 m
+図鑑の「全長 約10〜14 m（種・推定で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401386
+https://ja.wikipedia.org/w/index.php?title=%E3%83%86%E3%82%A3%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Tylosaurus&oldid=1373519206
+https://en.wikipedia.org/w/index.php?title=Tylosaurus&action=history
+
+リオプレウロドン / Liopleurodon
+全長の目安 6 m
+図鑑の「全長 約5〜7 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%AA%E3%82%AA%E3%83%97%E3%83%AC%E3%82%A6%E3%83%AD%E3%83%89%E3%83%B3&oldid=107323945
+https://ja.wikipedia.org/w/index.php?title=%E3%83%AA%E3%82%AA%E3%83%97%E3%83%AC%E3%82%A6%E3%83%AD%E3%83%89%E3%83%B3&action=history
+https://en.wikipedia.org/w/index.php?title=Liopleurodon&oldid=1371149245
+https://en.wikipedia.org/w/index.php?title=Liopleurodon&action=history
+
+アクロカントサウルス / Acrocanthosaurus
+骨長資料による復元・前後幅 7.39 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ミクロラプトル / Microraptor
+骨長資料による復元・前後幅 1.05 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ナノティラヌス / Nanotyrannus
+全長の目安 6 m
+図鑑の「全長 約5〜7 m（標本・復元で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8E%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&oldid=110807261
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8E%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8C%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Nanotyrannus&oldid=1371784903
+https://en.wikipedia.org/w/index.php?title=Nanotyrannus&action=history
+https://doi.org/10.1038/s41586-025-09801-6
+
+タルボサウルス / Tarbosaurus
+骨長資料による復元・前後幅 6.78 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+カマラサウルス / Camarasaurus
+全長の目安 19 m
+図鑑の「全長 約15〜23 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%9E%E3%83%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106400056
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AB%E3%83%9E%E3%83%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Camarasaurus&oldid=1370307410
+https://en.wikipedia.org/w/index.php?title=Camarasaurus&action=history
+
+プレシオサウルス / Plesiosaurus
+全長の目安 3.25 m
+図鑑の「全長 約3〜3.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AC%E3%82%B7%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106402606
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AC%E3%82%B7%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Plesiosaurus&oldid=1372001053
+https://en.wikipedia.org/w/index.php?title=Plesiosaurus&action=history
+
+スティラコサウルス / Styracosaurus
+全長の目安 5.25 m
+図鑑の「全長 約5〜5.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%A9%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106400952
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%83%86%E3%82%A3%E3%83%A9%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Styracosaurus&oldid=1372072281
+https://en.wikipedia.org/w/index.php?title=Styracosaurus&action=history
+
+アウストラロヴェナトル / Australovenator
+全長の目安 5.5 m
+図鑑の「全長 約5〜6 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%A6%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AD%E3%83%B4%E3%82%A7%E3%83%8A%E3%83%88%E3%83%AB&oldid=108547510
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%A6%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AD%E3%83%B4%E3%82%A7%E3%83%8A%E3%83%88%E3%83%AB&action=history
+https://en.wikipedia.org/w/index.php?title=Australovenator&oldid=1373237694
+https://en.wikipedia.org/w/index.php?title=Australovenator&action=history
+
+コエロフィシス / Coelophysis
+骨長資料による復元・前後幅 1.43 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+アルバートサウルス / Albertosaurus
+骨長資料による復元・前後幅 6.64 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ブルハトカヨサウルス / Bruhathkayosaurus
+縮尺未確定・参考展示
+図鑑の記載：全身サイズは非常に不確実。全身の実寸に換算できないため、従来の参考模型サイズを保持。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AB%E3%83%8F%E3%83%88%E3%82%AB%E3%83%A8%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106402453
+https://ja.wikipedia.org/w/index.php?title=%E3%83%96%E3%83%AB%E3%83%8F%E3%83%88%E3%82%AB%E3%83%A8%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Bruhathkayosaurus&oldid=1348966468
+https://en.wikipedia.org/w/index.php?title=Bruhathkayosaurus&action=history
+
+デイノケイルス / Deinocheirus
+全長の目安 11 m
+図鑑の「全長 約11 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A4%E3%83%8E%E3%82%B1%E3%82%A4%E3%83%AB%E3%82%B9&oldid=108771985
+https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A4%E3%83%8E%E3%82%B1%E3%82%A4%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Deinocheirus&oldid=1371301985
+https://en.wikipedia.org/w/index.php?title=Deinocheirus&action=history
+
+クリスタトゥサウルス / Cristatusaurus
+縮尺未確定・参考展示
+図鑑の記載：体長の確定は困難（部分標本）。全身の実寸に換算できないため、従来の参考模型サイズを保持。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%88%E3%82%A5%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110433622
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%88%E3%82%A5%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Cristatusaurus&oldid=1370051267
+https://en.wikipedia.org/w/index.php?title=Cristatusaurus&action=history
+
+ドレッドノータス / Dreadnoughtus
+全長の目安 26 m
+図鑑の「全長 約26 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%89%E3%83%AC%E3%83%83%E3%83%89%E3%83%8E%E3%83%BC%E3%82%BF%E3%82%B9&oldid=110807133
+https://ja.wikipedia.org/w/index.php?title=%E3%83%89%E3%83%AC%E3%83%83%E3%83%89%E3%83%8E%E3%83%BC%E3%82%BF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Dreadnoughtus&oldid=1370808008
+https://en.wikipedia.org/w/index.php?title=Dreadnoughtus&action=history
+
+プロトケラトプス / Protoceratops
+全長の目安 2.15 m
+図鑑の「全長 約1.8〜2.5 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AD%E3%83%88%E3%82%B1%E3%83%A9%E3%83%88%E3%83%97%E3%82%B9&oldid=106402672
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AD%E3%83%88%E3%82%B1%E3%83%A9%E3%83%88%E3%83%97%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Protoceratops&oldid=1370047003
+https://en.wikipedia.org/w/index.php?title=Protoceratops&action=history
+
+プシッタコサウルス / Psittacosaurus
+全長の目安 1.5 m
+図鑑の「全長 約1〜2 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%82%B7%E3%83%83%E3%82%BF%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108509705
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%82%B7%E3%83%83%E3%82%BF%E3%82%B3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Psittacosaurus&oldid=1372048168
+https://en.wikipedia.org/w/index.php?title=Psittacosaurus&action=history
+
+エラスモサウルス / Elasmosaurus
+全長の目安 10 m
+図鑑の「全長 約10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%A9%E3%82%B9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108469757
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%83%A9%E3%82%B9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Elasmosaurus&oldid=1370052778
+https://en.wikipedia.org/w/index.php?title=Elasmosaurus&action=history
+
+アーケロン / Archelon
+全長の目安 4.6 m
+図鑑の「全長 約4.6 m、ひれの幅 約4 m（大型標本）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%AD%E3%83%B3&oldid=110097694
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%AD%E3%83%B3&action=history
+https://en.wikipedia.org/w/index.php?title=Archelon&oldid=1366311184
+https://en.wikipedia.org/w/index.php?title=Archelon&action=history
+
+プリオサウルス / Pliosaurus
+全長の目安 10 m
+図鑑の「全長 約8〜12 m（種・標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AA%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110535066
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%AA%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Pliosaurus&oldid=1368825267
+https://en.wikipedia.org/w/index.php?title=Pliosaurus&action=history
+
+イリタトル / Irritator
+全長の目安 7 m
+図鑑の「全長 約6〜8 m（頭骨からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%83%AA%E3%82%BF%E3%83%88%E3%83%AB&oldid=107417843
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%83%AA%E3%82%BF%E3%83%88%E3%83%AB&action=history
+https://en.wikipedia.org/w/index.php?title=Irritator&oldid=1370054138
+https://en.wikipedia.org/w/index.php?title=Irritator&action=history
+https://doi.org/10.1080/08912963.2026.2669954
+
+ゴルゴサウルス / Gorgosaurus
+骨長資料による復元・前後幅 6.78 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ガリミムス / Gallimimus
+全長の目安 6 m
+図鑑の「全長 約6 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AC%E3%83%AA%E3%83%9F%E3%83%A0%E3%82%B9&oldid=110136409
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AC%E3%83%AA%E3%83%9F%E3%83%A0%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Gallimimus&oldid=1372068703
+https://en.wikipedia.org/w/index.php?title=Gallimimus&action=history
+
+トルヴォサウルス / Torvosaurus
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AB%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=107320266
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AB%E3%83%B4%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Torvosaurus&oldid=1370710878
+https://en.wikipedia.org/w/index.php?title=Torvosaurus&action=history
+
+マジュンガサウルス / Majungasaurus
+全長の目安 6.5 m
+図鑑の「全長 約6〜7 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%B3%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110566092
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%B3%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Majungasaurus&oldid=1370049448
+https://en.wikipedia.org/w/index.php?title=Majungasaurus&action=history
+
+マイプ / Maip
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m（部分骨格からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%83%97&oldid=109913161
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%83%97&action=history
+https://en.wikipedia.org/w/index.php?title=Maip&oldid=1372686568
+https://en.wikipedia.org/w/index.php?title=Maip&action=history
+
+クロノサウルス / Kronosaurus
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m（復元で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109918667
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Kronosaurus&oldid=1371114296
+https://en.wikipedia.org/w/index.php?title=Kronosaurus&action=history
+
+シノサウロプテリクス / Sinosauropteryx
+骨長資料による復元・前後幅 0.77 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+トロペオグナトゥス / Tropeognathus
+翼開長の目安 7 m
+図鑑の「翼開長 約6〜8 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%83%9A%E3%82%AA%E3%82%B0%E3%83%8A%E3%83%88%E3%82%A5%E3%82%B9&oldid=109582028
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%83%9A%E3%82%AA%E3%82%B0%E3%83%8A%E3%83%88%E3%82%A5%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Tropeognathus&oldid=1372151028
+https://en.wikipedia.org/w/index.php?title=Tropeognathus&action=history
+
+マイアサウラ / Maiasaura
+全長の目安 9 m
+図鑑の「全長 約9 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%82%A2%E3%82%B5%E3%82%A6%E3%83%A9&oldid=109729273
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%82%A4%E3%82%A2%E3%82%B5%E3%82%A6%E3%83%A9&action=history
+https://en.wikipedia.org/w/index.php?title=Maiasaura&oldid=1373175970
+https://en.wikipedia.org/w/index.php?title=Maiasaura&action=history
+https://doi.org/10.1016/j.palaeo.2026.113707
+
+オヴィラプトル / Oviraptor
+全長の目安 1.75 m
+図鑑の「全長 約1.5〜2 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AA%E3%83%B4%E3%82%A3%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=107245000
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AA%E3%83%B4%E3%82%A3%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history
+https://en.wikipedia.org/w/index.php?title=Oviraptor&oldid=1357658525
+https://en.wikipedia.org/w/index.php?title=Oviraptor&action=history
+
+アマルガサウルス / Amargasaurus
+全長の目安 9.5 m
+図鑑の「全長 約9〜10 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%9E%E3%83%AB%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109147040
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%9E%E3%83%AB%E3%82%AC%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Amargasaurus&oldid=1368834096
+https://en.wikipedia.org/w/index.php?title=Amargasaurus&action=history
+https://doi.org/10.1111/joa.70071
+
+アクイロプス / Aquilops
+全長の目安 0.6 m
+図鑑の「全長 約0.6 m（頭骨からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%A4%E3%83%AD%E3%83%97%E3%82%B9&oldid=106399173
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%A4%E3%83%AD%E3%83%97%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Aquilops&oldid=1373667006
+https://en.wikipedia.org/w/index.php?title=Aquilops&action=history
+
+アラモサウルス / Alamosaurus
+全長の目安 26 m
+図鑑の「全長 約26 m以上（標本・推定で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%A9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106399336
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%A9%E3%83%A2%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Alamosaurus&oldid=1371274866
+https://en.wikipedia.org/w/index.php?title=Alamosaurus&action=history
+https://doi.org/10.31711/giw.v12.pp201-220
+
+クリョロフォサウルス / Cryolophosaurus
+全長の目安 6.5 m
+図鑑の「全長 約6〜7 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%83%A7%E3%83%AD%E3%83%95%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109774616
+https://ja.wikipedia.org/w/index.php?title=%E3%82%AF%E3%83%AA%E3%83%A7%E3%83%AD%E3%83%95%E3%82%A9%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Cryolophosaurus&oldid=1372441610
+https://en.wikipedia.org/w/index.php?title=Cryolophosaurus&action=history
+
+ピロラプトル / Pyroraptor
+全長の目安 1.75 m
+図鑑の「全長 約1.5〜2 m（部分標本からの推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%94%E3%83%AD%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=108844504
+https://ja.wikipedia.org/w/index.php?title=%E3%83%94%E3%83%AD%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history
+https://en.wikipedia.org/w/index.php?title=Pyroraptor&oldid=1369872427
+https://en.wikipedia.org/w/index.php?title=Pyroraptor&action=history
+
+サウロポセイドン / Sauroposeidon
+全長の目安 30.5 m
+図鑑の「全長 約27〜34 m（推定に幅）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%9D%E3%82%BB%E3%82%A4%E3%83%89%E3%83%B3&oldid=109177270
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%9D%E3%82%BB%E3%82%A4%E3%83%89%E3%83%B3&action=history
+https://en.wikipedia.org/w/index.php?title=Sauroposeidon&oldid=1372420013
+https://en.wikipedia.org/w/index.php?title=Sauroposeidon&action=history
+
+ナヌークサウルス / Nanuqsaurus
+全長の目安 5.5 m
+図鑑の「体長は議論中（従来約5〜6 m、より大型の説も）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8C%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401696
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8A%E3%83%8C%E3%83%BC%E3%82%AF%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Nanuqsaurus&oldid=1369433563
+https://en.wikipedia.org/w/index.php?title=Nanuqsaurus&action=history
+
+ダスプレトサウルス / Daspletosaurus
+骨長資料による復元・前後幅 5.66 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+マメンチサウルス / Mamenchisaurus
+全長の目安 25 m
+図鑑の「全長 約15〜35 m（種の区分・推定で大きく変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%A1%E3%83%B3%E3%83%81%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=109923052
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%A1%E3%83%B3%E3%83%81%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Mamenchisaurus&oldid=1366749314
+https://en.wikipedia.org/w/index.php?title=Mamenchisaurus&action=history
+https://doi.org/10.1038/s41598-025-29995-z
+
+イクチオサウルス / Ichthyosaurus
+全長の目安 2.5 m
+図鑑の「全長 約2〜3 m（種・標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%AF%E3%83%81%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106399551
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A4%E3%82%AF%E3%83%81%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Ichthyosaurus&oldid=1372973224
+https://en.wikipedia.org/w/index.php?title=Ichthyosaurus&action=history
+https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html
+
+サウロロフス / Saurolophus
+全長の目安 10.5 m
+図鑑の「全長 約9〜12 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%AD%E3%83%95%E3%82%B9&oldid=109013820
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%AD%E3%83%95%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Saurolophus&oldid=1371933542
+https://en.wikipedia.org/w/index.php?title=Saurolophus&action=history
+
+プラテオサウルス / Plateosaurus
+全長の目安 7.5 m
+図鑑の「全長 約5〜10 m（個体で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%A9%E3%83%86%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110752398
+https://ja.wikipedia.org/w/index.php?title=%E3%83%97%E3%83%A9%E3%83%86%E3%82%AA%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Plateosaurus&oldid=1371903580
+https://en.wikipedia.org/w/index.php?title=Plateosaurus&action=history
+
+サウロファガナクス / Saurophaganax
+縮尺未確定・参考展示
+図鑑の記載：属の全身サイズは確定困難。全身の実寸に換算できないため、従来の参考模型サイズを保持。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%95%E3%82%A1%E3%82%AC%E3%83%8A%E3%82%AF%E3%82%B9&oldid=110897998
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B5%E3%82%A6%E3%83%AD%E3%83%95%E3%82%A1%E3%82%AC%E3%83%8A%E3%82%AF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Saurophaganax&oldid=1368889502
+https://en.wikipedia.org/w/index.php?title=Saurophaganax&action=history
+https://scholars.okstate.edu/en/publications/chimerism-of-specimens-referred-to-isaurophaganax-maximusi-reveal/
+https://doi.org/10.18435/vamp29404
+
+アンキオルニス / Anchiornis
+全長の目安 0.45 m
+図鑑の「全長 約0.3〜0.6 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%B3%E3%82%AD%E3%82%AA%E3%83%AB%E3%83%8B%E3%82%B9&oldid=106399441
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%83%B3%E3%82%AD%E3%82%AA%E3%83%AB%E3%83%8B%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Anchiornis&oldid=1369635861
+https://en.wikipedia.org/w/index.php?title=Anchiornis&action=history
+https://doi.org/10.1038/s42003-025-09019-2
+
+パキリノサウルス / Pachyrhinosaurus
+全長の目安 6.5 m
+図鑑の「全長 約5〜8 m（種・個体で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%83%AA%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110214544
+https://ja.wikipedia.org/w/index.php?title=%E3%83%91%E3%82%AD%E3%83%AA%E3%83%8E%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Pachyrhinosaurus&oldid=1360647794
+https://en.wikipedia.org/w/index.php?title=Pachyrhinosaurus&action=history
+
+コンカヴェナトル / Concavenator
+骨長資料による復元・前後幅 3.70 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ランフォリンクス / Rhamphorhynchus
+翼開長の目安 1.4 m
+図鑑の「翼開長 約1〜1.8 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A9%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9&oldid=106403473
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A9%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Rhamphorhynchus&oldid=1366741657
+https://en.wikipedia.org/w/index.php?title=Rhamphorhynchus&action=history
+
+タニストロフェウス / Tanystropheus
+全長の目安 6 m
+図鑑の「全長 最大約6 m（種で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A7%E3%82%A6%E3%82%B9&oldid=110002847
+https://ja.wikipedia.org/w/index.php?title=%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%88%E3%83%AD%E3%83%95%E3%82%A7%E3%82%A6%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Tanystropheus&oldid=1370047738
+https://en.wikipedia.org/w/index.php?title=Tanystropheus&action=history
+
+マプサウルス / Mapusaurus
+全長の目安 11 m
+図鑑の「全長 約10〜12 m（標本で変動）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%97%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=108559543
+https://ja.wikipedia.org/w/index.php?title=%E3%83%9E%E3%83%97%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Mapusaurus&oldid=1371153438
+https://en.wikipedia.org/w/index.php?title=Mapusaurus&action=history
+https://doi.org/10.1016/j.gr.2026.06.020
+
+ラジャサウルス / Rajasaurus
+全長の目安 6.5 m
+図鑑の「全長 約6〜7 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%82%B8%E3%83%A3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106403422
+https://ja.wikipedia.org/w/index.php?title=%E3%83%A9%E3%82%B8%E3%83%A3%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Rajasaurus&oldid=1373395422
+https://en.wikipedia.org/w/index.php?title=Rajasaurus&action=history
+
+ケントロサウルス / Kentrosaurus
+全長の目安 4.5 m
+図鑑の「全長 約4〜5 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106400427
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B1%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Kentrosaurus&oldid=1364541269
+https://en.wikipedia.org/w/index.php?title=Kentrosaurus&action=history
+https://doi.org/10.3897/vz.75.e146618
+
+スキピオニクス / Scipionyx
+全長の目安 0.5 m
+図鑑の「化石の幼体は全長 約0.5 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%AD%E3%83%94%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&oldid=110813608
+https://ja.wikipedia.org/w/index.php?title=%E3%82%B9%E3%82%AD%E3%83%94%E3%82%AA%E3%83%8B%E3%82%AF%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Scipionyx&oldid=1335300381
+https://en.wikipedia.org/w/index.php?title=Scipionyx&action=history
+
+トロサウルス / Torosaurus
+全長の目安 8 m
+図鑑の「全長 約7〜9 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=110504912
+https://ja.wikipedia.org/w/index.php?title=%E3%83%88%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Torosaurus&oldid=1372077025
+https://en.wikipedia.org/w/index.php?title=Torosaurus&action=history
+
+ハドロサウルス / Hadrosaurus
+全長の目安 7.5 m
+図鑑の「全長 約7〜8 m（推定）」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%89%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&oldid=106401876
+https://ja.wikipedia.org/w/index.php?title=%E3%83%8F%E3%83%89%E3%83%AD%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9&action=history
+https://en.wikipedia.org/w/index.php?title=Hadrosaurus&oldid=1370996383
+https://en.wikipedia.org/w/index.php?title=Hadrosaurus&action=history
+
+ドリプトサウルス / Dryptosaurus
+骨長資料による復元・前後幅 5.01 m
+選択した標本の実測骨長による換算を保持。未計測部は模式復元で、この属の成体全長の確定値ではない。
+https://doi.org/10.1038/srep19828
+
+ディモルフォドン / Dimorphodon
+翼開長の目安 1.4 m
+図鑑の「翼開長 約1.4 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%89%E3%83%B3&oldid=109581845
+https://ja.wikipedia.org/w/index.php?title=%E3%83%87%E3%82%A3%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%89%E3%83%B3&action=history
+https://en.wikipedia.org/w/index.php?title=Dimorphodon&oldid=1372000724
+https://en.wikipedia.org/w/index.php?title=Dimorphodon&action=history
+
+エオラプトル / Eoraptor
+全長の目安 1 m
+図鑑の「全長 約1 m」から代表値を採用。推定幅がある場合は範囲の中間値。形状全体を一様に拡縮し、頭尾方向（翼竜は翼端間）を合わせた近似。
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%82%AA%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&oldid=106399756
+https://ja.wikipedia.org/w/index.php?title=%E3%82%A8%E3%82%AA%E3%83%A9%E3%83%97%E3%83%88%E3%83%AB&action=history
+https://en.wikipedia.org/w/index.php?title=Eoraptor&oldid=1355645201
+https://en.wikipedia.org/w/index.php?title=Eoraptor&action=history

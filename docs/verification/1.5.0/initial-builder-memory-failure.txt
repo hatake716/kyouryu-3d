@@ -1,0 +1,18 @@
+
+io.github.hatake716.dinobones.ExhibitTest:
+Process crashed while executing allHundredRenderAndGesturesPersistAcrossRecreation(io.github.hatake716.dinobones.ExhibitTest):
+java.lang.OutOfMemoryError: Failed to allocate a 47693680 byte allocation with 25165824 free bytes and 35MB until OOM, target footprint 189365168, growth limit 201326592
+	at java.util.Arrays.copyOf(Arrays.java:3705)
+	at io.github.hatake716.dinobones.model.Builder.build(Skeleton.kt:143)
+	at io.github.hatake716.dinobones.model.SkeletonFactory.create(Skeleton.kt:322)
+	at io.github.hatake716.dinobones.model.SkeletonFactory.get(Skeleton.kt:156)
+	at io.github.hatake716.dinobones.ui.DinoAppKt$Exhibit$5$mesh$2$1$1.invokeSuspend(DinoApp.kt:222)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:811)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:715)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:702)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [androidx.compose.ui.platform.MotionDurationScaleImpl@c729b28, androidx.compose.runtime.BroadcastFrameClock@1027041, StandaloneCoroutine{Cancelling}@f83c9e6, AndroidUiDispatcher@853b27]
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

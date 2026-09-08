@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-09-08T05:17:14.925547+00:00",
+  "siteSourceCommit": "39e29f36e5cde77cebed80d35d1c1f5a51cfe45e",
+  "workflowUrl": "https://github.com/hatake716/kyouryu-3d/actions/runs/34189986506",
+  "authenticationRequired": false,
+  "pages": [
+    {
+      "url": "https://hatake716.github.io/kyouryu-3d/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "d6ca15982ab0402a8e70dda39aea8afc717207e8ebe409c85820db819b03bd80",
+      "matchesCommittedFile": true
+    },
+    {
+      "url": "https://hatake716.github.io/kyouryu-3d/privacy/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "59862387d6bd1325c047c16fefeec430b6679938a90b25bda32d7cc81a034472",
+      "matchesCommittedFile": true
+    },
+    {
+      "url": "https://hatake716.github.io/kyouryu-3d/parents/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "af656abcbb0c0658135aa49d0cd62facd645955d8bf330104eeaf0eba408c1ba",
+      "matchesCommittedFile": true
+    },
+    {
+      "url": "https://hatake716.github.io/kyouryu-3d/credits/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "f0a0bbcbe7eb91e7563267f91ea412653f2ba678401d4a5d0b00e155cae0b2bf",
+      "matchesCommittedFile": true
+    },
+    {
+      "url": "https://hatake716.github.io/kyouryu-3d/site.css",
+      "httpStatus": 200,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "3f2de473e9e113960cb45bcee2c09f28c4ba8a99377632d65d46b7b7b4b9abde",
+      "matchesCommittedFile": true
+    }
+  ]
+}

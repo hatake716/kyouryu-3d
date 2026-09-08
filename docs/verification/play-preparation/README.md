@@ -11,13 +11,13 @@
 - 原PNGのアルファが完全不透明であることを確認して除去。RGB画素のバイト一致を検査。APK・原画像・配布PNG・RGB画素のハッシュと代替テキストは [撮影台帳](../../store/screenshot-manifest.json)。
 - 撮影後のエミュレーター上のAPKが検証済みAPKとSHA-256一致、クラッシュバッファは空。[記録](emulator-capture.json)。実機への操作入力や再インストールは今回行っていない。
 - 原素材のCC BY、CC BY-SA、CC0、Public domainと独自素材を区別し、ストア画像の出典・継承条件を記載。権利条件の確認記録は [CONTENT_LICENSE.md](../../CONTENT_LICENSE.md)。
-- 公開用HTML4ページのローカル相対リンクはすべて解決。外部スクリプト、埋め込みフォーム、解析コードなし。公開ページの目視確認はブラウザー連携の読み込み制限（`node:process`）により自動実施できず、HTML・リンク検査と配信HTTP応答の確認を実施する。画面を目視検証済みとはしていない。
+- 公開用HTML4ページのローカル相対リンクはすべて解決。外部スクリプト、埋め込みフォーム、解析コードなし。公開ページの目視確認はブラウザー連携の読み込み制限（`node:process`）により自動実施できず、HTML・リンク検査と配信HTTP応答を確認した。画面を目視検証済みとはしていない。
 
 署名・16 KB配置・AAB・7種類の骨格操作・横画面の回帰試験・前回の実機インストール結果は [1.10.1検証記録](../1.10.1/README.md) を参照。今回の撮影画像ではエミュレーターの寸法をPlay推奨比率へ変更しています。
 
 ## GitHubと公開ページ
 
-公開用ソースと過去のアプリ改修をmainへ反映し、Android CIで再検証します。Pages専用ワークフローで4つの静的ページとCSSだけを配信します。公開後のURL・HTTP状態とCI結果は、GitHubのActionsと本フォルダーの配信検証記録で確認できます。
+公開用ソースと過去のアプリ改修をmainへ反映しました。Pages専用ワークフローの[公開処理](https://github.com/hatake716/kyouryu-3d/actions/runs/34189986506)は成功。4つの静的ページとCSSが、ログインなしのHTTPSで200を返し、コミット済みファイルとバイト一致することを確認しました。[公開URLとハッシュ](public-pages.json)。Android CIの実行結果は [Actions](https://github.com/hatake716/kyouryu-3d/actions/workflows/android.yml) で確認できます。
 
 ## 未実施の工程
 

@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "listingCharacters": {
+    "title": 7,
+    "short-description": 52,
+    "full-description": 2050,
+    "release-notes": 59
+  },
+  "screenshots": 8,
+  "portrait": "4 x 1080x1920 RGB PNG",
+  "landscape": "4 x 1920x1080 RGB PNG",
+  "feature": "1024x500 RGB PNG",
+  "icon": "512x512 PNG",
+  "releaseVersion": "1.10.2",
+  "screenshotVersion": "1.10.1",
+  "captureApkSha256": "49b92c8aa66a7e322c351cded57be703ac5a41f7bc00e87c24f8c0ffdc302f73"
+}

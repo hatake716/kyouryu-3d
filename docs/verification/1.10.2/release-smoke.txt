@@ -1,0 +1,16 @@
+1.10.1: Performing Streamed Install
+Success
+
+1.10.2: Performing Streamed Install
+Success
+
+Starting: Intent { cmp=io.github.hatake716.dinobones/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: io.github.hatake716.dinobones/.MainActivity
+TotalTime: 1171
+WaitTime: 1172
+Complete
+Installed SHA256: ea76464fb4085e10253c58c292f0f66e11be3c5a3aa507e289ab1502bf5dc3e2
+Crash buffer: empty
+Landscape and collection round trip completed.

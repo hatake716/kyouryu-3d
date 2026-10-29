@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check the versioned Play listing, screenshot hashes and PNG upload constraints."""
 from pathlib import Path
-import hashlib, json, struct, zlib
+import hashlib, json, re, struct, zlib
 ROOT = Path(__file__).resolve().parents[1]
 STORE = ROOT / 'docs/store'
 
@@ -51,10 +51,20 @@ def main():
         assert hashlib.sha256(path.read_bytes()).hexdigest() == s['sha256'], s['file']
         assert s['rgbPixelsUnchanged']
     gradle = (ROOT/'app/build.gradle.kts').read_text()
-    assert f'versionName = "{manifest["appVersion"]}"' in gradle
-    assert f'versionCode = {manifest["versionCode"]}' in gradle
-    artifacts = json.loads((ROOT/'docs/build-artifacts.json').read_text())
-    assert next(a['sha256'] for a in artifacts if a['file'].endswith('.apk')) == manifest['apkSha256']
+    version = re.search(r'versionName = "([^"]+)"', gradle).group(1)
+    code = int(re.search(r'versionCode = (\d+)', gradle).group(1))
+    capture_artifacts = ROOT/'docs/build-artifacts.json'
+    if version != manifest['appVersion'] or code != manifest['versionCode']:
+        # Reusing screenshots requires an explicit review for this release, while
+        # retaining the capture version and original binary's provenance.
+        review = json.loads((STORE/'release-compatibility.json').read_text())
+        assert (review['appVersion'],review['versionCode']) == (version,code)
+        assert (review['screenshotAppVersion'],review['screenshotVersionCode']) == (manifest['appVersion'],manifest['versionCode'])
+        assert manifest['versionCode'] < code and review['reason'].strip()
+        capture_artifacts = ROOT/'docs/verification'/manifest['appVersion']/'build-artifacts.json'
+    artifacts = json.loads(capture_artifacts.read_text())
+    capture_name = f"kyouryu-3d-{manifest['appVersion']}.apk"
+    assert next(a['sha256'] for a in artifacts if a['file']==capture_name) == manifest['apkSha256']
     for page in ['index.html','privacy/index.html','parents/index.html','credits/index.html']:
         text = (ROOT/'docs'/page).read_text()
         assert '<html lang="ja">' in text and 'acesmash@gmail.com' in text, page
@@ -62,7 +72,7 @@ def main():
     print(json.dumps(dict(result='passed', listingCharacters=lengths, screenshots=8,
                           portrait='4 x 1080x1920 RGB PNG', landscape='4 x 1920x1080 RGB PNG',
                           feature='1024x500 RGB PNG', icon='512x512 PNG',
-                          version=manifest['appVersion'], apkSha256=manifest['apkSha256']),ensure_ascii=False,indent=2))
+                          releaseVersion=version, screenshotVersion=manifest['appVersion'], captureApkSha256=manifest['apkSha256']),ensure_ascii=False,indent=2))
 
 if __name__ == '__main__':
     main()

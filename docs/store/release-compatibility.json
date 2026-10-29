@@ -1,0 +1,8 @@
+{
+  "appVersion": "1.10.2",
+  "versionCode": 13,
+  "screenshotAppVersion": "1.10.1",
+  "screenshotVersionCode": 12,
+  "reviewedDate": "2026-09-14",
+  "reason": "Only walking speed and its in-app help text changed. Existing store screenshots still show the current layouts, models, artwork and gestures. Original screenshot version and capture hashes are retained."
+}

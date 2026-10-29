@@ -1,23 +1,23 @@
-# リリース手順 — 1.10.1
+# リリース手順 — 1.10.2
 
-パッケージ：`io.github.hatake716.dinobones`。versionCode **12**。Android 8.0（API 26）以上、OpenGL ES 2.0必須。compileSdk / targetSdkは **36**。
+パッケージ：`io.github.hatake716.dinobones`。versionCode **13**。Android 8.0（API 26）以上、OpenGL ES 2.0必須。compileSdk / targetSdkは **36**。
 
-Google Play提出用のAAB、直接インストール用のAPK、掲載文、縦横8枚の画像、公開ポリシーと申告ガイドを用意しています。**Google Playへのアップロード・審査・配信は別工程で、未実施です。**
+1.10.2ではシアターモードの最大歩行速度を8 m/秒から10 m/秒へ25%上げました。Google Play提出用のAABと直接インストール用のAPKを、既存と同じ署名鍵で作成しています。この変更のGoogle Play提出・審査申請・GitHubへの公開は行っていません。
 
-## 検証済みの配布ファイル
+## 配布ファイル
 
-ローカル配置は `artifacts/release/`。Gitのソースには大きな配布バイナリや署名鍵を含めず、[GitHub Releases](https://github.com/hatake716/kyouryu-3d/releases)の1.10.1のドラフト添付で管理します。ドラフトは権限のある開発者だけが閲覧でき、一般公開版ではありません。
+ローカル配置は `artifacts/release/`。以前の1.10.1のファイルも保持しています。
 
-| ファイル | 用途 | サイズ |
-|---|---|---:|
-| `kyouryu-3d-1.10.1.aab` | Google Play Consoleへの提出 | 190,377,351 bytes |
-| `kyouryu-3d-1.10.1.apk` | 手動インストール／検証 | 188,974,683 bytes |
-| `kyouryu-3d-1.10.1-play-kit.zip` | 説明文・画像・公開ページ・権利資料 | 生成後のSHA256SUMSを参照 |
-| `SHA256SUMS.txt` | 添付ファイルの整合確認 | `sha256sum -c SHA256SUMS.txt` |
+| ファイル | 用途 |
+|---|---|
+| `kyouryu-3d-1.10.2.aab` | Google Play Consoleへの提出 |
+| `kyouryu-3d-1.10.2.apk` | 手動インストール／検証 |
+| `kyouryu-3d-1.10.2-play-kit.zip` | 説明文・既存のストア画像・公開ページ・権利資料・検証記録 |
+| `SHA256SUMS-1.10.2.txt` | 上記3ファイルの整合確認 |
 
-AABは端末へ直接インストールできません。署名済みの同一APKで撮影・操作確認をしています。各配布ファイルのサイズ・SHA-256は [build-artifacts.json](build-artifacts.json)、署名・16 KB配置・AABの検証は [1.10.1の検証記録](verification/1.10.1/README.md)を参照。
+AABは端末へ直接インストールできません。[サイズ・SHA-256](build-artifacts.json)、[1.10.2の検証記録](verification/1.10.2/README.md)。ストアの縦横8枚は1.10.1で撮影したものを、画面構成が同じ1.10.2でも使用します。画像の撮影元バージョンやハッシュは書き換えていません。
 
-アップロード証明書SHA-256：`179a7b6d654bfd424e2b4c9da7e737fab60c1b383a5beb46b8efe98b3ffa74cb`。秘密鍵・パスワードはリポジトリと配布キットへ含めません。Google Play App Signingでは、アップロード鍵とPlayが端末へ配布するAPKの署名鍵が異なる場合があります。手動インストール版からの移行方法は、Play配信版の署名・内部テストで確認してください。
+アップロード証明書SHA-256：`179a7b6d654bfd424e2b4c9da7e737fab60c1b383a5beb46b8efe98b3ffa74cb`。秘密鍵・パスワードはリポジトリと配布キットへ含めません。Google Play App Signingでは、アップロード鍵とPlayが端末へ配布するAPKの署名鍵が異なる場合があります。
 
 ## 公開用資料
 
@@ -57,7 +57,7 @@ Pagesの設定はGitHub Actionsを利用する方式です。ワークフロー�
 1. メール **acesmash@gmail.com**、サイトとプライバシーURL、掲載文章・画像を登録。
 2. アクセス制限なし、広告なし、アプリ内購入なし、データ収集・共有なしの現在の実装に合わせ、各申告を入力。
 3. 全年齢を対象としてFamiliesの要件を確認し、実際の内容・外部リンクを確認したうえでIARCを取得。
-4. 価格・配信国とPlay App Signingを設定。versionCode 12が未使用であることを確認してAABを内部テストへ提出。
+4. 価格・配信国とPlay App Signingを設定。versionCode 13が未使用であることを確認してAABを内部テストへ提出。
 5. Playからインストールした版を検証し、Pre-launch reportや互換性の警告を確認。必要なクローズドテストと製品版アクセス申請を行う。
 6. 審査に提出し、承認後の公開状態を確認する。
 

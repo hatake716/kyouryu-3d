@@ -1,0 +1,25 @@
+Signer #1:
+
+Certificate #1:
+Owner: CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+Issuer: CN=hatake716, OU=Kyoryu3D, O=hatake716, C=JP
+Serial number: 5d419eeb86785fa5
+Valid from: Mon Sep 07 19:36:16 JST 2026 until: Fri Jan 23 19:36:16 JST 2054
+Certificate fingerprints:
+	 SHA1: F0:62:57:24:0F:E7:8A:6D:C5:E0:1A:D4:C1:2D:89:08:0A:F1:6A:D4
+	 SHA256: 17:9A:7B:6D:65:4B:FD:42:4E:2B:4C:9D:A7:E7:37:FA:B6:0C:1B:38:3A:5B:EB:46:B8:EF:E9:8B:3F:FA:74:CB
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 3072-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 0C D8 F4 F1 B3 51 F4 7A   8C 0B AB BC 5C 94 6C BC  .....Q.z....\.l.
+0010: E7 CD E6 89                                        ....
+]
+]
+
+

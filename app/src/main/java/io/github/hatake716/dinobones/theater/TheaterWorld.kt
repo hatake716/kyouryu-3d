@@ -39,7 +39,7 @@ data class BenchSpot(val x:Float,val z:Float){val base=HallBox(x-1.1f,x+1.1f,z-.
 /** One world unit is one metre. Estimated sizes and unresolved reconstructions remain labelled. */
 object TheaterWorld {
     const val EYE_HEIGHT=1.7f
-    const val MOVE_SPEED=8f
+    const val MOVE_SPEED=10f
     const val CEILING=32f
     const val SKY_PERIOD=24f
     const val FRONT=12f

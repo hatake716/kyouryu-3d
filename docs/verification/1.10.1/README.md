@@ -14,7 +14,7 @@ Android 15で同じウィンドウを再利用するActivity再生成時、OSの
 
 [APK署名](apk-signature.txt)、[16 KB zipalign](zipalign.txt)、[AAB署名](aab-signature.txt)、[bundletool](bundle-validation.txt)の検証に成功しました。署名証明書SHA-256は従来と同じ `179a7b6d654bfd424e2b4c9da7e737fab60c1b383a5beb46b8efe98b3ffa74cb`。jarsignerの自己署名・タイムスタンプ等の通知はログに保持します。
 
-[パッケージ内容](package-content.txt)：各222 assetsが作業ツリーとバイト一致、100館内メッシュを同梱。ネイティブライブラリ4点は従来版と同一。[配布ファイルのサイズとSHA-256](../../build-artifacts.json)。
+[パッケージ内容](package-content.txt)：各222 assetsが作業ツリーとバイト一致、100館内メッシュを同梱。ネイティブライブラリ4点は従来版と同一。[配布ファイルのサイズとSHA-256](build-artifacts.json)。
 
 ## エミュレーターでの確認
 
